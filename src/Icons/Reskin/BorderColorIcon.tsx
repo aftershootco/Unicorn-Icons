@@ -3,27 +3,19 @@ import React from 'react';
 const BorderColorIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
-      width='20'
-      height='20'
-      viewBox='0 0 20 20'
+      width='18'
+      height='18'
+      viewBox='0 0 18 18'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
-      {...props}
     >
-      <g clip-path='url(#clip0_11906_20265)'>
-        <path
-          d='M15.0007 2.33398H5.00065C3.52789 2.33398 2.33398 3.52789 2.33398 5.00065V15.0007C2.33398 16.4734 3.52789 17.6673 5.00065 17.6673H15.0007C16.4734 17.6673 17.6673 16.4734 17.6673 15.0007V5.00065C17.6673 3.52789 16.4734 2.33398 15.0007 2.33398Z'
-          stroke='#ABABAB'
-          stroke-width='2'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-        />
-      </g>
-      <defs>
-        <clipPath id='clip0_11906_20265'>
-          <rect width='20' height='20' fill='white' />
-        </clipPath>
-      </defs>
+      <path
+        d='M13.9987 1.33325H3.9987C2.52594 1.33325 1.33203 2.52716 1.33203 3.99992V13.9999C1.33203 15.4727 2.52594 16.6666 3.9987 16.6666H13.9987C15.4715 16.6666 16.6654 15.4727 16.6654 13.9999V3.99992C16.6654 2.52716 15.4715 1.33325 13.9987 1.33325Z'
+        stroke='#777777'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      />
     </svg>
   );
 };

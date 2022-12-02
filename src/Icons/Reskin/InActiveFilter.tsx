@@ -1,5 +1,5 @@
 import React from 'react';
-const InActiveFilter: React.FC<React.HtmlHTMLAttributes<any>> = (props) => {
+const InActiveFilter: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       width='14'
