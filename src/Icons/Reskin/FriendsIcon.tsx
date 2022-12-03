@@ -2,7 +2,7 @@ import React from 'react'
 
 const FriendsIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
-		<svg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
+		<svg {...props} width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<g clip-path='url(#clip0_11945_21252)'>
 				<path
 					d='M13.5 16.5C16.8137 16.5 19.5 13.8137 19.5 10.5C19.5 7.18629 16.8137 4.5 13.5 4.5C10.1863 4.5 7.5 7.18629 7.5 10.5C7.5 13.8137 10.1863 16.5 13.5 16.5Z'

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ShareIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
-		<svg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
+		<svg {...props} width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<g clip-path='url(#clip0_11945_21273)'>
 				<path
 					d='M9 22.5C11.4853 22.5 13.5 20.4853 13.5 18C13.5 15.5147 11.4853 13.5 9 13.5C6.51472 13.5 4.5 15.5147 4.5 18C4.5 20.4853 6.51472 22.5 9 22.5Z'

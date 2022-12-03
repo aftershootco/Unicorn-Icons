@@ -2,7 +2,7 @@ import React from 'react'
 
 const CartIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
-		<svg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
+		<svg {...props} width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<g clip-path='url(#clip0_11945_21255)'>
 				<path
 					d='M9 31.5C10.6569 31.5 12 30.1569 12 28.5C12 26.8431 10.6569 25.5 9 25.5C7.34315 25.5 6 26.8431 6 28.5C6 30.1569 7.34315 31.5 9 31.5Z'
