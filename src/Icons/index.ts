@@ -41,6 +41,7 @@ import MouseRightSelected from './Reskin/MouseRightSelected'
 import ShareIcon from './Reskin/ShareIcon'
 import UploadFolder from './Reskin/UploadFolder'
 import ZoomIcon from './Reskin/ZoomIcon'
+import ExitApp from './Reskin/ExitApp'
 import StarRateIcon from './StarRateIcon'
 
 export {
@@ -87,5 +88,6 @@ export {
 	BorderColorIcon,
 	DropDownIcon,
 	UploadFolder,
+	ExitApp,
 	LeftArrow,
 }
