@@ -68,8 +68,6 @@ export {
 	ContactSupportIcon,
 	ContentCopyIcon,
 	ExpandMoreIcon,
-	EyeOff,
-	EyeOn,
 	InfoIcon,
 	KeyBoardArrowDownIcon,
 	KeyBoardArrowLeftIcon,
