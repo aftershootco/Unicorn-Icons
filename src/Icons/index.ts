@@ -17,6 +17,9 @@ import KeyBoardArrowRightIcon from './KeyBoardArrowRightIcon'
 import KeyBoardArrowUpIcon from './KeyBoardArrowUpIcon'
 import MenuIcon from './MenuIcon'
 import ProcessIcon from './ProcessIcon'
+import AfterShootLogo from './Reskin/AfterShootLogo'
+import ErrorIcon from './Reskin/ErrorIcon'
+import ReloadIcon from './Reskin/ReloadIcon'
 import AlertIcon from './Reskin/AlertIcon'
 import BorderColorIcon from './Reskin/BorderColorIcon'
 import CartIcon from './Reskin/CartIcon'
@@ -45,6 +48,9 @@ import ExitApp from './Reskin/ExitApp'
 import StarRateIcon from './StarRateIcon'
 
 export {
+	AfterShootLogo,
+	ErrorIcon,
+	ReloadIcon,
 	EditPhotoIcon,
 	DiamondIcon,
 	ShareIcon,
@@ -62,6 +68,8 @@ export {
 	ContactSupportIcon,
 	ContentCopyIcon,
 	ExpandMoreIcon,
+	EyeOff,
+	EyeOn,
 	InfoIcon,
 	KeyBoardArrowDownIcon,
 	KeyBoardArrowLeftIcon,
