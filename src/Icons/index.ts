@@ -18,6 +18,7 @@ import KeyBoardArrowUpIcon from './KeyBoardArrowUpIcon'
 import MenuIcon from './MenuIcon'
 import ProcessIcon from './ProcessIcon'
 import AfterShootLogo from './Reskin/AfterShootLogo'
+import DeleteIcon from './Reskin/DeleteIcon'
 import ErrorIcon from './Reskin/ErrorIcon'
 import ReloadIcon from './Reskin/ReloadIcon'
 import AlertIcon from './Reskin/AlertIcon'
@@ -28,6 +29,7 @@ import DropDownIcon from './Reskin/DropDownIcon'
 import EditIcon from './Reskin/EditIcon'
 import EditPhotoIcon from './Reskin/EditPhotoIcon'
 import FriendsIcon from './Reskin/FriendsIcon'
+import ImageNotFound from './Reskin/ImageNotFound'
 import InAcitveHelp from './Reskin/InAcitveHelp'
 import InActiveColorIcon from './Reskin/InActiveColorIcon'
 import InActiveFilter from './Reskin/InActiveFilter'
@@ -49,6 +51,7 @@ import StarRateIcon from './StarRateIcon'
 
 export {
 	AfterShootLogo,
+	DeleteIcon,
 	ErrorIcon,
 	ReloadIcon,
 	EditPhotoIcon,
@@ -81,6 +84,7 @@ export {
 	MouseRightSelected,
 	EditIcon,
 	AlertIcon,
+	ImageNotFound,
 	InAcitveHelp,
 	InActiveColorIcon,
 	InActiveShortCutIcon,
