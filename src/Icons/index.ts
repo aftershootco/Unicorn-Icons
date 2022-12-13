@@ -20,6 +20,7 @@ import ProcessIcon from './ProcessIcon';
 import AlertIcon from './Reskin/AlertIcon';
 import BorderColorIcon from './Reskin/BorderColorIcon';
 import CartIcon from './Reskin/CartIcon';
+import DeleteIcon from './Reskin/DeleteIcon';
 import DescAlphaNotSelectedIcon from './Reskin/DescAlphaNotSelectedIcon';
 import DescAlphaSelectedIcon from './Reskin/DescAlphaSelectedIcon';
 import DescNumNotSelectedIcon from './Reskin/DescNumNotSelectedIcon';
@@ -54,6 +55,7 @@ import ZoomIcon from './Reskin/ZoomIcon';
 import StarRateIcon from './StarRateIcon';
 
 export {
+	DeleteIcon,
 	DescAlphaSelectedIcon,
 	DescAlphaNotSelectedIcon,
 	IncAlphaSelectedIcon,
