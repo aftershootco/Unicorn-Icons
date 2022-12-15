@@ -51,10 +51,12 @@ import MouseLeftSelected from './Reskin/MouseLeftSelected';
 import MouseRightSelected from './Reskin/MouseRightSelected';
 import ShareIcon from './Reskin/ShareIcon';
 import UploadFolder from './Reskin/UploadFolder';
+import WarningIcon from './Reskin/WarningIcon';
 import ZoomIcon from './Reskin/ZoomIcon';
 import StarRateIcon from './StarRateIcon';
 
 export {
+	WarningIcon,
 	DeleteIcon,
 	DescAlphaSelectedIcon,
 	DescAlphaNotSelectedIcon,
