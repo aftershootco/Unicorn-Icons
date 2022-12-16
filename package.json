@@ -1,6 +1,6 @@
 {
 	"name": "@aftershootco/unicorn-icons",
-	"version": "1.1.13",
+	"version": "1.1.14",
 	"description": "",
 	"author": "AfterShoot",
 	"license": "ISC",
@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.20.5",
 		"@rollup/plugin-babel": "^6.0.3",
-		"@rollup/plugin-commonjs": "^23.0.3",
+		"@rollup/plugin-commonjs": "^23.0.5",
 		"@rollup/plugin-node-resolve": "^15.0.1",
 		"@rollup/plugin-typescript": "^10.0.1",
 		"@rollup/plugin-url": "^8.0.1",
@@ -30,13 +30,13 @@
 		"@types/react-dom": "^18.0.9",
 		"autoprefixer": "^10.4.13",
 		"babel-loader": "^9.1.0",
-		"css-loader": "^6.7.2",
+		"css-loader": "^6.7.3",
 		"husky": "^8.0.2",
 		"node-sass": "^8.0.0",
-		"postcss": "^8.4.19",
+		"postcss": "^8.4.20",
 		"postcss-flexbugs-fixes": "^5.0.2",
 		"postcss-url": "^10.1.3",
-		"rollup": "^3.5.1",
+		"rollup": "^3.7.4",
 		"rollup-plugin-dts": "^5.0.0",
 		"rollup-plugin-images": "^1.0.0",
 		"rollup-plugin-peer-deps-external": "^2.2.4",
@@ -48,7 +48,7 @@
 		"sass-loader": "^13.2.0",
 		"style-loader": "^3.3.1",
 		"tslib": "^2.4.1",
-		"typescript": "^4.9.3",
+		"typescript": "^4.9.4",
 		"webpack": "^5.75.0"
 	},
 	"files": [
