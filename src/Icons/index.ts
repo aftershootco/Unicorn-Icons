@@ -30,6 +30,7 @@ import DropDownIcon from './Reskin/DropDownIcon';
 import EditIcon from './Reskin/EditIcon';
 import EditPhotoIcon from './Reskin/EditPhotoIcon';
 import ExitApp from './Reskin/ExitApp';
+import EyeCheckIcon from './Reskin/EyeCheckIcon';
 import FriendsIcon from './Reskin/FriendsIcon';
 import ImageNotFound from './Reskin/ImageNotFound';
 import InAcitveHelp from './Reskin/InAcitveHelp';
@@ -47,6 +48,7 @@ import IncNumNotSelectedIcon from './Reskin/IncNumNotSelectedIcon';
 import IncNumSelectedIcon from './Reskin/IncNumSelectedIcon';
 import InfoIconTransparent from './Reskin/InfoIconTransparent';
 import LeftArrow from './Reskin/LeftArrow';
+import MaximizeIcon from './Reskin/MaximizeIcon';
 import MouseLeftSelected from './Reskin/MouseLeftSelected';
 import MouseRightSelected from './Reskin/MouseRightSelected';
 import ShareIcon from './Reskin/ShareIcon';
@@ -56,6 +58,8 @@ import ZoomIcon from './Reskin/ZoomIcon';
 import StarRateIcon from './StarRateIcon';
 
 export {
+	MaximizeIcon,
+	EyeCheckIcon,
 	WarningIcon,
 	DeleteIcon,
 	DescAlphaSelectedIcon,
