@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ExitApp: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
+const ExitAppIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
 		<svg width='97' height='96' viewBox='0 0 97 96' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
 			<rect x='0.5' width='96' height='96' rx='48' fill='#A8141B' fill-opacity='0.3' />
@@ -19,4 +19,4 @@ const ExitApp: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	)
 }
 
-export default ExitApp
+export default ExitAppIcon

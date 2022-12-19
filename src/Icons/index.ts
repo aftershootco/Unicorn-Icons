@@ -29,7 +29,7 @@ import DiamondIcon from './Reskin/DiamonIcon';
 import DropDownIcon from './Reskin/DropDownIcon';
 import EditIcon from './Reskin/EditIcon';
 import EditPhotoIcon from './Reskin/EditPhotoIcon';
-import ExitApp from './Reskin/ExitApp';
+import ExitAppIcon from './Reskin/ExitAppIcon';
 import EyeCheckIcon from './Reskin/EyeCheckIcon';
 import FriendsIcon from './Reskin/FriendsIcon';
 import ImageNotFound from './Reskin/ImageNotFound';
@@ -114,7 +114,7 @@ export {
 	BorderColorIcon,
 	DropDownIcon,
 	UploadFolder,
-	ExitApp,
+	ExitAppIcon,
 	LeftArrow,
 };
 
