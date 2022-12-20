@@ -20,6 +20,7 @@ import ProcessIcon from './ProcessIcon'
 import AlertIcon from './Reskin/AlertIcon'
 import BorderColorIcon from './Reskin/BorderColorIcon'
 import CartIcon from './Reskin/CartIcon'
+import CopyIcon from './Reskin/CopyIcon'
 import DeleteIcon from './Reskin/DeleteIcon'
 import DescAlphaNotSelectedIcon from './Reskin/DescAlphaNotSelectedIcon'
 import DescAlphaSelectedIcon from './Reskin/DescAlphaSelectedIcon'
@@ -132,4 +133,5 @@ export {
 	LeftArrow,
 	ExportedIcon,
 	NetworkErrorIcon,
+	CopyIcon,
 }
