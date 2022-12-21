@@ -65,6 +65,7 @@ import ListSelectedIcon from './Reskin/ListSelectedIcon'
 import ListNotSelectedIcon from './Reskin/ListNotSelectedIcon'
 import GridSelectedIcon from './Reskin/GridSelectedIcon'
 import GridNotSelectedIcon from './Reskin/GridNotSelectedIcon'
+import FodlerIcon from './Reskin/FolderIcon'
 
 export {
 	SortDuplicatesIcon,
@@ -134,4 +135,5 @@ export {
 	ExportedIcon,
 	NetworkErrorIcon,
 	CopyIcon,
+	FodlerIcon,
 }
