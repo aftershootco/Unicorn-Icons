@@ -61,6 +61,7 @@ import MaximizeIcon from './Reskin/MaximizeIcon';
 import MouseLeftSelected from './Reskin/MouseLeftSelected';
 import MouseRightSelected from './Reskin/MouseRightSelected';
 import NetworkErrorIcon from './Reskin/NetworkErrorIcon';
+import ReloadIcon from './Reskin/ReloadIcon';
 import ShareIcon from './Reskin/ShareIcon';
 import SortDuplicatesIcon from './Reskin/SortDuplicatesIcon';
 import SprayClickIcon from './Reskin/SprayClickIcon';
@@ -71,6 +72,7 @@ import ZoomIcon from './Reskin/ZoomIcon';
 import StarRateIcon from './StarRateIcon';
 
 export {
+	ReloadIcon,
 	LockIcon,
 	SprayClickIcon,
 	SortDuplicatesIcon,
