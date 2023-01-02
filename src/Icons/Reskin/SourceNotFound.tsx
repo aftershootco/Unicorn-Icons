@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SourceNotFoundIcon: React.FC<React.RefAttributes<SVGSVGElement>> = React.forwardRef((props, ref) => {
+const SourceNotFoundIcon = React.forwardRef<any, React.SVGProps<SVGSVGElement>>((props, ref) => {
 	return (
 		<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' {...props} ref={ref}>
 			<g filter='url(#filter0_b_14013_43614)'>

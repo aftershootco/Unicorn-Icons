@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WarningIcon: React.FC<React.RefAttributes<SVGSVGElement>> = React.forwardRef((props, ref) => {
+const WarningIcon = React.forwardRef<any, React.SVGProps<SVGSVGElement>>((props, ref) => {
 	return (
 		<svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' {...props} ref={ref}>
 			<g filter='url(#filter0_b_14184_47800)'>
