@@ -66,6 +66,7 @@ import ShareIcon from './Reskin/ShareIcon'
 import SortDuplicatesIcon from './Reskin/SortDuplicatesIcon'
 import SourceNotFoundIcon from './Reskin/SourceNotFound'
 import SprayClickIcon from './Reskin/SprayClickIcon'
+import StorageIcon from './Reskin/StorageIcon'
 import UploadFolder from './Reskin/UploadFolder'
 import WarningIcon from './Reskin/WarningIcon'
 import WarningImgMovedIcon from './Reskin/WarningImgMovedIcon'
@@ -73,6 +74,7 @@ import ZoomIcon from './Reskin/ZoomIcon'
 import StarRateIcon from './StarRateIcon'
 
 export {
+	StorageIcon,
 	ReloadIcon,
 	LockIcon,
 	SprayClickIcon,
@@ -147,3 +149,4 @@ export {
 	WarningImgMovedIcon,
 	FolderIcon,
 }
+
