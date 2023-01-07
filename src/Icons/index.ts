@@ -53,6 +53,7 @@ import IncNumNotSelectedIcon from './Reskin/IncNumNotSelectedIcon'
 import IncNumSelectedIcon from './Reskin/IncNumSelectedIcon'
 import InfoIconTransparent from './Reskin/InfoIconTransparent'
 import LeftArrow from './Reskin/LeftArrow'
+import LeftArrowLong from './Reskin/LeftArrowLong'
 import ListNotSelectedIcon from './Reskin/ListNotSelectedIcon'
 import ListSelectedIcon from './Reskin/ListSelectedIcon'
 import LockIcon from './Reskin/LockIcon'
@@ -62,6 +63,7 @@ import MouseLeftSelected from './Reskin/MouseLeftSelected'
 import MouseRightSelected from './Reskin/MouseRightSelected'
 import NetworkErrorIcon from './Reskin/NetworkErrorIcon'
 import ReloadIcon from './Reskin/ReloadIcon'
+import RightArrowLong from './Reskin/RightArrowLong'
 import ShareIcon from './Reskin/ShareIcon'
 import SortDuplicatesIcon from './Reskin/SortDuplicatesIcon'
 import SourceNotFoundIcon from './Reskin/SourceNotFound'
@@ -74,6 +76,8 @@ import ZoomIcon from './Reskin/ZoomIcon'
 import StarRateIcon from './StarRateIcon'
 
 export {
+	RightArrowLong,
+	LeftArrowLong,
 	StorageIcon,
 	ReloadIcon,
 	LockIcon,
