@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InActiveHelp: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }, ref: any) => {
+const InActiveHelp: React.FC<React.HtmlHTMLAttributes<any>> = React.forwardRef((props, ref: any) => {
 	return (
 		<svg ref={ref} width='10' height='14' viewBox='0 0 10 14' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
 			<path
@@ -13,6 +13,6 @@ const InActiveHelp: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }, ref
 			<path d='M5 12.8333V12.8417' stroke='#777777' stroke-width='2' stroke-linecap='square' stroke-linejoin='bevel' />
 		</svg>
 	)
-}
+})
 
 export default React.memo(InActiveHelp)
