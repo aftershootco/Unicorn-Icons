@@ -34,6 +34,7 @@ import ExitAppIcon from './Reskin/ExitAppIcon'
 import ExportedIcon from './Reskin/ExportedIcon'
 import EyeCheckIcon from './Reskin/EyeCheckIcon'
 import EyeIcon from './Reskin/EyeIcon'
+import EyeOffIcon from './Reskin/EyeOffIcon'
 import FolderIcon from './Reskin/FolderIcon'
 import FriendsIcon from './Reskin/FriendsIcon'
 import GridNotSelectedIcon from './Reskin/GridNotSelectedIcon'
@@ -77,6 +78,7 @@ import ZoomIcon from './Reskin/ZoomIcon'
 import StarRateIcon from './StarRateIcon'
 
 export {
+	EyeOffIcon,
 	EyeIcon,
 	RightArrowLong,
 	LeftArrowLong,
