@@ -40,7 +40,7 @@ import FriendsIcon from './Reskin/FriendsIcon'
 import GridNotSelectedIcon from './Reskin/GridNotSelectedIcon'
 import GridSelectedIcon from './Reskin/GridSelectedIcon'
 import ImageNotFound from './Reskin/ImageNotFound'
-import InAcitveHelp from './Reskin/InAcitveHelp'
+import InActiveHelp from './Reskin/InAcitveHelp'
 import InActiveColorIcon from './Reskin/InActiveColorIcon'
 import InActiveFilter from './Reskin/InActiveFilter'
 import InActiveGridIcon from './Reskin/InActiveGridIcon'
@@ -136,7 +136,7 @@ export {
 	EditIcon,
 	AlertIcon,
 	ImageNotFound,
-	InAcitveHelp,
+	InActiveHelp,
 	InActiveColorIcon,
 	InActiveShortCutIcon,
 	InActiveStarIcon,

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InAcitveHelp: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }, ref: any) => {
+const InActiveHelp: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }, ref: any) => {
 	return (
 		<svg ref={ref} width='10' height='14' viewBox='0 0 10 14' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
 			<path
@@ -15,4 +15,4 @@ const InAcitveHelp: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }, ref
 	)
 }
 
-export default React.memo(InAcitveHelp)
+export default React.memo(InActiveHelp)
