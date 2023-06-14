@@ -76,6 +76,7 @@ import WarningIcon from './Reskin/WarningIcon'
 import WarningImgMovedIcon from './Reskin/WarningImgMovedIcon'
 import ZoomIcon from './Reskin/ZoomIcon'
 import StarRateIcon from './StarRateIcon'
+import TickIcon from './TickIcon'
 
 export {
 	EyeOffIcon,
@@ -156,5 +157,6 @@ export {
 	CopyIcon,
 	WarningImgMovedIcon,
 	FolderIcon,
+	TickIcon,
 }
 
