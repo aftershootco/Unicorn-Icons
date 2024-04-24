@@ -7802,42 +7802,42 @@
 		"culling-uploadfolder--default": {
 			"id": "culling-uploadfolder--default",
 			"name": "Default",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/UploadFolder",
+			"kind": "culling/UploadFolderIcon",
 			"story": "Default",
-			"parameters": { "__id": "culling-uploadfolder--default", "docsOnly": false, "fileName": "./src/stories/UploadFolder.stories.tsx" }
+			"parameters": { "__id": "culling-uploadfolder--default", "docsOnly": false, "fileName": "./src/stories/UploadFolderIcon.stories.tsx" }
 		},
 		"culling-uploadfolder--red": {
 			"id": "culling-uploadfolder--red",
 			"name": "Red",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/UploadFolder",
+			"kind": "culling/UploadFolderIcon",
 			"story": "Red",
-			"parameters": { "__id": "culling-uploadfolder--red", "docsOnly": false, "fileName": "./src/stories/UploadFolder.stories.tsx" }
+			"parameters": { "__id": "culling-uploadfolder--red", "docsOnly": false, "fileName": "./src/stories/UploadFolderIcon.stories.tsx" }
 		},
 		"culling-uploadfolder--in-active": {
 			"id": "culling-uploadfolder--in-active",
 			"name": "In Active",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/UploadFolder",
+			"kind": "culling/UploadFolderIcon",
 			"story": "In Active",
-			"parameters": { "__id": "culling-uploadfolder--in-active", "docsOnly": false, "fileName": "./src/stories/UploadFolder.stories.tsx" }
+			"parameters": { "__id": "culling-uploadfolder--in-active", "docsOnly": false, "fileName": "./src/stories/UploadFolderIcon.stories.tsx" }
 		},
 		"culling-uploadfolder--large": {
 			"id": "culling-uploadfolder--large",
 			"name": "Large",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/UploadFolder",
+			"kind": "culling/UploadFolderIcon",
 			"story": "Large",
-			"parameters": { "__id": "culling-uploadfolder--large", "docsOnly": false, "fileName": "./src/stories/UploadFolder.stories.tsx" }
+			"parameters": { "__id": "culling-uploadfolder--large", "docsOnly": false, "fileName": "./src/stories/UploadFolderIcon.stories.tsx" }
 		},
 		"general-uploadcloudicon--default": {
 			"id": "general-uploadcloudicon--default",

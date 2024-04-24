@@ -5837,32 +5837,32 @@
 			"type": "story",
 			"id": "culling-uploadfolder--default",
 			"name": "Default",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-uploadfolder--red": {
 			"type": "story",
 			"id": "culling-uploadfolder--red",
 			"name": "Red",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-uploadfolder--in-active": {
 			"type": "story",
 			"id": "culling-uploadfolder--in-active",
 			"name": "In Active",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-uploadfolder--large": {
 			"type": "story",
 			"id": "culling-uploadfolder--large",
 			"name": "Large",
-			"title": "culling/UploadFolder",
-			"importPath": "./src/stories/UploadFolder.stories.tsx",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"general-uploadcloudicon--default": {

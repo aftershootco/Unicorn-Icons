@@ -182,7 +182,7 @@
 				7461: 'stories-MouseLeftClick-stories',
 				7548: 'stories-AdjustmentIcon-stories',
 				7582: 'stories-FiveStarBgIcon-stories',
-				7633: 'stories-UploadFolder-stories',
+				7633: 'stories-UploadFolderIcon-stories',
 				7640: 'stories-PowerLowIcon-stories',
 				7710: 'stories-DragLrcIcon-stories',
 				7747: 'stories-CrossIcon-stories',

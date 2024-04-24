@@ -6,9 +6,8 @@ import DEFAULT_ICON from '../../constant'
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
-	inActive?: boolean
-	accentColor: string
-	bgColor: string
+	accentColor?: string
+	bgColor?: string
 }
 
 export const CheckBoxIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {

@@ -76,7 +76,7 @@ import Stack2Icon from './culling/Stack2Icon'
 import StackIcon from './culling/StackIcon'
 import StorageCrossedIcon from './culling/StorageCrossedIcon'
 import ThunderBgIcon from './culling/ThunderBgIcon'
-import UploadFolder from './culling/UploadFolder'
+import UploadFolderIcon from './culling/UploadFolderIcon'
 import ViewAllIcon from './culling/ViewAllIcon'
 import ZoomCircleIcon from './culling/ZoomCircleIcon'
 import ZoomIcon from './culling/ZoomIcon'
@@ -383,7 +383,7 @@ export {
 	UploadBgIcon,
 	UploadCloudBgIcon,
 	UploadCloudIcon,
-	UploadFolder,
+	UploadFolderIcon,
 	ViewAllIcon,
 	WifiCrossedBgIcon,
 	WifiCrossedIcon,
