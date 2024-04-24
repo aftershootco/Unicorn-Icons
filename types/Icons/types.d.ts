@@ -7,6 +7,7 @@ export type TOnHoverAttr = {
 	color?: string
 	rotate?: number
 	opacity?: number
+	inActive?: boolean
 }
 
 export interface IconProps extends React.SVGAttributes<SVGElement> {
