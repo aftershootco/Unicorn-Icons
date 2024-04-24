@@ -8,6 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	accentColor?: string
 	bgColor?: string
+	inActive?: boolean
 }
 
 export const CheckBoxIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
