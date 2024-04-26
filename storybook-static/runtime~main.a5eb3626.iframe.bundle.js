@@ -208,7 +208,7 @@
 				8946: 'stories-SelectedCircleBgIcon-stories',
 				8992: 'stories-CloseCircleIcon-stories',
 				8997: 'stories-SearchIcon-stories',
-				9048: 'stories-ComputerEditIcon-stories',
+				9048: 'stories-ComputerIcon-stories',
 				9113: 'stories-AddFolderIcon-stories',
 				9169: 'stories-ChevronUpIcon-stories',
 				9183: 'stories-PlayBgIcon-stories',

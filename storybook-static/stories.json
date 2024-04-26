@@ -1841,45 +1841,45 @@
 			"story": "Large",
 			"parameters": { "__id": "general-colorpaletteicon--large", "docsOnly": false, "fileName": "./src/stories/ColorPaletteIcon.stories.tsx" }
 		},
-		"edit-computerediticon--default": {
-			"id": "edit-computerediticon--default",
+		"edit-ComputerIcon--default": {
+			"id": "edit-ComputerIcon--default",
 			"name": "Default",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ComputerEditIcon",
+			"kind": "edit/ComputerIcon",
 			"story": "Default",
-			"parameters": { "__id": "edit-computerediticon--default", "docsOnly": false, "fileName": "./src/stories/ComputerEditIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ComputerIcon--default", "docsOnly": false, "fileName": "./src/stories/ComputerIcon.stories.tsx" }
 		},
-		"edit-computerediticon--red": {
-			"id": "edit-computerediticon--red",
+		"edit-ComputerIcon--red": {
+			"id": "edit-ComputerIcon--red",
 			"name": "Red",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ComputerEditIcon",
+			"kind": "edit/ComputerIcon",
 			"story": "Red",
-			"parameters": { "__id": "edit-computerediticon--red", "docsOnly": false, "fileName": "./src/stories/ComputerEditIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ComputerIcon--red", "docsOnly": false, "fileName": "./src/stories/ComputerIcon.stories.tsx" }
 		},
-		"edit-computerediticon--in-active": {
-			"id": "edit-computerediticon--in-active",
+		"edit-ComputerIcon--in-active": {
+			"id": "edit-ComputerIcon--in-active",
 			"name": "In Active",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ComputerEditIcon",
+			"kind": "edit/ComputerIcon",
 			"story": "In Active",
-			"parameters": { "__id": "edit-computerediticon--in-active", "docsOnly": false, "fileName": "./src/stories/ComputerEditIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ComputerIcon--in-active", "docsOnly": false, "fileName": "./src/stories/ComputerIcon.stories.tsx" }
 		},
-		"edit-computerediticon--large": {
-			"id": "edit-computerediticon--large",
+		"edit-ComputerIcon--large": {
+			"id": "edit-ComputerIcon--large",
 			"name": "Large",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ComputerEditIcon",
+			"kind": "edit/ComputerIcon",
 			"story": "Large",
-			"parameters": { "__id": "edit-computerediticon--large", "docsOnly": false, "fileName": "./src/stories/ComputerEditIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ComputerIcon--large", "docsOnly": false, "fileName": "./src/stories/ComputerIcon.stories.tsx" }
 		},
 		"edit-confettiicon--default": {
 			"id": "edit-confettiicon--default",

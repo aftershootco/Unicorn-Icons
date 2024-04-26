@@ -1361,36 +1361,36 @@
 			"importPath": "./src/stories/ColorPaletteIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"edit-computerediticon--default": {
+		"edit-ComputerIcon--default": {
 			"type": "story",
-			"id": "edit-computerediticon--default",
+			"id": "edit-ComputerIcon--default",
 			"name": "Default",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"edit-computerediticon--red": {
+		"edit-ComputerIcon--red": {
 			"type": "story",
-			"id": "edit-computerediticon--red",
+			"id": "edit-ComputerIcon--red",
 			"name": "Red",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"edit-computerediticon--in-active": {
+		"edit-ComputerIcon--in-active": {
 			"type": "story",
-			"id": "edit-computerediticon--in-active",
+			"id": "edit-ComputerIcon--in-active",
 			"name": "In Active",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"edit-computerediticon--large": {
+		"edit-ComputerIcon--large": {
 			"type": "story",
-			"id": "edit-computerediticon--large",
+			"id": "edit-ComputerIcon--large",
 			"name": "Large",
-			"title": "edit/ComputerEditIcon",
-			"importPath": "./src/stories/ComputerEditIcon.stories.tsx",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-confettiicon--default": {

@@ -86,7 +86,7 @@ import CheckBoxEmptyIcon from './edit/CheckBoxEmptyIcon'
 import CheckBoxIcon from './edit/CheckBoxIcon'
 import CheckBoxPartialIcon from './edit/CheckBoxPartialIcon'
 import CollectionsIcon from './edit/CollectionsIcon'
-import ComputerEditIcon from './edit/ComputerEditIcon'
+import ComputerIcon from './edit/ComputerIcon'
 import ConfettiIcon from './edit/ConfettiIcon'
 import ConfettiLeftIcon from './edit/ConfettiLeftIcon'
 import ConfettiRightIcon from './edit/ConfettiRightIcon'
@@ -239,7 +239,7 @@ export {
 	CloseIcon,
 	CollectionsIcon,
 	ColorPaletteIcon,
-	ComputerEditIcon,
+	ComputerIcon,
 	ConfettiIcon,
 	ConfettiLeftIcon,
 	ConfettiRightIcon,
