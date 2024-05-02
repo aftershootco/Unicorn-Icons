@@ -1881,65 +1881,81 @@
 			"story": "Large",
 			"parameters": { "__id": "edit-ComputerIcon--large", "docsOnly": false, "fileName": "./src/stories/ComputerIcon.stories.tsx" }
 		},
-		"edit-confettiicon--default": {
-			"id": "edit-confettiicon--default",
+		"edit-ConfettiSideScreen--default": {
+			"id": "edit-ConfettiSideScreen--default",
 			"name": "Default",
-			"title": "edit/ConfettiIcon",
-			"importPath": "./src/stories/ConfettiIcon.stories.tsx",
+			"title": "edit/ConfettiSideScreen",
+			"importPath": "./src/stories/ConfettiSideScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiIcon",
+			"kind": "edit/ConfettiSideScreen",
 			"story": "Default",
-			"parameters": { "__id": "edit-confettiicon--default", "docsOnly": false, "fileName": "./src/stories/ConfettiIcon.stories.tsx" }
+			"parameters": {
+				"__id": "edit-ConfettiSideScreen--default",
+				"docsOnly": false,
+				"fileName": "./src/stories/ConfettiSideScreen.stories.tsx"
+			}
 		},
-		"edit-confettiicon--large": {
-			"id": "edit-confettiicon--large",
+		"edit-ConfettiSideScreen--large": {
+			"id": "edit-ConfettiSideScreen--large",
 			"name": "Large",
-			"title": "edit/ConfettiIcon",
-			"importPath": "./src/stories/ConfettiIcon.stories.tsx",
+			"title": "edit/ConfettiSideScreen",
+			"importPath": "./src/stories/ConfettiSideScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiIcon",
+			"kind": "edit/ConfettiSideScreen",
 			"story": "Large",
-			"parameters": { "__id": "edit-confettiicon--large", "docsOnly": false, "fileName": "./src/stories/ConfettiIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ConfettiSideScreen--large", "docsOnly": false, "fileName": "./src/stories/ConfettiSideScreen.stories.tsx" }
 		},
-		"edit-confettilefticon--default": {
-			"id": "edit-confettilefticon--default",
+		"edit-ConfettiLeftScreen--default": {
+			"id": "edit-ConfettiLeftScreen--default",
 			"name": "Default",
-			"title": "edit/ConfettiLeftIcon",
-			"importPath": "./src/stories/ConfettiLeftIcon.stories.tsx",
+			"title": "edit/ConfettiLeftScreen",
+			"importPath": "./src/stories/ConfettiLeftScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiLeftIcon",
+			"kind": "edit/ConfettiLeftScreen",
 			"story": "Default",
-			"parameters": { "__id": "edit-confettilefticon--default", "docsOnly": false, "fileName": "./src/stories/ConfettiLeftIcon.stories.tsx" }
+			"parameters": {
+				"__id": "edit-ConfettiLeftScreen--default",
+				"docsOnly": false,
+				"fileName": "./src/stories/ConfettiLeftScreen.stories.tsx"
+			}
 		},
-		"edit-confettilefticon--large": {
-			"id": "edit-confettilefticon--large",
+		"edit-ConfettiLeftScreen--large": {
+			"id": "edit-ConfettiLeftScreen--large",
 			"name": "Large",
-			"title": "edit/ConfettiLeftIcon",
-			"importPath": "./src/stories/ConfettiLeftIcon.stories.tsx",
+			"title": "edit/ConfettiLeftScreen",
+			"importPath": "./src/stories/ConfettiLeftScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiLeftIcon",
+			"kind": "edit/ConfettiLeftScreen",
 			"story": "Large",
-			"parameters": { "__id": "edit-confettilefticon--large", "docsOnly": false, "fileName": "./src/stories/ConfettiLeftIcon.stories.tsx" }
+			"parameters": { "__id": "edit-ConfettiLeftScreen--large", "docsOnly": false, "fileName": "./src/stories/ConfettiLeftScreen.stories.tsx" }
 		},
-		"edit-confettirighticon--default": {
-			"id": "edit-confettirighticon--default",
+		"edit-ConfettiRightScreen--default": {
+			"id": "edit-ConfettiRightScreen--default",
 			"name": "Default",
-			"title": "edit/ConfettiRightIcon",
-			"importPath": "./src/stories/ConfettiRightIcon.stories.tsx",
+			"title": "edit/ConfettiRightScreen",
+			"importPath": "./src/stories/ConfettiRightScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiRightIcon",
+			"kind": "edit/ConfettiRightScreen",
 			"story": "Default",
-			"parameters": { "__id": "edit-confettirighticon--default", "docsOnly": false, "fileName": "./src/stories/ConfettiRightIcon.stories.tsx" }
+			"parameters": {
+				"__id": "edit-ConfettiRightScreen--default",
+				"docsOnly": false,
+				"fileName": "./src/stories/ConfettiRightScreen.stories.tsx"
+			}
 		},
-		"edit-confettirighticon--large": {
-			"id": "edit-confettirighticon--large",
+		"edit-ConfettiRightScreen--large": {
+			"id": "edit-ConfettiRightScreen--large",
 			"name": "Large",
-			"title": "edit/ConfettiRightIcon",
-			"importPath": "./src/stories/ConfettiRightIcon.stories.tsx",
+			"title": "edit/ConfettiRightScreen",
+			"importPath": "./src/stories/ConfettiRightScreen.stories.tsx",
 			"tags": ["story"],
-			"kind": "edit/ConfettiRightIcon",
+			"kind": "edit/ConfettiRightScreen",
 			"story": "Large",
-			"parameters": { "__id": "edit-confettirighticon--large", "docsOnly": false, "fileName": "./src/stories/ConfettiRightIcon.stories.tsx" }
+			"parameters": {
+				"__id": "edit-ConfettiRightScreen--large",
+				"docsOnly": false,
+				"fileName": "./src/stories/ConfettiRightScreen.stories.tsx"
+			}
 		},
 		"culling-contactsupporticon--default": {
 			"id": "culling-contactsupporticon--default",

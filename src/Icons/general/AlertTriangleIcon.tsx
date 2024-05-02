@@ -3,7 +3,7 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type IconVariant = 'primary' | 'secondary' | 'tertiary'
+type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	inActive?: boolean
@@ -37,7 +37,28 @@ const AlertTriangleIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 			/>
 		</svg>
 	)
-	return <BaseIcon variants={{ primary }} variant={variant} />
+
+	const secondary = (
+		<svg
+			width={size}
+			height={size}
+			viewBox='0 0 13 13'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			style={{ width: size, height: size }}
+			{...restProps}
+			ref={forwardedRef}
+		>
+			<path
+				d='M3.0328 9.7001H10.0327C10.1959 9.69896 10.3563 9.65791 10.4999 9.58054C10.6435 9.50317 10.7661 9.39183 10.8568 9.25623C10.9475 9.12062 11.0037 8.96488 11.0204 8.80258C11.0371 8.64029 11.0139 8.47637 10.9527 8.32512L7.40274 2.2002C7.31626 2.0439 7.1895 1.91362 7.03562 1.82289C6.88175 1.73217 6.70638 1.68433 6.52775 1.68433C6.34912 1.68433 6.17376 1.73217 6.01988 1.82289C5.86601 1.91362 5.73924 2.0439 5.65276 2.2002L2.10281 8.32512C2.04278 8.4729 2.01898 8.63291 2.03338 8.79177C2.04779 8.95063 2.1 9.10374 2.18563 9.23831C2.27127 9.37288 2.38786 9.48502 2.52567 9.56535C2.66347 9.64569 2.8185 9.69189 2.9778 9.7001'
+				stroke={modifiedColor}
+				stroke-linecap='round'
+				stroke-linejoin='round'
+			/>
+			<path d='M6.5332 7.70016V7.70516M6.5332 4.7002V5.70018V4.7002Z' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
+		</svg>
+	)
+	return <BaseIcon variants={{ primary, secondary }} variant={variant} />
 })
 
 export default React.memo(AlertTriangleIcon)

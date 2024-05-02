@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Specify the folder containing SVG files
-SVG_FOLDER="./src/svg"
-FOLDER_PATH="./src/test"
+SVG_FOLDER="./src/new-svgs"
+FOLDER_PATH="./src/new-components"
 mkdir $FOLDER_PATH
 # Loop through all files with the .svg extension in the folder
 for svg_file in "$SVG_FOLDER"/*.svg; do
@@ -41,7 +41,6 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
     echo "type Props = Omit<IconProps, 'variant'> & {" >> "$FILE_PATH"
     echo "  variant?: IconVariant;" >> "$FILE_PATH"
     echo "  bgColor?: string;" >> "$FILE_PATH"
-    echo "  inActive?: boolean;" >> "$FILE_PATH"
     echo "};" >> "$FILE_PATH"
 
 
@@ -62,10 +61,8 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
     echo "  // variants" >> "$FILE_PATH"
     echo "  const primary = (" >> "$FILE_PATH"
 
-    # Add your existing content here
     # cat $svg_file >> $FILE_PATH
-
-    awk '/^<svg/ { found=1 } found && !added { sub(/>/, " style={{ width: size, height: size }}\n\t{...restProps}\n\tref={forwardedRef} >", $0); added=1 } 1' "$svg_file" >> "$FILE_PATH"
+    awk '/^<svg/ { found=1 } found && !added { sub(/>/, " style={{ width: size, height: size }}\n\t{...restProps}\n\tref={forwardedRef} >", $0); added=1 } 1' "$svg_file"  | awk '{ gsub(/("#E2E2E2"|'\''#E2E2E2'\'')/, "{modifiedColor}"); print}' >> "$FILE_PATH"
 
     echo ")" >> "$FILE_PATH"
     echo "  return <BaseIcon variants={{ primary }} variant={variant}  />" >> "$FILE_PATH"

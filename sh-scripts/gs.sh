@@ -1,6 +1,6 @@
 # Specify the folder containing SVG files
-SVG_FOLDER="./src/test"
-FOLDER_PATH="./src/test-stories"
+SVG_FOLDER="./src/new-components"
+FOLDER_PATH="./src/new-stories"
 mkdir $FOLDER_PATH
 # Loop through all files with the .svg extension in the folder
 for svg_file in "$SVG_FOLDER"/*.tsx; do
@@ -23,11 +23,11 @@ for svg_file in "$SVG_FOLDER"/*.tsx; do
     echo "import type { Meta, StoryObj } from '@storybook/react'" > "$FILE_PATH"
     echo "import React from 'react'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
-    echo "import { $CAP_FILE_NAME } from '../test'" >> "$FILE_PATH"
+    echo "import { $CAP_FILE_NAME } from '../new-components'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
     echo "const meta: Meta<typeof $CAP_FILE_NAME> = {" >> "$FILE_PATH"
     echo "  component: $CAP_FILE_NAME," >> "$FILE_PATH"
-    echo "  title: 'Test/$CAP_FILE_NAME'," >> "$FILE_PATH"
+    echo "  title: 'NEW/$CAP_FILE_NAME'," >> "$FILE_PATH"
     echo "  decorators: [" >> "$FILE_PATH"
     echo "    (Story) => (" >> "$FILE_PATH"
     echo "      <div style={{ margin: '1rem' }}>" >> "$FILE_PATH"

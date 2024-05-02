@@ -14,4 +14,5 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
 	color?: string
 	size?: number
 	inActive?: boolean
+	className?: string
 }

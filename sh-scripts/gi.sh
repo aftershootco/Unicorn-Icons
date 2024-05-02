@@ -1,21 +1,25 @@
 # this script is use to generate index file. 
 
-touch index.ts
+# Delete the existing index.ts file if it exists
+rm -f ./src/new-components/index.ts
+
+# Create a new index.ts file
+touch ./src/new-components/index.ts
 # Loop through all files with the .svg extension in the folder
-echo "" > "index.ts"
-for svg_file in ./src/test/*.tsx; do
+echo " " > "index.ts"
+for svg_file in ./src/new-components/*.tsx; do
     echo "processing $svg_file" 
     FILE_NAME=$(basename -- "$svg_file")
     FILE_NAME="${FILE_NAME%.*}"
-    echo "import $FILE_NAME from './$FILE_NAME'" >> "./src/test/index.ts"
+    echo "import $FILE_NAME from './$FILE_NAME'" >> "./src/new-components/index.ts"
 done
 
-echo "export {" >> ./src/test/index.ts
+echo "export {" >> ./src/new-components/index.ts
 
-for svg_file in ./src/test/*.tsx; do
+for svg_file in ./src/new-components/*.tsx; do
     FILE_NAME=$(basename -- "$svg_file")
     FILE_NAME="${FILE_NAME%.*}"
-    echo "$FILE_NAME," >> "./src/test/index.ts"
+    echo "$FILE_NAME," >> "./src/new-components/index.ts"
 done
 
-echo "}" >> "./src/test/index.ts"
+echo "}" >> "./src/new-components/index.ts"

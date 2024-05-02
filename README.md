@@ -35,18 +35,38 @@ yarn build
 
 ## How to generate automatically
 
-1. Put all the SVGs in /src/svg
+0. Make sure the primary color/stroke color of the svg is #E2E2E2. Otherwise, it will not work properly.
+
+1. Put all the SVGs in /src/new-svgs.
 
 2. Run `sh generate.sh`.
-   This will generate a /test and /test-stories with icon components,
+   This will generate a /new-components and /new-stories with icon components,
    as well as the stories.
 
 3. Once, tested and satisfied, move the component and stories
    in the right folders (icons or stories)
 
-4. Replace hex-code with {color} or {modifiedColor}, if you to control the color with prop.
+4. Inside the newly created components, update any secondary colors with the correct prop names.
 
     You are all set
+
+## Control Secondary Color
+
+Many icons have secondary colors - background color, accent color etc. Make sure to modify the component with correct props name
+background color - bgColor
+accent color - accentColor.
+
+## Practice for Correct Types
+
+Every icon component have three type - 'primary' | 'secondary' | 'tertiary' by default
+Keep only primary if there is only one icon type.
+Add types if there the component have secondary colors such as bgColor or accentColor
+
+## Storybook
+
+Stories are automatically generated when you run - sh generate.sh.
+New stories will have prefix folder name as NEW. Make sure to change this as per your require.
+Also, remember to import icon correctly from the icon folder.
 
 ## To publish storbook run - yarn chromatic
 

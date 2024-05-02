@@ -87,9 +87,9 @@ import CheckBoxIcon from './edit/CheckBoxIcon'
 import CheckBoxPartialIcon from './edit/CheckBoxPartialIcon'
 import CollectionsIcon from './edit/CollectionsIcon'
 import ComputerIcon from './edit/ComputerIcon'
-import ConfettiIcon from './edit/ConfettiIcon'
-import ConfettiLeftIcon from './edit/ConfettiLeftIcon'
-import ConfettiRightIcon from './edit/ConfettiRightIcon'
+import ConfettiLeftScreen from './edit/ConfettiLeftScreen'
+import ConfettiRightScreen from './edit/ConfettiRightScreen'
+import ConfettiSideScreen from './edit/ConfettiSideScreen'
 import DecrementIcon from './edit/DecrementIcon'
 import DotsVerticalIcon from './edit/DotsVerticalIcon'
 import EditProgressIcon from './edit/EditProgressIcon'
@@ -240,9 +240,9 @@ export {
 	CollectionsIcon,
 	ColorPaletteIcon,
 	ComputerIcon,
-	ConfettiIcon,
-	ConfettiLeftIcon,
-	ConfettiRightIcon,
+	ConfettiLeftScreen,
+	ConfettiRightScreen,
+	ConfettiSideScreen,
 	ContactSupportIcon,
 	CopyContentIcon,
 	CopyIcon,
