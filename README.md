@@ -35,18 +35,19 @@ yarn build
 
 ## How to generate automatically
 
-0. Make sure the primary color/stroke color of the svg is #E2E2E2. Otherwise, it will not work properly.
+0. Make sure the main color/stroke color of the svg is #E2E2E2. Otherwise, it will not work properly.
 
-1. Put all the SVGs in /src/new-svgs.
+1. Put all the SVGs in [/src/new-svgs].
 
-2. Run `sh generate.sh`.
-   This will generate a /new-components and /new-stories with icon components,
+2. Run `sh generate.sh`. This will generate a [src/new-components] and [src/new-stories] with icon components,
    as well as the stories.
 
 3. Once, tested and satisfied, move the component and stories
-   in the right folders (icons or stories)
+   in the right folders ([src/icons/subfolder] or [src/stories])
 
 4. Inside the newly created components, update any secondary colors with the correct prop names.
+
+5. Finally run `sh export.sh`. This will export newly add components from each the respected folders.
 
     You are all set
 
