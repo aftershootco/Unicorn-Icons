@@ -1,2 +1,1 @@
-export * from './GtIcon';
-}
+export * from './GtIcon'
