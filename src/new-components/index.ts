@@ -1,1 +1,4 @@
-export * from './GtIcon'
+import GtIcon from './GtIcon'
+export {
+GtIcon,
+}

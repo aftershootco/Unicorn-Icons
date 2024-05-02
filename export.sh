@@ -10,7 +10,6 @@ COLOR_BLUE='\033[0;34m'
 COLOR_RESET='\033[0m' # Reset color
 
 # Log the start of the script
-
 echo -e "----------------------------------------"
 echo -e "${COLOR_ORANGE}Script started...${COLOR_RESET}"
 echo -e "----------------------------------------"
