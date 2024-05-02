@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const FiveStarBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const FiveStarBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

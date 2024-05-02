@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 	variant?: IconVariant
 }
 
-const FacebookPeopleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const FacebookPeopleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 

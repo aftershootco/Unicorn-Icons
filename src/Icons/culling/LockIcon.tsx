@@ -7,7 +7,7 @@ type Props = IconProps & {
 	inActive?: boolean
 }
 
-const LockIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const LockIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	// props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 

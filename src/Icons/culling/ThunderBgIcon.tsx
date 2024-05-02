@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'color'> & {
 	inActive?: boolean
 }
 
-const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', bgColor = DEFAULT_ICON.BG_COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 

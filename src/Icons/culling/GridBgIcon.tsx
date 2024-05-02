@@ -8,7 +8,7 @@ type Props = IconProps & {
 	inActive?: boolean
 }
 
-const GridBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const GridBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

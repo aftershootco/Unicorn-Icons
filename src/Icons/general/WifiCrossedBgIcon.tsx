@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	bgColor?: string
 }
 
-const WifiCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const WifiCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	fillColor: string
 }
 
-const AlertFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const AlertFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, fillColor = '#1DA0BC', inActive = false, ...restProps } = props
 

@@ -9,7 +9,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const StorageCrossedIcon = React.forwardRef<SVGSVGElement, IconProps>((props, forwardedRef) => {
+export const StorageCrossedIcon = React.forwardRef<SVGSVGElement, IconProps>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 

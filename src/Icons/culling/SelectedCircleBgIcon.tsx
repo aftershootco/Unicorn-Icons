@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	opacity?: number
 }
 
-const SelectedCircleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const SelectedCircleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

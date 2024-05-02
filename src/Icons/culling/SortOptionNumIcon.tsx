@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const SortOptionNumIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const SortOptionNumIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'ascend',

@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	fillColor?: string
 }
 
-const AlertFillTriangleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const AlertFillTriangleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

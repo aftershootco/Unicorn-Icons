@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	accentColor?: string
 }
 
-const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

@@ -9,7 +9,7 @@ type Props = Omit<IconProps, 'variant' | 'color'> & {
 	fillColor?: string
 }
 
-const CircleFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const CircleFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', fillColor = DEFAULT_ICON.FILL_COLOR, inActive = false, size = DEFAULT_ICON.SIZE, ...restProps } = props
 

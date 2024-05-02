@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 }
 
-const GoogleColorIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const GoogleColorIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 

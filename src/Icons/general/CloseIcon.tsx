@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	className?: string
 }
 
-const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -66,5 +66,3 @@ const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) =
 
 	return <BaseIcon variants={{ primary, secondary }} variant={variant} />
 })
-
-export default React.memo(CloseIcon)

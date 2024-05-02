@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const ThumbDownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ThumbDownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

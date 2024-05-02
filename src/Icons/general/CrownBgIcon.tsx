@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	const {
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,

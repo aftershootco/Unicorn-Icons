@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	accentColor?: string
 }
 
-const AddFolderIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const AddFolderIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',

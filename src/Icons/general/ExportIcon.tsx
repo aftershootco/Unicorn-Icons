@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const ExportIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ExportIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	// props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 

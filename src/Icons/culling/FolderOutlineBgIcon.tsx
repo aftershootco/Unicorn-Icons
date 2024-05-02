@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-const FolderOutlineBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const FolderOutlineBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',
