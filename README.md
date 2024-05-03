@@ -69,9 +69,13 @@ Stories are automatically generated when you run `sh generate.sh`.
 New stories will have prefix folder name as NEW. Make sure to change this as per your require.
 Also, remember to import icon correctly from the icon folder.
 
+Live storybook: "[https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)](<https://65bb4c7b2d4e48c0410f5829-fgpcpxhxjl.chromatic.com/?path=/story/logo-aftershootlogoicon--default&globals=backgrounds.value:!hex(333333)>)"
+
 ## Publish storbook to Chromatic
 
 run `yarn chromatic`
+
+Chromatic Dashboard: https://www.chromatic.com/build?appId=65bb4c7b2d4e48c0410f5829&number=3
 
 ## Using icon components Tips
 
@@ -92,7 +96,3 @@ run `yarn chromatic`
 -   Akash Singh — [Github](https://github.com/frannkenstein)
 -   Yash Johri — [Github](https://github.com/yash1200)
 -   Booi Mangang - [Github](https://github.com/booi-dev)
-
-Chromatic Dashboard: https://www.chromatic.com/build?appId=65bb4c7b2d4e48c0410f5829&number=3
-
-Live storybook: "[https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)](<https://65bb4c7b2d4e48c0410f5829-fgpcpxhxjl.chromatic.com/?path=/story/logo-aftershootlogoicon--default&globals=backgrounds.value:!hex(333333)>)"
