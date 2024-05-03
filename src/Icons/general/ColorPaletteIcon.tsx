@@ -9,7 +9,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-export const ColorPalette = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ColorPaletteIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -36,4 +36,4 @@ export const ColorPalette = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(ColorPalette)
+export default React.memo(ColorPaletteIcon)

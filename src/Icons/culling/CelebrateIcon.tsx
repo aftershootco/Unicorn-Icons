@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 	variant?: IconVariant
 }
 
-export const Celebrate = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const CelebrateIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
@@ -42,4 +42,4 @@ export const Celebrate = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(Celebrate)
+export default React.memo(CelebrateIcon)

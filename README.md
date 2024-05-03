@@ -63,13 +63,15 @@ Every icon component have three type - 'primary' | 'secondary' | 'tertiary' by d
 Keep only primary if there is only one icon type.
 Add types if there the component have secondary colors such as bgColor or accentColor
 
-## Storybook
+## About Storybook
 
-Stories are automatically generated when you run - sh generate.sh.
+Stories are automatically generated when you run `sh generate.sh`.
 New stories will have prefix folder name as NEW. Make sure to change this as per your require.
 Also, remember to import icon correctly from the icon folder.
 
-## To publish storbook run - yarn chromatic
+## Publish storbook to Chromatic
+
+run `yarn chromatic`
 
 ## Using icon components Tips
 
@@ -93,4 +95,4 @@ Also, remember to import icon correctly from the icon folder.
 
 Chromatic Dashboard: https://www.chromatic.com/build?appId=65bb4c7b2d4e48c0410f5829&number=3
 
-Live storybook: "[https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)](<https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)>)"
+Live storybook: "[https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)](<https://65bb4c7b2d4e48c0410f5829-fgpcpxhxjl.chromatic.com/?path=/story/logo-aftershootlogoicon--default&globals=backgrounds.value:!hex(333333)>)"

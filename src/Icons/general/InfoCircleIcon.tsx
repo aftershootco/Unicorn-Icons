@@ -10,7 +10,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-export const InfoIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const InfoCircleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -114,4 +114,4 @@ export const InfoIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	return <BaseIcon variants={{ primary, secondary, tertiary, quaternary }} variant={variant} />
 })
 
-export default React.memo(InfoIcon)
+export default React.memo(InfoCircleIcon)

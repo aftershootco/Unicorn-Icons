@@ -40,14 +40,15 @@ for folder in "${FOLDER_PATH}"/*/; do
     done
 
     # Log the total count for the current folder
-    echo -e "${COLOR_BLUE}Total files in ${folder_name}: ${folder_count}${COLOR_RESET}"
+    echo -e "${COLOR_BLUE}Total components in ${folder_name}: ${folder_count}${COLOR_RESET}"
 
     # Add the folder count to the total count
     ((TOTAL_COUNT += folder_count))
 done
 
 # Log the total count of folders
-echo -e "${COLOR_GREEN}Total number of files processed: ${TOTAL_COUNT}${COLOR_RESET}"
+echo -e "----------------------------------------"
+echo -e "${COLOR_GREEN}Total number of components processed: ${TOTAL_COUNT}${COLOR_RESET}"
 
 # Log the end of the script
 echo -e "----------------------------------------"

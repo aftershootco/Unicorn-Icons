@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { ProcessIcon } from '../icons'
+import { AftershootWhiteIcon } from '../icons'
 
-const meta: Meta<typeof ProcessIcon> = {
-	component: ProcessIcon,
-	title: 'culling/ProcessIcon',
+const meta: Meta<typeof AftershootWhiteIcon> = {
+	component: AftershootWhiteIcon,
+	title: 'logo/AftershootWhiteIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
@@ -16,7 +16,7 @@ const meta: Meta<typeof ProcessIcon> = {
 }
 
 export default meta
-type Story = StoryObj<typeof ProcessIcon>
+type Story = StoryObj<typeof AftershootWhiteIcon>
 
 export const Default: Story = {}
 

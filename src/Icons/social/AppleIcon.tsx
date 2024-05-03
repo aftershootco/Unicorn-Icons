@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 }
 
-export const Apple = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const AppleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -34,4 +34,4 @@ export const Apple = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(Apple)
+export default React.memo(AppleIcon)
