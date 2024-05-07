@@ -11,15 +11,8 @@ for svg_file in ./src/new-components/*.tsx; do
     echo "processing $svg_file" 
     FILE_NAME=$(basename -- "$svg_file")
     FILE_NAME="${FILE_NAME%.*}"
-    echo "import $FILE_NAME from './$FILE_NAME'" >> "./src/new-components/index.ts"
+    echo "export * from './$FILE_NAME'" >> "./src/new-components/index.ts"
 done
 
-echo "export {" >> ./src/new-components/index.ts
 
-for svg_file in ./src/new-components/*.tsx; do
-    FILE_NAME=$(basename -- "$svg_file")
-    FILE_NAME="${FILE_NAME%.*}"
-    echo "$FILE_NAME," >> "./src/new-components/index.ts"
-done
 
-echo "}" >> "./src/new-components/index.ts"

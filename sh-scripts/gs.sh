@@ -23,7 +23,7 @@ for svg_file in "$SVG_FOLDER"/*.tsx; do
     echo "import type { Meta, StoryObj } from '@storybook/react'" > "$FILE_PATH"
     echo "import React from 'react'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
-    echo "import { $CAP_FILE_NAME } from '../new-components'" >> "$FILE_PATH"
+    echo "import { $CAP_FILE_NAME } from '../new-components/$CAP_FILE_NAME'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
     echo "const meta: Meta<typeof $CAP_FILE_NAME> = {" >> "$FILE_PATH"
     echo "  component: $CAP_FILE_NAME," >> "$FILE_PATH"

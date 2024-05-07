@@ -30,6 +30,7 @@ export * from './ColorPaletteIcon';
 export * from './ConfettiIcon';
 export * from './CopyContentIcon';
 export * from './CopyIcon';
+export * from './CreditIcon';
 export * from './CrossCircleIcon';
 export * from './CrossIcon';
 export * from './CrownBgIcon';

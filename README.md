@@ -42,12 +42,13 @@ yarn build
 2. Run `sh generate.sh`. This will generate a `src/new-components` and `src/new-stories` with icon components,
    and stories respectively.
 
-3. Once, tested and satisfied, move the component and stories
-   in the right folders (`src/icons/[subfolder]` and `src/stories`).
+3. Once, tested and satisfied, move the component from `new-components` to the right folder - `src/icons/[subfolder]`
 
 4. Inside the newly created components, update any additional icon variant and secondary colors with the correct prop names. Make sure to add correct types.
 
-5. Finally run `sh export.sh`. This will export newly added components from the respected folders.
+5. Now run `sh export.sh`. This will export newly added components from the respected folders.
+
+6. Delete the index file inside `src/new-components`. This'll cause error to the newly create stories of the component. Worry. Inside the stories import the icon from the correct folder, (which we just export in step 5)
 
     You are all set
 

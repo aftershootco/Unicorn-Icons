@@ -68,6 +68,5 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
     echo "  return <BaseIcon variants={{ primary }} variant={variant}  />" >> "$FILE_PATH"
     echo "})" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
-    echo "export default React.memo($CAP_FILE_NAME)" >> "$FILE_PATH"
 done
 
