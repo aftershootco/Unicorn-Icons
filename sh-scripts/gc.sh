@@ -36,7 +36,7 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
     echo "import DEFAULT_ICON from '../constant'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
 
-    echo "type IconVariant = 'primary' | 'secondary' | 'tertiary';" >> "$FILE_PATH"
+    echo "type IconVariant = 'primary' ;" >> "$FILE_PATH"
 
     echo "type Props = Omit<IconProps, 'variant'> & {" >> "$FILE_PATH"
     echo "  variant?: IconVariant;" >> "$FILE_PATH"

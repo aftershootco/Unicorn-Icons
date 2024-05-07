@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { BulbIcon } from '../icons/general/BulbIcon'
+import { BulbIcon } from '../icons'
 
 const meta: Meta<typeof BulbIcon> = {
 	component: BulbIcon,

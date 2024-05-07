@@ -13,6 +13,7 @@ export * from './ArrowFillUpIcon';
 export * from './ArrowLeftIcon';
 export * from './ArrowRightIcon';
 export * from './ArrowUpIcon';
+export * from './BulbIcon';
 export * from './CheckCircleBgIcon';
 export * from './CheckCircleIcon';
 export * from './CheckFillIcon';
