@@ -3,24 +3,14 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type IconVariant = 'primary' | 'secondary' | 'tertiary'
-type Props = Omit<IconProps, 'variant'> & {
+type IconVariant = 'primary'
+type Props = Omit<Omit<IconProps, 'variant'>, 'inActive'> & {
 	variant?: IconVariant
-	bgColor?: string
 }
 
 export const CreditIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const {
-		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
-		bgColor = DEFAULT_ICON.BG_COLOR,
-		size = DEFAULT_ICON.SIZE,
-		inActive = false,
-		...restProps
-	} = props
-
-	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
+	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
 	// variants
 	const primary = (
