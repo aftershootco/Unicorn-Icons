@@ -138,7 +138,7 @@
 				5248: 'stories-StarIcon-stories',
 				5446: 'stories-CheckBoxIcon-stories',
 				5448: 'stories-DragCaptureOneIcon-stories',
-				5460: 'stories-CurveArrowIcon-stories',
+				5460: 'stories-ArrowCurveIcon-stories',
 				5515: 'stories-UploadIconIcon-stories',
 				5529: 'stories-PlusBgIcon-stories',
 				5581: 'stories-AlertCircleIcon-stories',

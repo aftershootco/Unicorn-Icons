@@ -1749,32 +1749,32 @@
 			"type": "story",
 			"id": "culling-curvearrowicon--default",
 			"name": "Default",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-curvearrowicon--red": {
 			"type": "story",
 			"id": "culling-curvearrowicon--red",
 			"name": "Red",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-curvearrowicon--in-active": {
 			"type": "story",
 			"id": "culling-curvearrowicon--in-active",
 			"name": "In Active",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-curvearrowicon--large": {
 			"type": "story",
 			"id": "culling-curvearrowicon--large",
 			"name": "Large",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-decrementicon--default": {

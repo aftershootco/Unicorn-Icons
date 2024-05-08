@@ -2396,42 +2396,42 @@
 		"culling-curvearrowicon--default": {
 			"id": "culling-curvearrowicon--default",
 			"name": "Default",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/CurveArrowIcon",
+			"kind": "culling/ArrowCurveIcon",
 			"story": "Default",
-			"parameters": { "__id": "culling-curvearrowicon--default", "docsOnly": false, "fileName": "./src/stories/CurveArrowIcon.stories.tsx" }
+			"parameters": { "__id": "culling-curvearrowicon--default", "docsOnly": false, "fileName": "./src/stories/ArrowCurveIcon.stories.tsx" }
 		},
 		"culling-curvearrowicon--red": {
 			"id": "culling-curvearrowicon--red",
 			"name": "Red",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/CurveArrowIcon",
+			"kind": "culling/ArrowCurveIcon",
 			"story": "Red",
-			"parameters": { "__id": "culling-curvearrowicon--red", "docsOnly": false, "fileName": "./src/stories/CurveArrowIcon.stories.tsx" }
+			"parameters": { "__id": "culling-curvearrowicon--red", "docsOnly": false, "fileName": "./src/stories/ArrowCurveIcon.stories.tsx" }
 		},
 		"culling-curvearrowicon--in-active": {
 			"id": "culling-curvearrowicon--in-active",
 			"name": "In Active",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/CurveArrowIcon",
+			"kind": "culling/ArrowCurveIcon",
 			"story": "In Active",
-			"parameters": { "__id": "culling-curvearrowicon--in-active", "docsOnly": false, "fileName": "./src/stories/CurveArrowIcon.stories.tsx" }
+			"parameters": { "__id": "culling-curvearrowicon--in-active", "docsOnly": false, "fileName": "./src/stories/ArrowCurveIcon.stories.tsx" }
 		},
 		"culling-curvearrowicon--large": {
 			"id": "culling-curvearrowicon--large",
 			"name": "Large",
-			"title": "culling/CurveArrowIcon",
-			"importPath": "./src/stories/CurveArrowIcon.stories.tsx",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/CurveArrowIcon",
+			"kind": "culling/ArrowCurveIcon",
 			"story": "Large",
-			"parameters": { "__id": "culling-curvearrowicon--large", "docsOnly": false, "fileName": "./src/stories/CurveArrowIcon.stories.tsx" }
+			"parameters": { "__id": "culling-curvearrowicon--large", "docsOnly": false, "fileName": "./src/stories/ArrowCurveIcon.stories.tsx" }
 		},
 		"edit-decrementicon--default": {
 			"id": "edit-decrementicon--default",

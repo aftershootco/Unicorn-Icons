@@ -7,7 +7,6 @@ export * from './CouponIcon';
 export * from './CreateProfileIcon';
 export * from './CullFromCardBgIcon';
 export * from './CullFromComputerBgIcon';
-export * from './CurveArrowIcon';
 export * from './DiamonIcon';
 export * from './DublicateStackIcon';
 export * from './DuplicateFillIcon';
