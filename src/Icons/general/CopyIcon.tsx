@@ -40,12 +40,12 @@ export const CopyIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 
 	const secondary = (
 		<svg
-			width={(15 / 6) * size}
+			width={size}
 			height={size}
 			viewBox='0 0 15 16'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (15 / 6) * size, height: size }}
+			style={{ width: size, height: size }}
 			ref={forwardedRef}
 			{...restProps}
 		>
