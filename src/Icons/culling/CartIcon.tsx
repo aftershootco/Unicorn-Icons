@@ -3,9 +3,7 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type Props = IconProps & {
-	bgColor?: string
-}
+type Props = IconProps
 
 export const CartIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
@@ -92,7 +90,44 @@ export const CartIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 		</svg>
 	)
 
-	return <BaseIcon variants={{ primary, secondary }} variant={variant} />
+	const tertiary = (
+		<svg
+			width={size}
+			height={size}
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			style={{ width: size, height: size }}
+			{...restProps}
+			ref={forwardedRef}
+		>
+			<g clip-path='url(#clip0_5678_4243)'>
+				<path
+					d='M9 31.5C10.6569 31.5 12 30.1569 12 28.5C12 26.8431 10.6569 25.5 9 25.5C7.34315 25.5 6 26.8431 6 28.5C6 30.1569 7.34315 31.5 9 31.5Z'
+					stroke={modifiedColor}
+					stroke-width='2.57143'
+					stroke-linecap='round'
+					stroke-linejoin='round'
+				/>
+				<path
+					d='M25.5 31.5C27.1569 31.5 28.5 30.1569 28.5 28.5C28.5 26.8431 27.1569 25.5 25.5 25.5C23.8431 25.5 22.5 26.8431 22.5 28.5C22.5 30.1569 23.8431 31.5 25.5 31.5Z'
+					stroke={modifiedColor}
+					stroke-width='2.57143'
+					stroke-linecap='round'
+					stroke-linejoin='round'
+				/>
+				<path d='M25.5 25.5H9V4.5H6' stroke={modifiedColor} stroke-width='2.57143' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M9 7.5L30 9L28.5 19.5H9' stroke={modifiedColor} stroke-width='2.57143' stroke-linecap='round' stroke-linejoin='round' />
+			</g>
+			<defs>
+				<clipPath id='clip0_5678_4243'>
+					<rect width='36' height='36' fill='white' />
+				</clipPath>
+			</defs>
+		</svg>
+	)
+
+	return <BaseIcon variants={{ primary, secondary, tertiary }} variant={variant} />
 })
 
 export default React.memo(CartIcon)
