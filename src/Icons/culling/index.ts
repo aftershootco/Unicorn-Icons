@@ -39,6 +39,7 @@ export * from './ImageBorderIcon';
 export * from './ImageCrossedBgIcon';
 export * from './ImageCrossedIcon';
 export * from './ImageIcon';
+export * from './ImageStackIcon';
 export * from './KeyCircleIcon';
 export * from './KeyIcon';
 export * from './LinkIcon';

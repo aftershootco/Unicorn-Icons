@@ -8,6 +8,7 @@ type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect width='18' height='18' rx='9' fill={bgColor} fill-opacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect width='18' height='18' rx='9' fill={bgColor} fill-opacity={bgOpacity} />
 			<g clip-path='url(#clip0_3425_12220)'>
 				<path
 					fill-rule='evenodd'
