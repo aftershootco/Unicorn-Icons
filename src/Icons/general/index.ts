@@ -41,6 +41,7 @@ export * from './CrownIcon';
 export * from './DeleteBgIcon';
 export * from './DeleteIcon';
 export * from './DollarIcon';
+export * from './DrawerIcon';
 export * from './EditIcon';
 export * from './ExportBgIcon';
 export * from './ExportIcon';
