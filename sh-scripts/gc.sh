@@ -40,7 +40,7 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
 
     echo "type Props = Omit<IconProps, 'variant'> & {" >> "$FILE_PATH"
     echo "  variant?: IconVariant;" >> "$FILE_PATH"
-    echo "  // bgColor?: string bgOpacity?: number;" >> "$FILE_PATH"
+    echo "  // bgColor?: string;" >> "$FILE_PATH"
     echo "  // bgOpacity?: number;" >> "$FILE_PATH"
     echo "};" >> "$FILE_PATH"
 
