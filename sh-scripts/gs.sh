@@ -27,7 +27,7 @@ for svg_file in "$SVG_FOLDER"/*.tsx; do
     echo "" >> "$FILE_PATH"
     echo "const meta: Meta<typeof $CAP_FILE_NAME> = {" >> "$FILE_PATH"
     echo "  component: $CAP_FILE_NAME," >> "$FILE_PATH"
-    echo "  title: 'NEW/$CAP_FILE_NAME'," >> "$FILE_PATH"
+    echo "  title: 'new/$CAP_FILE_NAME'," >> "$FILE_PATH"
     echo "  decorators: [" >> "$FILE_PATH"
     echo "    (Story) => (" >> "$FILE_PATH"
     echo "      <div style={{ margin: '1rem' }}>" >> "$FILE_PATH"
