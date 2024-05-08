@@ -7,3 +7,4 @@ export * from './InstagramIcon';
 export * from './TwitterBgIcon';
 export * from './TwitterIcon';
 export * from './TwitterOutlineIcon';
+export * from './XIcon';
