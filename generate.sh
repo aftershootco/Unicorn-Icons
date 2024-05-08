@@ -19,11 +19,7 @@ if [ -n "$(ls -A src/new-svgs)" ]; then
     # Check if script 1 ran successfully
     if [ $? -eq 0 ]; then
         echo -e "${ORANGE}components created successfully.${COLOR_RESET}"
-        # Run script 2 after script 1 completes
-        ./sh-scripts/gi.sh
 
-        # Check if script 2 ran successfully
-        if [ $? -eq 0 ]; then
             echo -e "${ORANGE}setting up for stories.${COLOR_RESET}"
             # Run script 3 after script 2 completes
             ./sh-scripts/gs.sh
@@ -41,10 +37,7 @@ if [ -n "$(ls -A src/new-svgs)" ]; then
                 echo -e "${RED}creating stories failed. Exiting...${COLOR_RESET}"
                 exit 1
             fi
-        else
-            echo -e "${RED}setting for stories failed. Exiting...${COLOR_RESET}"
-            exit 1
-        fi
+     
     else
         echo -e "${RED}creating stories failed. Exiting...${COLOR_RESET}"
         exit 1

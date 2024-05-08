@@ -40,7 +40,7 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
 
     echo "type Props = Omit<IconProps, 'variant'> & {" >> "$FILE_PATH"
     echo "  variant?: IconVariant;" >> "$FILE_PATH"
-    echo "  bgColor?: string;" >> "$FILE_PATH"
+    echo "  // bgColor?: string;" >> "$FILE_PATH"
     echo "};" >> "$FILE_PATH"
 
 
@@ -50,7 +50,7 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
     echo "  const {" >> "$FILE_PATH"
     echo "    variant = 'primary'," >> "$FILE_PATH"
     echo "    color = DEFAULT_ICON.COLOR," >> "$FILE_PATH"
-    echo "    bgColor = DEFAULT_ICON.BG_COLOR," >> "$FILE_PATH"
+    echo "    // bgColor = DEFAULT_ICON.BG_COLOR," >> "$FILE_PATH"
     echo "    size = DEFAULT_ICON.SIZE," >> "$FILE_PATH"
     echo "    inActive = false," >> "$FILE_PATH"
     echo "    ...restProps" >> "$FILE_PATH"
