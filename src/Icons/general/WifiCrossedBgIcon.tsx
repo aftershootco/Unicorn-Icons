@@ -8,6 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	inActive?: boolean
 	bgColor?: string
+	bgOpacity?: number
 }
 
 export const WifiCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
@@ -16,6 +17,7 @@ export const WifiCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const WifiCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect width='96' height='96' rx='48' fill={bgColor} fill-opacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect width='96' height='96' rx='48' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_18341_4857)'>
 				<path d='M48 64H48.0267' stroke={modifiedColor} stroke-width='3' stroke-linecap='round' stroke-linejoin='round' />
 				<path

@@ -8,8 +8,8 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
-	inActive?: boolean
 	bgOpacity?: number
+	inActive?: boolean
 }
 
 export const CheckCircleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
@@ -18,9 +18,9 @@ export const CheckCircleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
-		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		...restProps
 	} = props
 

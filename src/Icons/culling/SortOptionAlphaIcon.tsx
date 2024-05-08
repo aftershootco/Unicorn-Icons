@@ -8,6 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	color?: string
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -17,6 +18,7 @@ export const SortOptionAlphaIcon = React.forwardRef<SVGSVGElement, Props>((props
 		variant = 'ascend',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps

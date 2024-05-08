@@ -7,6 +7,7 @@ type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const ImageCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const ImageCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect x='0.5' width='96' height='96' rx='48' fill={bgColor} fill-opacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect x='0.5' width='96' height='96' rx='48' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_13360_25254)'>
 				<path d='M24.5 24L72.5 72' stroke={modifiedColor} stroke-width='3' stroke-linecap='round' stroke-linejoin='round' />
 				<path d='M56.5 37.333H56.5267' stroke={modifiedColor} stroke-width='3' stroke-linecap='round' stroke-linejoin='round' />
@@ -83,7 +85,7 @@ export const ImageCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 			<path
 				d='M55 27.5C55 42.688 42.688 55 27.5 55S0 42.688 0 27.5 12.312 0 27.5 0 55 12.312 55 27.5Z'
 				fill={bgColor}
-				// fillOpacity={DEFAULT_ICON.BG_OPACITY}
+				// fillOpacity={bgOpacity}
 			/>
 			<path
 				d='M35 18.9H21a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14a2 2 0 0 0-2-2Z'

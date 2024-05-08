@@ -8,6 +8,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -17,6 +18,7 @@ export const InfoBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -40,7 +42,7 @@ export const InfoBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 				<path
 					d='M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z'
 					fill={bgColor}
-					fillOpacity={DEFAULT_ICON.BG_OPACITY}
+					fillOpacity={bgOpacity}
 				/>
 				<path d='M10 6.66602H10.0083' stroke={modifiedColor} stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' />
 				<path

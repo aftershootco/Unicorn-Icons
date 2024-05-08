@@ -8,6 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	inActive?: boolean
 	bgColor?: string
+	bgOpacity?: number
 }
 
 export const AlertTriangleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
@@ -16,6 +17,7 @@ export const AlertTriangleBgIcon = React.forwardRef<SVGSVGElement, Props>((props
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const AlertTriangleBgIcon = React.forwardRef<SVGSVGElement, Props>((props
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect x='0.352539' y='0.702148' width='28' height='28' rx='14' fill={bgColor} fillOpacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect x='0.352539' y='0.702148' width='28' height='28' rx='14' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_13276_22829)'>
 				<path
 					d='M14.3525 17.2021V17.2105M14.3525 12.2021V13.8688V12.2021Z'

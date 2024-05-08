@@ -5,6 +5,7 @@ import DEFAULT_ICON from '../../constant'
 
 type Props = IconProps & {
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -14,6 +15,7 @@ export const GridBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -33,7 +35,7 @@ export const GridBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect width='22' height='22' rx='2' fill={bgColor} fill-opacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect width='22' height='22' rx='2' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_12220_36385)'>
 				<path
 					d='M8.75 5H5.75C5.33579 5 5 5.33579 5 5.75V8.75C5 9.16421 5.33579 9.5 5.75 9.5H8.75C9.16421 9.5 9.5 9.16421 9.5 8.75V5.75C9.5 5.33579 9.16421 5 8.75 5Z'

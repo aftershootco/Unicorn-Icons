@@ -5,12 +5,20 @@ import DEFAULT_ICON from '../../constant'
 
 type Props = Omit<IconProps, 'color'> & {
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
 export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', bgColor = DEFAULT_ICON.BG_COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const {
+		variant = 'primary',
+		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
+		size = DEFAULT_ICON.SIZE,
+		inActive = false,
+		...restProps
+	} = props
 
 	// variants
 	const primary = (
@@ -25,7 +33,7 @@ export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect width={24} height={24} rx={12} fill={bgColor} fillOpacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect width={24} height={24} rx={12} fill={bgColor} fillOpacity={bgOpacity} />
 			<rect x={4} y={4} width={16} height={16} fill='url(#pattern0)' />
 			<defs>
 				<pattern id='pattern0' patternContentUnits='objectBoundingBox' width={1} height={1}>

@@ -25,7 +25,7 @@ export const ArrowFillUpIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<path d='M14 3L2 15H26L14 3Z' fill={fillColor} fill-opacity='0.8' />
+			<path d='M14 3L2 15H26L14 3Z' fill={fillColor} fillOpacity='0.8' />
 			<path d='M2 15L14 3L26 15' stroke={color} stroke-opacity='0.1' stroke-width='3' />
 		</svg>
 	)

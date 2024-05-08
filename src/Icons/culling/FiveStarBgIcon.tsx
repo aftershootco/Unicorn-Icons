@@ -7,6 +7,7 @@ type IconVariant = 'primary' | 'secondary' | 'tertiary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const FiveStarBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps

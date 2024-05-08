@@ -7,6 +7,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const MoveBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -34,7 +36,7 @@ export const MoveBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect x='0.352539' y='0.701172' width='28' height='28' rx='14' fill={bgColor} fillOpacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect x='0.352539' y='0.701172' width='28' height='28' rx='14' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_14037_31520)'>
 				<path
 					d='M16.0193 7.20117V10.5345C16.0193 10.7555 16.1071 10.9675 16.2634 11.1238C16.4196 11.28 16.6316 11.3678 16.8526 11.3678H20.186'

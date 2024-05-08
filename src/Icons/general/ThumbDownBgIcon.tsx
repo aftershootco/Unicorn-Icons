@@ -8,6 +8,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -17,6 +18,7 @@ export const ThumbDownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -36,7 +38,7 @@ export const ThumbDownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect x='0.576904' y='0.373047' width='81.7804' height='81.7804' rx='40.8902' fill={bgColor} fillOpacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect x='0.576904' y='0.373047' width='81.7804' height='81.7804' rx='40.8902' fill={bgColor} fillOpacity={bgOpacity} />
 
 			<g clip-path='url(#clip0_1172_16355)'>
 				<path

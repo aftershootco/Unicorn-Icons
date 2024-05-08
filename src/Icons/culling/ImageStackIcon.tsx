@@ -6,19 +6,11 @@ import DEFAULT_ICON from '../../constant'
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
-	// bgColor?: string;
 }
 
 export const ImageStackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const {
-		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
-		// bgColor = DEFAULT_ICON.BG_COLOR,
-		size = DEFAULT_ICON.SIZE,
-		inActive = false,
-		...restProps
-	} = props
+	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 

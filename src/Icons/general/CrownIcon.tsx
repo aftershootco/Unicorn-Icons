@@ -3,7 +3,7 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type IconVariant = 'primary'
+type IconVariant = 'primary' | 'secondary'
 
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
@@ -48,7 +48,35 @@ export const CrownIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 		</svg>
 	)
 
-	return <BaseIcon variants={{ primary }} variant={variant} />
+	const secondary = (
+		<svg
+			width='13'
+			height='12'
+			viewBox='0 0 13 12'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			style={{ width: size, height: size }}
+			ref={forwardedRef}
+			{...restProps}
+		>
+			<g clip-path='url(#clip0_1949_63000)'>
+				<path
+					d='M6.21683 3L8.21684 6.00002L10.7169 4.00001L9.71686 9.00004H2.7168L1.7168 4.00001L4.21682 6.00002L6.21683 3Z'
+					stroke={modifiedColor}
+					stroke-width='1.00001'
+					stroke-linecap='round'
+					stroke-linejoin='round'
+				/>
+			</g>
+			<defs>
+				<clipPath id='clip0_1949_63000'>
+					<rect width='12.0001' height='12.0001' fill='white' transform='translate(0.216797)' />
+				</clipPath>
+			</defs>
+		</svg>
+	)
+
+	return <BaseIcon variants={{ primary, secondary }} variant={variant} />
 })
 
 export default React.memo(CrownIcon)

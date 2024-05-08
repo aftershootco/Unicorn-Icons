@@ -7,6 +7,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const ExportBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const ExportBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<circle cx='20' cy='20' r='20' fill={bgColor} fillOpacity={DEFAULT_ICON.BG_OPACITY} />
+			<circle cx='20' cy='20' r='20' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M12 20.5v7.6a1.9 1.9 0 0 0 1.9 1.9h11.4a1.9 1.9 0 0 0 1.9-1.9v-7.6m-3.799-5.7-3.8-3.8-3.8 3.8m3.801-3.8v12.35'
 				stroke={modifiedColor}

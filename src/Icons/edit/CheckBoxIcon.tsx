@@ -8,6 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	accentColor?: string
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -18,6 +19,7 @@ export const CheckBoxIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		color = DEFAULT_ICON.COLOR,
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -37,7 +39,7 @@ export const CheckBoxIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect width='16' height='16' rx='3' fill={bgColor} fill-opacity='0.3' />
+			<rect width='16' height='16' rx='3' fill={bgColor} fillOpacity='0.3' />
 			<rect x='2' y='2' width='12' height='12' rx='1' fill={accentColor} />
 			<path
 				fill-rule='evenodd'

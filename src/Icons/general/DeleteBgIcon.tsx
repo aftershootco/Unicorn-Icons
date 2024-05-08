@@ -7,6 +7,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 }
 
@@ -16,6 +17,7 @@ export const DeleteBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
@@ -35,7 +37,7 @@ export const DeleteBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect x='0.5' width='96' height='96' rx='48' fill={bgColor} fill-opacity='0.3' />
+			<rect x='0.5' width='96' height='96' rx='48' fill={bgColor} fillOpacity='0.3' />
 			<g clip-path='url(#clip0_13360_17518)'>
 				<path d='M27.1667 34.6665H69.8334' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
 				<path d='M43.1667 45.3335V61.3335' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />

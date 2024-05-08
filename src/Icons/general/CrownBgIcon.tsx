@@ -37,7 +37,7 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect width='18' height='18' rx='9' fill={bgColor} fill-opacity={bgOpacity} />
+			<rect width='18' height='18' rx='9' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clip-path='url(#clip0_3425_12220)'>
 				<path
 					fill-rule='evenodd'
@@ -69,7 +69,7 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect width='18.0001' height='18.0001' rx='9.00004' fill={bgColor} fill-opacity='0.2' />
+			<rect width='18.0001' height='18.0001' rx='9.00004' fill={bgColor} fillOpacity='0.2' />
 			<g clip-path='url(#clip0_1949_62927)'>
 				<path
 					d='M9.00003 6L11 9.00002L13.5001 7.00001L12.5001 12H5.50001L4.5 7.00001L7.00002 9.00002L9.00003 6Z'

@@ -7,6 +7,7 @@ type IconVariant = 'primary' | 'secondary' | 'tertiary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	inActive?: boolean
 	accentColor?: string
 }
@@ -17,6 +18,7 @@ export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
 		inActive = false,
@@ -37,7 +39,7 @@ export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<rect width='72' height='72' rx='36' fill={bgColor} fill-opacity={DEFAULT_ICON.BG_OPACITY} />
+			<rect width='72' height='72' rx='36' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M20 46V50C20 51.0609 20.4214 52.0783 21.1716 52.8284C21.9217 53.5786 22.9391 54 24 54H48C49.0608 54 50.0783 53.5786 50.8284 52.8284C51.5786 52.0783 52 51.0609 52 50V46'
 				stroke={accentColor}

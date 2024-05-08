@@ -7,6 +7,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	fillColor?: string
 	inActive?: boolean
 }
@@ -17,6 +18,7 @@ export const FailFillBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		fillColor = DEFAULT_ICON.FILL_COLOR,
 		inActive = false,
@@ -37,7 +39,7 @@ export const FailFillBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<circle cx='19' cy='19' r='19' fill={bgColor} fill-opacity='.25' />
+			<circle cx='19' cy='19' r='19' fill={bgColor} fillOpacity='.25' />
 			<path
 				d='M19 30.984c6.627 0 12-5.369 12-11.992C31 12.37 25.627 7 19 7S7 12.37 7 18.992c0 6.623 5.373 11.992 12 11.992Z'
 				fill={fillColor}

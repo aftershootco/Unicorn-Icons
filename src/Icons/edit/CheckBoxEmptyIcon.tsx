@@ -27,7 +27,7 @@ export const CheckBoxEmptyIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect width='16' height='16' rx='3' fill={modifiedColor} fill-opacity='0.3' />
+			<rect width='16' height='16' rx='3' fill={modifiedColor} fillOpacity='0.3' />
 			<rect x='0.5' y='0.5' width='15' height='15' rx='2.5' stroke={modifiedColor} stroke-opacity='0.3' />
 		</svg>
 	)

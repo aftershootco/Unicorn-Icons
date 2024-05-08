@@ -7,6 +7,7 @@ type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 	accentColor?: string
 	inActive?: boolean
 }
@@ -17,6 +18,7 @@ export const CheckBoxPartialIcon = React.forwardRef<SVGSVGElement, Props>((props
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
@@ -37,7 +39,7 @@ export const CheckBoxPartialIcon = React.forwardRef<SVGSVGElement, Props>((props
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<rect width='16' height='16' rx='3' fill={bgColor} fill-opacity='0.3' />
+			<rect width='16' height='16' rx='3' fill={bgColor} fillOpacity='0.3' />
 			<rect x='2' y='2' width='12' height='12' rx='1' fill={accentColor} />
 			<path d='M4.88965 8H11.1119' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
 			<rect x='0.5' y='0.5' width='15' height='15' rx='2.5' stroke={bgColor} stroke-opacity='0.3' />

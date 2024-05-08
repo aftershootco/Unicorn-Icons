@@ -7,6 +7,7 @@ type IconVariant = 'primary' | 'secondary' | 'tertiary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	bgColor?: string
+	bgOpacity?: number
 }
 
 export const ConfettiIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
@@ -15,6 +16,7 @@ export const ConfettiIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		variant = 'primary',
 		color = DEFAULT_ICON.COLOR,
 		bgColor = DEFAULT_ICON.BG_COLOR,
+		bgOpacity = DEFAULT_ICON.BG_OPACITY,
 		size = DEFAULT_ICON.SIZE,
 		inActive = false,
 		...restProps
