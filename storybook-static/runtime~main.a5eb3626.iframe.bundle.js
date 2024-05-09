@@ -60,7 +60,7 @@
 				1238: 'stories-ExpandIcon-stories',
 				1246: 'stories-CheckFillIcon-stories',
 				1273: 'stories-FlagFillIcon-stories',
-				1436: 'stories-ExportIcon-stories',
+				1436: 'stories-UploadIcon-stories',
 				1445: 'stories-ArrowLeftIcon-stories',
 				1530: 'stories-MoodIcon-stories',
 				1617: 'stories-MinimizeIcon-stories',

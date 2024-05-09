@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { ExportBgIcon } from '../icons'
+import { UploadCloudIcon } from '../icons'
 
-const meta: Meta<typeof ExportBgIcon> = {
-	component: ExportBgIcon,
-	title: 'general/ExportBgIcon',
+const meta: Meta<typeof UploadCloudIcon> = {
+	component: UploadCloudIcon,
+	title: 'general/UploadCloudIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
@@ -16,7 +16,7 @@ const meta: Meta<typeof ExportBgIcon> = {
 }
 
 export default meta
-type Story = StoryObj<typeof ExportBgIcon>
+type Story = StoryObj<typeof UploadCloudIcon>
 
 export const Default: Story = {}
 
@@ -31,14 +31,6 @@ export const inActive: Story = {
 		inActive: true,
 	},
 }
-
-export const yellowBg: Story = {
-	args: {
-		color: 'black',
-		bgColor: 'yellow',
-	},
-}
-
 export const Large: Story = {
 	args: {
 		size: 30,

@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { UploadCloudIcon } from '../icons'
+import { UploadIcon } from '../icons'
 
-const meta: Meta<typeof UploadCloudIcon> = {
-	component: UploadCloudIcon,
-	title: 'general/UploadCloudIcon',
+const meta: Meta<typeof UploadIcon> = {
+	component: UploadIcon,
+	title: 'general/UploadIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
@@ -16,7 +16,7 @@ const meta: Meta<typeof UploadCloudIcon> = {
 }
 
 export default meta
-type Story = StoryObj<typeof UploadCloudIcon>
+type Story = StoryObj<typeof UploadIcon>
 
 export const Default: Story = {}
 
@@ -31,6 +31,7 @@ export const inActive: Story = {
 		inActive: true,
 	},
 }
+
 export const Large: Story = {
 	args: {
 		size: 30,

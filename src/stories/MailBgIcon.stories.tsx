@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { MailBgIcon } from '../icons/general/MailBgIcon'
+import { MailBgIcon } from '../icons'
 
 const meta: Meta<typeof MailBgIcon> = {
 	component: MailBgIcon,

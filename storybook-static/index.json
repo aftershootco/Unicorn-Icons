@@ -2409,36 +2409,36 @@
 			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"general-exporticon--default": {
+		"general-UploadIcon--default": {
 			"type": "story",
-			"id": "general-exporticon--default",
+			"id": "general-UploadIcon--default",
 			"name": "Default",
-			"title": "general/ExportIcon",
-			"importPath": "./src/stories/ExportIcon.stories.tsx",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"general-exporticon--red": {
+		"general-UploadIcon--red": {
 			"type": "story",
-			"id": "general-exporticon--red",
+			"id": "general-UploadIcon--red",
 			"name": "Red",
-			"title": "general/ExportIcon",
-			"importPath": "./src/stories/ExportIcon.stories.tsx",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"general-exporticon--in-active": {
+		"general-UploadIcon--in-active": {
 			"type": "story",
-			"id": "general-exporticon--in-active",
+			"id": "general-UploadIcon--in-active",
 			"name": "In Active",
-			"title": "general/ExportIcon",
-			"importPath": "./src/stories/ExportIcon.stories.tsx",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"general-exporticon--large": {
+		"general-UploadIcon--large": {
 			"type": "story",
-			"id": "general-exporticon--large",
+			"id": "general-UploadIcon--large",
 			"name": "Large",
-			"title": "general/ExportIcon",
-			"importPath": "./src/stories/ExportIcon.stories.tsx",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-eyecheckedicon--default": {
