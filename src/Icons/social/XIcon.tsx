@@ -17,7 +17,6 @@ export const XIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef
 	// variants
 	const primary = (
 		<svg
-			height='2em'
 			viewBox='0 0 300 300'
 			version='1.1'
 			xmlns='http://www.w3.org/2000/svg'

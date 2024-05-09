@@ -5,7 +5,7 @@ import { TwitterOutlineIcon } from '../icons'
 
 const meta: Meta<typeof TwitterOutlineIcon> = {
 	component: TwitterOutlineIcon,
-	title: 'social/TwitterOutlineIcon',
+	title: 'deleted/TwitterOutlineIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>

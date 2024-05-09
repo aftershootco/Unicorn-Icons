@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { TwitterBgIcon } from '../icons'
+import { TwitterBgIcon } from '../deleted-icons/TwitterBgIcon'
 
 const meta: Meta<typeof TwitterBgIcon> = {
 	component: TwitterBgIcon,
-	title: 'social/TwitterBgIcon',
+	title: 'deleted/TwitterBgIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>

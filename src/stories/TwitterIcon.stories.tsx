@@ -5,7 +5,7 @@ import { TwitterIcon } from '../icons'
 
 const meta: Meta<typeof TwitterIcon> = {
 	component: TwitterIcon,
-	title: 'social/TwitterIcon',
+	title: 'deleted/TwitterIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
