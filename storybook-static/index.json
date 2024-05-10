@@ -5369,68 +5369,68 @@
 			"importPath": "./src/stories/SprayCircleIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-stack2icon--default": {
+		"culling-StackTwoIcon--default": {
 			"type": "story",
-			"id": "culling-stack2icon--default",
+			"id": "culling-StackTwoIcon--default",
 			"name": "Default",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-stack2icon--red": {
+		"culling-StackTwoIcon--red": {
 			"type": "story",
-			"id": "culling-stack2icon--red",
+			"id": "culling-StackTwoIcon--red",
 			"name": "Red",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-stack2icon--in-active": {
+		"culling-StackTwoIcon--in-active": {
 			"type": "story",
-			"id": "culling-stack2icon--in-active",
+			"id": "culling-StackTwoIcon--in-active",
 			"name": "In Active",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-stack2icon--large": {
+		"culling-StackTwoIcon--large": {
 			"type": "story",
-			"id": "culling-stack2icon--large",
+			"id": "culling-StackTwoIcon--large",
 			"name": "Large",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-stackicon--default": {
 			"type": "story",
 			"id": "culling-stackicon--default",
 			"name": "Default",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-stackicon--red": {
 			"type": "story",
 			"id": "culling-stackicon--red",
 			"name": "Red",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-stackicon--in-active": {
 			"type": "story",
 			"id": "culling-stackicon--in-active",
 			"name": "In Active",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-stackicon--large": {
 			"type": "story",
 			"id": "culling-stackicon--large",
 			"name": "Large",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"general-starcrossedicon--default": {

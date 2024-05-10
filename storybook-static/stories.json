@@ -7211,85 +7211,85 @@
 			"story": "Large",
 			"parameters": { "__id": "culling-spraycircleicon--large", "docsOnly": false, "fileName": "./src/stories/SprayCircleIcon.stories.tsx" }
 		},
-		"culling-stack2icon--default": {
-			"id": "culling-stack2icon--default",
+		"culling-StackTwoIcon--default": {
+			"id": "culling-StackTwoIcon--default",
 			"name": "Default",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/Stack2Icon",
+			"kind": "culling/StackTwoIcon",
 			"story": "Default",
-			"parameters": { "__id": "culling-stack2icon--default", "docsOnly": false, "fileName": "./src/stories/Stack2Icon.stories.tsx" }
+			"parameters": { "__id": "culling-StackTwoIcon--default", "docsOnly": false, "fileName": "./src/stories/StackTwoIcon.stories.tsx" }
 		},
-		"culling-stack2icon--red": {
-			"id": "culling-stack2icon--red",
+		"culling-StackTwoIcon--red": {
+			"id": "culling-StackTwoIcon--red",
 			"name": "Red",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/Stack2Icon",
+			"kind": "culling/StackTwoIcon",
 			"story": "Red",
-			"parameters": { "__id": "culling-stack2icon--red", "docsOnly": false, "fileName": "./src/stories/Stack2Icon.stories.tsx" }
+			"parameters": { "__id": "culling-StackTwoIcon--red", "docsOnly": false, "fileName": "./src/stories/StackTwoIcon.stories.tsx" }
 		},
-		"culling-stack2icon--in-active": {
-			"id": "culling-stack2icon--in-active",
+		"culling-StackTwoIcon--in-active": {
+			"id": "culling-StackTwoIcon--in-active",
 			"name": "In Active",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/Stack2Icon",
+			"kind": "culling/StackTwoIcon",
 			"story": "In Active",
-			"parameters": { "__id": "culling-stack2icon--in-active", "docsOnly": false, "fileName": "./src/stories/Stack2Icon.stories.tsx" }
+			"parameters": { "__id": "culling-StackTwoIcon--in-active", "docsOnly": false, "fileName": "./src/stories/StackTwoIcon.stories.tsx" }
 		},
-		"culling-stack2icon--large": {
-			"id": "culling-stack2icon--large",
+		"culling-StackTwoIcon--large": {
+			"id": "culling-StackTwoIcon--large",
 			"name": "Large",
-			"title": "culling/Stack2Icon",
-			"importPath": "./src/stories/Stack2Icon.stories.tsx",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/Stack2Icon",
+			"kind": "culling/StackTwoIcon",
 			"story": "Large",
-			"parameters": { "__id": "culling-stack2icon--large", "docsOnly": false, "fileName": "./src/stories/Stack2Icon.stories.tsx" }
+			"parameters": { "__id": "culling-StackTwoIcon--large", "docsOnly": false, "fileName": "./src/stories/StackTwoIcon.stories.tsx" }
 		},
 		"culling-stackicon--default": {
 			"id": "culling-stackicon--default",
 			"name": "Default",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/StackIcon",
+			"kind": "culling/StackThreeIcon",
 			"story": "Default",
-			"parameters": { "__id": "culling-stackicon--default", "docsOnly": false, "fileName": "./src/stories/StackIcon.stories.tsx" }
+			"parameters": { "__id": "culling-stackicon--default", "docsOnly": false, "fileName": "./src/stories/StackThreeIcon.stories.tsx" }
 		},
 		"culling-stackicon--red": {
 			"id": "culling-stackicon--red",
 			"name": "Red",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/StackIcon",
+			"kind": "culling/StackThreeIcon",
 			"story": "Red",
-			"parameters": { "__id": "culling-stackicon--red", "docsOnly": false, "fileName": "./src/stories/StackIcon.stories.tsx" }
+			"parameters": { "__id": "culling-stackicon--red", "docsOnly": false, "fileName": "./src/stories/StackThreeIcon.stories.tsx" }
 		},
 		"culling-stackicon--in-active": {
 			"id": "culling-stackicon--in-active",
 			"name": "In Active",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/StackIcon",
+			"kind": "culling/StackThreeIcon",
 			"story": "In Active",
-			"parameters": { "__id": "culling-stackicon--in-active", "docsOnly": false, "fileName": "./src/stories/StackIcon.stories.tsx" }
+			"parameters": { "__id": "culling-stackicon--in-active", "docsOnly": false, "fileName": "./src/stories/StackThreeIcon.stories.tsx" }
 		},
 		"culling-stackicon--large": {
 			"id": "culling-stackicon--large",
 			"name": "Large",
-			"title": "culling/StackIcon",
-			"importPath": "./src/stories/StackIcon.stories.tsx",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/StackIcon",
+			"kind": "culling/StackThreeIcon",
 			"story": "Large",
-			"parameters": { "__id": "culling-stackicon--large", "docsOnly": false, "fileName": "./src/stories/StackIcon.stories.tsx" }
+			"parameters": { "__id": "culling-stackicon--large", "docsOnly": false, "fileName": "./src/stories/StackThreeIcon.stories.tsx" }
 		},
 		"general-starcrossedicon--default": {
 			"id": "general-starcrossedicon--default",

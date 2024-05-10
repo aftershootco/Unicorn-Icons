@@ -3,11 +3,13 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type Props = IconProps & {
+type IconVariant = 'primary'
+type Props = Omit<IconProps, 'variant'> & {
+	variant?: IconVariant
 	inActive?: boolean
 }
 
-export const StackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const StackTwoIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -25,10 +27,9 @@ export const StackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<g id='stack' clip-path='url(#clip0_3666_14537)'>
+			<g clip-path='url(#clip0_8312_3364)'>
 				<path
-					id='Vector'
-					d='M10.0002 3.33334L3.3335 6.66667L10.0002 10L16.6668 6.66667L10.0002 3.33334Z'
+					d='M10.0002 5L3.3335 8.33333L10.0002 11.6667L16.6668 8.33333L10.0002 5Z'
 					fill={modifiedColor}
 					stroke={modifiedColor}
 					stroke-width='2'
@@ -36,24 +37,15 @@ export const StackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 					stroke-linejoin='round'
 				/>
 				<path
-					id='Vector_2'
-					d='M3.3335 10L10.0002 13.3333L16.6668 10'
+					d='M3.3335 11.6666L10.0002 15L16.6668 11.6666'
 					stroke={modifiedColor}
 					stroke-width='2'
 					stroke-linecap='round'
-					stroke-linejoin='round'
-				/>
-				<path
-					id='Vector_3'
-					d='M3.3335 13.3333L10.0002 16.6667L16.6668 13.3333'
-					stroke={modifiedColor}
-					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					stroke-linejoin='bevel'
 				/>
 			</g>
 			<defs>
-				<clipPath id='clip0_3666_14537'>
+				<clipPath id='clip0_8312_3364'>
 					<rect width='20' height='20' fill='white' />
 				</clipPath>
 			</defs>
@@ -62,4 +54,4 @@ export const StackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(StackIcon)
+export default React.memo(StackTwoIcon)

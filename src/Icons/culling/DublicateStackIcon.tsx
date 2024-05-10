@@ -9,7 +9,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-export const DublicateStackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const DublicateStackThreeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
@@ -51,4 +51,4 @@ export const DublicateStackIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(DublicateStackIcon)
+export default React.memo(DublicateStackThreeIcon)
