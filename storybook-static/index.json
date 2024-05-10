@@ -4401,36 +4401,36 @@
 			"importPath": "./src/stories/OpenlinkIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-personicon--default": {
+		"culling-PersonTwoIcon--default": {
 			"type": "story",
-			"id": "culling-personicon--default",
+			"id": "culling-PersonTwoIcon--default",
 			"name": "Default",
-			"title": "culling/PersonIcon",
-			"importPath": "./src/stories/PersonIcon.stories.tsx",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-personicon--red": {
+		"culling-PersonTwoIcon--red": {
 			"type": "story",
-			"id": "culling-personicon--red",
+			"id": "culling-PersonTwoIcon--red",
 			"name": "Red",
-			"title": "culling/PersonIcon",
-			"importPath": "./src/stories/PersonIcon.stories.tsx",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-personicon--in-active": {
+		"culling-PersonTwoIcon--in-active": {
 			"type": "story",
-			"id": "culling-personicon--in-active",
+			"id": "culling-PersonTwoIcon--in-active",
 			"name": "In Active",
-			"title": "culling/PersonIcon",
-			"importPath": "./src/stories/PersonIcon.stories.tsx",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-personicon--large": {
+		"culling-PersonTwoIcon--large": {
 			"type": "story",
-			"id": "culling-personicon--large",
+			"id": "culling-PersonTwoIcon--large",
 			"name": "Large",
-			"title": "culling/PersonIcon",
-			"importPath": "./src/stories/PersonIcon.stories.tsx",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"general-pipeicon--default": {

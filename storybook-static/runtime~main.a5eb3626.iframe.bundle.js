@@ -47,7 +47,7 @@
 				181: 'stories-EditProgressIcon-stories',
 				216: 'stories-HomeIcon-stories',
 				232: 'stories-FaceHappyIcon-stories',
-				465: 'stories-PersonIcon-stories',
+				465: 'stories-PersonTwoIcon-stories',
 				477: 'stories-LightroomClassicIcon-stories',
 				511: 'stories-FailFillIcon-stories',
 				514: 'stories-CollectionsIcon-stories',
