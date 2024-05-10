@@ -52,6 +52,7 @@ export * from './InfoCircleIcon';
 export * from './LrUploadIcon';
 export * from './MailBgIcon';
 export * from './OpenlinkIcon';
+export * from './PauseBgIcon';
 export * from './PersonIcon';
 export * from './PersonPlusIcon';
 export * from './PipeIcon';

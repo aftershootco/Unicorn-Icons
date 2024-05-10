@@ -48,7 +48,10 @@ yarn build
 
 5. Now run `sh export.sh`. This will export the newly created components, ready to be used.
 
-    You are all set
+Inside the stories - The import of newly created component should look like this -
+`import { NewlyCreatedComponent } from '../icons'`
+
+You are all set
 
 ## Control Secondary Color
 

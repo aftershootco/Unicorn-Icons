@@ -3,7 +3,7 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type IconVariant = 'primary'
+type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 	inActive?: boolean
@@ -33,7 +33,46 @@ export const HomeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 			/>
 		</svg>
 	)
-	return <BaseIcon variants={{ primary }} variant={variant} />
+
+	const secondary = (
+		<svg
+			width='36'
+			height='36'
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			style={{ width: size, height: (20 / 21) * size }}
+			{...restProps}
+			ref={forwardedRef}
+		>
+			<g clip-path='url(#clip0_5678_4238)'>
+				<path d='M4.5 31.5H31.5' stroke={modifiedColor} stroke-width='2.57143' stroke-linecap='round' stroke-linejoin='round' />
+				<path
+					d='M4.5 10.5V12C4.5 13.1935 4.97411 14.3381 5.81802 15.182C6.66193 16.0259 7.80653 16.5 9 16.5C10.1935 16.5 11.3381 16.0259 12.182 15.182C13.0259 14.3381 13.5 13.1935 13.5 12M4.5 10.5H13.5V12M4.5 10.5H31.5M4.5 10.5L7.5 4.5H28.5L31.5 10.5M13.5 12C13.5 13.1935 13.9741 14.3381 14.818 15.182C15.6619 16.0259 16.8065 16.5 18 16.5C19.1935 16.5 20.3381 16.0259 21.182 15.182C22.0259 14.3381 22.5 13.1935 22.5 12M22.5 12V10.5M22.5 12C22.5 13.1935 22.9741 14.3381 23.818 15.182C24.6619 16.0259 25.8065 16.5 27 16.5C28.1935 16.5 29.3381 16.0259 30.182 15.182C31.0259 14.3381 31.5 13.1935 31.5 12V10.5'
+					stroke={modifiedColor}
+					stroke-width='2.57143'
+					stroke-linecap='round'
+					stroke-linejoin='round'
+				/>
+				<path d='M7.5 31.5V16.275' stroke={modifiedColor} stroke-width='2.57143' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M28.5 31.5V16.275' stroke={modifiedColor} stroke-width='2.57143' stroke-linecap='round' stroke-linejoin='round' />
+				<path
+					d='M13.5 31.5V25.5C13.5 24.7044 13.8161 23.9413 14.3787 23.3787C14.9413 22.8161 15.7044 22.5 16.5 22.5H19.5C20.2956 22.5 21.0587 22.8161 21.6213 23.3787C22.1839 23.9413 22.5 24.7044 22.5 25.5V31.5'
+					stroke={modifiedColor}
+					stroke-width='2.57143'
+					stroke-linecap='round'
+					stroke-linejoin='round'
+				/>
+			</g>
+			<defs>
+				<clipPath id='clip0_5678_4238'>
+					<rect width='36' height='36' fill='white' />
+				</clipPath>
+			</defs>
+		</svg>
+	)
+
+	return <BaseIcon variants={{ primary, secondary }} variant={variant} />
 })
 
 export default React.memo(HomeIcon)
