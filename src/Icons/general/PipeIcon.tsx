@@ -16,18 +16,11 @@ export const PipeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={(1 / 20) * size}
-			height={size}
-			viewBox='0 0 1 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (1 / 20) * size, height: size }}
-			ref={forwardedRef}
-			{...restProps}
-		>
+		<svg viewBox='0 0 1 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
 			<line x1='0.5' x2='0.5' y2='20' stroke={modifiedColor} />
 		</svg>
 	)

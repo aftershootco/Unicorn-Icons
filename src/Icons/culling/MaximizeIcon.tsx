@@ -16,41 +16,35 @@ export const MaximizeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
+	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 22 22'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_12221_38684)'>
+		<svg viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_12221_38684)'>
 				<path
 					d='M5 8V6.5C5 6.10218 5.15804 5.72064 5.43934 5.43934C5.72064 5.15804 6.10218 5 6.5 5H8'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					d='M5 14V15.5C5 15.8978 5.15804 16.2794 5.43934 16.5607C5.72064 16.842 6.10218 17 6.5 17H8'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					d='M14 5H15.5C15.8978 5 16.2794 5.15804 16.5607 5.43934C16.842 5.72064 17 6.10218 17 6.5V8'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					d='M14 17H15.5C15.8978 17 16.2794 16.842 16.5607 16.5607C16.842 16.2794 17 15.8978 17 15.5V14'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>
@@ -61,15 +55,12 @@ export const MaximizeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 		</svg>
 	)
 
-	// variants
 	const secondary = (
 		<svg
-			width={size}
-			height={size}
 			viewBox='0 0 11 11'
 			fill={modifiedColor}
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

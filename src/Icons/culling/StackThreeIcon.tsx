@@ -13,43 +13,36 @@ export const StackThreeIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 20 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g id='stack' clip-path='url(#clip0_3666_14537)'>
+		<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g id='stack' clipPath='url(#clip0_3666_14537)'>
 				<path
 					id='Vector'
 					d='M10.0002 3.33334L3.3335 6.66667L10.0002 10L16.6668 6.66667L10.0002 3.33334Z'
 					fill={modifiedColor}
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='Vector_2'
 					d='M3.3335 10L10.0002 13.3333L16.6668 10'
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					id='Vector_3'
 					d='M3.3335 13.3333L10.0002 16.6667L16.6668 13.3333'
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>

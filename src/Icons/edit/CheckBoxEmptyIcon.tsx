@@ -15,18 +15,11 @@ export const CheckBoxEmptyIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 16 16'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect width='16' height='16' rx='3' fill={modifiedColor} fillOpacity='0.3' />
 			<rect x='0.5' y='0.5' width='15' height='15' rx='2.5' stroke={modifiedColor} stroke-opacity='0.3' />
 		</svg>

@@ -17,14 +17,15 @@ export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 
 	let modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
+	// variants
 	const primary = (
 		<svg
-			width={size}
-			height={size}
 			viewBox='0 0 11 11'
 			fill={modifiedColor}
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			ref={forwardedRef}
 			{...restProps}
 		>
@@ -36,24 +37,15 @@ export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 	)
 
 	const secondary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 16 16'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			ref={forwardedRef}
-			{...restProps}
-		>
-			<g id='close' clip-path='url(#clip0_6529_137298)'>
+		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+			<g id='close' clipPath='url(#clip0_6529_137298)'>
 				<path
 					id='Vector'
 					d='M12 4L4 12M4 4L12 12L4 4Z'
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>

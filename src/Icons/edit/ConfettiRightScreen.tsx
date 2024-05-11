@@ -11,18 +11,11 @@ export const ConfettiRightScreen = React.forwardRef<SVGSVGElement, Props>((props
 	//props
 	const { variant = 'primary', size = 300, ...restProps } = props
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={(226 / 329) * size}
-			height={size}
-			viewBox='0 0 245 329'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (226 / 329) * size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 245 329' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<g opacity='.6'>
 				<g opacity='.3'>
 					<path

@@ -15,18 +15,11 @@ export const RecullIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 46 46'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<path
 				d='M44.3307 20.3339C43.6786 15.6411 41.5016 11.2929 38.1351 7.95917C34.7686 4.6254 30.3994 2.49097 25.7005 1.88466C21.0016 1.27835 16.2337 2.2338 12.1313 4.60384C8.02881 6.97388 4.81939 10.627 2.9974 15.0005M1.66406 4.33385V15.0005H12.3307M1.66406 25.6673C2.31622 30.3601 4.49321 34.7082 7.85969 38.042C11.2262 41.3758 15.5954 43.5102 20.2943 44.1165C24.9932 44.7228 29.7611 43.7674 33.8635 41.3973C37.966 39.0273 41.1754 35.3742 42.9974 31.0007M44.3307 41.6673V31.0007H33.6641'
 				stroke={modifiedColor}

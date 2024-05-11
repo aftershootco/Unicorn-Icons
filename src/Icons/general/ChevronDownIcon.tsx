@@ -16,15 +16,15 @@ export const ChevronDownIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
-			width={size}
-			height={size}
 			viewBox='0 0 24 24'
 			xmlns='http://www.w3.org/2000/svg'
 			fill={modifiedColor}
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>
@@ -39,7 +39,7 @@ export const ChevronDownIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 			viewBox='0 0 18 11'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>
@@ -49,8 +49,8 @@ export const ChevronDownIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 					stroke={modifiedColor}
 					stroke-opacity='.8'
 					stroke-width='1.5'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				></path>
 			</g>
 		</svg>

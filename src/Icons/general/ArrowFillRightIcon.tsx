@@ -15,18 +15,11 @@ export const ArrowFillRightIcon = React.forwardRef<SVGSVGElement, Props>((props,
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={(6 / 12) * size}
-			height={size}
-			viewBox='0 0 6 12'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (6 / 12) * size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 6 12' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<path d='M0.25 11.5L5.75 6L0.25 0.5L0.25 11.5Z' fill={modifiedColor} />
 		</svg>
 	)

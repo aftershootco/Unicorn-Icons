@@ -15,15 +15,15 @@ export const MenuIcon = React.forwardRef<SVGSVGElement, IconProps>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
 			viewBox='0 0 24 24'
-			width={size}
-			height={size}
 			fill={modifiedColor}
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

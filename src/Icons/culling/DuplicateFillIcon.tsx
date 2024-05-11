@@ -15,18 +15,11 @@ export const DuplicateFillIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 12 12'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<path
 				d='M10.5 0H1.5C0.671573 0 0 0.671573 0 1.5V3C0 3.82843 0.671573 4.5 1.5 4.5H10.5C11.3284 4.5 12 3.82843 12 3V1.5C12 0.671573 11.3284 0 10.5 0Z'
 				fill={modifiedColor}

@@ -13,23 +13,16 @@ export const SortIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 20 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_12903_26949)'>
-				<path d='M5.83398 2.5V17.5' stroke={modifiedColor} stroke-width='2' stroke-linejoin='round' />
-				<path d='M8.33398 5L5.83398 2.5L3.33398 5' stroke={modifiedColor} stroke-width='2' stroke-linecap='square' stroke-linejoin='round' />
-				<path d='M16.666 15L14.166 17.5L11.666 15' stroke={modifiedColor} stroke-width='2' stroke-linecap='square' stroke-linejoin='round' />
-				<path d='M14.166 17.5V2.5' stroke={modifiedColor} stroke-width='2' stroke-linejoin='round' />
+		<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_12903_26949)'>
+				<path d='M5.83398 2.5V17.5' stroke={modifiedColor} stroke-width='2' strokeLinejoin='round' />
+				<path d='M8.33398 5L5.83398 2.5L3.33398 5' stroke={modifiedColor} stroke-width='2' strokeLinecap='square' strokeLinejoin='round' />
+				<path d='M16.666 15L14.166 17.5L11.666 15' stroke={modifiedColor} stroke-width='2' strokeLinecap='square' strokeLinejoin='round' />
+				<path d='M14.166 17.5V2.5' stroke={modifiedColor} stroke-width='2' strokeLinejoin='round' />
 			</g>
 			<defs>
 				<clipPath id='clip0_12903_26949'>

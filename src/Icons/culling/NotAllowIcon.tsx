@@ -15,26 +15,19 @@ export const NotAllowIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 24 24'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<path
 				d='M12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5C6.20101 1.5 1.5 6.20101 1.5 12C1.5 17.799 6.20101 22.5 12 22.5Z'
 				stroke={modifiedColor}
 				stroke-width='2'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
-			<path d='M5.07544 19.4246L19 5' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+			<path d='M5.07544 19.4246L19 5' stroke={modifiedColor} stroke-width='2' strokeLinecap='round' strokeLinejoin='round' />
 		</svg>
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />

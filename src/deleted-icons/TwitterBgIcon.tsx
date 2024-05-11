@@ -16,6 +16,8 @@ export const TwitterBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg

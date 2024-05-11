@@ -12,6 +12,8 @@ export const CreditIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
@@ -20,7 +22,7 @@ export const CreditIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 			viewBox='0 0 18 19'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

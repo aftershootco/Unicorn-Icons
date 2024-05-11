@@ -15,23 +15,21 @@ export const FacebookIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 
 	const primary = (
 		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 9 18'
-			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			x='0px'
+			y='0px'
+			viewBox='0 0 24 24'
+			style={{ width: iconSize, fill: modifiedColor }}
 			ref={forwardedRef}
 			{...restProps}
 		>
-			<path
-				d='M2.43 17.675v-7.91H.364V6.917H2.43V4.485C2.43 2.573 3.651.818 6.464.818c1.139 0 1.981.11 1.981.11l-.066 2.66s-.86-.008-1.796-.008c-1.015 0-1.177.473-1.177 1.258v2.08h3.053l-.133 2.847h-2.92v7.91H2.43Z'
-				fill={modifiedColor}
-			/>
+			<path d='M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z'></path>
 		</svg>
 	)
 

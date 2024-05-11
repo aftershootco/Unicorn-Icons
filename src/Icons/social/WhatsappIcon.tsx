@@ -14,16 +14,16 @@ export const WhatsappIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
 			x='0px'
 			y='0px'
-			width='100'
-			height='100'
 			viewBox='0 0 24 24'
-			style={{ width: size, height: size, fill: modifiedColor }}
+			style={{ width: iconSize, fill: modifiedColor }}
 			{...restProps}
 			ref={forwardedRef}
 		>

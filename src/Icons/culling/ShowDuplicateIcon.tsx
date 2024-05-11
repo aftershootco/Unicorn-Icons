@@ -15,6 +15,8 @@ export const ShowDuplicateIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
@@ -23,23 +25,23 @@ export const ShowDuplicateIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 			viewBox='0 0 22 22'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<g clip-path='url(#clip0_12220_36387)'>
+			<g clipPath='url(#clip0_12220_36387)'>
 				<path
 					d='M15.5 5H6.5C5.67157 5 5 5.67157 5 6.5V8C5 8.82843 5.67157 9.5 6.5 9.5H15.5C16.3284 9.5 17 8.82843 17 8V6.5C17 5.67157 16.3284 5 15.5 5Z'
 					fill={modifiedColor}
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					d='M15.5 12.5H6.5C5.67157 12.5 5 13.1716 5 14V15.5C5 16.3284 5.67157 17 6.5 17H15.5C16.3284 17 17 16.3284 17 15.5V14C17 13.1716 16.3284 12.5 15.5 12.5Z'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>

@@ -14,17 +14,20 @@ export const XIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
-			viewBox='0 0 300 300'
-			version='1.1'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size, fill: modifiedColor }}
+			x='0px'
+			y='0px'
+			viewBox='0 0 32 32'
+			style={{ width: iconSize, fill: modifiedColor }}
 			{...restProps}
 			ref={forwardedRef}
 		>
-			<path d='M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66'></path>
+			<path d='M 4.0175781 4 L 13.091797 17.609375 L 4.3359375 28 L 6.9511719 28 L 14.246094 19.34375 L 20.017578 28 L 20.552734 28 L 28.015625 28 L 18.712891 14.042969 L 27.175781 4 L 24.560547 4 L 17.558594 12.310547 L 12.017578 4 L 4.0175781 4 z M 7.7558594 6 L 10.947266 6 L 24.279297 26 L 21.087891 26 L 7.7558594 6 z'></path>
 		</svg>
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />

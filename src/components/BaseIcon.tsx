@@ -18,7 +18,7 @@ const BaseIcon = React.forwardRef<HTMLSpanElement, BaseIconProps>((props, forwar
 			role='img'
 			aria-label={iconLabel}
 			aria-hidden='false'
-			style={{ display: 'block', height: 'max-height', width: 'max-width' }}
+			style={{ display: 'block-inline', height: 'max-height', width: 'max-width' }}
 		>
 			{variants[variant]}
 		</span>

@@ -25,29 +25,22 @@ export const AlertHexagonBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 20 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: (46 / 54) * size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<g filter='url(#filter0_b_14013_43614)'>
 				<rect width='20' height='20' rx='6' fill={bgColor} fillOpacity={bgOpacity} />
-				<g clip-path='url(#clip0_14013_43614)'>
+				<g clipPath='url(#clip0_14013_43614)'>
 					<path
 						d='M8.35 5.5H11.65C11.8 5.5 11.9 5.55 12 5.65L14.35 8C14.45 8.1 14.5 8.2 14.5 8.35V11.65C14.5 11.8 14.45 11.9 14.35 12L12 14.35C11.9 14.45 11.8 14.5 11.65 14.5H8.35C8.2 14.5 8.1 14.45 8 14.35L5.65 12C5.55 11.9 5.5 11.8 5.5 11.65V8.35C5.5 8.2 5.55 8.1 5.65 8L8 5.65C8.1 5.55 8.2 5.5 8.35 5.5V5.5Z'
 						stroke={modifiedColor}
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
-					<path d='M10 8V10' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
-					<path d='M10 12H10.005' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
+					<path d='M10 8V10' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
+					<path d='M10 12H10.005' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
 				</g>
 			</g>
 			<defs>

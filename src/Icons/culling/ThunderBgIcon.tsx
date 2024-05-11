@@ -20,16 +20,16 @@ export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 		...restProps
 	} = props
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
-			width={size}
-			height={size}
 			viewBox='0 0 24 24'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

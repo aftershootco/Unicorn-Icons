@@ -13,16 +13,16 @@ export const CaptureOneIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
-			width={size}
-			height={size}
 			viewBox='0 0 32 32'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			ref={forwardedRef}
 			{...restProps}
 		>

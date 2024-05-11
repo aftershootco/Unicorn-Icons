@@ -15,21 +15,14 @@ export const FlagFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 20 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_421_146525)'>
+		<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_421_146525)'>
 				<path d='M4.1665 11.6667H15.8332V4.16675H4.1665V17.5001' fill={modifiedColor} />
-				<path d='M4.1665 11.6667H15.8332V4.16675H4.1665V17.5001' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M4.1665 11.6667H15.8332V4.16675H4.1665V17.5001' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
 			</g>
 			<defs>
 				<clipPath id='clip0_421_146525'>

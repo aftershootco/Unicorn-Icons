@@ -12,7 +12,7 @@ export type TOnHoverAttr = {
 export interface IconProps extends React.SVGAttributes<SVGElement> {
 	variant?: IconVariant
 	color?: string
-	size?: number
+	size?: number | string
 	inActive?: boolean
 	className?: string
 }

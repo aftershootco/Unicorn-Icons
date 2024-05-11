@@ -13,17 +13,17 @@ export const AfterShootLogoIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
-	// VARIANTS
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
+	// variants
 
 	const primary = (
 		<svg
-			width={size}
-			height={(30 / 32) * size}
 			viewBox='0 0 32 30'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: size, height: (30 / 32) * size }}
+			style={{ width: iconSize }}
 			ref={forwardedRef}
 			{...restProps}
 		>

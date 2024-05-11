@@ -16,31 +16,24 @@ export const ListSelectedIcon = React.forwardRef<SVGSVGElement, Props>((props, f
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 22 22'
-			fill='#E2E2E2'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_12220_36387)'>
+		<svg viewBox='0 0 22 22' fill='#E2E2E2' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_12220_36387)'>
 				<path
 					d='M15.5 5H6.5C5.67157 5 5 5.67157 5 6.5V8C5 8.82843 5.67157 9.5 6.5 9.5H15.5C16.3284 9.5 17 8.82843 17 8V6.5C17 5.67157 16.3284 5 15.5 5Z'
 					fill={color}
 					stroke={color}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 				<path
 					d='M15.5 12.5H6.5C5.67157 12.5 5 13.1716 5 14V15.5C5 16.3284 5.67157 17 6.5 17H15.5C16.3284 17 17 16.3284 17 15.5V14C17 13.1716 16.3284 12.5 15.5 12.5Z'
 					stroke={color}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>
@@ -52,16 +45,7 @@ export const ListSelectedIcon = React.forwardRef<SVGSVGElement, Props>((props, f
 	)
 
 	const secondary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 16 16'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect y='8.889' width='16' height='7.111' rx='1' fill={modifiedColor} opacity='.3' />
 			<rect width='16' height='7.111' rx='1' fill={modifiedColor} />
 		</svg>

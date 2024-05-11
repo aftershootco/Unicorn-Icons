@@ -15,15 +15,15 @@ export const ChevronRightIcon = React.forwardRef<SVGSVGElement, Props>((props, f
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
-			width={size}
-			height={size}
 			viewBox='0 0 24 24'
 			fill={modifiedColor}
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			ref={forwardedRef}
 			{...restProps}
 		>
@@ -32,17 +32,8 @@ export const ChevronRightIcon = React.forwardRef<SVGSVGElement, Props>((props, f
 	)
 
 	const secondary = (
-		<svg
-			width={(11 / 8) * size}
-			height={size}
-			viewBox='0 0 11 18'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (11 / 8) * size, height: size }}
-			ref={forwardedRef}
-			{...restProps}
-		>
-			<path d='M1.53 1.059 9.47 9l-7.94 7.941' stroke={modifiedColor} stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' />
+		<svg viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+			<path d='M1.53 1.059 9.47 9l-7.94 7.941' stroke={modifiedColor} stroke-width='1.5' strokeLinecap='round' strokeLinejoin='round' />
 		</svg>
 	)
 

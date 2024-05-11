@@ -12,16 +12,16 @@ export const FacebookPeopleIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	//props
 	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
-			width={size}
-			height={(35 / 101) * size}
 			viewBox='0 0 101 35'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: size, height: (35 / 101) * size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

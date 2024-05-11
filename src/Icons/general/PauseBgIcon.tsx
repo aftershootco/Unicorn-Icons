@@ -24,6 +24,8 @@ export const PauseBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
@@ -32,12 +34,12 @@ export const PauseBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 			viewBox='0 0 96 96'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>
 			<rect width='96' height='96' rx='48' fill={bgColor} fill-opacity={bgOpacity} />
-			<g clip-path='url(#clip0_552_29010)'>
+			<g clipPath='url(#clip0_552_29010)'>
 				<path
 					d='M40 29.3333H34.6667C33.1939 29.3333 32 30.5272 32 32V64C32 65.4727 33.1939 66.6666 34.6667 66.6666H40C41.4728 66.6666 42.6667 65.4727 42.6667 64V32C42.6667 30.5272 41.4728 29.3333 40 29.3333Z'
 					fill={modifiedColor}

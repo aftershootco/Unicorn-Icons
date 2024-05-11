@@ -25,20 +25,13 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 18 18'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			ref={forwardedRef}
-			{...restProps}
-		>
+		<svg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
 			<rect width='18' height='18' rx='9' fill={bgColor} fillOpacity={bgOpacity} />
-			<g clip-path='url(#clip0_3425_12220)'>
+			<g clipPath='url(#clip0_3425_12220)'>
 				<path
 					fill-rule='evenodd'
 					clip-rule='evenodd'
@@ -59,24 +52,15 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 	)
 
 	const secondary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 18 18'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			ref={forwardedRef}
-			{...restProps}
-		>
+		<svg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
 			<rect width='18.0001' height='18.0001' rx='9.00004' fill={bgColor} fillOpacity='0.2' />
-			<g clip-path='url(#clip0_1949_62927)'>
+			<g clipPath='url(#clip0_1949_62927)'>
 				<path
 					d='M9.00003 6L11 9.00002L13.5001 7.00001L12.5001 12H5.50001L4.5 7.00001L7.00002 9.00002L9.00003 6Z'
 					stroke={modifiedColor}
 					stroke-width='1.00001'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<defs>

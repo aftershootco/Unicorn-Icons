@@ -24,34 +24,27 @@ export const MoodIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={(31 / 33) * size}
-			height={size}
-			viewBox='0 0 31 33'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: (31 / 33) * size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_8303_7763)'>
+		<svg viewBox='0 0 31 33' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_8303_7763)'>
 				<path
 					d='M14 29.5C19.799 29.5 24.5 24.799 24.5 19C24.5 13.201 19.799 8.5 14 8.5C8.20101 8.5 3.5 13.201 3.5 19C3.5 24.799 8.20101 29.5 14 29.5Z'
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
-				<path d='M10.5 16.6667H10.5117' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
-				<path d='M17.5 16.6667H17.5117' stroke={modifiedColor} stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M10.5 16.6667H10.5117' stroke={modifiedColor} stroke-width='2' strokeLinecap='round' strokeLinejoin='round' />
+				<path d='M17.5 16.6667H17.5117' stroke={modifiedColor} stroke-width='2' strokeLinecap='round' strokeLinejoin='round' />
 				<path
 					d='M11.0834 22.5C11.4636 22.888 11.9174 23.1963 12.4182 23.4067C12.919 23.6172 13.4568 23.7256 14 23.7256C14.5433 23.7256 15.0811 23.6172 15.5819 23.4067C16.0827 23.1963 16.5365 22.888 16.9167 22.5'
 					stroke={modifiedColor}
 					stroke-width='2'
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
 			</g>
 			<path
@@ -59,7 +52,7 @@ export const MoodIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 				fill={modifiedColor}
 				stroke={accentColor}
 				stroke-width='2'
-				stroke-linejoin='round'
+				strokeLinejoin='round'
 			/>
 			<defs>
 				<clipPath id='clip0_8303_7763'>

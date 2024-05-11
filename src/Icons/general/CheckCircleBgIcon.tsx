@@ -26,27 +26,20 @@ export const CheckCircleBgIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 29 29'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect x='0.352539' y='0.701172' width='28' height='28' rx='14' fill={bgColor} fillOpacity={bgOpacity} />
-			<g clip-path='url(#clip0_13980_30785)'>
+			<g clipPath='url(#clip0_13980_30785)'>
 				<path
 					d='M14.3525 22.2012C18.4947 22.2012 21.8525 18.8433 21.8525 14.7012C21.8525 10.559 18.4947 7.20117 14.3525 7.20117C10.2104 7.20117 6.85254 10.559 6.85254 14.7012C6.85254 18.8433 10.2104 22.2012 14.3525 22.2012Z'
 					stroke={modifiedColor}
-					stroke-linecap='round'
-					stroke-linejoin='round'
+					strokeLinecap='round'
+					strokeLinejoin='round'
 				/>
-				<path d='M11.8525 14.7018L13.5192 16.3685L16.8525 13.0352' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M11.8525 14.7018L13.5192 16.3685L16.8525 13.0352' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
 			</g>
 			<defs>
 				<clipPath id='clip0_13980_30785'>

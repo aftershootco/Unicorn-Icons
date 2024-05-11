@@ -15,18 +15,11 @@ export const SortDuplicateCircleIcon = React.forwardRef<SVGSVGElement, Props>((p
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 35 35'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect x='9' y='10' width='17.778' height='6.222' rx='1' fill={modifiedColor} />
 			<rect x='9' y='18' width='8' height='8' rx='1' fill={modifiedColor} fillOpacity='.7' />
 			<rect x='19' y='18' width='8' height='8' rx='1' fill={modifiedColor} fillOpacity='.7' />

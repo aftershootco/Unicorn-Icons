@@ -15,23 +15,16 @@ export const EditAlbumNameIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={(13 / 14) * size}
-			viewBox='0 0 14 13'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: (13 / 14) * size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 14 13' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<path
 				d='M7 12.414h6m-3-11a1.414 1.414 0 1 1 2 2l-8.333 8.334L1 12.414l.667-2.666L10 1.414Z'
 				stroke={modifiedColor}
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 		</svg>
 	)

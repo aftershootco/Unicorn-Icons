@@ -16,20 +16,13 @@ export const FlagOutlineIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 20 20'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
-			<g clip-path='url(#clip0_2287_102084)'>
-				<path d='M4.1665 11.6666H15.8332V4.16663H4.1665V17.5' stroke={modifiedColor} stroke-linecap='round' stroke-linejoin='round' />
+		<svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+			<g clipPath='url(#clip0_2287_102084)'>
+				<path d='M4.1665 11.6666H15.8332V4.16663H4.1665V17.5' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
 			</g>
 			<defs>
 				<clipPath id='clip0_2287_102084'>

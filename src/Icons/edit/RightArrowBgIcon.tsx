@@ -25,25 +25,18 @@ export const RightArrowBgIcon = React.forwardRef<SVGSVGElement, Props>((props, f
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 41 41'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 41 41' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<circle cx='20.5' cy='20.5' r='20.5' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M12.8438 20.7466H27.91M27.91 20.7466L20.5166 13.3369M27.91 20.7466L20.5166 28.1562'
 				stroke={modifiedColor}
 				stroke-width='2'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 		</svg>
 	)

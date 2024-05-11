@@ -15,6 +15,8 @@ export const CopyContentIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
 		<svg
@@ -23,7 +25,7 @@ export const CopyContentIcon = React.forwardRef<SVGSVGElement, Props>((props, fo
 			width={size}
 			viewBox='0 0 24 24'
 			fill={modifiedColor}
-			style={{ width: size, height: size }}
+			style={{ width: iconSize }}
 			{...restProps}
 			ref={forwardedRef}
 		>

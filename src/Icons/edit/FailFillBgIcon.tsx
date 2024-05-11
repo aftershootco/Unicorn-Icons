@@ -27,18 +27,11 @@ export const FailFillBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 38 38'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<circle cx='19' cy='19' r='19' fill={bgColor} fillOpacity='.25' />
 			<path
 				d='M19 30.984c6.627 0 12-5.369 12-11.992C31 12.37 25.627 7 19 7S7 12.37 7 18.992c0 6.623 5.373 11.992 12 11.992Z'

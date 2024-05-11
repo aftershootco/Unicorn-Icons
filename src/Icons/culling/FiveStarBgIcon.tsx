@@ -25,20 +25,13 @@ export const FiveStarBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 32 32'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect width='32' height='32' rx='6' fill={bgColor} />
-			<g clip-path='url(#clip0_184_15943)'>
+			<g clipPath='url(#clip0_184_15943)'>
 				<path
 					d='M15.9998 21.75L9.82784 24.995L11.0068 18.122L6.00684 13.255L12.9068 12.255L15.9928 6.00195L19.0788 12.255L25.9788 13.255L20.9788 18.122L22.1578 24.995L15.9998 21.75Z'
 					fill={modifiedColor}

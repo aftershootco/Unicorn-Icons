@@ -25,20 +25,13 @@ export const MouseLeftClickCircleIcon = React.forwardRef<SVGSVGElement, Props>((
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
+	const iconSize = typeof size === 'number' ? `${size}px` : size
+
 	// variants
 	const primary = (
-		<svg
-			width={size}
-			height={size}
-			viewBox='0 0 35 35'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: size, height: size }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect x='.5' y='.5' width='34' height='34' rx='17' stroke={modifiedColor} stroke-opacity='.25' />
-			<g clip-path='url(#a)' stroke={modifiedColor}>
+			<g clipPath='url(#a)' stroke={modifiedColor}>
 				<path d='M17.4 6.411h-.8c-3.976 0-7.2 3.31-7.2 7.393v7.393c0 4.083 3.224 7.393 7.2 7.393h.8c3.977 0 7.2-3.31 7.2-7.393v-7.393c0-4.083-3.224-7.393-7.2-7.393Z' />
 				<path
 					fill-rule='evenodd'
