@@ -4,7 +4,7 @@ import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
 type IconVariant = 'primary'
-type Props = Omit<IconProps, 'variant' | 'color'> & {
+type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 	variant?: IconVariant
 }
 

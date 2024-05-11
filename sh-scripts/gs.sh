@@ -54,7 +54,7 @@ for svg_file in "$SVG_FOLDER"/*.tsx; do
     echo "    inActive: true," >> "$FILE_PATH"
     echo "  }," >> "$FILE_PATH"
     echo "};" >> "$FILE_PATH"
-
+    echo "" >> "$FILE_PATH"
     echo "export const Large: Story = {" >> "$FILE_PATH"
     echo "  args: {" >> "$FILE_PATH"
     echo "    size: 30," >> "$FILE_PATH"

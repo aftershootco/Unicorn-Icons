@@ -5,6 +5,7 @@ export * from './DragBridgeIcon';
 export * from './DragCaptureOneIcon';
 export * from './DragLrIcon';
 export * from './DragLrcIcon';
+export * from './DragPhotoshopIcon';
 export * from './EditsLogoTextIcon';
 export * from './LightroomClassicIcon';
 export * from './LightroomIcon';
