@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-export const CullFromComputerBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ComputerBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',
@@ -45,4 +45,4 @@ export const CullFromComputerBgIcon = React.forwardRef<SVGSVGElement, Props>((pr
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(CullFromComputerBgIcon)
+export default React.memo(ComputerBgIcon)

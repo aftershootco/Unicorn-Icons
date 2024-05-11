@@ -3,7 +3,7 @@ import { IconProps } from '../../../types/Icons/types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 
-type IconVariant = 'primary' | 'secondary' | 'tertiary'
+type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant' | 'color'> & {
 	variant?: IconVariant
 }
@@ -41,5 +41,3 @@ export const LightroomIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
-
-export default React.memo(LightroomIcon)

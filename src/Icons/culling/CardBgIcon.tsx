@@ -11,7 +11,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	inActive?: boolean
 }
 
-export const CullFromCardBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const CardBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const {
 		variant = 'primary',
@@ -46,4 +46,4 @@ export const CullFromCardBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
 
-export default React.memo(CullFromCardBgIcon)
+export default React.memo(CardBgIcon)

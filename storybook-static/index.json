@@ -1665,84 +1665,84 @@
 			"importPath": "./src/stories/CrownIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcardbgicon--default": {
+		"culling-CardBgIcon--default": {
 			"type": "story",
-			"id": "culling-cullfromcardbgicon--default",
+			"id": "culling-CardBgIcon--default",
 			"name": "Default",
-			"title": "culling/CullFromCardBgIcon",
-			"importPath": "./src/stories/CullFromCardBgIcon.stories.tsx",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcardbgicon--red": {
+		"culling-CardBgIcon--red": {
 			"type": "story",
-			"id": "culling-cullfromcardbgicon--red",
+			"id": "culling-CardBgIcon--red",
 			"name": "Red",
-			"title": "culling/CullFromCardBgIcon",
-			"importPath": "./src/stories/CullFromCardBgIcon.stories.tsx",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcardbgicon--yellow-bg": {
+		"culling-CardBgIcon--yellow-bg": {
 			"type": "story",
-			"id": "culling-cullfromcardbgicon--yellow-bg",
+			"id": "culling-CardBgIcon--yellow-bg",
 			"name": "Yellow Bg",
-			"title": "culling/CullFromCardBgIcon",
-			"importPath": "./src/stories/CullFromCardBgIcon.stories.tsx",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcardbgicon--in-active": {
+		"culling-CardBgIcon--in-active": {
 			"type": "story",
-			"id": "culling-cullfromcardbgicon--in-active",
+			"id": "culling-CardBgIcon--in-active",
 			"name": "In Active",
-			"title": "culling/CullFromCardBgIcon",
-			"importPath": "./src/stories/CullFromCardBgIcon.stories.tsx",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcardbgicon--large": {
+		"culling-CardBgIcon--large": {
 			"type": "story",
-			"id": "culling-cullfromcardbgicon--large",
+			"id": "culling-CardBgIcon--large",
 			"name": "Large",
-			"title": "culling/CullFromCardBgIcon",
-			"importPath": "./src/stories/CullFromCardBgIcon.stories.tsx",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcomputerbgicon--default": {
+		"culling-ComputerBgIcon--default": {
 			"type": "story",
-			"id": "culling-cullfromcomputerbgicon--default",
+			"id": "culling-ComputerBgIcon--default",
 			"name": "Default",
-			"title": "culling/CullFromComputerBgIcon",
-			"importPath": "./src/stories/CullFromComputerBgIcon.stories.tsx",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcomputerbgicon--red": {
+		"culling-ComputerBgIcon--red": {
 			"type": "story",
-			"id": "culling-cullfromcomputerbgicon--red",
+			"id": "culling-ComputerBgIcon--red",
 			"name": "Red",
-			"title": "culling/CullFromComputerBgIcon",
-			"importPath": "./src/stories/CullFromComputerBgIcon.stories.tsx",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcomputerbgicon--yellow-bg": {
+		"culling-ComputerBgIcon--yellow-bg": {
 			"type": "story",
-			"id": "culling-cullfromcomputerbgicon--yellow-bg",
+			"id": "culling-ComputerBgIcon--yellow-bg",
 			"name": "Yellow Bg",
-			"title": "culling/CullFromComputerBgIcon",
-			"importPath": "./src/stories/CullFromComputerBgIcon.stories.tsx",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcomputerbgicon--in-active": {
+		"culling-ComputerBgIcon--in-active": {
 			"type": "story",
-			"id": "culling-cullfromcomputerbgicon--in-active",
+			"id": "culling-ComputerBgIcon--in-active",
 			"name": "In Active",
-			"title": "culling/CullFromComputerBgIcon",
-			"importPath": "./src/stories/CullFromComputerBgIcon.stories.tsx",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
-		"culling-cullfromcomputerbgicon--large": {
+		"culling-ComputerBgIcon--large": {
 			"type": "story",
-			"id": "culling-cullfromcomputerbgicon--large",
+			"id": "culling-ComputerBgIcon--large",
 			"name": "Large",
-			"title": "culling/CullFromComputerBgIcon",
-			"importPath": "./src/stories/CullFromComputerBgIcon.stories.tsx",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-curvearrowicon--default": {

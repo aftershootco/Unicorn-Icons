@@ -42,5 +42,3 @@ export const CaptureOneIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
-
-export default React.memo(CaptureOneIcon)

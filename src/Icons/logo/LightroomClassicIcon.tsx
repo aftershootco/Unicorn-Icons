@@ -41,5 +41,3 @@ export const LightroomClassicIcon = React.forwardRef<SVGSVGElement, Props>((prop
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
-
-export default React.memo(LightroomClassicIcon)

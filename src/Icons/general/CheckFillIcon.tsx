@@ -28,16 +28,7 @@ export const CheckFillIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 
 	// variants
 	const primary = (
-		<svg
-			width='25'
-			height='24'
-			viewBox='0 0 25 24'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
-			{...restProps}
-			ref={forwardedRef}
-		>
+		<svg viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
 			<rect x='0.5' width='24' height='24' rx='12' fill={fillColor} />
 			<g clipPath='url(#clip0_5609_37808)'>
 				<path d='M8.2998 12L11.2998 15L17.2998 9' stroke={modifiedColor} stroke-width='1.8' strokeLinecap='round' strokeLinejoin='round' />

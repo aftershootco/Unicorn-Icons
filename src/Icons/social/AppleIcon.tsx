@@ -26,5 +26,3 @@ export const AppleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 	)
 	return <BaseIcon variants={{ primary }} variant={variant} />
 })
-
-export default React.memo(AppleIcon)
