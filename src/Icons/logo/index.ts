@@ -1,6 +1,7 @@
 export * from './AfterShootLogoIcon';
 export * from './AftershootLogoWhite';
 export * from './CaptureOneIcon';
+export * from './DragBridgeIcon';
 export * from './DragCaptureOneIcon';
 export * from './DragLrIcon';
 export * from './DragLrcIcon';
