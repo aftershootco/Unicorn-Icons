@@ -1,22 +1,23 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "jsx": "react",
-    "module": "ESNext",
-    "declaration": true,
-    "declarationDir": "types",
-    "sourceMap": true,
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "strictPropertyInitialization": false,
-    "strictNullChecks": false,
-    "noImplicitAny": false
-  },
-  "exclude": ["node_modules"]
+	"compilerOptions": {
+		"target": "ESNext",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"jsx": "react",
+		"module": "ESNext",
+		"declaration": true,
+		"declarationDir": "types",
+		"sourceMap": true,
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"emitDeclarationOnly": true,
+		"strictPropertyInitialization": false,
+		"strictNullChecks": false,
+		"noImplicitAny": false
+	},
+	"exclude": ["node_modules"],
+	"include": ["./src/**/*", "./src/types.d.ts", ".src/img/**/*.ts"]
 }

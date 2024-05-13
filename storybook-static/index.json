@@ -1,0 +1,6117 @@
+{
+	"v": 4,
+	"entries": {
+		"culling-addfoldericon--default": {
+			"type": "story",
+			"id": "culling-addfoldericon--default",
+			"name": "Default",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-addfoldericon--red": {
+			"type": "story",
+			"id": "culling-addfoldericon--red",
+			"name": "Red",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-addfoldericon--in-active": {
+			"type": "story",
+			"id": "culling-addfoldericon--in-active",
+			"name": "In Active",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-addfoldericon--green-accent": {
+			"type": "story",
+			"id": "culling-addfoldericon--green-accent",
+			"name": "Green Accent",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-addfoldericon--large": {
+			"type": "story",
+			"id": "culling-addfoldericon--large",
+			"name": "Large",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-addfoldericon--class": {
+			"type": "story",
+			"id": "culling-addfoldericon--class",
+			"name": "Class",
+			"title": "culling/AddFolderIcon",
+			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-adjustmenticon--default": {
+			"type": "story",
+			"id": "general-adjustmenticon--default",
+			"name": "Default",
+			"title": "general/AdjustmentIcon",
+			"importPath": "./src/stories/AdjustmentIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-adjustmenticon--red": {
+			"type": "story",
+			"id": "general-adjustmenticon--red",
+			"name": "Red",
+			"title": "general/AdjustmentIcon",
+			"importPath": "./src/stories/AdjustmentIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-adjustmenticon--in-active": {
+			"type": "story",
+			"id": "general-adjustmenticon--in-active",
+			"name": "In Active",
+			"title": "general/AdjustmentIcon",
+			"importPath": "./src/stories/AdjustmentIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-adjustmenticon--large": {
+			"type": "story",
+			"id": "general-adjustmenticon--large",
+			"name": "Large",
+			"title": "general/AdjustmentIcon",
+			"importPath": "./src/stories/AdjustmentIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogoicon--default": {
+			"type": "story",
+			"id": "logo-aftershootlogoicon--default",
+			"name": "Default",
+			"title": "logo/AfterShootLogoIcon",
+			"importPath": "./src/stories/AfterShootLogoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogoicon--large": {
+			"type": "story",
+			"id": "logo-aftershootlogoicon--large",
+			"name": "Large",
+			"title": "logo/AfterShootLogoIcon",
+			"importPath": "./src/stories/AfterShootLogoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-aftershootediticon--default": {
+			"type": "story",
+			"id": "edit-aftershootediticon--default",
+			"name": "Default",
+			"title": "edit/AftershootEditIcon",
+			"importPath": "./src/stories/AftershootEditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-aftershootediticon--red": {
+			"type": "story",
+			"id": "edit-aftershootediticon--red",
+			"name": "Red",
+			"title": "edit/AftershootEditIcon",
+			"importPath": "./src/stories/AftershootEditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-aftershootediticon--in-active": {
+			"type": "story",
+			"id": "edit-aftershootediticon--in-active",
+			"name": "In Active",
+			"title": "edit/AftershootEditIcon",
+			"importPath": "./src/stories/AftershootEditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-aftershootediticon--large": {
+			"type": "story",
+			"id": "edit-aftershootediticon--large",
+			"name": "Large",
+			"title": "edit/AftershootEditIcon",
+			"importPath": "./src/stories/AftershootEditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogowhite--default": {
+			"type": "story",
+			"id": "logo-aftershootlogowhite--default",
+			"name": "Default",
+			"title": "logo/AftershootLogoWhite",
+			"importPath": "./src/stories/AftershootLogoWhite.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogowhite--red": {
+			"type": "story",
+			"id": "logo-aftershootlogowhite--red",
+			"name": "Red",
+			"title": "logo/AftershootLogoWhite",
+			"importPath": "./src/stories/AftershootLogoWhite.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogowhite--in-active": {
+			"type": "story",
+			"id": "logo-aftershootlogowhite--in-active",
+			"name": "In Active",
+			"title": "logo/AftershootLogoWhite",
+			"importPath": "./src/stories/AftershootLogoWhite.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-aftershootlogowhite--large": {
+			"type": "story",
+			"id": "logo-aftershootlogowhite--large",
+			"name": "Large",
+			"title": "logo/AftershootLogoWhite",
+			"importPath": "./src/stories/AftershootLogoWhite.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertcircleicon--default": {
+			"type": "story",
+			"id": "general-alertcircleicon--default",
+			"name": "Default",
+			"title": "general/AlertCircleIcon",
+			"importPath": "./src/stories/AlertCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertcircleicon--red": {
+			"type": "story",
+			"id": "general-alertcircleicon--red",
+			"name": "Red",
+			"title": "general/AlertCircleIcon",
+			"importPath": "./src/stories/AlertCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertcircleicon--in-active": {
+			"type": "story",
+			"id": "general-alertcircleicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertCircleIcon",
+			"importPath": "./src/stories/AlertCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertcircleicon--large": {
+			"type": "story",
+			"id": "general-alertcircleicon--large",
+			"name": "Large",
+			"title": "general/AlertCircleIcon",
+			"importPath": "./src/stories/AlertCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfill--default": {
+			"type": "story",
+			"id": "general-alertfill--default",
+			"name": "Default",
+			"title": "general/AlertFill",
+			"importPath": "./src/stories/AlertFill.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfill--red": {
+			"type": "story",
+			"id": "general-alertfill--red",
+			"name": "Red",
+			"title": "general/AlertFill",
+			"importPath": "./src/stories/AlertFill.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfill--yellow-fill": {
+			"type": "story",
+			"id": "general-alertfill--yellow-fill",
+			"name": "Yellow Fill",
+			"title": "general/AlertFill",
+			"importPath": "./src/stories/AlertFill.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfill--large": {
+			"type": "story",
+			"id": "general-alertfill--large",
+			"name": "Large",
+			"title": "general/AlertFill",
+			"importPath": "./src/stories/AlertFill.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfilltriangleicon--default": {
+			"type": "story",
+			"id": "general-alertfilltriangleicon--default",
+			"name": "Default",
+			"title": "general/AlertFillTriangleIcon",
+			"importPath": "./src/stories/AlertFillTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfilltriangleicon--red": {
+			"type": "story",
+			"id": "general-alertfilltriangleicon--red",
+			"name": "Red",
+			"title": "general/AlertFillTriangleIcon",
+			"importPath": "./src/stories/AlertFillTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfilltriangleicon--in-active": {
+			"type": "story",
+			"id": "general-alertfilltriangleicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertFillTriangleIcon",
+			"importPath": "./src/stories/AlertFillTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfilltriangleicon--green-fill": {
+			"type": "story",
+			"id": "general-alertfilltriangleicon--green-fill",
+			"name": "Green Fill",
+			"title": "general/AlertFillTriangleIcon",
+			"importPath": "./src/stories/AlertFillTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alertfilltriangleicon--large": {
+			"type": "story",
+			"id": "general-alertfilltriangleicon--large",
+			"name": "Large",
+			"title": "general/AlertFillTriangleIcon",
+			"importPath": "./src/stories/AlertFillTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonbgicon--default": {
+			"type": "story",
+			"id": "general-alerthexagonbgicon--default",
+			"name": "Default",
+			"title": "general/AlertHexagonBgIcon",
+			"importPath": "./src/stories/AlertHexagonBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonbgicon--red": {
+			"type": "story",
+			"id": "general-alerthexagonbgicon--red",
+			"name": "Red",
+			"title": "general/AlertHexagonBgIcon",
+			"importPath": "./src/stories/AlertHexagonBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonbgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-alerthexagonbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/AlertHexagonBgIcon",
+			"importPath": "./src/stories/AlertHexagonBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonbgicon--in-active": {
+			"type": "story",
+			"id": "general-alerthexagonbgicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertHexagonBgIcon",
+			"importPath": "./src/stories/AlertHexagonBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonbgicon--large": {
+			"type": "story",
+			"id": "general-alerthexagonbgicon--large",
+			"name": "Large",
+			"title": "general/AlertHexagonBgIcon",
+			"importPath": "./src/stories/AlertHexagonBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonicon--default": {
+			"type": "story",
+			"id": "general-alerthexagonicon--default",
+			"name": "Default",
+			"title": "general/AlertHexagonIcon",
+			"importPath": "./src/stories/AlertHexagonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonicon--red": {
+			"type": "story",
+			"id": "general-alerthexagonicon--red",
+			"name": "Red",
+			"title": "general/AlertHexagonIcon",
+			"importPath": "./src/stories/AlertHexagonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonicon--in-active": {
+			"type": "story",
+			"id": "general-alerthexagonicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertHexagonIcon",
+			"importPath": "./src/stories/AlertHexagonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerthexagonicon--large": {
+			"type": "story",
+			"id": "general-alerthexagonicon--large",
+			"name": "Large",
+			"title": "general/AlertHexagonIcon",
+			"importPath": "./src/stories/AlertHexagonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttrianglebgicon--default": {
+			"type": "story",
+			"id": "general-alerttrianglebgicon--default",
+			"name": "Default",
+			"title": "general/AlertTriangleBgIcon",
+			"importPath": "./src/stories/AlertTriangleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttrianglebgicon--red": {
+			"type": "story",
+			"id": "general-alerttrianglebgicon--red",
+			"name": "Red",
+			"title": "general/AlertTriangleBgIcon",
+			"importPath": "./src/stories/AlertTriangleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttrianglebgicon--green-bg": {
+			"type": "story",
+			"id": "general-alerttrianglebgicon--green-bg",
+			"name": "Green Bg",
+			"title": "general/AlertTriangleBgIcon",
+			"importPath": "./src/stories/AlertTriangleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttrianglebgicon--in-active": {
+			"type": "story",
+			"id": "general-alerttrianglebgicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertTriangleBgIcon",
+			"importPath": "./src/stories/AlertTriangleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttrianglebgicon--large": {
+			"type": "story",
+			"id": "general-alerttrianglebgicon--large",
+			"name": "Large",
+			"title": "general/AlertTriangleBgIcon",
+			"importPath": "./src/stories/AlertTriangleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttriangleicon--default": {
+			"type": "story",
+			"id": "general-alerttriangleicon--default",
+			"name": "Default",
+			"title": "general/AlertTriangleIcon",
+			"importPath": "./src/stories/AlertTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttriangleicon--red": {
+			"type": "story",
+			"id": "general-alerttriangleicon--red",
+			"name": "Red",
+			"title": "general/AlertTriangleIcon",
+			"importPath": "./src/stories/AlertTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttriangleicon--in-active": {
+			"type": "story",
+			"id": "general-alerttriangleicon--in-active",
+			"name": "In Active",
+			"title": "general/AlertTriangleIcon",
+			"importPath": "./src/stories/AlertTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-alerttriangleicon--large": {
+			"type": "story",
+			"id": "general-alerttriangleicon--large",
+			"name": "Large",
+			"title": "general/AlertTriangleIcon",
+			"importPath": "./src/stories/AlertTriangleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-appleicon--default": {
+			"type": "story",
+			"id": "social-appleicon--default",
+			"name": "Default",
+			"title": "social/AppleIcon",
+			"importPath": "./src/stories/AppleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-appleicon--red": {
+			"type": "story",
+			"id": "social-appleicon--red",
+			"name": "Red",
+			"title": "social/AppleIcon",
+			"importPath": "./src/stories/AppleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-appleicon--in-active": {
+			"type": "story",
+			"id": "social-appleicon--in-active",
+			"name": "In Active",
+			"title": "social/AppleIcon",
+			"importPath": "./src/stories/AppleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-appleicon--large": {
+			"type": "story",
+			"id": "social-appleicon--large",
+			"name": "Large",
+			"title": "social/AppleIcon",
+			"importPath": "./src/stories/AppleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowdownicon--default": {
+			"type": "story",
+			"id": "general-arrowdownicon--default",
+			"name": "Default",
+			"title": "general/ArrowDownIcon",
+			"importPath": "./src/stories/ArrowDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowdownicon--red": {
+			"type": "story",
+			"id": "general-arrowdownicon--red",
+			"name": "Red",
+			"title": "general/ArrowDownIcon",
+			"importPath": "./src/stories/ArrowDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowdownicon--in-active": {
+			"type": "story",
+			"id": "general-arrowdownicon--in-active",
+			"name": "In Active",
+			"title": "general/ArrowDownIcon",
+			"importPath": "./src/stories/ArrowDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowdownicon--large": {
+			"type": "story",
+			"id": "general-arrowdownicon--large",
+			"name": "Large",
+			"title": "general/ArrowDownIcon",
+			"importPath": "./src/stories/ArrowDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowfillicon--default": {
+			"type": "story",
+			"id": "general-arrowfillicon--default",
+			"name": "Default",
+			"title": "general/ArrowFillIcon",
+			"importPath": "./src/stories/ArrowFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowfillicon--red": {
+			"type": "story",
+			"id": "general-arrowfillicon--red",
+			"name": "Red",
+			"title": "general/ArrowFillIcon",
+			"importPath": "./src/stories/ArrowFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowfillicon--in-active": {
+			"type": "story",
+			"id": "general-arrowfillicon--in-active",
+			"name": "In Active",
+			"title": "general/ArrowFillIcon",
+			"importPath": "./src/stories/ArrowFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowfillicon--large": {
+			"type": "story",
+			"id": "general-arrowfillicon--large",
+			"name": "Large",
+			"title": "general/ArrowFillIcon",
+			"importPath": "./src/stories/ArrowFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowlefticon--default": {
+			"type": "story",
+			"id": "general-arrowlefticon--default",
+			"name": "Default",
+			"title": "general/ArrowLeftIcon",
+			"importPath": "./src/stories/ArrowLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowlefticon--red": {
+			"type": "story",
+			"id": "general-arrowlefticon--red",
+			"name": "Red",
+			"title": "general/ArrowLeftIcon",
+			"importPath": "./src/stories/ArrowLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowlefticon--in-active": {
+			"type": "story",
+			"id": "general-arrowlefticon--in-active",
+			"name": "In Active",
+			"title": "general/ArrowLeftIcon",
+			"importPath": "./src/stories/ArrowLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowlefticon--large": {
+			"type": "story",
+			"id": "general-arrowlefticon--large",
+			"name": "Large",
+			"title": "general/ArrowLeftIcon",
+			"importPath": "./src/stories/ArrowLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowrightcon--default": {
+			"type": "story",
+			"id": "general-arrowrightcon--default",
+			"name": "Default",
+			"title": "general/ArrowRightcon",
+			"importPath": "./src/stories/ArrowRightcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowrightcon--red": {
+			"type": "story",
+			"id": "general-arrowrightcon--red",
+			"name": "Red",
+			"title": "general/ArrowRightcon",
+			"importPath": "./src/stories/ArrowRightcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowrightcon--in-active": {
+			"type": "story",
+			"id": "general-arrowrightcon--in-active",
+			"name": "In Active",
+			"title": "general/ArrowRightcon",
+			"importPath": "./src/stories/ArrowRightcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowrightcon--large": {
+			"type": "story",
+			"id": "general-arrowrightcon--large",
+			"name": "Large",
+			"title": "general/ArrowRightcon",
+			"importPath": "./src/stories/ArrowRightcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowupicon--default": {
+			"type": "story",
+			"id": "general-arrowupicon--default",
+			"name": "Default",
+			"title": "general/ArrowUpIcon",
+			"importPath": "./src/stories/ArrowUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowupicon--red": {
+			"type": "story",
+			"id": "general-arrowupicon--red",
+			"name": "Red",
+			"title": "general/ArrowUpIcon",
+			"importPath": "./src/stories/ArrowUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowupicon--in-active": {
+			"type": "story",
+			"id": "general-arrowupicon--in-active",
+			"name": "In Active",
+			"title": "general/ArrowUpIcon",
+			"importPath": "./src/stories/ArrowUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-arrowupicon--large": {
+			"type": "story",
+			"id": "general-arrowupicon--large",
+			"name": "Large",
+			"title": "general/ArrowUpIcon",
+			"importPath": "./src/stories/ArrowUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--default": {
+			"type": "story",
+			"id": "edit-atombgicon--default",
+			"name": "Default",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--red": {
+			"type": "story",
+			"id": "edit-atombgicon--red",
+			"name": "Red",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-atombgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--in-active": {
+			"type": "story",
+			"id": "edit-atombgicon--in-active",
+			"name": "In Active",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--green-accent": {
+			"type": "story",
+			"id": "edit-atombgicon--green-accent",
+			"name": "Green Accent",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-atombgicon--large": {
+			"type": "story",
+			"id": "edit-atombgicon--large",
+			"name": "Large",
+			"title": "edit/AtomBgIcon",
+			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-bordersquareicon--default": {
+			"type": "story",
+			"id": "culling-bordersquareicon--default",
+			"name": "Default",
+			"title": "culling/BorderSquareIcon",
+			"importPath": "./src/stories/BorderColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-bordersquareicon--red": {
+			"type": "story",
+			"id": "culling-bordersquareicon--red",
+			"name": "Red",
+			"title": "culling/BorderSquareIcon",
+			"importPath": "./src/stories/BorderColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-bordersquareicon--in-active": {
+			"type": "story",
+			"id": "culling-bordersquareicon--in-active",
+			"name": "In Active",
+			"title": "culling/BorderSquareIcon",
+			"importPath": "./src/stories/BorderColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-bordersquareicon--large": {
+			"type": "story",
+			"id": "culling-bordersquareicon--large",
+			"name": "Large",
+			"title": "culling/BorderSquareIcon",
+			"importPath": "./src/stories/BorderColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-captureoneicon--default": {
+			"type": "story",
+			"id": "logo-captureoneicon--default",
+			"name": "Default",
+			"title": "logo/CaptureOneIcon",
+			"importPath": "./src/stories/CaptureOneIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-captureoneicon--large": {
+			"type": "story",
+			"id": "logo-captureoneicon--large",
+			"name": "Large",
+			"title": "logo/CaptureOneIcon",
+			"importPath": "./src/stories/CaptureOneIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-carticon--default": {
+			"type": "story",
+			"id": "culling-carticon--default",
+			"name": "Default",
+			"title": "culling/CartIcon",
+			"importPath": "./src/stories/CartIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-carticon--red": {
+			"type": "story",
+			"id": "culling-carticon--red",
+			"name": "Red",
+			"title": "culling/CartIcon",
+			"importPath": "./src/stories/CartIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-carticon--in-active": {
+			"type": "story",
+			"id": "culling-carticon--in-active",
+			"name": "In Active",
+			"title": "culling/CartIcon",
+			"importPath": "./src/stories/CartIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-carticon--large": {
+			"type": "story",
+			"id": "culling-carticon--large",
+			"name": "Large",
+			"title": "culling/CartIcon",
+			"importPath": "./src/stories/CartIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-celebrateicon--default": {
+			"type": "story",
+			"id": "culling-celebrateicon--default",
+			"name": "Default",
+			"title": "culling/CelebrateIcon",
+			"importPath": "./src/stories/CelebrateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-celebrateicon--large": {
+			"type": "story",
+			"id": "culling-celebrateicon--large",
+			"name": "Large",
+			"title": "culling/CelebrateIcon",
+			"importPath": "./src/stories/CelebrateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxemptyicon--default": {
+			"type": "story",
+			"id": "edit-checkboxemptyicon--default",
+			"name": "Default",
+			"title": "edit/CheckBoxEmptyIcon",
+			"importPath": "./src/stories/CheckBoxEmptyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxemptyicon--red": {
+			"type": "story",
+			"id": "edit-checkboxemptyicon--red",
+			"name": "Red",
+			"title": "edit/CheckBoxEmptyIcon",
+			"importPath": "./src/stories/CheckBoxEmptyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxemptyicon--in-active": {
+			"type": "story",
+			"id": "edit-checkboxemptyicon--in-active",
+			"name": "In Active",
+			"title": "edit/CheckBoxEmptyIcon",
+			"importPath": "./src/stories/CheckBoxEmptyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxemptyicon--large": {
+			"type": "story",
+			"id": "edit-checkboxemptyicon--large",
+			"name": "Large",
+			"title": "edit/CheckBoxEmptyIcon",
+			"importPath": "./src/stories/CheckBoxEmptyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--default": {
+			"type": "story",
+			"id": "edit-checkboxicon--default",
+			"name": "Default",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--red": {
+			"type": "story",
+			"id": "edit-checkboxicon--red",
+			"name": "Red",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--in-active": {
+			"type": "story",
+			"id": "edit-checkboxicon--in-active",
+			"name": "In Active",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-checkboxicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--yellow-accent": {
+			"type": "story",
+			"id": "edit-checkboxicon--yellow-accent",
+			"name": "Yellow Accent",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxicon--large": {
+			"type": "story",
+			"id": "edit-checkboxicon--large",
+			"name": "Large",
+			"title": "edit/CheckBoxIcon",
+			"importPath": "./src/stories/CheckBoxIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--default": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--default",
+			"name": "Default",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--red": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--red",
+			"name": "Red",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--in-active": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--in-active",
+			"name": "In Active",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--yellow-accent": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--yellow-accent",
+			"name": "Yellow Accent",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-checkboxpartialicon--large": {
+			"type": "story",
+			"id": "edit-checkboxpartialicon--large",
+			"name": "Large",
+			"title": "edit/CheckBoxPartialIcon",
+			"importPath": "./src/stories/CheckBoxPartialIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcirclebgicon--default": {
+			"type": "story",
+			"id": "general-checkcirclebgicon--default",
+			"name": "Default",
+			"title": "general/CheckCircleBgIcon",
+			"importPath": "./src/stories/CheckCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcirclebgicon--red": {
+			"type": "story",
+			"id": "general-checkcirclebgicon--red",
+			"name": "Red",
+			"title": "general/CheckCircleBgIcon",
+			"importPath": "./src/stories/CheckCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcirclebgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-checkcirclebgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/CheckCircleBgIcon",
+			"importPath": "./src/stories/CheckCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcirclebgicon--in-active": {
+			"type": "story",
+			"id": "general-checkcirclebgicon--in-active",
+			"name": "In Active",
+			"title": "general/CheckCircleBgIcon",
+			"importPath": "./src/stories/CheckCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcirclebgicon--large": {
+			"type": "story",
+			"id": "general-checkcirclebgicon--large",
+			"name": "Large",
+			"title": "general/CheckCircleBgIcon",
+			"importPath": "./src/stories/CheckCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcircleicon--default": {
+			"type": "story",
+			"id": "general-checkcircleicon--default",
+			"name": "Default",
+			"title": "general/CheckCircleIcon",
+			"importPath": "./src/stories/CheckCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcircleicon--red": {
+			"type": "story",
+			"id": "general-checkcircleicon--red",
+			"name": "Red",
+			"title": "general/CheckCircleIcon",
+			"importPath": "./src/stories/CheckCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcircleicon--in-active": {
+			"type": "story",
+			"id": "general-checkcircleicon--in-active",
+			"name": "In Active",
+			"title": "general/CheckCircleIcon",
+			"importPath": "./src/stories/CheckCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkcircleicon--large": {
+			"type": "story",
+			"id": "general-checkcircleicon--large",
+			"name": "Large",
+			"title": "general/CheckCircleIcon",
+			"importPath": "./src/stories/CheckCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkfillicon--default": {
+			"type": "story",
+			"id": "general-checkfillicon--default",
+			"name": "Default",
+			"title": "general/CheckFillIcon",
+			"importPath": "./src/stories/CheckFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkfillicon--red": {
+			"type": "story",
+			"id": "general-checkfillicon--red",
+			"name": "Red",
+			"title": "general/CheckFillIcon",
+			"importPath": "./src/stories/CheckFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkfillicon--in-active": {
+			"type": "story",
+			"id": "general-checkfillicon--in-active",
+			"name": "In Active",
+			"title": "general/CheckFillIcon",
+			"importPath": "./src/stories/CheckFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkfillicon--yellow-fill": {
+			"type": "story",
+			"id": "general-checkfillicon--yellow-fill",
+			"name": "Yellow Fill",
+			"title": "general/CheckFillIcon",
+			"importPath": "./src/stories/CheckFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkfillicon--large": {
+			"type": "story",
+			"id": "general-checkfillicon--large",
+			"name": "Large",
+			"title": "general/CheckFillIcon",
+			"importPath": "./src/stories/CheckFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkicon--default": {
+			"type": "story",
+			"id": "general-checkicon--default",
+			"name": "Default",
+			"title": "general/CheckIcon",
+			"importPath": "./src/stories/CheckIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkicon--red": {
+			"type": "story",
+			"id": "general-checkicon--red",
+			"name": "Red",
+			"title": "general/CheckIcon",
+			"importPath": "./src/stories/CheckIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkicon--in-active": {
+			"type": "story",
+			"id": "general-checkicon--in-active",
+			"name": "In Active",
+			"title": "general/CheckIcon",
+			"importPath": "./src/stories/CheckIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-checkicon--large": {
+			"type": "story",
+			"id": "general-checkicon--large",
+			"name": "Large",
+			"title": "general/CheckIcon",
+			"importPath": "./src/stories/CheckIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevrondownicon--default": {
+			"type": "story",
+			"id": "general-chevrondownicon--default",
+			"name": "Default",
+			"title": "general/ChevronDownIcon",
+			"importPath": "./src/stories/ChevronDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevrondownicon--red": {
+			"type": "story",
+			"id": "general-chevrondownicon--red",
+			"name": "Red",
+			"title": "general/ChevronDownIcon",
+			"importPath": "./src/stories/ChevronDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevrondownicon--in-active": {
+			"type": "story",
+			"id": "general-chevrondownicon--in-active",
+			"name": "In Active",
+			"title": "general/ChevronDownIcon",
+			"importPath": "./src/stories/ChevronDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevrondownicon--large": {
+			"type": "story",
+			"id": "general-chevrondownicon--large",
+			"name": "Large",
+			"title": "general/ChevronDownIcon",
+			"importPath": "./src/stories/ChevronDownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronlefticon--default": {
+			"type": "story",
+			"id": "general-chevronlefticon--default",
+			"name": "Default",
+			"title": "general/ChevronLeftIcon",
+			"importPath": "./src/stories/ChevronLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronlefticon--red": {
+			"type": "story",
+			"id": "general-chevronlefticon--red",
+			"name": "Red",
+			"title": "general/ChevronLeftIcon",
+			"importPath": "./src/stories/ChevronLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronlefticon--in-active": {
+			"type": "story",
+			"id": "general-chevronlefticon--in-active",
+			"name": "In Active",
+			"title": "general/ChevronLeftIcon",
+			"importPath": "./src/stories/ChevronLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronlefticon--large": {
+			"type": "story",
+			"id": "general-chevronlefticon--large",
+			"name": "Large",
+			"title": "general/ChevronLeftIcon",
+			"importPath": "./src/stories/ChevronLeftIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronrighticon--default": {
+			"type": "story",
+			"id": "general-chevronrighticon--default",
+			"name": "Default",
+			"title": "general/ChevronRightIcon",
+			"importPath": "./src/stories/ChevronRightIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronrighticon--red": {
+			"type": "story",
+			"id": "general-chevronrighticon--red",
+			"name": "Red",
+			"title": "general/ChevronRightIcon",
+			"importPath": "./src/stories/ChevronRightIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronrighticon--in-active": {
+			"type": "story",
+			"id": "general-chevronrighticon--in-active",
+			"name": "In Active",
+			"title": "general/ChevronRightIcon",
+			"importPath": "./src/stories/ChevronRightIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronrighticon--large": {
+			"type": "story",
+			"id": "general-chevronrighticon--large",
+			"name": "Large",
+			"title": "general/ChevronRightIcon",
+			"importPath": "./src/stories/ChevronRightIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronupicon--default": {
+			"type": "story",
+			"id": "general-chevronupicon--default",
+			"name": "Default",
+			"title": "general/ChevronUpIcon",
+			"importPath": "./src/stories/ChevronUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronupicon--red": {
+			"type": "story",
+			"id": "general-chevronupicon--red",
+			"name": "Red",
+			"title": "general/ChevronUpIcon",
+			"importPath": "./src/stories/ChevronUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronupicon--in-active": {
+			"type": "story",
+			"id": "general-chevronupicon--in-active",
+			"name": "In Active",
+			"title": "general/ChevronUpIcon",
+			"importPath": "./src/stories/ChevronUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-chevronupicon--large": {
+			"type": "story",
+			"id": "general-chevronupicon--large",
+			"name": "Large",
+			"title": "general/ChevronUpIcon",
+			"importPath": "./src/stories/ChevronUpIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circlefillicon--default": {
+			"type": "story",
+			"id": "general-circlefillicon--default",
+			"name": "Default",
+			"title": "general/CircleFillIcon",
+			"importPath": "./src/stories/CircleFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circlefillicon--yellow-fill": {
+			"type": "story",
+			"id": "general-circlefillicon--yellow-fill",
+			"name": "Yellow Fill",
+			"title": "general/CircleFillIcon",
+			"importPath": "./src/stories/CircleFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circlefillicon--large": {
+			"type": "story",
+			"id": "general-circlefillicon--large",
+			"name": "Large",
+			"title": "general/CircleFillIcon",
+			"importPath": "./src/stories/CircleFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circleicon--default": {
+			"type": "story",
+			"id": "general-circleicon--default",
+			"name": "Default",
+			"title": "general/CircleIcon",
+			"importPath": "./src/stories/CircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circleicon--red": {
+			"type": "story",
+			"id": "general-circleicon--red",
+			"name": "Red",
+			"title": "general/CircleIcon",
+			"importPath": "./src/stories/CircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circleicon--in-active": {
+			"type": "story",
+			"id": "general-circleicon--in-active",
+			"name": "In Active",
+			"title": "general/CircleIcon",
+			"importPath": "./src/stories/CircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-circleicon--large": {
+			"type": "story",
+			"id": "general-circleicon--large",
+			"name": "Large",
+			"title": "general/CircleIcon",
+			"importPath": "./src/stories/CircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-clockicon--default": {
+			"type": "story",
+			"id": "general-clockicon--default",
+			"name": "Default",
+			"title": "general/ClockIcon",
+			"importPath": "./src/stories/ClockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-clockicon--red": {
+			"type": "story",
+			"id": "general-clockicon--red",
+			"name": "Red",
+			"title": "general/ClockIcon",
+			"importPath": "./src/stories/ClockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-clockicon--in-active": {
+			"type": "story",
+			"id": "general-clockicon--in-active",
+			"name": "In Active",
+			"title": "general/ClockIcon",
+			"importPath": "./src/stories/ClockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-clockicon--large": {
+			"type": "story",
+			"id": "general-clockicon--large",
+			"name": "Large",
+			"title": "general/ClockIcon",
+			"importPath": "./src/stories/ClockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closecircleicon--default": {
+			"type": "story",
+			"id": "general-closecircleicon--default",
+			"name": "Default",
+			"title": "general/CloseCircleIcon",
+			"importPath": "./src/stories/CloseCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closecircleicon--red": {
+			"type": "story",
+			"id": "general-closecircleicon--red",
+			"name": "Red",
+			"title": "general/CloseCircleIcon",
+			"importPath": "./src/stories/CloseCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closecircleicon--in-active": {
+			"type": "story",
+			"id": "general-closecircleicon--in-active",
+			"name": "In Active",
+			"title": "general/CloseCircleIcon",
+			"importPath": "./src/stories/CloseCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closecircleicon--large": {
+			"type": "story",
+			"id": "general-closecircleicon--large",
+			"name": "Large",
+			"title": "general/CloseCircleIcon",
+			"importPath": "./src/stories/CloseCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closeicon--default": {
+			"type": "story",
+			"id": "general-closeicon--default",
+			"name": "Default",
+			"title": "general/CloseIcon",
+			"importPath": "./src/stories/CloseIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closeicon--red": {
+			"type": "story",
+			"id": "general-closeicon--red",
+			"name": "Red",
+			"title": "general/CloseIcon",
+			"importPath": "./src/stories/CloseIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closeicon--in-active": {
+			"type": "story",
+			"id": "general-closeicon--in-active",
+			"name": "In Active",
+			"title": "general/CloseIcon",
+			"importPath": "./src/stories/CloseIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-closeicon--large": {
+			"type": "story",
+			"id": "general-closeicon--large",
+			"name": "Large",
+			"title": "general/CloseIcon",
+			"importPath": "./src/stories/CloseIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-collectionsicon--default": {
+			"type": "story",
+			"id": "edit-collectionsicon--default",
+			"name": "Default",
+			"title": "edit/CollectionsIcon",
+			"importPath": "./src/stories/CollectionsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-collectionsicon--red": {
+			"type": "story",
+			"id": "edit-collectionsicon--red",
+			"name": "Red",
+			"title": "edit/CollectionsIcon",
+			"importPath": "./src/stories/CollectionsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-collectionsicon--in-active": {
+			"type": "story",
+			"id": "edit-collectionsicon--in-active",
+			"name": "In Active",
+			"title": "edit/CollectionsIcon",
+			"importPath": "./src/stories/CollectionsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-collectionsicon--large": {
+			"type": "story",
+			"id": "edit-collectionsicon--large",
+			"name": "Large",
+			"title": "edit/CollectionsIcon",
+			"importPath": "./src/stories/CollectionsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-colorpaletteicon--default": {
+			"type": "story",
+			"id": "general-colorpaletteicon--default",
+			"name": "Default",
+			"title": "general/ColorPaletteIcon",
+			"importPath": "./src/stories/ColorPaletteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-colorpaletteicon--red": {
+			"type": "story",
+			"id": "general-colorpaletteicon--red",
+			"name": "Red",
+			"title": "general/ColorPaletteIcon",
+			"importPath": "./src/stories/ColorPaletteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-colorpaletteicon--in-active": {
+			"type": "story",
+			"id": "general-colorpaletteicon--in-active",
+			"name": "In Active",
+			"title": "general/ColorPaletteIcon",
+			"importPath": "./src/stories/ColorPaletteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-colorpaletteicon--large": {
+			"type": "story",
+			"id": "general-colorpaletteicon--large",
+			"name": "Large",
+			"title": "general/ColorPaletteIcon",
+			"importPath": "./src/stories/ColorPaletteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ComputerIcon--default": {
+			"type": "story",
+			"id": "edit-ComputerIcon--default",
+			"name": "Default",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ComputerIcon--red": {
+			"type": "story",
+			"id": "edit-ComputerIcon--red",
+			"name": "Red",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ComputerIcon--in-active": {
+			"type": "story",
+			"id": "edit-ComputerIcon--in-active",
+			"name": "In Active",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ComputerIcon--large": {
+			"type": "story",
+			"id": "edit-ComputerIcon--large",
+			"name": "Large",
+			"title": "edit/ComputerIcon",
+			"importPath": "./src/stories/ComputerIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiSideScreen--default": {
+			"type": "story",
+			"id": "edit-ConfettiSideScreen--default",
+			"name": "Default",
+			"title": "edit/ConfettiSideScreen",
+			"importPath": "./src/stories/ConfettiSideScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiSideScreen--large": {
+			"type": "story",
+			"id": "edit-ConfettiSideScreen--large",
+			"name": "Large",
+			"title": "edit/ConfettiSideScreen",
+			"importPath": "./src/stories/ConfettiSideScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiLeftScreen--default": {
+			"type": "story",
+			"id": "edit-ConfettiLeftScreen--default",
+			"name": "Default",
+			"title": "edit/ConfettiLeftScreen",
+			"importPath": "./src/stories/ConfettiLeftScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiLeftScreen--large": {
+			"type": "story",
+			"id": "edit-ConfettiLeftScreen--large",
+			"name": "Large",
+			"title": "edit/ConfettiLeftScreen",
+			"importPath": "./src/stories/ConfettiLeftScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiRightScreen--default": {
+			"type": "story",
+			"id": "edit-ConfettiRightScreen--default",
+			"name": "Default",
+			"title": "edit/ConfettiRightScreen",
+			"importPath": "./src/stories/ConfettiRightScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-ConfettiRightScreen--large": {
+			"type": "story",
+			"id": "edit-ConfettiRightScreen--large",
+			"name": "Large",
+			"title": "edit/ConfettiRightScreen",
+			"importPath": "./src/stories/ConfettiRightScreen.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-contactsupporticon--default": {
+			"type": "story",
+			"id": "culling-contactsupporticon--default",
+			"name": "Default",
+			"title": "culling/ContactSupportIcon",
+			"importPath": "./src/stories/ContactSupportIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-contactsupporticon--red": {
+			"type": "story",
+			"id": "culling-contactsupporticon--red",
+			"name": "Red",
+			"title": "culling/ContactSupportIcon",
+			"importPath": "./src/stories/ContactSupportIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-contactsupporticon--in-active": {
+			"type": "story",
+			"id": "culling-contactsupporticon--in-active",
+			"name": "In Active",
+			"title": "culling/ContactSupportIcon",
+			"importPath": "./src/stories/ContactSupportIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-contactsupporticon--large": {
+			"type": "story",
+			"id": "culling-contactsupporticon--large",
+			"name": "Large",
+			"title": "culling/ContactSupportIcon",
+			"importPath": "./src/stories/ContactSupportIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-copyicon--default": {
+			"type": "story",
+			"id": "general-copyicon--default",
+			"name": "Default",
+			"title": "general/CopyIcon",
+			"importPath": "./src/stories/CopyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-copyicon--red": {
+			"type": "story",
+			"id": "general-copyicon--red",
+			"name": "Red",
+			"title": "general/CopyIcon",
+			"importPath": "./src/stories/CopyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-copyicon--in-active": {
+			"type": "story",
+			"id": "general-copyicon--in-active",
+			"name": "In Active",
+			"title": "general/CopyIcon",
+			"importPath": "./src/stories/CopyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-copyicon--large": {
+			"type": "story",
+			"id": "general-copyicon--large",
+			"name": "Large",
+			"title": "general/CopyIcon",
+			"importPath": "./src/stories/CopyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-couponicon--default": {
+			"type": "story",
+			"id": "culling-couponicon--default",
+			"name": "Default",
+			"title": "culling/CouponIcon",
+			"importPath": "./src/stories/CouponIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-couponicon--red": {
+			"type": "story",
+			"id": "culling-couponicon--red",
+			"name": "Red",
+			"title": "culling/CouponIcon",
+			"importPath": "./src/stories/CouponIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-couponicon--in-active": {
+			"type": "story",
+			"id": "culling-couponicon--in-active",
+			"name": "In Active",
+			"title": "culling/CouponIcon",
+			"importPath": "./src/stories/CouponIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-couponicon--large": {
+			"type": "story",
+			"id": "culling-couponicon--large",
+			"name": "Large",
+			"title": "culling/CouponIcon",
+			"importPath": "./src/stories/CouponIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-createprofileicon--default": {
+			"type": "story",
+			"id": "culling-createprofileicon--default",
+			"name": "Default",
+			"title": "culling/CreateProfileIcon",
+			"importPath": "./src/stories/CreateProfileIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-createprofileicon--red": {
+			"type": "story",
+			"id": "culling-createprofileicon--red",
+			"name": "Red",
+			"title": "culling/CreateProfileIcon",
+			"importPath": "./src/stories/CreateProfileIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-createprofileicon--in-active": {
+			"type": "story",
+			"id": "culling-createprofileicon--in-active",
+			"name": "In Active",
+			"title": "culling/CreateProfileIcon",
+			"importPath": "./src/stories/CreateProfileIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-createprofileicon--large": {
+			"type": "story",
+			"id": "culling-createprofileicon--large",
+			"name": "Large",
+			"title": "culling/CreateProfileIcon",
+			"importPath": "./src/stories/CreateProfileIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-crossicon--default": {
+			"type": "story",
+			"id": "culling-crossicon--default",
+			"name": "Default",
+			"title": "culling/CrossIcon",
+			"importPath": "./src/stories/CrossIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-crossicon--red": {
+			"type": "story",
+			"id": "culling-crossicon--red",
+			"name": "Red",
+			"title": "culling/CrossIcon",
+			"importPath": "./src/stories/CrossIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-crossicon--in-active": {
+			"type": "story",
+			"id": "culling-crossicon--in-active",
+			"name": "In Active",
+			"title": "culling/CrossIcon",
+			"importPath": "./src/stories/CrossIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-crossicon--large": {
+			"type": "story",
+			"id": "culling-crossicon--large",
+			"name": "Large",
+			"title": "culling/CrossIcon",
+			"importPath": "./src/stories/CrossIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownbgicon--default": {
+			"type": "story",
+			"id": "general-crownbgicon--default",
+			"name": "Default",
+			"title": "general/CrownBgIcon",
+			"importPath": "./src/stories/CrownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownbgicon--red": {
+			"type": "story",
+			"id": "general-crownbgicon--red",
+			"name": "Red",
+			"title": "general/CrownBgIcon",
+			"importPath": "./src/stories/CrownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownbgicon--green-bg": {
+			"type": "story",
+			"id": "general-crownbgicon--green-bg",
+			"name": "Green Bg",
+			"title": "general/CrownBgIcon",
+			"importPath": "./src/stories/CrownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownbgicon--large": {
+			"type": "story",
+			"id": "general-crownbgicon--large",
+			"name": "Large",
+			"title": "general/CrownBgIcon",
+			"importPath": "./src/stories/CrownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownicon--default": {
+			"type": "story",
+			"id": "general-crownicon--default",
+			"name": "Default",
+			"title": "general/CrownIcon",
+			"importPath": "./src/stories/CrownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownicon--red": {
+			"type": "story",
+			"id": "general-crownicon--red",
+			"name": "Red",
+			"title": "general/CrownIcon",
+			"importPath": "./src/stories/CrownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownicon--in-active": {
+			"type": "story",
+			"id": "general-crownicon--in-active",
+			"name": "In Active",
+			"title": "general/CrownIcon",
+			"importPath": "./src/stories/CrownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-crownicon--large": {
+			"type": "story",
+			"id": "general-crownicon--large",
+			"name": "Large",
+			"title": "general/CrownIcon",
+			"importPath": "./src/stories/CrownIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-CardBgIcon--default": {
+			"type": "story",
+			"id": "culling-CardBgIcon--default",
+			"name": "Default",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-CardBgIcon--red": {
+			"type": "story",
+			"id": "culling-CardBgIcon--red",
+			"name": "Red",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-CardBgIcon--yellow-bg": {
+			"type": "story",
+			"id": "culling-CardBgIcon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-CardBgIcon--in-active": {
+			"type": "story",
+			"id": "culling-CardBgIcon--in-active",
+			"name": "In Active",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-CardBgIcon--large": {
+			"type": "story",
+			"id": "culling-CardBgIcon--large",
+			"name": "Large",
+			"title": "culling/CardBgIcon",
+			"importPath": "./src/stories/CardBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-ComputerBgIcon--default": {
+			"type": "story",
+			"id": "culling-ComputerBgIcon--default",
+			"name": "Default",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-ComputerBgIcon--red": {
+			"type": "story",
+			"id": "culling-ComputerBgIcon--red",
+			"name": "Red",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-ComputerBgIcon--yellow-bg": {
+			"type": "story",
+			"id": "culling-ComputerBgIcon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-ComputerBgIcon--in-active": {
+			"type": "story",
+			"id": "culling-ComputerBgIcon--in-active",
+			"name": "In Active",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-ComputerBgIcon--large": {
+			"type": "story",
+			"id": "culling-ComputerBgIcon--large",
+			"name": "Large",
+			"title": "culling/ComputerBgIcon",
+			"importPath": "./src/stories/ComputerBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-curvearrowicon--default": {
+			"type": "story",
+			"id": "culling-curvearrowicon--default",
+			"name": "Default",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-curvearrowicon--red": {
+			"type": "story",
+			"id": "culling-curvearrowicon--red",
+			"name": "Red",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-curvearrowicon--in-active": {
+			"type": "story",
+			"id": "culling-curvearrowicon--in-active",
+			"name": "In Active",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-curvearrowicon--large": {
+			"type": "story",
+			"id": "culling-curvearrowicon--large",
+			"name": "Large",
+			"title": "culling/ArrowCurveIcon",
+			"importPath": "./src/stories/ArrowCurveIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-decrementicon--default": {
+			"type": "story",
+			"id": "edit-decrementicon--default",
+			"name": "Default",
+			"title": "edit/DecrementIcon",
+			"importPath": "./src/stories/DecrementIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-decrementicon--red": {
+			"type": "story",
+			"id": "edit-decrementicon--red",
+			"name": "Red",
+			"title": "edit/DecrementIcon",
+			"importPath": "./src/stories/DecrementIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-decrementicon--in-active": {
+			"type": "story",
+			"id": "edit-decrementicon--in-active",
+			"name": "In Active",
+			"title": "edit/DecrementIcon",
+			"importPath": "./src/stories/DecrementIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-decrementicon--green-accent": {
+			"type": "story",
+			"id": "edit-decrementicon--green-accent",
+			"name": "Green Accent",
+			"title": "edit/DecrementIcon",
+			"importPath": "./src/stories/DecrementIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-decrementicon--large": {
+			"type": "story",
+			"id": "edit-decrementicon--large",
+			"name": "Large",
+			"title": "edit/DecrementIcon",
+			"importPath": "./src/stories/DecrementIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deleteicon--default": {
+			"type": "story",
+			"id": "general-deleteicon--default",
+			"name": "Default",
+			"title": "general/DeleteIcon",
+			"importPath": "./src/stories/DeleteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deleteicon--red": {
+			"type": "story",
+			"id": "general-deleteicon--red",
+			"name": "Red",
+			"title": "general/DeleteIcon",
+			"importPath": "./src/stories/DeleteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deleteicon--in-active": {
+			"type": "story",
+			"id": "general-deleteicon--in-active",
+			"name": "In Active",
+			"title": "general/DeleteIcon",
+			"importPath": "./src/stories/DeleteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deleteicon--large": {
+			"type": "story",
+			"id": "general-deleteicon--large",
+			"name": "Large",
+			"title": "general/DeleteIcon",
+			"importPath": "./src/stories/DeleteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deletebgicon--default": {
+			"type": "story",
+			"id": "general-deletebgicon--default",
+			"name": "Default",
+			"title": "general/DeleteBgIcon",
+			"importPath": "./src/stories/DeleteWhiteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deletebgicon--red": {
+			"type": "story",
+			"id": "general-deletebgicon--red",
+			"name": "Red",
+			"title": "general/DeleteBgIcon",
+			"importPath": "./src/stories/DeleteWhiteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deletebgicon--in-active": {
+			"type": "story",
+			"id": "general-deletebgicon--in-active",
+			"name": "In Active",
+			"title": "general/DeleteBgIcon",
+			"importPath": "./src/stories/DeleteWhiteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deletebgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-deletebgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/DeleteBgIcon",
+			"importPath": "./src/stories/DeleteWhiteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-deletebgicon--large": {
+			"type": "story",
+			"id": "general-deletebgicon--large",
+			"name": "Large",
+			"title": "general/DeleteBgIcon",
+			"importPath": "./src/stories/DeleteWhiteIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descalphaicon--default": {
+			"type": "story",
+			"id": "culling-descalphaicon--default",
+			"name": "Default",
+			"title": "culling/DescAlphaIcon",
+			"importPath": "./src/stories/DescAlphaIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descalphaicon--yellow": {
+			"type": "story",
+			"id": "culling-descalphaicon--yellow",
+			"name": "Yellow",
+			"title": "culling/DescAlphaIcon",
+			"importPath": "./src/stories/DescAlphaIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descalphaicon--green-accent": {
+			"type": "story",
+			"id": "culling-descalphaicon--green-accent",
+			"name": "Green Accent",
+			"title": "culling/DescAlphaIcon",
+			"importPath": "./src/stories/DescAlphaIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descalphaicon--in-active": {
+			"type": "story",
+			"id": "culling-descalphaicon--in-active",
+			"name": "In Active",
+			"title": "culling/DescAlphaIcon",
+			"importPath": "./src/stories/DescAlphaIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descalphaicon--large": {
+			"type": "story",
+			"id": "culling-descalphaicon--large",
+			"name": "Large",
+			"title": "culling/DescAlphaIcon",
+			"importPath": "./src/stories/DescAlphaIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descnumicon--default": {
+			"type": "story",
+			"id": "culling-descnumicon--default",
+			"name": "Default",
+			"title": "culling/SortOptionNumIcon",
+			"importPath": "./src/stories/SortOptionNumIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descnumicon--yellow": {
+			"type": "story",
+			"id": "culling-descnumicon--yellow",
+			"name": "Yellow",
+			"title": "culling/SortOptionNumIcon",
+			"importPath": "./src/stories/SortOptionNumIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descnumicon--green-accent": {
+			"type": "story",
+			"id": "culling-descnumicon--green-accent",
+			"name": "Green Accent",
+			"title": "culling/SortOptionNumIcon",
+			"importPath": "./src/stories/SortOptionNumIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descnumicon--in-active": {
+			"type": "story",
+			"id": "culling-descnumicon--in-active",
+			"name": "In Active",
+			"title": "culling/SortOptionNumIcon",
+			"importPath": "./src/stories/SortOptionNumIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-descnumicon--large": {
+			"type": "story",
+			"id": "culling-descnumicon--large",
+			"name": "Large",
+			"title": "culling/SortOptionNumIcon",
+			"importPath": "./src/stories/SortOptionNumIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-diamondicon--default": {
+			"type": "story",
+			"id": "culling-diamondicon--default",
+			"name": "Default",
+			"title": "culling/DiamondIcon",
+			"importPath": "./src/stories/DiamondIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-diamondicon--red": {
+			"type": "story",
+			"id": "culling-diamondicon--red",
+			"name": "Red",
+			"title": "culling/DiamondIcon",
+			"importPath": "./src/stories/DiamondIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-diamondicon--in-active": {
+			"type": "story",
+			"id": "culling-diamondicon--in-active",
+			"name": "In Active",
+			"title": "culling/DiamondIcon",
+			"importPath": "./src/stories/DiamondIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-diamondicon--large": {
+			"type": "story",
+			"id": "culling-diamondicon--large",
+			"name": "Large",
+			"title": "culling/DiamondIcon",
+			"importPath": "./src/stories/DiamondIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-dotsverticalicon--default": {
+			"type": "story",
+			"id": "edit-dotsverticalicon--default",
+			"name": "Default",
+			"title": "edit/DotsVerticalIcon",
+			"importPath": "./src/stories/DotsVerticalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-dotsverticalicon--red": {
+			"type": "story",
+			"id": "edit-dotsverticalicon--red",
+			"name": "Red",
+			"title": "edit/DotsVerticalIcon",
+			"importPath": "./src/stories/DotsVerticalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-dotsverticalicon--in-active": {
+			"type": "story",
+			"id": "edit-dotsverticalicon--in-active",
+			"name": "In Active",
+			"title": "edit/DotsVerticalIcon",
+			"importPath": "./src/stories/DotsVerticalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-dotsverticalicon--large": {
+			"type": "story",
+			"id": "edit-dotsverticalicon--large",
+			"name": "Large",
+			"title": "edit/DotsVerticalIcon",
+			"importPath": "./src/stories/DotsVerticalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-dragcaptureoneicon--default": {
+			"type": "story",
+			"id": "logo-dragcaptureoneicon--default",
+			"name": "Default",
+			"title": "logo/DragCaptureOneIcon",
+			"importPath": "./src/stories/DragCaptureOneIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-dragcaptureoneicon--large": {
+			"type": "story",
+			"id": "logo-dragcaptureoneicon--large",
+			"name": "Large",
+			"title": "logo/DragCaptureOneIcon",
+			"importPath": "./src/stories/DragCaptureOneIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-draglricon--default": {
+			"type": "story",
+			"id": "culling-draglricon--default",
+			"name": "Default",
+			"title": "culling/DragLrIcon",
+			"importPath": "./src/stories/DragLrIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-draglricon--large": {
+			"type": "story",
+			"id": "culling-draglricon--large",
+			"name": "Large",
+			"title": "culling/DragLrIcon",
+			"importPath": "./src/stories/DragLrIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-draglrcicon--default": {
+			"type": "story",
+			"id": "culling-draglrcicon--default",
+			"name": "Default",
+			"title": "culling/DragLrcIcon",
+			"importPath": "./src/stories/DragLrcIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-draglrcicon--large": {
+			"type": "story",
+			"id": "culling-draglrcicon--large",
+			"name": "Large",
+			"title": "culling/DragLrcIcon",
+			"importPath": "./src/stories/DragLrcIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicatefillicon--default": {
+			"type": "story",
+			"id": "culling-duplicatefillicon--default",
+			"name": "Default",
+			"title": "culling/DuplicateFillIcon",
+			"importPath": "./src/stories/DuplicateFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicatefillicon--red": {
+			"type": "story",
+			"id": "culling-duplicatefillicon--red",
+			"name": "Red",
+			"title": "culling/DuplicateFillIcon",
+			"importPath": "./src/stories/DuplicateFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicatefillicon--in-active": {
+			"type": "story",
+			"id": "culling-duplicatefillicon--in-active",
+			"name": "In Active",
+			"title": "culling/DuplicateFillIcon",
+			"importPath": "./src/stories/DuplicateFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicatefillicon--large": {
+			"type": "story",
+			"id": "culling-duplicatefillicon--large",
+			"name": "Large",
+			"title": "culling/DuplicateFillIcon",
+			"importPath": "./src/stories/DuplicateFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicateicon--default": {
+			"type": "story",
+			"id": "culling-duplicateicon--default",
+			"name": "Default",
+			"title": "culling/DuplicateIcon",
+			"importPath": "./src/stories/DuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicateicon--red": {
+			"type": "story",
+			"id": "culling-duplicateicon--red",
+			"name": "Red",
+			"title": "culling/DuplicateIcon",
+			"importPath": "./src/stories/DuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicateicon--in-active": {
+			"type": "story",
+			"id": "culling-duplicateicon--in-active",
+			"name": "In Active",
+			"title": "culling/DuplicateIcon",
+			"importPath": "./src/stories/DuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-duplicateicon--large": {
+			"type": "story",
+			"id": "culling-duplicateicon--large",
+			"name": "Large",
+			"title": "culling/DuplicateIcon",
+			"importPath": "./src/stories/DuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editalbumnameicon--default": {
+			"type": "story",
+			"id": "culling-editalbumnameicon--default",
+			"name": "Default",
+			"title": "culling/EditAlbumNameIcon",
+			"importPath": "./src/stories/EditAlbumNameIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editalbumnameicon--red": {
+			"type": "story",
+			"id": "culling-editalbumnameicon--red",
+			"name": "Red",
+			"title": "culling/EditAlbumNameIcon",
+			"importPath": "./src/stories/EditAlbumNameIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editalbumnameicon--in-active": {
+			"type": "story",
+			"id": "culling-editalbumnameicon--in-active",
+			"name": "In Active",
+			"title": "culling/EditAlbumNameIcon",
+			"importPath": "./src/stories/EditAlbumNameIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editalbumnameicon--large": {
+			"type": "story",
+			"id": "culling-editalbumnameicon--large",
+			"name": "Large",
+			"title": "culling/EditAlbumNameIcon",
+			"importPath": "./src/stories/EditAlbumNameIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-editicon--default": {
+			"type": "story",
+			"id": "general-editicon--default",
+			"name": "Default",
+			"title": "general/EditIcon",
+			"importPath": "./src/stories/EditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-editicon--red": {
+			"type": "story",
+			"id": "general-editicon--red",
+			"name": "Red",
+			"title": "general/EditIcon",
+			"importPath": "./src/stories/EditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-editicon--in-active": {
+			"type": "story",
+			"id": "general-editicon--in-active",
+			"name": "In Active",
+			"title": "general/EditIcon",
+			"importPath": "./src/stories/EditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-editicon--large": {
+			"type": "story",
+			"id": "general-editicon--large",
+			"name": "Large",
+			"title": "general/EditIcon",
+			"importPath": "./src/stories/EditIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editphotoicon--default": {
+			"type": "story",
+			"id": "culling-editphotoicon--default",
+			"name": "Default",
+			"title": "culling/EditPhotoIcon",
+			"importPath": "./src/stories/EditPhotoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editphotoicon--red": {
+			"type": "story",
+			"id": "culling-editphotoicon--red",
+			"name": "Red",
+			"title": "culling/EditPhotoIcon",
+			"importPath": "./src/stories/EditPhotoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editphotoicon--in-active": {
+			"type": "story",
+			"id": "culling-editphotoicon--in-active",
+			"name": "In Active",
+			"title": "culling/EditPhotoIcon",
+			"importPath": "./src/stories/EditPhotoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-editphotoicon--large": {
+			"type": "story",
+			"id": "culling-editphotoicon--large",
+			"name": "Large",
+			"title": "culling/EditPhotoIcon",
+			"importPath": "./src/stories/EditPhotoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-editprogressicon--default": {
+			"type": "story",
+			"id": "edit-editprogressicon--default",
+			"name": "Default",
+			"title": "edit/EditProgressIcon",
+			"importPath": "./src/stories/EditProgressIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-editprogressicon--red": {
+			"type": "story",
+			"id": "edit-editprogressicon--red",
+			"name": "Red",
+			"title": "edit/EditProgressIcon",
+			"importPath": "./src/stories/EditProgressIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-editprogressicon--in-active": {
+			"type": "story",
+			"id": "edit-editprogressicon--in-active",
+			"name": "In Active",
+			"title": "edit/EditProgressIcon",
+			"importPath": "./src/stories/EditProgressIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-editprogressicon--green-accent": {
+			"type": "story",
+			"id": "edit-editprogressicon--green-accent",
+			"name": "Green Accent",
+			"title": "edit/EditProgressIcon",
+			"importPath": "./src/stories/EditProgressIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-editprogressicon--large": {
+			"type": "story",
+			"id": "edit-editprogressicon--large",
+			"name": "Large",
+			"title": "edit/EditProgressIcon",
+			"importPath": "./src/stories/EditProgressIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-editslogotexticon--default": {
+			"type": "story",
+			"id": "logo-editslogotexticon--default",
+			"name": "Default",
+			"title": "logo/EditsLogoTextIcon",
+			"importPath": "./src/stories/EditsLogoTextIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-editslogotexticon--large": {
+			"type": "story",
+			"id": "logo-editslogotexticon--large",
+			"name": "Large",
+			"title": "logo/EditsLogoTextIcon",
+			"importPath": "./src/stories/EditsLogoTextIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-exitappbgicon--default": {
+			"type": "story",
+			"id": "culling-exitappbgicon--default",
+			"name": "Default",
+			"title": "culling/ExitAppBgIcon",
+			"importPath": "./src/stories/ExitAppBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-exitappbgicon--red": {
+			"type": "story",
+			"id": "culling-exitappbgicon--red",
+			"name": "Red",
+			"title": "culling/ExitAppBgIcon",
+			"importPath": "./src/stories/ExitAppBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-exitappbgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-exitappbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/ExitAppBgIcon",
+			"importPath": "./src/stories/ExitAppBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-exitappbgicon--in-active": {
+			"type": "story",
+			"id": "culling-exitappbgicon--in-active",
+			"name": "In Active",
+			"title": "culling/ExitAppBgIcon",
+			"importPath": "./src/stories/ExitAppBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-exitappbgicon--large": {
+			"type": "story",
+			"id": "culling-exitappbgicon--large",
+			"name": "Large",
+			"title": "culling/ExitAppBgIcon",
+			"importPath": "./src/stories/ExitAppBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-expandicon--default": {
+			"type": "story",
+			"id": "culling-expandicon--default",
+			"name": "Default",
+			"title": "culling/ExpandIcon",
+			"importPath": "./src/stories/ExpandIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-expandicon--red": {
+			"type": "story",
+			"id": "culling-expandicon--red",
+			"name": "Red",
+			"title": "culling/ExpandIcon",
+			"importPath": "./src/stories/ExpandIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-expandicon--in-active": {
+			"type": "story",
+			"id": "culling-expandicon--in-active",
+			"name": "In Active",
+			"title": "culling/ExpandIcon",
+			"importPath": "./src/stories/ExpandIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-expandicon--large": {
+			"type": "story",
+			"id": "culling-expandicon--large",
+			"name": "Large",
+			"title": "culling/ExpandIcon",
+			"importPath": "./src/stories/ExpandIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-exportbgicon--default": {
+			"type": "story",
+			"id": "general-exportbgicon--default",
+			"name": "Default",
+			"title": "general/ExportBgIcon",
+			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-exportbgicon--red": {
+			"type": "story",
+			"id": "general-exportbgicon--red",
+			"name": "Red",
+			"title": "general/ExportBgIcon",
+			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-exportbgicon--in-active": {
+			"type": "story",
+			"id": "general-exportbgicon--in-active",
+			"name": "In Active",
+			"title": "general/ExportBgIcon",
+			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-exportbgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-exportbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/ExportBgIcon",
+			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-exportbgicon--large": {
+			"type": "story",
+			"id": "general-exportbgicon--large",
+			"name": "Large",
+			"title": "general/ExportBgIcon",
+			"importPath": "./src/stories/ExportBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-UploadIcon--default": {
+			"type": "story",
+			"id": "general-UploadIcon--default",
+			"name": "Default",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-UploadIcon--red": {
+			"type": "story",
+			"id": "general-UploadIcon--red",
+			"name": "Red",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-UploadIcon--in-active": {
+			"type": "story",
+			"id": "general-UploadIcon--in-active",
+			"name": "In Active",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-UploadIcon--large": {
+			"type": "story",
+			"id": "general-UploadIcon--large",
+			"name": "Large",
+			"title": "general/UploadIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecheckedicon--default": {
+			"type": "story",
+			"id": "culling-eyecheckedicon--default",
+			"name": "Default",
+			"title": "culling/EyeCheckedIcon",
+			"importPath": "./src/stories/EyeCheckedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecheckedicon--red": {
+			"type": "story",
+			"id": "culling-eyecheckedicon--red",
+			"name": "Red",
+			"title": "culling/EyeCheckedIcon",
+			"importPath": "./src/stories/EyeCheckedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecheckedicon--in-active": {
+			"type": "story",
+			"id": "culling-eyecheckedicon--in-active",
+			"name": "In Active",
+			"title": "culling/EyeCheckedIcon",
+			"importPath": "./src/stories/EyeCheckedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecheckedicon--large": {
+			"type": "story",
+			"id": "culling-eyecheckedicon--large",
+			"name": "Large",
+			"title": "culling/EyeCheckedIcon",
+			"importPath": "./src/stories/EyeCheckedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecrossedicon--default": {
+			"type": "story",
+			"id": "culling-eyecrossedicon--default",
+			"name": "Default",
+			"title": "culling/EyeCrossedIcon",
+			"importPath": "./src/stories/EyeCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecrossedicon--red": {
+			"type": "story",
+			"id": "culling-eyecrossedicon--red",
+			"name": "Red",
+			"title": "culling/EyeCrossedIcon",
+			"importPath": "./src/stories/EyeCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecrossedicon--in-active": {
+			"type": "story",
+			"id": "culling-eyecrossedicon--in-active",
+			"name": "In Active",
+			"title": "culling/EyeCrossedIcon",
+			"importPath": "./src/stories/EyeCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyecrossedicon--large": {
+			"type": "story",
+			"id": "culling-eyecrossedicon--large",
+			"name": "Large",
+			"title": "culling/EyeCrossedIcon",
+			"importPath": "./src/stories/EyeCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyeicon--default": {
+			"type": "story",
+			"id": "culling-eyeicon--default",
+			"name": "Default",
+			"title": "culling/EyeIcon",
+			"importPath": "./src/stories/EyeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyeicon--red": {
+			"type": "story",
+			"id": "culling-eyeicon--red",
+			"name": "Red",
+			"title": "culling/EyeIcon",
+			"importPath": "./src/stories/EyeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyeicon--in-active": {
+			"type": "story",
+			"id": "culling-eyeicon--in-active",
+			"name": "In Active",
+			"title": "culling/EyeIcon",
+			"importPath": "./src/stories/EyeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-eyeicon--large": {
+			"type": "story",
+			"id": "culling-eyeicon--large",
+			"name": "Large",
+			"title": "culling/EyeIcon",
+			"importPath": "./src/stories/EyeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facehappyicon--default": {
+			"type": "story",
+			"id": "culling-facehappyicon--default",
+			"name": "Default",
+			"title": "culling/FaceHappyIcon",
+			"importPath": "./src/stories/FaceHappyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facehappyicon--red": {
+			"type": "story",
+			"id": "culling-facehappyicon--red",
+			"name": "Red",
+			"title": "culling/FaceHappyIcon",
+			"importPath": "./src/stories/FaceHappyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facehappyicon--in-active": {
+			"type": "story",
+			"id": "culling-facehappyicon--in-active",
+			"name": "In Active",
+			"title": "culling/FaceHappyIcon",
+			"importPath": "./src/stories/FaceHappyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facehappyicon--large": {
+			"type": "story",
+			"id": "culling-facehappyicon--large",
+			"name": "Large",
+			"title": "culling/FaceHappyIcon",
+			"importPath": "./src/stories/FaceHappyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facesadicon--default": {
+			"type": "story",
+			"id": "culling-facesadicon--default",
+			"name": "Default",
+			"title": "culling/FaceSadIcon",
+			"importPath": "./src/stories/FaceSadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facesadicon--red": {
+			"type": "story",
+			"id": "culling-facesadicon--red",
+			"name": "Red",
+			"title": "culling/FaceSadIcon",
+			"importPath": "./src/stories/FaceSadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facesadicon--in-active": {
+			"type": "story",
+			"id": "culling-facesadicon--in-active",
+			"name": "In Active",
+			"title": "culling/FaceSadIcon",
+			"importPath": "./src/stories/FaceSadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facesadicon--large": {
+			"type": "story",
+			"id": "culling-facesadicon--large",
+			"name": "Large",
+			"title": "culling/FaceSadIcon",
+			"importPath": "./src/stories/FaceSadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookbgicon--default": {
+			"type": "story",
+			"id": "social-facebookbgicon--default",
+			"name": "Default",
+			"title": "social/FacebookBgIcon",
+			"importPath": "./src/stories/FacebookBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookbgicon--red": {
+			"type": "story",
+			"id": "social-facebookbgicon--red",
+			"name": "Red",
+			"title": "social/FacebookBgIcon",
+			"importPath": "./src/stories/FacebookBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookbgicon--yellow-bg": {
+			"type": "story",
+			"id": "social-facebookbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "social/FacebookBgIcon",
+			"importPath": "./src/stories/FacebookBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookbgicon--large": {
+			"type": "story",
+			"id": "social-facebookbgicon--large",
+			"name": "Large",
+			"title": "social/FacebookBgIcon",
+			"importPath": "./src/stories/FacebookBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookicon--default": {
+			"type": "story",
+			"id": "social-facebookicon--default",
+			"name": "Default",
+			"title": "social/FacebookIcon",
+			"importPath": "./src/stories/FacebookIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookicon--red": {
+			"type": "story",
+			"id": "social-facebookicon--red",
+			"name": "Red",
+			"title": "social/FacebookIcon",
+			"importPath": "./src/stories/FacebookIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookicon--large": {
+			"type": "story",
+			"id": "social-facebookicon--large",
+			"name": "Large",
+			"title": "social/FacebookIcon",
+			"importPath": "./src/stories/FacebookIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookoutlineicon--default": {
+			"type": "story",
+			"id": "social-facebookoutlineicon--default",
+			"name": "Default",
+			"title": "social/FacebookOutlineIcon",
+			"importPath": "./src/stories/FacebookOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookoutlineicon--red": {
+			"type": "story",
+			"id": "social-facebookoutlineicon--red",
+			"name": "Red",
+			"title": "social/FacebookOutlineIcon",
+			"importPath": "./src/stories/FacebookOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookoutlineicon--in-active": {
+			"type": "story",
+			"id": "social-facebookoutlineicon--in-active",
+			"name": "In Active",
+			"title": "social/FacebookOutlineIcon",
+			"importPath": "./src/stories/FacebookOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-facebookoutlineicon--large": {
+			"type": "story",
+			"id": "social-facebookoutlineicon--large",
+			"name": "Large",
+			"title": "social/FacebookOutlineIcon",
+			"importPath": "./src/stories/FacebookOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facebookpeopleicon--default": {
+			"type": "story",
+			"id": "culling-facebookpeopleicon--default",
+			"name": "Default",
+			"title": "culling/FacebookPeopleIcon",
+			"importPath": "./src/stories/FacebookPeopleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-facebookpeopleicon--large": {
+			"type": "story",
+			"id": "culling-facebookpeopleicon--large",
+			"name": "Large",
+			"title": "culling/FacebookPeopleIcon",
+			"importPath": "./src/stories/FacebookPeopleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--default": {
+			"type": "story",
+			"id": "edit-failfillbgicon--default",
+			"name": "Default",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--red": {
+			"type": "story",
+			"id": "edit-failfillbgicon--red",
+			"name": "Red",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--in-active": {
+			"type": "story",
+			"id": "edit-failfillbgicon--in-active",
+			"name": "In Active",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-failfillbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--green-fill": {
+			"type": "story",
+			"id": "edit-failfillbgicon--green-fill",
+			"name": "Green Fill",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillbgicon--large": {
+			"type": "story",
+			"id": "edit-failfillbgicon--large",
+			"name": "Large",
+			"title": "edit/FailFillBgIcon",
+			"importPath": "./src/stories/FailFillBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillicon--default": {
+			"type": "story",
+			"id": "edit-failfillicon--default",
+			"name": "Default",
+			"title": "edit/FailFillIcon",
+			"importPath": "./src/stories/FailFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillicon--red": {
+			"type": "story",
+			"id": "edit-failfillicon--red",
+			"name": "Red",
+			"title": "edit/FailFillIcon",
+			"importPath": "./src/stories/FailFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillicon--in-active": {
+			"type": "story",
+			"id": "edit-failfillicon--in-active",
+			"name": "In Active",
+			"title": "edit/FailFillIcon",
+			"importPath": "./src/stories/FailFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillicon--green-fill": {
+			"type": "story",
+			"id": "edit-failfillicon--green-fill",
+			"name": "Green Fill",
+			"title": "edit/FailFillIcon",
+			"importPath": "./src/stories/FailFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-failfillicon--large": {
+			"type": "story",
+			"id": "edit-failfillicon--large",
+			"name": "Large",
+			"title": "edit/FailFillIcon",
+			"importPath": "./src/stories/FailFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-filesearchicon--default": {
+			"type": "story",
+			"id": "edit-filesearchicon--default",
+			"name": "Default",
+			"title": "edit/FileSearchIcon",
+			"importPath": "./src/stories/FileSearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-filesearchicon--red": {
+			"type": "story",
+			"id": "edit-filesearchicon--red",
+			"name": "Red",
+			"title": "edit/FileSearchIcon",
+			"importPath": "./src/stories/FileSearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-filesearchicon--in-active": {
+			"type": "story",
+			"id": "edit-filesearchicon--in-active",
+			"name": "In Active",
+			"title": "edit/FileSearchIcon",
+			"importPath": "./src/stories/FileSearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-filesearchicon--large": {
+			"type": "story",
+			"id": "edit-filesearchicon--large",
+			"name": "Large",
+			"title": "edit/FileSearchIcon",
+			"importPath": "./src/stories/FileSearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtercircleicon--default": {
+			"type": "story",
+			"id": "culling-filtercircleicon--default",
+			"name": "Default",
+			"title": "culling/FilterCircleIcon",
+			"importPath": "./src/stories/FilterCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtercircleicon--red": {
+			"type": "story",
+			"id": "culling-filtercircleicon--red",
+			"name": "Red",
+			"title": "culling/FilterCircleIcon",
+			"importPath": "./src/stories/FilterCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtercircleicon--in-active": {
+			"type": "story",
+			"id": "culling-filtercircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/FilterCircleIcon",
+			"importPath": "./src/stories/FilterCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtercircleicon--large": {
+			"type": "story",
+			"id": "culling-filtercircleicon--large",
+			"name": "Large",
+			"title": "culling/FilterCircleIcon",
+			"importPath": "./src/stories/FilterCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtericon--default": {
+			"type": "story",
+			"id": "culling-filtericon--default",
+			"name": "Default",
+			"title": "culling/FilterIcon",
+			"importPath": "./src/stories/FilterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtericon--red": {
+			"type": "story",
+			"id": "culling-filtericon--red",
+			"name": "Red",
+			"title": "culling/FilterIcon",
+			"importPath": "./src/stories/FilterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtericon--in-active": {
+			"type": "story",
+			"id": "culling-filtericon--in-active",
+			"name": "In Active",
+			"title": "culling/FilterIcon",
+			"importPath": "./src/stories/FilterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-filtericon--large": {
+			"type": "story",
+			"id": "culling-filtericon--large",
+			"name": "Large",
+			"title": "culling/FilterIcon",
+			"importPath": "./src/stories/FilterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--default": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--default",
+			"name": "Default",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--red": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--red",
+			"name": "Red",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--in-active": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--in-active",
+			"name": "In Active",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--white-bg": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--white-bg",
+			"name": "White Bg",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-fivestarbgicon--large": {
+			"type": "story",
+			"id": "culling-fivestarbgicon--large",
+			"name": "Large",
+			"title": "culling/FiveStarBgIcon",
+			"importPath": "./src/stories/FiveStarBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagfillicon--default": {
+			"type": "story",
+			"id": "edit-flagfillicon--default",
+			"name": "Default",
+			"title": "edit/FlagFillIcon",
+			"importPath": "./src/stories/FlagFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagfillicon--red": {
+			"type": "story",
+			"id": "edit-flagfillicon--red",
+			"name": "Red",
+			"title": "edit/FlagFillIcon",
+			"importPath": "./src/stories/FlagFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagfillicon--in-active": {
+			"type": "story",
+			"id": "edit-flagfillicon--in-active",
+			"name": "In Active",
+			"title": "edit/FlagFillIcon",
+			"importPath": "./src/stories/FlagFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagfillicon--large": {
+			"type": "story",
+			"id": "edit-flagfillicon--large",
+			"name": "Large",
+			"title": "edit/FlagFillIcon",
+			"importPath": "./src/stories/FlagFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlinecrossedicon--default": {
+			"type": "story",
+			"id": "edit-flagoutlinecrossedicon--default",
+			"name": "Default",
+			"title": "edit/FlagOutlineCrossedIcon",
+			"importPath": "./src/stories/FlagOutlineCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlinecrossedicon--red": {
+			"type": "story",
+			"id": "edit-flagoutlinecrossedicon--red",
+			"name": "Red",
+			"title": "edit/FlagOutlineCrossedIcon",
+			"importPath": "./src/stories/FlagOutlineCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlinecrossedicon--in-active": {
+			"type": "story",
+			"id": "edit-flagoutlinecrossedicon--in-active",
+			"name": "In Active",
+			"title": "edit/FlagOutlineCrossedIcon",
+			"importPath": "./src/stories/FlagOutlineCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlinecrossedicon--large": {
+			"type": "story",
+			"id": "edit-flagoutlinecrossedicon--large",
+			"name": "Large",
+			"title": "edit/FlagOutlineCrossedIcon",
+			"importPath": "./src/stories/FlagOutlineCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlineicon--default": {
+			"type": "story",
+			"id": "edit-flagoutlineicon--default",
+			"name": "Default",
+			"title": "edit/FlagOutlineIcon",
+			"importPath": "./src/stories/FlagOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlineicon--red": {
+			"type": "story",
+			"id": "edit-flagoutlineicon--red",
+			"name": "Red",
+			"title": "edit/FlagOutlineIcon",
+			"importPath": "./src/stories/FlagOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlineicon--in-active": {
+			"type": "story",
+			"id": "edit-flagoutlineicon--in-active",
+			"name": "In Active",
+			"title": "edit/FlagOutlineIcon",
+			"importPath": "./src/stories/FlagOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-flagoutlineicon--large": {
+			"type": "story",
+			"id": "edit-flagoutlineicon--large",
+			"name": "Large",
+			"title": "edit/FlagOutlineIcon",
+			"importPath": "./src/stories/FlagOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderoutlinecrossedicon--default": {
+			"type": "story",
+			"id": "general-folderoutlinecrossedicon--default",
+			"name": "Default",
+			"title": "general/FolderOutlineCrossedIcon",
+			"importPath": "./src/stories/FolderCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderoutlinecrossedicon--red": {
+			"type": "story",
+			"id": "general-folderoutlinecrossedicon--red",
+			"name": "Red",
+			"title": "general/FolderOutlineCrossedIcon",
+			"importPath": "./src/stories/FolderCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderoutlinecrossedicon--in-active": {
+			"type": "story",
+			"id": "general-folderoutlinecrossedicon--in-active",
+			"name": "In Active",
+			"title": "general/FolderOutlineCrossedIcon",
+			"importPath": "./src/stories/FolderCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderoutlinecrossedicon--large": {
+			"type": "story",
+			"id": "general-folderoutlinecrossedicon--large",
+			"name": "Large",
+			"title": "general/FolderOutlineCrossedIcon",
+			"importPath": "./src/stories/FolderCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderfillicon--default": {
+			"type": "story",
+			"id": "general-folderfillicon--default",
+			"name": "Default",
+			"title": "general/FolderFillIcon",
+			"importPath": "./src/stories/FolderFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderfillicon--red": {
+			"type": "story",
+			"id": "general-folderfillicon--red",
+			"name": "Red",
+			"title": "general/FolderFillIcon",
+			"importPath": "./src/stories/FolderFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderfillicon--in-active": {
+			"type": "story",
+			"id": "general-folderfillicon--in-active",
+			"name": "In Active",
+			"title": "general/FolderFillIcon",
+			"importPath": "./src/stories/FolderFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-folderfillicon--large": {
+			"type": "story",
+			"id": "general-folderfillicon--large",
+			"name": "Large",
+			"title": "general/FolderFillIcon",
+			"importPath": "./src/stories/FolderFillIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-folderoutlinebgicon--default": {
+			"type": "story",
+			"id": "culling-folderoutlinebgicon--default",
+			"name": "Default",
+			"title": "culling/FolderOutlineBgIcon",
+			"importPath": "./src/stories/FolderOutlineBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-folderoutlinebgicon--red": {
+			"type": "story",
+			"id": "culling-folderoutlinebgicon--red",
+			"name": "Red",
+			"title": "culling/FolderOutlineBgIcon",
+			"importPath": "./src/stories/FolderOutlineBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-folderoutlinebgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-folderoutlinebgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/FolderOutlineBgIcon",
+			"importPath": "./src/stories/FolderOutlineBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-folderoutlinebgicon--in-active": {
+			"type": "story",
+			"id": "culling-folderoutlinebgicon--in-active",
+			"name": "In Active",
+			"title": "culling/FolderOutlineBgIcon",
+			"importPath": "./src/stories/FolderOutlineBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-folderoutlinebgicon--large": {
+			"type": "story",
+			"id": "culling-folderoutlinebgicon--large",
+			"name": "Large",
+			"title": "culling/FolderOutlineBgIcon",
+			"importPath": "./src/stories/FolderOutlineBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-globalicon--default": {
+			"type": "story",
+			"id": "general-globalicon--default",
+			"name": "Default",
+			"title": "general/GlobalIcon",
+			"importPath": "./src/stories/GlobalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-globalicon--red": {
+			"type": "story",
+			"id": "general-globalicon--red",
+			"name": "Red",
+			"title": "general/GlobalIcon",
+			"importPath": "./src/stories/GlobalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-globalicon--in-active": {
+			"type": "story",
+			"id": "general-globalicon--in-active",
+			"name": "In Active",
+			"title": "general/GlobalIcon",
+			"importPath": "./src/stories/GlobalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-globalicon--large": {
+			"type": "story",
+			"id": "general-globalicon--large",
+			"name": "Large",
+			"title": "general/GlobalIcon",
+			"importPath": "./src/stories/GlobalIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-googlecoloricon--default": {
+			"type": "story",
+			"id": "social-googlecoloricon--default",
+			"name": "Default",
+			"title": "social/GoogleColorIcon",
+			"importPath": "./src/stories/GoogleColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-googlecoloricon--large": {
+			"type": "story",
+			"id": "social-googlecoloricon--large",
+			"name": "Large",
+			"title": "social/GoogleColorIcon",
+			"importPath": "./src/stories/GoogleColorIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridbgicon--default": {
+			"type": "story",
+			"id": "culling-gridbgicon--default",
+			"name": "Default",
+			"title": "culling/GridBgIcon",
+			"importPath": "./src/stories/GridBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridbgicon--red": {
+			"type": "story",
+			"id": "culling-gridbgicon--red",
+			"name": "Red",
+			"title": "culling/GridBgIcon",
+			"importPath": "./src/stories/GridBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridbgicon--red-bg": {
+			"type": "story",
+			"id": "culling-gridbgicon--red-bg",
+			"name": "Red Bg",
+			"title": "culling/GridBgIcon",
+			"importPath": "./src/stories/GridBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridbgicon--in-active": {
+			"type": "story",
+			"id": "culling-gridbgicon--in-active",
+			"name": "In Active",
+			"title": "culling/GridBgIcon",
+			"importPath": "./src/stories/GridBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridbgicon--large": {
+			"type": "story",
+			"id": "culling-gridbgicon--large",
+			"name": "Large",
+			"title": "culling/GridBgIcon",
+			"importPath": "./src/stories/GridBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-griddotsicon--default": {
+			"type": "story",
+			"id": "culling-griddotsicon--default",
+			"name": "Default",
+			"title": "culling/GridDotsIcon",
+			"importPath": "./src/stories/GridDotsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-griddotsicon--red": {
+			"type": "story",
+			"id": "culling-griddotsicon--red",
+			"name": "Red",
+			"title": "culling/GridDotsIcon",
+			"importPath": "./src/stories/GridDotsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-griddotsicon--in-active": {
+			"type": "story",
+			"id": "culling-griddotsicon--in-active",
+			"name": "In Active",
+			"title": "culling/GridDotsIcon",
+			"importPath": "./src/stories/GridDotsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-griddotsicon--large": {
+			"type": "story",
+			"id": "culling-griddotsicon--large",
+			"name": "Large",
+			"title": "culling/GridDotsIcon",
+			"importPath": "./src/stories/GridDotsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridthreeliticon--default": {
+			"type": "story",
+			"id": "culling-gridthreeliticon--default",
+			"name": "Default",
+			"title": "culling/GridThreeLitIcon",
+			"importPath": "./src/stories/GridThreeLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridthreeliticon--red": {
+			"type": "story",
+			"id": "culling-gridthreeliticon--red",
+			"name": "Red",
+			"title": "culling/GridThreeLitIcon",
+			"importPath": "./src/stories/GridThreeLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridthreeliticon--in-active": {
+			"type": "story",
+			"id": "culling-gridthreeliticon--in-active",
+			"name": "In Active",
+			"title": "culling/GridThreeLitIcon",
+			"importPath": "./src/stories/GridThreeLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridthreeliticon--large": {
+			"type": "story",
+			"id": "culling-gridthreeliticon--large",
+			"name": "Large",
+			"title": "culling/GridThreeLitIcon",
+			"importPath": "./src/stories/GridThreeLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridtwoliticon--default": {
+			"type": "story",
+			"id": "culling-gridtwoliticon--default",
+			"name": "Default",
+			"title": "culling/GridTwoLitIcon",
+			"importPath": "./src/stories/GridTwoLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridtwoliticon--red": {
+			"type": "story",
+			"id": "culling-gridtwoliticon--red",
+			"name": "Red",
+			"title": "culling/GridTwoLitIcon",
+			"importPath": "./src/stories/GridTwoLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridtwoliticon--in-active": {
+			"type": "story",
+			"id": "culling-gridtwoliticon--in-active",
+			"name": "In Active",
+			"title": "culling/GridTwoLitIcon",
+			"importPath": "./src/stories/GridTwoLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-gridtwoliticon--large": {
+			"type": "story",
+			"id": "culling-gridtwoliticon--large",
+			"name": "Large",
+			"title": "culling/GridTwoLitIcon",
+			"importPath": "./src/stories/GridTwoLitIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-groupinglessicon--default": {
+			"type": "story",
+			"id": "culling-groupinglessicon--default",
+			"name": "Default",
+			"title": "culling/GroupingLessIcon",
+			"importPath": "./src/stories/GroupingLessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-groupinglessicon--large": {
+			"type": "story",
+			"id": "culling-groupinglessicon--large",
+			"name": "Large",
+			"title": "culling/GroupingLessIcon",
+			"importPath": "./src/stories/GroupingLessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-groupingmoreicon--default": {
+			"type": "story",
+			"id": "culling-groupingmoreicon--default",
+			"name": "Default",
+			"title": "culling/GroupingMoreIcon",
+			"importPath": "./src/stories/GroupingMoreIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-groupingmoreicon--large": {
+			"type": "story",
+			"id": "culling-groupingmoreicon--large",
+			"name": "Large",
+			"title": "culling/GroupingMoreIcon",
+			"importPath": "./src/stories/GroupingMoreIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-homeicon--default": {
+			"type": "story",
+			"id": "culling-homeicon--default",
+			"name": "Default",
+			"title": "culling/HomeIcon",
+			"importPath": "./src/stories/HomeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-homeicon--red": {
+			"type": "story",
+			"id": "culling-homeicon--red",
+			"name": "Red",
+			"title": "culling/HomeIcon",
+			"importPath": "./src/stories/HomeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-homeicon--in-active": {
+			"type": "story",
+			"id": "culling-homeicon--in-active",
+			"name": "In Active",
+			"title": "culling/HomeIcon",
+			"importPath": "./src/stories/HomeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-homeicon--large": {
+			"type": "story",
+			"id": "culling-homeicon--large",
+			"name": "Large",
+			"title": "culling/HomeIcon",
+			"importPath": "./src/stories/HomeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordercircleicon--default": {
+			"type": "story",
+			"id": "culling-imagebordercircleicon--default",
+			"name": "Default",
+			"title": "culling/ImageBorderCircleIcon",
+			"importPath": "./src/stories/ImageBorderCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordercircleicon--red": {
+			"type": "story",
+			"id": "culling-imagebordercircleicon--red",
+			"name": "Red",
+			"title": "culling/ImageBorderCircleIcon",
+			"importPath": "./src/stories/ImageBorderCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordercircleicon--in-active": {
+			"type": "story",
+			"id": "culling-imagebordercircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/ImageBorderCircleIcon",
+			"importPath": "./src/stories/ImageBorderCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordercircleicon--large": {
+			"type": "story",
+			"id": "culling-imagebordercircleicon--large",
+			"name": "Large",
+			"title": "culling/ImageBorderCircleIcon",
+			"importPath": "./src/stories/ImageBorderCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordericon--default": {
+			"type": "story",
+			"id": "culling-imagebordericon--default",
+			"name": "Default",
+			"title": "culling/ImageBorderIcon",
+			"importPath": "./src/stories/ImageBorderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordericon--red": {
+			"type": "story",
+			"id": "culling-imagebordericon--red",
+			"name": "Red",
+			"title": "culling/ImageBorderIcon",
+			"importPath": "./src/stories/ImageBorderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordericon--in-active": {
+			"type": "story",
+			"id": "culling-imagebordericon--in-active",
+			"name": "In Active",
+			"title": "culling/ImageBorderIcon",
+			"importPath": "./src/stories/ImageBorderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagebordericon--large": {
+			"type": "story",
+			"id": "culling-imagebordericon--large",
+			"name": "Large",
+			"title": "culling/ImageBorderIcon",
+			"importPath": "./src/stories/ImageBorderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedbgicon--default": {
+			"type": "story",
+			"id": "culling-imagecrossedbgicon--default",
+			"name": "Default",
+			"title": "culling/ImageCrossedBgIcon",
+			"importPath": "./src/stories/ImageCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedbgicon--red": {
+			"type": "story",
+			"id": "culling-imagecrossedbgicon--red",
+			"name": "Red",
+			"title": "culling/ImageCrossedBgIcon",
+			"importPath": "./src/stories/ImageCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedbgicon--red-bg": {
+			"type": "story",
+			"id": "culling-imagecrossedbgicon--red-bg",
+			"name": "Red Bg",
+			"title": "culling/ImageCrossedBgIcon",
+			"importPath": "./src/stories/ImageCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedbgicon--in-active": {
+			"type": "story",
+			"id": "culling-imagecrossedbgicon--in-active",
+			"name": "In Active",
+			"title": "culling/ImageCrossedBgIcon",
+			"importPath": "./src/stories/ImageCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedbgicon--large": {
+			"type": "story",
+			"id": "culling-imagecrossedbgicon--large",
+			"name": "Large",
+			"title": "culling/ImageCrossedBgIcon",
+			"importPath": "./src/stories/ImageCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedicon--default": {
+			"type": "story",
+			"id": "culling-imagecrossedicon--default",
+			"name": "Default",
+			"title": "culling/ImageCrossedIcon",
+			"importPath": "./src/stories/ImageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedicon--red": {
+			"type": "story",
+			"id": "culling-imagecrossedicon--red",
+			"name": "Red",
+			"title": "culling/ImageCrossedIcon",
+			"importPath": "./src/stories/ImageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedicon--in-active": {
+			"type": "story",
+			"id": "culling-imagecrossedicon--in-active",
+			"name": "In Active",
+			"title": "culling/ImageCrossedIcon",
+			"importPath": "./src/stories/ImageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-imagecrossedicon--large": {
+			"type": "story",
+			"id": "culling-imagecrossedicon--large",
+			"name": "Large",
+			"title": "culling/ImageCrossedIcon",
+			"importPath": "./src/stories/ImageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infobgicon--default": {
+			"type": "story",
+			"id": "general-infobgicon--default",
+			"name": "Default",
+			"title": "general/InfoBgIcon",
+			"importPath": "./src/stories/InfoBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infobgicon--red": {
+			"type": "story",
+			"id": "general-infobgicon--red",
+			"name": "Red",
+			"title": "general/InfoBgIcon",
+			"importPath": "./src/stories/InfoBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infobgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-infobgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/InfoBgIcon",
+			"importPath": "./src/stories/InfoBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infobgicon--in-active": {
+			"type": "story",
+			"id": "general-infobgicon--in-active",
+			"name": "In Active",
+			"title": "general/InfoBgIcon",
+			"importPath": "./src/stories/InfoBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infobgicon--large": {
+			"type": "story",
+			"id": "general-infobgicon--large",
+			"name": "Large",
+			"title": "general/InfoBgIcon",
+			"importPath": "./src/stories/InfoBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infocircleicon--default": {
+			"type": "story",
+			"id": "general-infocircleicon--default",
+			"name": "Default",
+			"title": "general/InfoCircleIcon",
+			"importPath": "./src/stories/InfoCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infocircleicon--red": {
+			"type": "story",
+			"id": "general-infocircleicon--red",
+			"name": "Red",
+			"title": "general/InfoCircleIcon",
+			"importPath": "./src/stories/InfoCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infocircleicon--in-active": {
+			"type": "story",
+			"id": "general-infocircleicon--in-active",
+			"name": "In Active",
+			"title": "general/InfoCircleIcon",
+			"importPath": "./src/stories/InfoCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-infocircleicon--large": {
+			"type": "story",
+			"id": "general-infocircleicon--large",
+			"name": "Large",
+			"title": "general/InfoCircleIcon",
+			"importPath": "./src/stories/InfoCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-instagramicon--default": {
+			"type": "story",
+			"id": "social-instagramicon--default",
+			"name": "Default",
+			"title": "social/InstagramIcon",
+			"importPath": "./src/stories/InstagramIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-instagramicon--red": {
+			"type": "story",
+			"id": "social-instagramicon--red",
+			"name": "Red",
+			"title": "social/InstagramIcon",
+			"importPath": "./src/stories/InstagramIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-instagramicon--in-active": {
+			"type": "story",
+			"id": "social-instagramicon--in-active",
+			"name": "In Active",
+			"title": "social/InstagramIcon",
+			"importPath": "./src/stories/InstagramIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-instagramicon--large": {
+			"type": "story",
+			"id": "social-instagramicon--large",
+			"name": "Large",
+			"title": "social/InstagramIcon",
+			"importPath": "./src/stories/InstagramIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keyicon--default": {
+			"type": "story",
+			"id": "culling-keyicon--default",
+			"name": "Default",
+			"title": "culling/KeyIcon",
+			"importPath": "./src/stories/KeyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keyicon--red": {
+			"type": "story",
+			"id": "culling-keyicon--red",
+			"name": "Red",
+			"title": "culling/KeyIcon",
+			"importPath": "./src/stories/KeyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keyicon--in-active": {
+			"type": "story",
+			"id": "culling-keyicon--in-active",
+			"name": "In Active",
+			"title": "culling/KeyIcon",
+			"importPath": "./src/stories/KeyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keyicon--large": {
+			"type": "story",
+			"id": "culling-keyicon--large",
+			"name": "Large",
+			"title": "culling/KeyIcon",
+			"importPath": "./src/stories/KeyIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keycircleicon--default": {
+			"type": "story",
+			"id": "culling-keycircleicon--default",
+			"name": "Default",
+			"title": "culling/KeyCircleIcon",
+			"importPath": "./src/stories/KeyIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keycircleicon--red": {
+			"type": "story",
+			"id": "culling-keycircleicon--red",
+			"name": "Red",
+			"title": "culling/KeyCircleIcon",
+			"importPath": "./src/stories/KeyIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keycircleicon--in-active": {
+			"type": "story",
+			"id": "culling-keycircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/KeyCircleIcon",
+			"importPath": "./src/stories/KeyIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-keycircleicon--large": {
+			"type": "story",
+			"id": "culling-keycircleicon--large",
+			"name": "Large",
+			"title": "culling/KeyCircleIcon",
+			"importPath": "./src/stories/KeyIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-lightroomclassicicon--default": {
+			"type": "story",
+			"id": "logo-lightroomclassicicon--default",
+			"name": "Default",
+			"title": "logo/LightroomClassicIcon",
+			"importPath": "./src/stories/LightroomClassicIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-lightroomclassicicon--large": {
+			"type": "story",
+			"id": "logo-lightroomclassicicon--large",
+			"name": "Large",
+			"title": "logo/LightroomClassicIcon",
+			"importPath": "./src/stories/LightroomClassicIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-lightroomicon--default": {
+			"type": "story",
+			"id": "logo-lightroomicon--default",
+			"name": "Default",
+			"title": "logo/LightroomIcon",
+			"importPath": "./src/stories/LightroomIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"logo-lightroomicon--large": {
+			"type": "story",
+			"id": "logo-lightroomicon--large",
+			"name": "Large",
+			"title": "logo/LightroomIcon",
+			"importPath": "./src/stories/LightroomIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-linkicon--default": {
+			"type": "story",
+			"id": "culling-linkicon--default",
+			"name": "Default",
+			"title": "culling/LinkIcon",
+			"importPath": "./src/stories/LinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-linkicon--red": {
+			"type": "story",
+			"id": "culling-linkicon--red",
+			"name": "Red",
+			"title": "culling/LinkIcon",
+			"importPath": "./src/stories/LinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-linkicon--in-active": {
+			"type": "story",
+			"id": "culling-linkicon--in-active",
+			"name": "In Active",
+			"title": "culling/LinkIcon",
+			"importPath": "./src/stories/LinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-linkicon--large": {
+			"type": "story",
+			"id": "culling-linkicon--large",
+			"name": "Large",
+			"title": "culling/LinkIcon",
+			"importPath": "./src/stories/LinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listnotselectedicon--default": {
+			"type": "story",
+			"id": "culling-listnotselectedicon--default",
+			"name": "Default",
+			"title": "culling/ListNotSelectedIcon",
+			"importPath": "./src/stories/ListNotSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listnotselectedicon--red": {
+			"type": "story",
+			"id": "culling-listnotselectedicon--red",
+			"name": "Red",
+			"title": "culling/ListNotSelectedIcon",
+			"importPath": "./src/stories/ListNotSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listnotselectedicon--in-active": {
+			"type": "story",
+			"id": "culling-listnotselectedicon--in-active",
+			"name": "In Active",
+			"title": "culling/ListNotSelectedIcon",
+			"importPath": "./src/stories/ListNotSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listnotselectedicon--large": {
+			"type": "story",
+			"id": "culling-listnotselectedicon--large",
+			"name": "Large",
+			"title": "culling/ListNotSelectedIcon",
+			"importPath": "./src/stories/ListNotSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listselectedicon--default": {
+			"type": "story",
+			"id": "culling-listselectedicon--default",
+			"name": "Default",
+			"title": "culling/ListSelectedIcon",
+			"importPath": "./src/stories/ListSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listselectedicon--red": {
+			"type": "story",
+			"id": "culling-listselectedicon--red",
+			"name": "Red",
+			"title": "culling/ListSelectedIcon",
+			"importPath": "./src/stories/ListSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listselectedicon--in-active": {
+			"type": "story",
+			"id": "culling-listselectedicon--in-active",
+			"name": "In Active",
+			"title": "culling/ListSelectedIcon",
+			"importPath": "./src/stories/ListSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-listselectedicon--large": {
+			"type": "story",
+			"id": "culling-listselectedicon--large",
+			"name": "Large",
+			"title": "culling/ListSelectedIcon",
+			"importPath": "./src/stories/ListSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loadericon--default": {
+			"type": "story",
+			"id": "culling-loadericon--default",
+			"name": "Default",
+			"title": "culling/LoaderIcon",
+			"importPath": "./src/stories/LoaderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loadericon--red": {
+			"type": "story",
+			"id": "culling-loadericon--red",
+			"name": "Red",
+			"title": "culling/LoaderIcon",
+			"importPath": "./src/stories/LoaderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loadericon--in-active": {
+			"type": "story",
+			"id": "culling-loadericon--in-active",
+			"name": "In Active",
+			"title": "culling/LoaderIcon",
+			"importPath": "./src/stories/LoaderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loadericon--large": {
+			"type": "story",
+			"id": "culling-loadericon--large",
+			"name": "Large",
+			"title": "culling/LoaderIcon",
+			"importPath": "./src/stories/LoaderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-lockicon--default": {
+			"type": "story",
+			"id": "culling-lockicon--default",
+			"name": "Default",
+			"title": "culling/LockIcon",
+			"importPath": "./src/stories/LockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-lockicon--red": {
+			"type": "story",
+			"id": "culling-lockicon--red",
+			"name": "Red",
+			"title": "culling/LockIcon",
+			"importPath": "./src/stories/LockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-lockicon--in-active": {
+			"type": "story",
+			"id": "culling-lockicon--in-active",
+			"name": "In Active",
+			"title": "culling/LockIcon",
+			"importPath": "./src/stories/LockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-lockicon--large": {
+			"type": "story",
+			"id": "culling-lockicon--large",
+			"name": "Large",
+			"title": "culling/LockIcon",
+			"importPath": "./src/stories/LockIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loopicon--default": {
+			"type": "story",
+			"id": "culling-loopicon--default",
+			"name": "Default",
+			"title": "culling/LoopIcon",
+			"importPath": "./src/stories/LoopIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loopicon--red": {
+			"type": "story",
+			"id": "culling-loopicon--red",
+			"name": "Red",
+			"title": "culling/LoopIcon",
+			"importPath": "./src/stories/LoopIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loopicon--in-active": {
+			"type": "story",
+			"id": "culling-loopicon--in-active",
+			"name": "In Active",
+			"title": "culling/LoopIcon",
+			"importPath": "./src/stories/LoopIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loopicon--large": {
+			"type": "story",
+			"id": "culling-loopicon--large",
+			"name": "Large",
+			"title": "culling/LoopIcon",
+			"importPath": "./src/stories/LoopIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loupeicon--default": {
+			"type": "story",
+			"id": "culling-loupeicon--default",
+			"name": "Default",
+			"title": "culling/LoupeIcon",
+			"importPath": "./src/stories/LoupeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loupeicon--red": {
+			"type": "story",
+			"id": "culling-loupeicon--red",
+			"name": "Red",
+			"title": "culling/LoupeIcon",
+			"importPath": "./src/stories/LoupeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loupeicon--in-active": {
+			"type": "story",
+			"id": "culling-loupeicon--in-active",
+			"name": "In Active",
+			"title": "culling/LoupeIcon",
+			"importPath": "./src/stories/LoupeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-loupeicon--large": {
+			"type": "story",
+			"id": "culling-loupeicon--large",
+			"name": "Large",
+			"title": "culling/LoupeIcon",
+			"importPath": "./src/stories/LoupeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-maximizeicon--default": {
+			"type": "story",
+			"id": "culling-maximizeicon--default",
+			"name": "Default",
+			"title": "culling/MaximizeIcon",
+			"importPath": "./src/stories/MaximizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-maximizeicon--red": {
+			"type": "story",
+			"id": "culling-maximizeicon--red",
+			"name": "Red",
+			"title": "culling/MaximizeIcon",
+			"importPath": "./src/stories/MaximizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-maximizeicon--in-active": {
+			"type": "story",
+			"id": "culling-maximizeicon--in-active",
+			"name": "In Active",
+			"title": "culling/MaximizeIcon",
+			"importPath": "./src/stories/MaximizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-maximizeicon--large": {
+			"type": "story",
+			"id": "culling-maximizeicon--large",
+			"name": "Large",
+			"title": "culling/MaximizeIcon",
+			"importPath": "./src/stories/MaximizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-menuicon--default": {
+			"type": "story",
+			"id": "culling-menuicon--default",
+			"name": "Default",
+			"title": "culling/MenuIcon",
+			"importPath": "./src/stories/MenuIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-menuicon--red": {
+			"type": "story",
+			"id": "culling-menuicon--red",
+			"name": "Red",
+			"title": "culling/MenuIcon",
+			"importPath": "./src/stories/MenuIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-menuicon--in-active": {
+			"type": "story",
+			"id": "culling-menuicon--in-active",
+			"name": "In Active",
+			"title": "culling/MenuIcon",
+			"importPath": "./src/stories/MenuIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-menuicon--large": {
+			"type": "story",
+			"id": "culling-menuicon--large",
+			"name": "Large",
+			"title": "culling/MenuIcon",
+			"importPath": "./src/stories/MenuIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-minimizeicon--default": {
+			"type": "story",
+			"id": "culling-minimizeicon--default",
+			"name": "Default",
+			"title": "culling/MinimizeIcon",
+			"importPath": "./src/stories/MinimizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-minimizeicon--red": {
+			"type": "story",
+			"id": "culling-minimizeicon--red",
+			"name": "Red",
+			"title": "culling/MinimizeIcon",
+			"importPath": "./src/stories/MinimizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-minimizeicon--in-active": {
+			"type": "story",
+			"id": "culling-minimizeicon--in-active",
+			"name": "In Active",
+			"title": "culling/MinimizeIcon",
+			"importPath": "./src/stories/MinimizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-minimizeicon--large": {
+			"type": "story",
+			"id": "culling-minimizeicon--large",
+			"name": "Large",
+			"title": "culling/MinimizeIcon",
+			"importPath": "./src/stories/MinimizeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-moneybagicon--default": {
+			"type": "story",
+			"id": "culling-moneybagicon--default",
+			"name": "Default",
+			"title": "culling/MoneyBagIcon",
+			"importPath": "./src/stories/MoneyBagIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-moneybagicon--red": {
+			"type": "story",
+			"id": "culling-moneybagicon--red",
+			"name": "Red",
+			"title": "culling/MoneyBagIcon",
+			"importPath": "./src/stories/MoneyBagIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-moneybagicon--in-active": {
+			"type": "story",
+			"id": "culling-moneybagicon--in-active",
+			"name": "In Active",
+			"title": "culling/MoneyBagIcon",
+			"importPath": "./src/stories/MoneyBagIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-moneybagicon--large": {
+			"type": "story",
+			"id": "culling-moneybagicon--large",
+			"name": "Large",
+			"title": "culling/MoneyBagIcon",
+			"importPath": "./src/stories/MoneyBagIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-moodicon--default": {
+			"type": "story",
+			"id": "edit-moodicon--default",
+			"name": "Default",
+			"title": "edit/MoodIcon",
+			"importPath": "./src/stories/MoodIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-moodicon--red": {
+			"type": "story",
+			"id": "edit-moodicon--red",
+			"name": "Red",
+			"title": "edit/MoodIcon",
+			"importPath": "./src/stories/MoodIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-moodicon--in-active": {
+			"type": "story",
+			"id": "edit-moodicon--in-active",
+			"name": "In Active",
+			"title": "edit/MoodIcon",
+			"importPath": "./src/stories/MoodIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-moodicon--green-accent": {
+			"type": "story",
+			"id": "edit-moodicon--green-accent",
+			"name": "Green Accent",
+			"title": "edit/MoodIcon",
+			"importPath": "./src/stories/MoodIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-moodicon--large": {
+			"type": "story",
+			"id": "edit-moodicon--large",
+			"name": "Large",
+			"title": "edit/MoodIcon",
+			"importPath": "./src/stories/MoodIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftclickcircleicon--default": {
+			"type": "story",
+			"id": "culling-mouseleftclickcircleicon--default",
+			"name": "Default",
+			"title": "culling/MouseLeftClickCircleIcon",
+			"importPath": "./src/stories/MouseLeftClickCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftclickcircleicon--red": {
+			"type": "story",
+			"id": "culling-mouseleftclickcircleicon--red",
+			"name": "Red",
+			"title": "culling/MouseLeftClickCircleIcon",
+			"importPath": "./src/stories/MouseLeftClickCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftclickcircleicon--in-active": {
+			"type": "story",
+			"id": "culling-mouseleftclickcircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/MouseLeftClickCircleIcon",
+			"importPath": "./src/stories/MouseLeftClickCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftclickcircleicon--large": {
+			"type": "story",
+			"id": "culling-mouseleftclickcircleicon--large",
+			"name": "Large",
+			"title": "culling/MouseLeftClickCircleIcon",
+			"importPath": "./src/stories/MouseLeftClickCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftselected--default": {
+			"type": "story",
+			"id": "culling-mouseleftselected--default",
+			"name": "Default",
+			"title": "culling/MouseLeftClick",
+			"importPath": "./src/stories/MouseLeftClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftselected--red": {
+			"type": "story",
+			"id": "culling-mouseleftselected--red",
+			"name": "Red",
+			"title": "culling/MouseLeftClick",
+			"importPath": "./src/stories/MouseLeftClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftselected--in-active": {
+			"type": "story",
+			"id": "culling-mouseleftselected--in-active",
+			"name": "In Active",
+			"title": "culling/MouseLeftClick",
+			"importPath": "./src/stories/MouseLeftClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouseleftselected--large": {
+			"type": "story",
+			"id": "culling-mouseleftselected--large",
+			"name": "Large",
+			"title": "culling/MouseLeftClick",
+			"importPath": "./src/stories/MouseLeftClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouserightselected--default": {
+			"type": "story",
+			"id": "culling-mouserightselected--default",
+			"name": "Default",
+			"title": "culling/MouseRightClick",
+			"importPath": "./src/stories/MouseRightClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouserightselected--red": {
+			"type": "story",
+			"id": "culling-mouserightselected--red",
+			"name": "Red",
+			"title": "culling/MouseRightClick",
+			"importPath": "./src/stories/MouseRightClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouserightselected--in-active": {
+			"type": "story",
+			"id": "culling-mouserightselected--in-active",
+			"name": "In Active",
+			"title": "culling/MouseRightClick",
+			"importPath": "./src/stories/MouseRightClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-mouserightselected--large": {
+			"type": "story",
+			"id": "culling-mouserightselected--large",
+			"name": "Large",
+			"title": "culling/MouseRightClick",
+			"importPath": "./src/stories/MouseRightClick.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-movebgicon--default": {
+			"type": "story",
+			"id": "culling-movebgicon--default",
+			"name": "Default",
+			"title": "culling/MoveBgIcon",
+			"importPath": "./src/stories/MoveBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-movebgicon--red": {
+			"type": "story",
+			"id": "culling-movebgicon--red",
+			"name": "Red",
+			"title": "culling/MoveBgIcon",
+			"importPath": "./src/stories/MoveBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-movebgicon--in-active": {
+			"type": "story",
+			"id": "culling-movebgicon--in-active",
+			"name": "In Active",
+			"title": "culling/MoveBgIcon",
+			"importPath": "./src/stories/MoveBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-movebgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-movebgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/MoveBgIcon",
+			"importPath": "./src/stories/MoveBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-movebgicon--large": {
+			"type": "story",
+			"id": "culling-movebgicon--large",
+			"name": "Large",
+			"title": "culling/MoveBgIcon",
+			"importPath": "./src/stories/MoveBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noduplicateicon--default": {
+			"type": "story",
+			"id": "culling-noduplicateicon--default",
+			"name": "Default",
+			"title": "culling/NoDuplicateIcon",
+			"importPath": "./src/stories/NoDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noduplicateicon--red": {
+			"type": "story",
+			"id": "culling-noduplicateicon--red",
+			"name": "Red",
+			"title": "culling/NoDuplicateIcon",
+			"importPath": "./src/stories/NoDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noduplicateicon--in-active": {
+			"type": "story",
+			"id": "culling-noduplicateicon--in-active",
+			"name": "In Active",
+			"title": "culling/NoDuplicateIcon",
+			"importPath": "./src/stories/NoDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noduplicateicon--large": {
+			"type": "story",
+			"id": "culling-noduplicateicon--large",
+			"name": "Large",
+			"title": "culling/NoDuplicateIcon",
+			"importPath": "./src/stories/NoDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneicon--default": {
+			"type": "story",
+			"id": "culling-noneicon--default",
+			"name": "Default",
+			"title": "culling/NoneIcon",
+			"importPath": "./src/stories/NoneIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneicon--red": {
+			"type": "story",
+			"id": "culling-noneicon--red",
+			"name": "Red",
+			"title": "culling/NoneIcon",
+			"importPath": "./src/stories/NoneIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneicon--in-active": {
+			"type": "story",
+			"id": "culling-noneicon--in-active",
+			"name": "In Active",
+			"title": "culling/NoneIcon",
+			"importPath": "./src/stories/NoneIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneicon--large": {
+			"type": "story",
+			"id": "culling-noneicon--large",
+			"name": "Large",
+			"title": "culling/NoneIcon",
+			"importPath": "./src/stories/NoneIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneselectedicon--default": {
+			"type": "story",
+			"id": "culling-noneselectedicon--default",
+			"name": "Default",
+			"title": "culling/NoneSelectedIcon",
+			"importPath": "./src/stories/NoneSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneselectedicon--red": {
+			"type": "story",
+			"id": "culling-noneselectedicon--red",
+			"name": "Red",
+			"title": "culling/NoneSelectedIcon",
+			"importPath": "./src/stories/NoneSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-noneselectedicon--large": {
+			"type": "story",
+			"id": "culling-noneselectedicon--large",
+			"name": "Large",
+			"title": "culling/NoneSelectedIcon",
+			"importPath": "./src/stories/NoneSelectedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-notallowicon--default": {
+			"type": "story",
+			"id": "culling-notallowicon--default",
+			"name": "Default",
+			"title": "culling/NotAllowIcon",
+			"importPath": "./src/stories/NotAllowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-notallowicon--red": {
+			"type": "story",
+			"id": "culling-notallowicon--red",
+			"name": "Red",
+			"title": "culling/NotAllowIcon",
+			"importPath": "./src/stories/NotAllowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-notallowicon--in-active": {
+			"type": "story",
+			"id": "culling-notallowicon--in-active",
+			"name": "In Active",
+			"title": "culling/NotAllowIcon",
+			"importPath": "./src/stories/NotAllowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-notallowicon--large": {
+			"type": "story",
+			"id": "culling-notallowicon--large",
+			"name": "Large",
+			"title": "culling/NotAllowIcon",
+			"importPath": "./src/stories/NotAllowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-openlinkicon--default": {
+			"type": "story",
+			"id": "general-openlinkicon--default",
+			"name": "Default",
+			"title": "general/OpenlinkIcon",
+			"importPath": "./src/stories/OpenlinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-openlinkicon--red": {
+			"type": "story",
+			"id": "general-openlinkicon--red",
+			"name": "Red",
+			"title": "general/OpenlinkIcon",
+			"importPath": "./src/stories/OpenlinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-openlinkicon--in-active": {
+			"type": "story",
+			"id": "general-openlinkicon--in-active",
+			"name": "In Active",
+			"title": "general/OpenlinkIcon",
+			"importPath": "./src/stories/OpenlinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-openlinkicon--large": {
+			"type": "story",
+			"id": "general-openlinkicon--large",
+			"name": "Large",
+			"title": "general/OpenlinkIcon",
+			"importPath": "./src/stories/OpenlinkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-PersonTwoIcon--default": {
+			"type": "story",
+			"id": "culling-PersonTwoIcon--default",
+			"name": "Default",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-PersonTwoIcon--red": {
+			"type": "story",
+			"id": "culling-PersonTwoIcon--red",
+			"name": "Red",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-PersonTwoIcon--in-active": {
+			"type": "story",
+			"id": "culling-PersonTwoIcon--in-active",
+			"name": "In Active",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-PersonTwoIcon--large": {
+			"type": "story",
+			"id": "culling-PersonTwoIcon--large",
+			"name": "Large",
+			"title": "culling/PersonTwoIcon",
+			"importPath": "./src/stories/PersonTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-pipeicon--default": {
+			"type": "story",
+			"id": "general-pipeicon--default",
+			"name": "Default",
+			"title": "general/PipeIcon",
+			"importPath": "./src/stories/PipeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-pipeicon--red": {
+			"type": "story",
+			"id": "general-pipeicon--red",
+			"name": "Red",
+			"title": "general/PipeIcon",
+			"importPath": "./src/stories/PipeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-pipeicon--in-active": {
+			"type": "story",
+			"id": "general-pipeicon--in-active",
+			"name": "In Active",
+			"title": "general/PipeIcon",
+			"importPath": "./src/stories/PipeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-pipeicon--large": {
+			"type": "story",
+			"id": "general-pipeicon--large",
+			"name": "Large",
+			"title": "general/PipeIcon",
+			"importPath": "./src/stories/PipeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playbgicon--default": {
+			"type": "story",
+			"id": "general-playbgicon--default",
+			"name": "Default",
+			"title": "general/PlayBgIcon",
+			"importPath": "./src/stories/PlayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playbgicon--red": {
+			"type": "story",
+			"id": "general-playbgicon--red",
+			"name": "Red",
+			"title": "general/PlayBgIcon",
+			"importPath": "./src/stories/PlayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playbgicon--bg-red": {
+			"type": "story",
+			"id": "general-playbgicon--bg-red",
+			"name": "Bg Red",
+			"title": "general/PlayBgIcon",
+			"importPath": "./src/stories/PlayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playbgicon--large": {
+			"type": "story",
+			"id": "general-playbgicon--large",
+			"name": "Large",
+			"title": "general/PlayBgIcon",
+			"importPath": "./src/stories/PlayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playcircleicon--default": {
+			"type": "story",
+			"id": "general-playcircleicon--default",
+			"name": "Default",
+			"title": "general/PlayCircleIcon",
+			"importPath": "./src/stories/PlayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playcircleicon--red": {
+			"type": "story",
+			"id": "general-playcircleicon--red",
+			"name": "Red",
+			"title": "general/PlayCircleIcon",
+			"importPath": "./src/stories/PlayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playcircleicon--in-active": {
+			"type": "story",
+			"id": "general-playcircleicon--in-active",
+			"name": "In Active",
+			"title": "general/PlayCircleIcon",
+			"importPath": "./src/stories/PlayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-playcircleicon--large": {
+			"type": "story",
+			"id": "general-playcircleicon--large",
+			"name": "Large",
+			"title": "general/PlayCircleIcon",
+			"importPath": "./src/stories/PlayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-plusbgicon--default": {
+			"type": "story",
+			"id": "edit-plusbgicon--default",
+			"name": "Default",
+			"title": "edit/PlusBgIcon",
+			"importPath": "./src/stories/PlusBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-plusbgicon--red": {
+			"type": "story",
+			"id": "edit-plusbgicon--red",
+			"name": "Red",
+			"title": "edit/PlusBgIcon",
+			"importPath": "./src/stories/PlusBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-plusbgicon--in-active": {
+			"type": "story",
+			"id": "edit-plusbgicon--in-active",
+			"name": "In Active",
+			"title": "edit/PlusBgIcon",
+			"importPath": "./src/stories/PlusBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-plusbgicon--yellow-accent": {
+			"type": "story",
+			"id": "edit-plusbgicon--yellow-accent",
+			"name": "Yellow Accent",
+			"title": "edit/PlusBgIcon",
+			"importPath": "./src/stories/PlusBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-plusbgicon--large": {
+			"type": "story",
+			"id": "edit-plusbgicon--large",
+			"name": "Large",
+			"title": "edit/PlusBgIcon",
+			"importPath": "./src/stories/PlusBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerhighicon--default": {
+			"type": "story",
+			"id": "enable-powerhighicon--default",
+			"name": "Default",
+			"title": "enable/PowerHighIcon",
+			"importPath": "./src/stories/PowerHighIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerhighicon--enable": {
+			"type": "story",
+			"id": "enable-powerhighicon--enable",
+			"name": "Enable",
+			"title": "enable/PowerHighIcon",
+			"importPath": "./src/stories/PowerHighIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerhighicon--large": {
+			"type": "story",
+			"id": "enable-powerhighicon--large",
+			"name": "Large",
+			"title": "enable/PowerHighIcon",
+			"importPath": "./src/stories/PowerHighIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerlowicon--default": {
+			"type": "story",
+			"id": "enable-powerlowicon--default",
+			"name": "Default",
+			"title": "enable/PowerLowIcon",
+			"importPath": "./src/stories/PowerLowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerlowicon--enable": {
+			"type": "story",
+			"id": "enable-powerlowicon--enable",
+			"name": "Enable",
+			"title": "enable/PowerLowIcon",
+			"importPath": "./src/stories/PowerLowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powerlowicon--large": {
+			"type": "story",
+			"id": "enable-powerlowicon--large",
+			"name": "Large",
+			"title": "enable/PowerLowIcon",
+			"importPath": "./src/stories/PowerLowIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powermidicon--default": {
+			"type": "story",
+			"id": "enable-powermidicon--default",
+			"name": "Default",
+			"title": "enable/PowerMidIcon",
+			"importPath": "./src/stories/PowerMidIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powermidicon--enable": {
+			"type": "story",
+			"id": "enable-powermidicon--enable",
+			"name": "Enable",
+			"title": "enable/PowerMidIcon",
+			"importPath": "./src/stories/PowerMidIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"enable-powermidicon--large": {
+			"type": "story",
+			"id": "enable-powermidicon--large",
+			"name": "Large",
+			"title": "enable/PowerMidIcon",
+			"importPath": "./src/stories/PowerMidIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-processicon--default": {
+			"type": "story",
+			"id": "culling-processicon--default",
+			"name": "Default",
+			"title": "culling/ProcessIcon",
+			"importPath": "./src/stories/ProcessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-processicon--red": {
+			"type": "story",
+			"id": "culling-processicon--red",
+			"name": "Red",
+			"title": "culling/ProcessIcon",
+			"importPath": "./src/stories/ProcessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-processicon--in-active": {
+			"type": "story",
+			"id": "culling-processicon--in-active",
+			"name": "In Active",
+			"title": "culling/ProcessIcon",
+			"importPath": "./src/stories/ProcessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-processicon--large": {
+			"type": "story",
+			"id": "culling-processicon--large",
+			"name": "Large",
+			"title": "culling/ProcessIcon",
+			"importPath": "./src/stories/ProcessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkcircleicon--default": {
+			"type": "story",
+			"id": "general-questionmarkcircleicon--default",
+			"name": "Default",
+			"title": "general/QuestionMarkCircleIcon",
+			"importPath": "./src/stories/QuestionMarkCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkcircleicon--red": {
+			"type": "story",
+			"id": "general-questionmarkcircleicon--red",
+			"name": "Red",
+			"title": "general/QuestionMarkCircleIcon",
+			"importPath": "./src/stories/QuestionMarkCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkcircleicon--in-active": {
+			"type": "story",
+			"id": "general-questionmarkcircleicon--in-active",
+			"name": "In Active",
+			"title": "general/QuestionMarkCircleIcon",
+			"importPath": "./src/stories/QuestionMarkCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkcircleicon--large": {
+			"type": "story",
+			"id": "general-questionmarkcircleicon--large",
+			"name": "Large",
+			"title": "general/QuestionMarkCircleIcon",
+			"importPath": "./src/stories/QuestionMarkCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkicon--default": {
+			"type": "story",
+			"id": "general-questionmarkicon--default",
+			"name": "Default",
+			"title": "general/QuestionMarkIcon",
+			"importPath": "./src/stories/QuestionMarkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkicon--red": {
+			"type": "story",
+			"id": "general-questionmarkicon--red",
+			"name": "Red",
+			"title": "general/QuestionMarkIcon",
+			"importPath": "./src/stories/QuestionMarkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkicon--in-active": {
+			"type": "story",
+			"id": "general-questionmarkicon--in-active",
+			"name": "In Active",
+			"title": "general/QuestionMarkIcon",
+			"importPath": "./src/stories/QuestionMarkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-questionmarkicon--large": {
+			"type": "story",
+			"id": "general-questionmarkicon--large",
+			"name": "Large",
+			"title": "general/QuestionMarkIcon",
+			"importPath": "./src/stories/QuestionMarkIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-recullicon--default": {
+			"type": "story",
+			"id": "culling-recullicon--default",
+			"name": "Default",
+			"title": "culling/RecullIcon",
+			"importPath": "./src/stories/RecullIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-recullicon--red": {
+			"type": "story",
+			"id": "culling-recullicon--red",
+			"name": "Red",
+			"title": "culling/RecullIcon",
+			"importPath": "./src/stories/RecullIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-recullicon--in-active": {
+			"type": "story",
+			"id": "culling-recullicon--in-active",
+			"name": "In Active",
+			"title": "culling/RecullIcon",
+			"importPath": "./src/stories/RecullIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-recullicon--large": {
+			"type": "story",
+			"id": "culling-recullicon--large",
+			"name": "Large",
+			"title": "culling/RecullIcon",
+			"importPath": "./src/stories/RecullIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-refreshicon--default": {
+			"type": "story",
+			"id": "general-refreshicon--default",
+			"name": "Default",
+			"title": "general/RefreshIcon",
+			"importPath": "./src/stories/RefreshIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-refreshicon--red": {
+			"type": "story",
+			"id": "general-refreshicon--red",
+			"name": "Red",
+			"title": "general/RefreshIcon",
+			"importPath": "./src/stories/RefreshIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-refreshicon--in-active": {
+			"type": "story",
+			"id": "general-refreshicon--in-active",
+			"name": "In Active",
+			"title": "general/RefreshIcon",
+			"importPath": "./src/stories/RefreshIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-refreshicon--large": {
+			"type": "story",
+			"id": "general-refreshicon--large",
+			"name": "Large",
+			"title": "general/RefreshIcon",
+			"importPath": "./src/stories/RefreshIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-reloadicon--default": {
+			"type": "story",
+			"id": "culling-reloadicon--default",
+			"name": "Default",
+			"title": "culling/ReloadIcon",
+			"importPath": "./src/stories/ReloadWarningIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-reloadicon--red": {
+			"type": "story",
+			"id": "culling-reloadicon--red",
+			"name": "Red",
+			"title": "culling/ReloadIcon",
+			"importPath": "./src/stories/ReloadWarningIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-reloadicon--in-active": {
+			"type": "story",
+			"id": "culling-reloadicon--in-active",
+			"name": "In Active",
+			"title": "culling/ReloadIcon",
+			"importPath": "./src/stories/ReloadWarningIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-reloadicon--large": {
+			"type": "story",
+			"id": "culling-reloadicon--large",
+			"name": "Large",
+			"title": "culling/ReloadIcon",
+			"importPath": "./src/stories/ReloadWarningIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-reverticon--default": {
+			"type": "story",
+			"id": "general-reverticon--default",
+			"name": "Default",
+			"title": "general/RevertIcon",
+			"importPath": "./src/stories/ReverticonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-reverticon--red": {
+			"type": "story",
+			"id": "general-reverticon--red",
+			"name": "Red",
+			"title": "general/RevertIcon",
+			"importPath": "./src/stories/ReverticonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-reverticon--in-active": {
+			"type": "story",
+			"id": "general-reverticon--in-active",
+			"name": "In Active",
+			"title": "general/RevertIcon",
+			"importPath": "./src/stories/ReverticonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-reverticon--large": {
+			"type": "story",
+			"id": "general-reverticon--large",
+			"name": "Large",
+			"title": "general/RevertIcon",
+			"importPath": "./src/stories/ReverticonIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-rightarrowbgicon--default": {
+			"type": "story",
+			"id": "edit-rightarrowbgicon--default",
+			"name": "Default",
+			"title": "edit/RightArrowBgIcon",
+			"importPath": "./src/stories/RightSignIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-rightarrowbgicon--red": {
+			"type": "story",
+			"id": "edit-rightarrowbgicon--red",
+			"name": "Red",
+			"title": "edit/RightArrowBgIcon",
+			"importPath": "./src/stories/RightSignIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-rightarrowbgicon--in-active": {
+			"type": "story",
+			"id": "edit-rightarrowbgicon--in-active",
+			"name": "In Active",
+			"title": "edit/RightArrowBgIcon",
+			"importPath": "./src/stories/RightSignIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-rightarrowbgicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-rightarrowbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/RightArrowBgIcon",
+			"importPath": "./src/stories/RightSignIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-rightarrowbgicon--large": {
+			"type": "story",
+			"id": "edit-rightarrowbgicon--large",
+			"name": "Large",
+			"title": "edit/RightArrowBgIcon",
+			"importPath": "./src/stories/RightSignIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-rotateicon--default": {
+			"type": "story",
+			"id": "general-rotateicon--default",
+			"name": "Default",
+			"title": "general/RotateIcon",
+			"importPath": "./src/stories/RotateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-rotateicon--red": {
+			"type": "story",
+			"id": "general-rotateicon--red",
+			"name": "Red",
+			"title": "general/RotateIcon",
+			"importPath": "./src/stories/RotateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-rotateicon--in-active": {
+			"type": "story",
+			"id": "general-rotateicon--in-active",
+			"name": "In Active",
+			"title": "general/RotateIcon",
+			"importPath": "./src/stories/RotateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-rotateicon--large": {
+			"type": "story",
+			"id": "general-rotateicon--large",
+			"name": "Large",
+			"title": "general/RotateIcon",
+			"importPath": "./src/stories/RotateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-scissorsicon--default": {
+			"type": "story",
+			"id": "general-scissorsicon--default",
+			"name": "Default",
+			"title": "general/ScissorsIcon",
+			"importPath": "./src/stories/ScissorsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-scissorsicon--red": {
+			"type": "story",
+			"id": "general-scissorsicon--red",
+			"name": "Red",
+			"title": "general/ScissorsIcon",
+			"importPath": "./src/stories/ScissorsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-scissorsicon--in-active": {
+			"type": "story",
+			"id": "general-scissorsicon--in-active",
+			"name": "In Active",
+			"title": "general/ScissorsIcon",
+			"importPath": "./src/stories/ScissorsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-scissorsicon--large": {
+			"type": "story",
+			"id": "general-scissorsicon--large",
+			"name": "Large",
+			"title": "general/ScissorsIcon",
+			"importPath": "./src/stories/ScissorsIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-searchicon--default": {
+			"type": "story",
+			"id": "general-searchicon--default",
+			"name": "Default",
+			"title": "general/SearchIcon",
+			"importPath": "./src/stories/SearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-searchicon--red": {
+			"type": "story",
+			"id": "general-searchicon--red",
+			"name": "Red",
+			"title": "general/SearchIcon",
+			"importPath": "./src/stories/SearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-searchicon--in-active": {
+			"type": "story",
+			"id": "general-searchicon--in-active",
+			"name": "In Active",
+			"title": "general/SearchIcon",
+			"importPath": "./src/stories/SearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-searchicon--large": {
+			"type": "story",
+			"id": "general-searchicon--large",
+			"name": "Large",
+			"title": "general/SearchIcon",
+			"importPath": "./src/stories/SearchIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-selectedcirclebgicon--default": {
+			"type": "story",
+			"id": "culling-selectedcirclebgicon--default",
+			"name": "Default",
+			"title": "culling/SelectedCircleBgIcon",
+			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-selectedcirclebgicon--red": {
+			"type": "story",
+			"id": "culling-selectedcirclebgicon--red",
+			"name": "Red",
+			"title": "culling/SelectedCircleBgIcon",
+			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-selectedcirclebgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-selectedcirclebgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/SelectedCircleBgIcon",
+			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-selectedcirclebgicon--in-active": {
+			"type": "story",
+			"id": "culling-selectedcirclebgicon--in-active",
+			"name": "In Active",
+			"title": "culling/SelectedCircleBgIcon",
+			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-selectedcirclebgicon--large": {
+			"type": "story",
+			"id": "culling-selectedcirclebgicon--large",
+			"name": "Large",
+			"title": "culling/SelectedCircleBgIcon",
+			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-shareicon--default": {
+			"type": "story",
+			"id": "culling-shareicon--default",
+			"name": "Default",
+			"title": "culling/ShareIcon",
+			"importPath": "./src/stories/ShareIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-shareicon--red": {
+			"type": "story",
+			"id": "culling-shareicon--red",
+			"name": "Red",
+			"title": "culling/ShareIcon",
+			"importPath": "./src/stories/ShareIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-shareicon--in-active": {
+			"type": "story",
+			"id": "culling-shareicon--in-active",
+			"name": "In Active",
+			"title": "culling/ShareIcon",
+			"importPath": "./src/stories/ShareIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-shareicon--large": {
+			"type": "story",
+			"id": "culling-shareicon--large",
+			"name": "Large",
+			"title": "culling/ShareIcon",
+			"importPath": "./src/stories/ShareIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-showduplicateicon--default": {
+			"type": "story",
+			"id": "culling-showduplicateicon--default",
+			"name": "Default",
+			"title": "culling/ShowDuplicateIcon",
+			"importPath": "./src/stories/ShowDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-showduplicateicon--red": {
+			"type": "story",
+			"id": "culling-showduplicateicon--red",
+			"name": "Red",
+			"title": "culling/ShowDuplicateIcon",
+			"importPath": "./src/stories/ShowDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-showduplicateicon--in-active": {
+			"type": "story",
+			"id": "culling-showduplicateicon--in-active",
+			"name": "In Active",
+			"title": "culling/ShowDuplicateIcon",
+			"importPath": "./src/stories/ShowDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-showduplicateicon--large": {
+			"type": "story",
+			"id": "culling-showduplicateicon--large",
+			"name": "Large",
+			"title": "culling/ShowDuplicateIcon",
+			"importPath": "./src/stories/ShowDuplicateIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortcircleicon--default": {
+			"type": "story",
+			"id": "culling-sortcircleicon--default",
+			"name": "Default",
+			"title": "culling/SortCircleIcon",
+			"importPath": "./src/stories/SortCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortcircleicon--red": {
+			"type": "story",
+			"id": "culling-sortcircleicon--red",
+			"name": "Red",
+			"title": "culling/SortCircleIcon",
+			"importPath": "./src/stories/SortCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortcircleicon--in-active": {
+			"type": "story",
+			"id": "culling-sortcircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/SortCircleIcon",
+			"importPath": "./src/stories/SortCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortcircleicon--large": {
+			"type": "story",
+			"id": "culling-sortcircleicon--large",
+			"name": "Large",
+			"title": "culling/SortCircleIcon",
+			"importPath": "./src/stories/SortCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatecircleicon--default": {
+			"type": "story",
+			"id": "culling-sortduplicatecircleicon--default",
+			"name": "Default",
+			"title": "culling/SortDuplicateCircleIcon",
+			"importPath": "./src/stories/SortDuplicateCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatecircleicon--red": {
+			"type": "story",
+			"id": "culling-sortduplicatecircleicon--red",
+			"name": "Red",
+			"title": "culling/SortDuplicateCircleIcon",
+			"importPath": "./src/stories/SortDuplicateCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatecircleicon--in-active": {
+			"type": "story",
+			"id": "culling-sortduplicatecircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/SortDuplicateCircleIcon",
+			"importPath": "./src/stories/SortDuplicateCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatecircleicon--large": {
+			"type": "story",
+			"id": "culling-sortduplicatecircleicon--large",
+			"name": "Large",
+			"title": "culling/SortDuplicateCircleIcon",
+			"importPath": "./src/stories/SortDuplicateCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatesicon--default": {
+			"type": "story",
+			"id": "culling-sortduplicatesicon--default",
+			"name": "Default",
+			"title": "culling/SortDuplicatesIcon",
+			"importPath": "./src/stories/SortDuplicatesIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatesicon--red": {
+			"type": "story",
+			"id": "culling-sortduplicatesicon--red",
+			"name": "Red",
+			"title": "culling/SortDuplicatesIcon",
+			"importPath": "./src/stories/SortDuplicatesIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatesicon--in-active": {
+			"type": "story",
+			"id": "culling-sortduplicatesicon--in-active",
+			"name": "In Active",
+			"title": "culling/SortDuplicatesIcon",
+			"importPath": "./src/stories/SortDuplicatesIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sortduplicatesicon--large": {
+			"type": "story",
+			"id": "culling-sortduplicatesicon--large",
+			"name": "Large",
+			"title": "culling/SortDuplicatesIcon",
+			"importPath": "./src/stories/SortDuplicatesIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sorticon--default": {
+			"type": "story",
+			"id": "culling-sorticon--default",
+			"name": "Default",
+			"title": "culling/SortIcon",
+			"importPath": "./src/stories/SortIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sorticon--red": {
+			"type": "story",
+			"id": "culling-sorticon--red",
+			"name": "Red",
+			"title": "culling/SortIcon",
+			"importPath": "./src/stories/SortIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sorticon--in-active": {
+			"type": "story",
+			"id": "culling-sorticon--in-active",
+			"name": "In Active",
+			"title": "culling/SortIcon",
+			"importPath": "./src/stories/SortIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sorticon--large": {
+			"type": "story",
+			"id": "culling-sorticon--large",
+			"name": "Large",
+			"title": "culling/SortIcon",
+			"importPath": "./src/stories/SortIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sparkleicon--default": {
+			"type": "story",
+			"id": "culling-sparkleicon--default",
+			"name": "Default",
+			"title": "culling/SparkleIcon",
+			"importPath": "./src/stories/SparkleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sparkleicon--blue": {
+			"type": "story",
+			"id": "culling-sparkleicon--blue",
+			"name": "Blue",
+			"title": "culling/SparkleIcon",
+			"importPath": "./src/stories/SparkleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sparkleicon--in-active": {
+			"type": "story",
+			"id": "culling-sparkleicon--in-active",
+			"name": "In Active",
+			"title": "culling/SparkleIcon",
+			"importPath": "./src/stories/SparkleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-sparkleicon--large": {
+			"type": "story",
+			"id": "culling-sparkleicon--large",
+			"name": "Large",
+			"title": "culling/SparkleIcon",
+			"importPath": "./src/stories/SparkleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraybgicon--default": {
+			"type": "story",
+			"id": "culling-spraybgicon--default",
+			"name": "Default",
+			"title": "culling/SprayBgIcon",
+			"importPath": "./src/stories/SprayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraybgicon--red": {
+			"type": "story",
+			"id": "culling-spraybgicon--red",
+			"name": "Red",
+			"title": "culling/SprayBgIcon",
+			"importPath": "./src/stories/SprayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraybgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-spraybgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/SprayBgIcon",
+			"importPath": "./src/stories/SprayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraybgicon--in-active": {
+			"type": "story",
+			"id": "culling-spraybgicon--in-active",
+			"name": "In Active",
+			"title": "culling/SprayBgIcon",
+			"importPath": "./src/stories/SprayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraybgicon--large": {
+			"type": "story",
+			"id": "culling-spraybgicon--large",
+			"name": "Large",
+			"title": "culling/SprayBgIcon",
+			"importPath": "./src/stories/SprayBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycanicon--default": {
+			"type": "story",
+			"id": "culling-spraycanicon--default",
+			"name": "Default",
+			"title": "culling/SprayCanIcon",
+			"importPath": "./src/stories/SprayCanIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycanicon--red": {
+			"type": "story",
+			"id": "culling-spraycanicon--red",
+			"name": "Red",
+			"title": "culling/SprayCanIcon",
+			"importPath": "./src/stories/SprayCanIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycanicon--in-active": {
+			"type": "story",
+			"id": "culling-spraycanicon--in-active",
+			"name": "In Active",
+			"title": "culling/SprayCanIcon",
+			"importPath": "./src/stories/SprayCanIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycanicon--large": {
+			"type": "story",
+			"id": "culling-spraycanicon--large",
+			"name": "Large",
+			"title": "culling/SprayCanIcon",
+			"importPath": "./src/stories/SprayCanIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycircleicon--default": {
+			"type": "story",
+			"id": "culling-spraycircleicon--default",
+			"name": "Default",
+			"title": "culling/SprayCircleIcon",
+			"importPath": "./src/stories/SprayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycircleicon--red": {
+			"type": "story",
+			"id": "culling-spraycircleicon--red",
+			"name": "Red",
+			"title": "culling/SprayCircleIcon",
+			"importPath": "./src/stories/SprayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycircleicon--in-active": {
+			"type": "story",
+			"id": "culling-spraycircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/SprayCircleIcon",
+			"importPath": "./src/stories/SprayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-spraycircleicon--large": {
+			"type": "story",
+			"id": "culling-spraycircleicon--large",
+			"name": "Large",
+			"title": "culling/SprayCircleIcon",
+			"importPath": "./src/stories/SprayCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-StackTwoIcon--default": {
+			"type": "story",
+			"id": "culling-StackTwoIcon--default",
+			"name": "Default",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-StackTwoIcon--red": {
+			"type": "story",
+			"id": "culling-StackTwoIcon--red",
+			"name": "Red",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-StackTwoIcon--in-active": {
+			"type": "story",
+			"id": "culling-StackTwoIcon--in-active",
+			"name": "In Active",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-StackTwoIcon--large": {
+			"type": "story",
+			"id": "culling-StackTwoIcon--large",
+			"name": "Large",
+			"title": "culling/StackTwoIcon",
+			"importPath": "./src/stories/StackTwoIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-stackicon--default": {
+			"type": "story",
+			"id": "culling-stackicon--default",
+			"name": "Default",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-stackicon--red": {
+			"type": "story",
+			"id": "culling-stackicon--red",
+			"name": "Red",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-stackicon--in-active": {
+			"type": "story",
+			"id": "culling-stackicon--in-active",
+			"name": "In Active",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-stackicon--large": {
+			"type": "story",
+			"id": "culling-stackicon--large",
+			"name": "Large",
+			"title": "culling/StackThreeIcon",
+			"importPath": "./src/stories/StackThreeIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-starcrossedicon--default": {
+			"type": "story",
+			"id": "general-starcrossedicon--default",
+			"name": "Default",
+			"title": "general/StarCrossedIcon",
+			"importPath": "./src/stories/StarCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-starcrossedicon--red": {
+			"type": "story",
+			"id": "general-starcrossedicon--red",
+			"name": "Red",
+			"title": "general/StarCrossedIcon",
+			"importPath": "./src/stories/StarCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-starcrossedicon--in-active": {
+			"type": "story",
+			"id": "general-starcrossedicon--in-active",
+			"name": "In Active",
+			"title": "general/StarCrossedIcon",
+			"importPath": "./src/stories/StarCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-starcrossedicon--large": {
+			"type": "story",
+			"id": "general-starcrossedicon--large",
+			"name": "Large",
+			"title": "general/StarCrossedIcon",
+			"importPath": "./src/stories/StarCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-staricon--default": {
+			"type": "story",
+			"id": "general-staricon--default",
+			"name": "Default",
+			"title": "general/StarIcon",
+			"importPath": "./src/stories/StarIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-staricon--yellow": {
+			"type": "story",
+			"id": "general-staricon--yellow",
+			"name": "Yellow",
+			"title": "general/StarIcon",
+			"importPath": "./src/stories/StarIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-staricon--in-active": {
+			"type": "story",
+			"id": "general-staricon--in-active",
+			"name": "In Active",
+			"title": "general/StarIcon",
+			"importPath": "./src/stories/StarIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-staricon--large": {
+			"type": "story",
+			"id": "general-staricon--large",
+			"name": "Large",
+			"title": "general/StarIcon",
+			"importPath": "./src/stories/StarIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-storagecrossedicon--default": {
+			"type": "story",
+			"id": "culling-storagecrossedicon--default",
+			"name": "Default",
+			"title": "culling/StorageCrossedIcon",
+			"importPath": "./src/stories/StorageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-storagecrossedicon--red": {
+			"type": "story",
+			"id": "culling-storagecrossedicon--red",
+			"name": "Red",
+			"title": "culling/StorageCrossedIcon",
+			"importPath": "./src/stories/StorageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-storagecrossedicon--in-active": {
+			"type": "story",
+			"id": "culling-storagecrossedicon--in-active",
+			"name": "In Active",
+			"title": "culling/StorageCrossedIcon",
+			"importPath": "./src/stories/StorageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-storagecrossedicon--large": {
+			"type": "story",
+			"id": "culling-storagecrossedicon--large",
+			"name": "Large",
+			"title": "culling/StorageCrossedIcon",
+			"importPath": "./src/stories/StorageCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--default": {
+			"type": "story",
+			"id": "edit-successfillbgicon--default",
+			"name": "Default",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--red": {
+			"type": "story",
+			"id": "edit-successfillbgicon--red",
+			"name": "Red",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--in-active": {
+			"type": "story",
+			"id": "edit-successfillbgicon--in-active",
+			"name": "In Active",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--yellow-bg": {
+			"type": "story",
+			"id": "edit-successfillbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--red-fill": {
+			"type": "story",
+			"id": "edit-successfillbgicon--red-fill",
+			"name": "Red Fill",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"edit-successfillbgicon--large": {
+			"type": "story",
+			"id": "edit-successfillbgicon--large",
+			"name": "Large",
+			"title": "edit/SuccessFillBgIcon",
+			"importPath": "./src/stories/SuccessIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbdownbgicon--default": {
+			"type": "story",
+			"id": "general-thumbdownbgicon--default",
+			"name": "Default",
+			"title": "general/ThumbDownBgIcon",
+			"importPath": "./src/stories/ThumbDownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbdownbgicon--red": {
+			"type": "story",
+			"id": "general-thumbdownbgicon--red",
+			"name": "Red",
+			"title": "general/ThumbDownBgIcon",
+			"importPath": "./src/stories/ThumbDownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbdownbgicon--in-active": {
+			"type": "story",
+			"id": "general-thumbdownbgicon--in-active",
+			"name": "In Active",
+			"title": "general/ThumbDownBgIcon",
+			"importPath": "./src/stories/ThumbDownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbdownbgicon--green-bg": {
+			"type": "story",
+			"id": "general-thumbdownbgicon--green-bg",
+			"name": "Green Bg",
+			"title": "general/ThumbDownBgIcon",
+			"importPath": "./src/stories/ThumbDownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbdownbgicon--large": {
+			"type": "story",
+			"id": "general-thumbdownbgicon--large",
+			"name": "Large",
+			"title": "general/ThumbDownBgIcon",
+			"importPath": "./src/stories/ThumbDownBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbupbgicon--default": {
+			"type": "story",
+			"id": "general-thumbupbgicon--default",
+			"name": "Default",
+			"title": "general/ThumbUpBgIcon",
+			"importPath": "./src/stories/ThumbUpBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbupbgicon--red": {
+			"type": "story",
+			"id": "general-thumbupbgicon--red",
+			"name": "Red",
+			"title": "general/ThumbUpBgIcon",
+			"importPath": "./src/stories/ThumbUpBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbupbgicon--in-active": {
+			"type": "story",
+			"id": "general-thumbupbgicon--in-active",
+			"name": "In Active",
+			"title": "general/ThumbUpBgIcon",
+			"importPath": "./src/stories/ThumbUpBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbupbgicon--green-bg": {
+			"type": "story",
+			"id": "general-thumbupbgicon--green-bg",
+			"name": "Green Bg",
+			"title": "general/ThumbUpBgIcon",
+			"importPath": "./src/stories/ThumbUpBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-thumbupbgicon--large": {
+			"type": "story",
+			"id": "general-thumbupbgicon--large",
+			"name": "Large",
+			"title": "general/ThumbUpBgIcon",
+			"importPath": "./src/stories/ThumbUpBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-thunderbgicon--default": {
+			"type": "story",
+			"id": "culling-thunderbgicon--default",
+			"name": "Default",
+			"title": "culling/ThunderBgIcon",
+			"importPath": "./src/stories/ThunderBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-thunderbgicon--yellow-bg": {
+			"type": "story",
+			"id": "culling-thunderbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "culling/ThunderBgIcon",
+			"importPath": "./src/stories/ThunderBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-thunderbgicon--in-active": {
+			"type": "story",
+			"id": "culling-thunderbgicon--in-active",
+			"name": "In Active",
+			"title": "culling/ThunderBgIcon",
+			"importPath": "./src/stories/ThunderBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-thunderbgicon--large": {
+			"type": "story",
+			"id": "culling-thunderbgicon--large",
+			"name": "Large",
+			"title": "culling/ThunderBgIcon",
+			"importPath": "./src/stories/ThunderBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitterbgicon--default": {
+			"type": "story",
+			"id": "social-twitterbgicon--default",
+			"name": "Default",
+			"title": "social/TwitterBgIcon",
+			"importPath": "./src/stories/TwitterBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitterbgicon--red": {
+			"type": "story",
+			"id": "social-twitterbgicon--red",
+			"name": "Red",
+			"title": "social/TwitterBgIcon",
+			"importPath": "./src/stories/TwitterBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitterbgicon--yellow-bg": {
+			"type": "story",
+			"id": "social-twitterbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "social/TwitterBgIcon",
+			"importPath": "./src/stories/TwitterBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitterbgicon--large": {
+			"type": "story",
+			"id": "social-twitterbgicon--large",
+			"name": "Large",
+			"title": "social/TwitterBgIcon",
+			"importPath": "./src/stories/TwitterBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twittericon--default": {
+			"type": "story",
+			"id": "social-twittericon--default",
+			"name": "Default",
+			"title": "social/TwitterIcon",
+			"importPath": "./src/stories/TwitterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twittericon--red": {
+			"type": "story",
+			"id": "social-twittericon--red",
+			"name": "Red",
+			"title": "social/TwitterIcon",
+			"importPath": "./src/stories/TwitterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twittericon--in-active": {
+			"type": "story",
+			"id": "social-twittericon--in-active",
+			"name": "In Active",
+			"title": "social/TwitterIcon",
+			"importPath": "./src/stories/TwitterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twittericon--large": {
+			"type": "story",
+			"id": "social-twittericon--large",
+			"name": "Large",
+			"title": "social/TwitterIcon",
+			"importPath": "./src/stories/TwitterIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitteroutlineicon--default": {
+			"type": "story",
+			"id": "social-twitteroutlineicon--default",
+			"name": "Default",
+			"title": "social/TwitterOutlineIcon",
+			"importPath": "./src/stories/TwitterOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitteroutlineicon--red": {
+			"type": "story",
+			"id": "social-twitteroutlineicon--red",
+			"name": "Red",
+			"title": "social/TwitterOutlineIcon",
+			"importPath": "./src/stories/TwitterOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitteroutlineicon--in-active": {
+			"type": "story",
+			"id": "social-twitteroutlineicon--in-active",
+			"name": "In Active",
+			"title": "social/TwitterOutlineIcon",
+			"importPath": "./src/stories/TwitterOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"social-twitteroutlineicon--large": {
+			"type": "story",
+			"id": "social-twitteroutlineicon--large",
+			"name": "Large",
+			"title": "social/TwitterOutlineIcon",
+			"importPath": "./src/stories/TwitterOutlineIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--default": {
+			"type": "story",
+			"id": "general-uploadbgicon--default",
+			"name": "Default",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--red": {
+			"type": "story",
+			"id": "general-uploadbgicon--red",
+			"name": "Red",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-uploadbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--in-active": {
+			"type": "story",
+			"id": "general-uploadbgicon--in-active",
+			"name": "In Active",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--green-accent": {
+			"type": "story",
+			"id": "general-uploadbgicon--green-accent",
+			"name": "Green Accent",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadbgicon--large": {
+			"type": "story",
+			"id": "general-uploadbgicon--large",
+			"name": "Large",
+			"title": "general/UploadBgIcon",
+			"importPath": "./src/stories/UploadBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-uploadfolder--default": {
+			"type": "story",
+			"id": "culling-uploadfolder--default",
+			"name": "Default",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-uploadfolder--red": {
+			"type": "story",
+			"id": "culling-uploadfolder--red",
+			"name": "Red",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-uploadfolder--in-active": {
+			"type": "story",
+			"id": "culling-uploadfolder--in-active",
+			"name": "In Active",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-uploadfolder--large": {
+			"type": "story",
+			"id": "culling-uploadfolder--large",
+			"name": "Large",
+			"title": "culling/UploadFolderIcon",
+			"importPath": "./src/stories/UploadFolderIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudicon--default": {
+			"type": "story",
+			"id": "general-uploadcloudicon--default",
+			"name": "Default",
+			"title": "general/UploadCloudIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudicon--red": {
+			"type": "story",
+			"id": "general-uploadcloudicon--red",
+			"name": "Red",
+			"title": "general/UploadCloudIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudicon--in-active": {
+			"type": "story",
+			"id": "general-uploadcloudicon--in-active",
+			"name": "In Active",
+			"title": "general/UploadCloudIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudicon--large": {
+			"type": "story",
+			"id": "general-uploadcloudicon--large",
+			"name": "Large",
+			"title": "general/UploadCloudIcon",
+			"importPath": "./src/stories/UploadIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--default": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--default",
+			"name": "Default",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--red": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--red",
+			"name": "Red",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--in-active": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--in-active",
+			"name": "In Active",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--red-accent": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--red-accent",
+			"name": "Red Accent",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-uploadcloudbgicon--large": {
+			"type": "story",
+			"id": "general-uploadcloudbgicon--large",
+			"name": "Large",
+			"title": "general/UploadCloudBgIcon",
+			"importPath": "./src/stories/UploadIconIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-viewallicon--default": {
+			"type": "story",
+			"id": "culling-viewallicon--default",
+			"name": "Default",
+			"title": "culling/ViewAllIcon",
+			"importPath": "./src/stories/ViewAllIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-viewallicon--red": {
+			"type": "story",
+			"id": "culling-viewallicon--red",
+			"name": "Red",
+			"title": "culling/ViewAllIcon",
+			"importPath": "./src/stories/ViewAllIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-viewallicon--in-active": {
+			"type": "story",
+			"id": "culling-viewallicon--in-active",
+			"name": "In Active",
+			"title": "culling/ViewAllIcon",
+			"importPath": "./src/stories/ViewAllIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-viewallicon--large": {
+			"type": "story",
+			"id": "culling-viewallicon--large",
+			"name": "Large",
+			"title": "culling/ViewAllIcon",
+			"importPath": "./src/stories/ViewAllIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedbgicon--default": {
+			"type": "story",
+			"id": "general-wificrossedbgicon--default",
+			"name": "Default",
+			"title": "general/WifiCrossedBgIcon",
+			"importPath": "./src/stories/WifiCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedbgicon--red": {
+			"type": "story",
+			"id": "general-wificrossedbgicon--red",
+			"name": "Red",
+			"title": "general/WifiCrossedBgIcon",
+			"importPath": "./src/stories/WifiCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedbgicon--in-active": {
+			"type": "story",
+			"id": "general-wificrossedbgicon--in-active",
+			"name": "In Active",
+			"title": "general/WifiCrossedBgIcon",
+			"importPath": "./src/stories/WifiCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedbgicon--yellow-bg": {
+			"type": "story",
+			"id": "general-wificrossedbgicon--yellow-bg",
+			"name": "Yellow Bg",
+			"title": "general/WifiCrossedBgIcon",
+			"importPath": "./src/stories/WifiCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedbgicon--large": {
+			"type": "story",
+			"id": "general-wificrossedbgicon--large",
+			"name": "Large",
+			"title": "general/WifiCrossedBgIcon",
+			"importPath": "./src/stories/WifiCrossedBgIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedicon--default": {
+			"type": "story",
+			"id": "general-wificrossedicon--default",
+			"name": "Default",
+			"title": "general/WifiCrossedIcon",
+			"importPath": "./src/stories/WifiCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedicon--red": {
+			"type": "story",
+			"id": "general-wificrossedicon--red",
+			"name": "Red",
+			"title": "general/WifiCrossedIcon",
+			"importPath": "./src/stories/WifiCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedicon--in-active": {
+			"type": "story",
+			"id": "general-wificrossedicon--in-active",
+			"name": "In Active",
+			"title": "general/WifiCrossedIcon",
+			"importPath": "./src/stories/WifiCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"general-wificrossedicon--large": {
+			"type": "story",
+			"id": "general-wificrossedicon--large",
+			"name": "Large",
+			"title": "general/WifiCrossedIcon",
+			"importPath": "./src/stories/WifiCrossedIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomcircleicon--default": {
+			"type": "story",
+			"id": "culling-zoomcircleicon--default",
+			"name": "Default",
+			"title": "culling/ZoomCircleIcon",
+			"importPath": "./src/stories/ZoomCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomcircleicon--red": {
+			"type": "story",
+			"id": "culling-zoomcircleicon--red",
+			"name": "Red",
+			"title": "culling/ZoomCircleIcon",
+			"importPath": "./src/stories/ZoomCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomcircleicon--in-active": {
+			"type": "story",
+			"id": "culling-zoomcircleicon--in-active",
+			"name": "In Active",
+			"title": "culling/ZoomCircleIcon",
+			"importPath": "./src/stories/ZoomCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomcircleicon--large": {
+			"type": "story",
+			"id": "culling-zoomcircleicon--large",
+			"name": "Large",
+			"title": "culling/ZoomCircleIcon",
+			"importPath": "./src/stories/ZoomCircleIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomicon--default": {
+			"type": "story",
+			"id": "culling-zoomicon--default",
+			"name": "Default",
+			"title": "culling/ZoomIcon",
+			"importPath": "./src/stories/ZoomIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomicon--red": {
+			"type": "story",
+			"id": "culling-zoomicon--red",
+			"name": "Red",
+			"title": "culling/ZoomIcon",
+			"importPath": "./src/stories/ZoomIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomicon--in-active": {
+			"type": "story",
+			"id": "culling-zoomicon--in-active",
+			"name": "In Active",
+			"title": "culling/ZoomIcon",
+			"importPath": "./src/stories/ZoomIcon.stories.tsx",
+			"tags": ["story"]
+		},
+		"culling-zoomicon--large": {
+			"type": "story",
+			"id": "culling-zoomicon--large",
+			"name": "Large",
+			"title": "culling/ZoomIcon",
+			"importPath": "./src/stories/ZoomIcon.stories.tsx",
+			"tags": ["story"]
+		}
+	}
+}

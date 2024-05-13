@@ -33,7 +33,68 @@ yarn
 yarn build
 ```
 
+## How to Generate Components
+
+0. Make sure the main color/stroke color of the svg is #E2E2E2. Otherwise, it will not work properly.
+
+1. Put the new SVGs in `/src/new-svgs`.
+
+2. Run `sh generate.sh`. This will generate a `src/new-components` and `src/new-stories` with icon components,
+   and stories respectively.
+
+3. Inside the newly created components, update any additional icon variant and secondary colors with the correct prop names. Make sure to add correct types.
+
+4. Once, tested and satisfied, move the component from `src/new-components` to the right folder - `src/icons/[subfolder]`, and stories from `src/new-stories` to `src/stories`. (Also update the stories titles - the default is New)
+
+5. Now run `sh export.sh`. This will export the newly created components, ready to be used.
+
+Inside the stories - The import of newly created component should look like this -
+`import { NewlyCreatedComponent } from '../icons'`
+
+You are all set
+
+## Control Secondary Color
+
+Many icons have secondary colors - background color, accent color etc. Make sure to modify the component with correct props name
+background color - bgColor
+accent color - accentColor.
+
+## Practice for Correct Types
+
+Every icon component have three type - 'primary' | 'secondary' | 'tertiary' by default
+Keep only primary if there is only one icon type.
+Add types if there the component have secondary colors such as bgColor or accentColor
+
+## About Storybook
+
+Stories are automatically generated when you run `sh generate.sh`.
+New stories will have prefix folder name as NEW. Make sure to change this as per your require.
+Also, remember to import icon correctly from the icon folder.
+
+Live storybook: "[https://65bb4c7b2d4e48c0410f5829-cenawazgya.chromatic.com/?path=/story/culling-addfoldericon--default&globals=backgrounds.value:!hex(333333)](<https://65bb4c7b2d4e48c0410f5829-fgpcpxhxjl.chromatic.com/?path=/story/logo-aftershootlogoicon--default&globals=backgrounds.value:!hex(333333)>)"
+
+## Publish storbook to Chromatic
+
+run `yarn chromatic`
+
+Chromatic Dashboard: https://www.chromatic.com/build?appId=65bb4c7b2d4e48c0410f5829&number=3
+
+## Using icon components Tips
+
+1. Import from '@aftershootco/unicorn-icons'
+
+2. Props - size, color, fillColor (icons with fill), variant (if icon have more than one variant), bgColor (icon with bg), inActive (make icon color dull, this will have more priority than color props)
+
+3. on hover effect example
+
+    ```js
+    <button className='group' onClick={props.onClose}>
+    	<CloseIcon size={14} color='#777777' className='group-hover:[&_*]:fill-white group-hover:[&_*]:stroke-white' />
+    </button>
+    ```
+
 ## Contributors
 
 -   Akash Singh — [Github](https://github.com/frannkenstein)
 -   Yash Johri — [Github](https://github.com/yash1200)
+-   Booi Mangang - [Github](https://github.com/booi-dev)

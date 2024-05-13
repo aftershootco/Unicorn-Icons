@@ -2,6 +2,6 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # npx --no-install pretty-quick
-yarn version --no-git-tag-version --patch && git add .
+git add .
 # npx pretty-quick --staged
 # yarn lint-staged
