@@ -3,6 +3,7 @@ export * from './AftershootLogoWhite';
 export * from './CaptureOneIcon';
 export * from './DragBridgeIcon';
 export * from './DragCaptureOneIcon';
+export * from './DragFolderIcon';
 export * from './DragLrIcon';
 export * from './DragLrcIcon';
 export * from './DragPhotoshopIcon';

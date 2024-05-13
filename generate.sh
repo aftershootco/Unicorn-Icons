@@ -14,7 +14,7 @@ echo -e "----------------------------------------"
 # Check if src/new-svgs folder is empty
 if [ -n "$(ls -A src/new-svgs)" ]; then
     # Run script 1
-    ./sh-scripts/gc.sh
+    ./sh-scripts/gen_icon_c.sh
 
     # Check if script 1 ran successfully
     if [ $? -eq 0 ]; then
@@ -22,7 +22,7 @@ if [ -n "$(ls -A src/new-svgs)" ]; then
 
             echo -e "${ORANGE}setting up for stories.${COLOR_RESET}"
             # Run script 3 after script 2 completes
-            ./sh-scripts/gs.sh
+            ./sh-scripts/gen_story.sh
 
             # Check if script 3 ran successfully
             if [ $? -eq 0 ]; then

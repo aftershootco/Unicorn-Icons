@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { IconProps } from '../../../types/Icons/types'
+import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
 

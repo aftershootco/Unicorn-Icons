@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { DragFolderIcon } from '../new-components/DragFolderIcon'
+import { DragFolderIcon } from '../icons'
 
 const meta: Meta<typeof DragFolderIcon> = {
 	component: DragFolderIcon,
-	title: 'new/DragFolderIcon',
+	title: 'logo/DragFolderIcon',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
