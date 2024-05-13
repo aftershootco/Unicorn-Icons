@@ -19,10 +19,3 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
 export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 	size?: number | string
 }
-
-declare module '*.png' {
-	const value: any
-	export = value
-}
-
-declare module '*.png'

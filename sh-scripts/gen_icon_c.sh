@@ -31,7 +31,7 @@ for svg_file in "$SVG_FOLDER"/*.svg; do
 
     # Use echo with a here document to insert the content
     echo "import React from 'react'" > "$FILE_PATH"
-    echo "import { IconProps } from '../../types/Icons/types'" >> "$FILE_PATH"
+    echo "import { IconProps } from '../../types'" >> "$FILE_PATH"
     echo "import BaseIcon from '../components/BaseIcon'" >> "$FILE_PATH"
     echo "import DEFAULT_ICON from '../constant'" >> "$FILE_PATH"
     echo "" >> "$FILE_PATH"
