@@ -6698,71 +6698,71 @@
 		"culling-selectedcirclebgicon--default": {
 			"id": "culling-selectedcirclebgicon--default",
 			"name": "Default",
-			"title": "culling/SelectedCircleBgIcon",
-			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"title": "culling/SelectedFillCircleIcon",
+			"importPath": "./src/stories/SelectedFillCircleIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/SelectedCircleBgIcon",
+			"kind": "culling/SelectedFillCircleIcon",
 			"story": "Default",
 			"parameters": {
 				"__id": "culling-selectedcirclebgicon--default",
 				"docsOnly": false,
-				"fileName": "./src/stories/SelectedCircleBgIcon.stories.tsx"
+				"fileName": "./src/stories/SelectedFillCircleIcon.stories.tsx"
 			}
 		},
 		"culling-selectedcirclebgicon--red": {
 			"id": "culling-selectedcirclebgicon--red",
 			"name": "Red",
-			"title": "culling/SelectedCircleBgIcon",
-			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"title": "culling/SelectedFillCircleIcon",
+			"importPath": "./src/stories/SelectedFillCircleIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/SelectedCircleBgIcon",
+			"kind": "culling/SelectedFillCircleIcon",
 			"story": "Red",
 			"parameters": {
 				"__id": "culling-selectedcirclebgicon--red",
 				"docsOnly": false,
-				"fileName": "./src/stories/SelectedCircleBgIcon.stories.tsx"
+				"fileName": "./src/stories/SelectedFillCircleIcon.stories.tsx"
 			}
 		},
 		"culling-selectedcirclebgicon--yellow-bg": {
 			"id": "culling-selectedcirclebgicon--yellow-bg",
 			"name": "Yellow Bg",
-			"title": "culling/SelectedCircleBgIcon",
-			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"title": "culling/SelectedFillCircleIcon",
+			"importPath": "./src/stories/SelectedFillCircleIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/SelectedCircleBgIcon",
+			"kind": "culling/SelectedFillCircleIcon",
 			"story": "Yellow Bg",
 			"parameters": {
 				"__id": "culling-selectedcirclebgicon--yellow-bg",
 				"docsOnly": false,
-				"fileName": "./src/stories/SelectedCircleBgIcon.stories.tsx"
+				"fileName": "./src/stories/SelectedFillCircleIcon.stories.tsx"
 			}
 		},
 		"culling-selectedcirclebgicon--in-active": {
 			"id": "culling-selectedcirclebgicon--in-active",
 			"name": "In Active",
-			"title": "culling/SelectedCircleBgIcon",
-			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"title": "culling/SelectedFillCircleIcon",
+			"importPath": "./src/stories/SelectedFillCircleIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/SelectedCircleBgIcon",
+			"kind": "culling/SelectedFillCircleIcon",
 			"story": "In Active",
 			"parameters": {
 				"__id": "culling-selectedcirclebgicon--in-active",
 				"docsOnly": false,
-				"fileName": "./src/stories/SelectedCircleBgIcon.stories.tsx"
+				"fileName": "./src/stories/SelectedFillCircleIcon.stories.tsx"
 			}
 		},
 		"culling-selectedcirclebgicon--large": {
 			"id": "culling-selectedcirclebgicon--large",
 			"name": "Large",
-			"title": "culling/SelectedCircleBgIcon",
-			"importPath": "./src/stories/SelectedCircleBgIcon.stories.tsx",
+			"title": "culling/SelectedFillCircleIcon",
+			"importPath": "./src/stories/SelectedFillCircleIcon.stories.tsx",
 			"tags": ["story"],
-			"kind": "culling/SelectedCircleBgIcon",
+			"kind": "culling/SelectedFillCircleIcon",
 			"story": "Large",
 			"parameters": {
 				"__id": "culling-selectedcirclebgicon--large",
 				"docsOnly": false,
-				"fileName": "./src/stories/SelectedCircleBgIcon.stories.tsx"
+				"fileName": "./src/stories/SelectedFillCircleIcon.stories.tsx"
 			}
 		},
 		"culling-shareicon--default": {

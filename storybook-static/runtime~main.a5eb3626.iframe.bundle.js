@@ -205,7 +205,7 @@
 				8752: 'stories-DragLrIcon-stories',
 				8798: 'stories-GoogleColorIcon-stories',
 				8939: 'stories-FaceSadIcon-stories',
-				8946: 'stories-SelectedCircleBgIcon-stories',
+				8946: 'stories-SelectedFillCircleIcon-stories',
 				8992: 'stories-CloseCircleIcon-stories',
 				8997: 'stories-SearchIcon-stories',
 				9048: 'stories-ComputerIcon-stories',

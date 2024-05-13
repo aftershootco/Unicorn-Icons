@@ -8,7 +8,7 @@ type Props = Omit<IconProps, 'variant'> & {
 	variant?: IconVariant
 }
 
-export const ImageStackThreeIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
+export const ImageStackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
 	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
 
