@@ -5,48 +5,48 @@
 			"type": "story",
 			"id": "culling-addfoldericon--default",
 			"name": "Default",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-addfoldericon--red": {
 			"type": "story",
 			"id": "culling-addfoldericon--red",
 			"name": "Red",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-addfoldericon--in-active": {
 			"type": "story",
 			"id": "culling-addfoldericon--in-active",
 			"name": "In Active",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-addfoldericon--green-accent": {
 			"type": "story",
 			"id": "culling-addfoldericon--green-accent",
 			"name": "Green Accent",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-addfoldericon--large": {
 			"type": "story",
 			"id": "culling-addfoldericon--large",
 			"name": "Large",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-addfoldericon--class": {
 			"type": "story",
 			"id": "culling-addfoldericon--class",
 			"name": "Class",
-			"title": "culling/AddFolderIcon",
-			"importPath": "./src/stories/AddFolderIcon.stories.tsx",
+			"title": "culling/DownloadIcon",
+			"importPath": "./src/stories/DownloadIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"general-adjustmenticon--default": {
@@ -605,48 +605,48 @@
 			"type": "story",
 			"id": "edit-atombgicon--default",
 			"name": "Default",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-atombgicon--red": {
 			"type": "story",
 			"id": "edit-atombgicon--red",
 			"name": "Red",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-atombgicon--yellow-bg": {
 			"type": "story",
 			"id": "edit-atombgicon--yellow-bg",
 			"name": "Yellow Bg",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-atombgicon--in-active": {
 			"type": "story",
 			"id": "edit-atombgicon--in-active",
 			"name": "In Active",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-atombgicon--green-accent": {
 			"type": "story",
 			"id": "edit-atombgicon--green-accent",
 			"name": "Green Accent",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"edit-atombgicon--large": {
 			"type": "story",
 			"id": "edit-atombgicon--large",
 			"name": "Large",
-			"title": "edit/AtomBgIcon",
-			"importPath": "./src/stories/AtomBgIcon.stories.tsx",
+			"title": "edit/TrainBgIcon",
+			"importPath": "./src/stories/TrainBgIcon.stories.tsx",
 			"tags": ["story"]
 		},
 		"culling-bordersquareicon--default": {

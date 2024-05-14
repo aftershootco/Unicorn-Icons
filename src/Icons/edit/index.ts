@@ -1,5 +1,4 @@
 export * from './AftershootEditIcon';
-export * from './AtomBgIcon';
 export * from './CheckBoxEmptyIcon';
 export * from './CheckBoxIcon';
 export * from './CheckBoxPartialIcon';
@@ -21,3 +20,4 @@ export * from './MoodIcon';
 export * from './PlusBgIcon';
 export * from './RightArrowBgIcon';
 export * from './SuccessFillBgIcon';
+export * from './TrainBgIcon';
