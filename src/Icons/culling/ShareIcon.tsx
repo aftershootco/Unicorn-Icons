@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -11,15 +12,21 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const ShareIcon = React.forwardRef<SVGSVGElement, IconProps>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<g clipPath='url(#clip0_11945_21273)'>
 				<path
 					d='M9 22.5C11.4853 22.5 13.5 20.4853 13.5 18C13.5 15.5147 11.4853 13.5 9 13.5C6.51472 13.5 4.5 15.5147 4.5 18C4.5 20.4853 6.51472 22.5 9 22.5Z'

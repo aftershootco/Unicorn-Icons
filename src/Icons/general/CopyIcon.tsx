@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary' | 'tertiary'
 
@@ -12,15 +13,22 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const CopyIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 
 	const primary = (
-		<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 24 24'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M20 9h-9a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2Z'
 				stroke={modifiedColor}
@@ -32,7 +40,15 @@ export const CopyIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 15 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 15 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M12.5001 4.66602H5.83341C4.91294 4.66602 4.16675 5.41221 4.16675 6.33268V12.9993C4.16675 13.9198 4.91294 14.666 5.83341 14.666H12.5001C13.4206 14.666 14.1667 13.9198 14.1667 12.9993V6.33268C14.1667 5.41221 13.4206 4.66602 12.5001 4.66602Z'
 				stroke={modifiedColor}
@@ -53,8 +69,9 @@ export const CopyIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 			xmlns='http://www.w3.org/2000/svg'
 			viewBox='0 0 24 24'
 			fill={modifiedColor}
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<path d='M0 0h24v24H0V0z' fill='none' />

@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -15,21 +16,29 @@ export const ComputerBgIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 63 63' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 63 63'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<circle cx='31.5' cy='31.5' r='31.5' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M39 23H23C21.8954 23 21 23.8954 21 25V35C21 36.1046 21.8954 37 23 37H39C40.1046 37 41 36.1046 41 35V25C41 23.8954 40.1046 23 39 23Z'

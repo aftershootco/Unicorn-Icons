@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -11,16 +12,22 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const PersonTwoIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 
 	const primary = (
-		<svg viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g clipPath='url(#clip0_11945_21252)'>
 				<path
 					d='M13.5 16.5C16.8137 16.5 19.5 13.8137 19.5 10.5C19.5 7.18629 16.8137 4.5 13.5 4.5C10.1863 4.5 7.5 7.18629 7.5 10.5C7.5 13.8137 10.1863 16.5 13.5 16.5Z'
@@ -60,7 +67,15 @@ export const PersonTwoIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 52 51' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 52 51'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M22.769 7.654c.734-2.692 2.61-6.037 7.343-6.037 0 0 13.055-4.162 13.055 9.138 0 11.178 2.53 12.402 5.222 15.094a46.179 46.179 0 0 1-10.444 1.224v1.306c0 1.305-.245 3.916 6.283 5.222C50.755 34.906 51 40.128 51 40.128H33.865'
 				stroke={modifiedColor}

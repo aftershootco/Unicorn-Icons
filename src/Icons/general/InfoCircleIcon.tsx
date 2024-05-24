@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary' | 'tertiary' | 'quaternary'
 
@@ -12,15 +13,21 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const InfoCircleIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 16 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g clipPath='url(#clip0_4819_58299)'>
 				<path
 					d='M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z'
@@ -47,7 +54,15 @@ export const InfoCircleIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 17 17'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<rect x='.5' y='.5' width='16' height='16' rx='8' stroke={modifiedColor} />
 			<path
 				d='M8.457 5a.457.457 0 1 1 0 .914.457.457 0 0 1 0-.914Z'
@@ -62,7 +77,15 @@ export const InfoCircleIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	)
 
 	const tertiary = (
-		<svg viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 35 35'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<rect x='.5' y='.5' width='34' height='34' rx='17' stroke={modifiedColor} stroke-opacity='.5' />
 			<path d='M18 11a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z' fill={modifiedColor} />
 			<path d='M18 25v-8' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
@@ -70,7 +93,15 @@ export const InfoCircleIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 	)
 
 	const quaternary = (
-		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 16 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<circle cx='8' cy='8' r='5.5' stroke={modifiedColor} />
 			<line x1='8' y1='7' x2='8' y2='11' stroke={modifiedColor} />
 			<circle cx='8.00488' cy='5.625' r='0.625' fill={modifiedColor} />

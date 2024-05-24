@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
-import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant' | 'color'> & {
@@ -10,9 +10,7 @@ type Props = Omit<IconProps, 'variant' | 'color'> & {
 
 export const DragCaptureOneIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, size, ...restProps } = props
 
 	// variants
 	const primary = (
@@ -21,8 +19,9 @@ export const DragCaptureOneIcon = React.forwardRef<SVGSVGElement, Props>((props,
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<rect width={60} height={60} rx={10} fill='url(#paint0_linear_9601_5143)' />

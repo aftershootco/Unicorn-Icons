@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 
@@ -12,15 +13,21 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const UploadIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	// props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 15 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 15 18'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g clipPath='url(#clip0_13900_1702)'>
 				<path
 					d='M1.14288 12.375V13.9821C1.14288 14.4084 1.31221 14.8172 1.6136 15.1186C1.915 15.42 2.32379 15.5893 2.75003 15.5893H12.3929C12.8191 15.5893 13.2279 15.42 13.5293 15.1186C13.8307 14.8172 14 14.4084 14 13.9821V12.375'
@@ -39,7 +46,15 @@ export const UploadIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 13 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 13 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M1 8v5.6A1.4 1.4 0 0 0 2.4 15h8.4a1.4 1.4 0 0 0 1.4-1.4V8M9.4 3.8 6.6 1 3.8 3.8M6.6 1v9.1'
 				stroke={modifiedColor}

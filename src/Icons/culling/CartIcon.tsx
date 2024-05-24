@@ -2,20 +2,27 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type Props = IconProps
 
 export const CartIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6 text-[#fff] stroke-[#fff]', className && className)}
+		>
 			<g clipPath='url(#clip0_11945_21255)'>
 				<path
 					d='M9 31.5C10.6569 31.5 12 30.1569 12 28.5C12 26.8431 10.6569 25.5 9 25.5C7.34315 25.5 6 26.8431 6 28.5C6 30.1569 7.34315 31.5 9 31.5Z'
@@ -58,7 +65,15 @@ export const CartIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 49 46' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 49 46'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<path
 				d='M19.16 15.188H8.812M1 2.688h4.688l7.812 31.25h25l.938-3.716M15.063 45.313a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25Zm20.312 0a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25Z'
 				stroke={modifiedColor}
@@ -84,7 +99,15 @@ export const CartIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	)
 
 	const tertiary = (
-		<svg viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 36 36'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<g clipPath='url(#clip0_5678_4243)'>
 				<path
 					d='M9 31.5C10.6569 31.5 12 30.1569 12 28.5C12 26.8431 10.6569 25.5 9 25.5C7.34315 25.5 6 26.8431 6 28.5C6 30.1569 7.34315 31.5 9 31.5Z'

@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 
@@ -15,21 +16,29 @@ type Props = Omit<IconProps, 'variant'> & {
 export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 18 18'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<rect width='18' height='18' rx='9' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clipPath='url(#clip0_3425_12220)'>
 				<path
@@ -52,7 +61,15 @@ export const CrownBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 18 18'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<rect width='18.0001' height='18.0001' rx='9.00004' fill={bgColor} fillOpacity='0.2' />
 			<g clipPath='url(#clip0_1949_62927)'>
 				<path

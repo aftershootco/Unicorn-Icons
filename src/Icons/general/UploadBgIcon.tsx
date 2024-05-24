@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -16,10 +17,12 @@ export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
 		inActive = false,
 		...restProps
@@ -27,11 +30,17 @@ export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 72 72' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 72 72'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<rect width='72' height='72' rx='36' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M20 46V50C20 51.0609 20.4214 52.0783 21.1716 52.8284C21.9217 53.5786 22.9391 54 24 54H48C49.0608 54 50.0783 53.5786 50.8284 52.8284C51.5786 52.0783 52 51.0609 52 50V46'
@@ -46,7 +55,15 @@ export const UploadBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 40 40'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<circle cx='20' cy='20' r='20' fill={bgColor} fillOpacity={bgOpacity} />
 			<path
 				d='M12 20.5v7.6a1.9 1.9 0 0 0 1.9 1.9h11.4a1.9 1.9 0 0 0 1.9-1.9v-7.6m-3.799-5.7-3.8-3.8-3.8 3.8m3.801-3.8v12.35'

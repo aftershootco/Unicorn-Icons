@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary' | 'tertiary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -14,17 +15,17 @@ export const ConfettiIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -34,9 +35,10 @@ export const ConfettiIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			viewBox='0 0 16 16'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<g clipPath='url(#clip0_5833_31936)'>
 				<path d='M2.6665 3.33325H3.99984' stroke={modifiedColor} stroke-width='1.33333' strokeLinecap='round' strokeLinejoin='round' />

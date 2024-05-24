@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
@@ -9,13 +10,19 @@ type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 
 export const ConfettiRightScreen = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = 300, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, size = 300, ...restProps } = props
 
 	// variants
 	const primary = (
-		<svg viewBox='0 0 245 329' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 245 329'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<g opacity='.6'>
 				<g opacity='.3'>
 					<path

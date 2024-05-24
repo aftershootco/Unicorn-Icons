@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type Props = IconProps & {
 	bgColor?: string
@@ -13,21 +14,29 @@ export const GridBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 22 22'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<rect width='22' height='22' rx='2' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clipPath='url(#clip0_12220_36385)'>
 				<path

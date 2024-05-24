@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -11,15 +12,22 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const OpenlinkIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 
 	const primary = (
-		<svg viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 17 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M7.70312 2.32324H2.875C1.83947 2.32324 1 3.16271 1 4.19824V13.2424C1 14.2779 1.83947 15.1174 2.875 15.1174H7.70312H12.5312C13.5668 15.1174 14.4062 14.2779 14.4062 13.2424V11.8085V8.49971'
 				stroke={modifiedColor}
@@ -34,7 +42,15 @@ export const OpenlinkIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 16 17'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g clipPath='url(#clip0_21395_124739)'>
 				<path
 					d='M7.33341 4.8877H4.00008C3.64646 4.8877 3.30732 5.02817 3.05727 5.27822C2.80722 5.52827 2.66675 5.86741 2.66675 6.22103V12.221C2.66675 12.5747 2.80722 12.9138 3.05727 13.1638C3.30732 13.4139 3.64646 13.5544 4.00008 13.5544H10.0001C10.3537 13.5544 10.6928 13.4139 10.9429 13.1638C11.1929 12.9138 11.3334 12.5747 11.3334 12.221V8.8877'

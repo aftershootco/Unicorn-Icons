@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 
@@ -11,9 +12,7 @@ type Props = Omit<IconProps, 'variant' | 'inActive' | 'color'> & {
 
 export const AfterShootLogoIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, ...restProps } = props
 
 	// variants
 
@@ -23,8 +22,9 @@ export const AfterShootLogoIcon = React.forwardRef<SVGSVGElement, Props>((props,
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<path

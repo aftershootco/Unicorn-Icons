@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type Props = Omit<IconProps, 'color'> & {
 	bgColor?: string
@@ -13,14 +14,14 @@ export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 	//props
 	const {
 		variant = 'primary',
+		className,
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -29,9 +30,10 @@ export const ThunderBgIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<rect width={24} height={24} rx={12} fill={bgColor} fillOpacity={bgOpacity} />
 			<rect x={4} y={4} width={16} height={16} fill='url(#pattern0)' />

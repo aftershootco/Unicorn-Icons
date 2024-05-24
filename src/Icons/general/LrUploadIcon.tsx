@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -13,16 +14,16 @@ export const LrUploadIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -32,9 +33,10 @@ export const LrUploadIcon = React.forwardRef<SVGSVGElement, Props>((props, forwa
 			viewBox='0 0 36 36'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<g clipPath='url(#clip0_3554_73911)'>
 				<path

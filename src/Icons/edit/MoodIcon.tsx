@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 
@@ -15,8 +16,10 @@ export const MoodIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	//props
 	const {
 		variant = 'primary',
+		className,
+
 		color = DEFAULT_ICON.COLOR,
-		size = DEFAULT_ICON.SIZE,
+		size,
 		accentColor = DEFAULT_ICON.ACCENT_COLOR,
 		inActive = false,
 		...restProps
@@ -24,11 +27,17 @@ export const MoodIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 31 33' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 31 33'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<g clipPath='url(#clip0_8303_7763)'>
 				<path
 					d='M14 29.5C19.799 29.5 24.5 24.799 24.5 19C24.5 13.201 19.799 8.5 14 8.5C8.20101 8.5 3.5 13.201 3.5 19C3.5 24.799 8.20101 29.5 14 29.5Z'

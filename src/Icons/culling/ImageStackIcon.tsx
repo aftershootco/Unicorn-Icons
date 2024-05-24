@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -10,11 +11,9 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const ImageStackIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -24,9 +23,10 @@ export const ImageStackIcon = React.forwardRef<SVGSVGElement, Props>((props, for
 			viewBox='0 0 28 28'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<g clipPath='url(#clip0_1324_159976)'>
 				<path

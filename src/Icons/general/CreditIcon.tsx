@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<Omit<IconProps, 'variant'>, 'inActive'> & {
@@ -10,9 +11,7 @@ type Props = Omit<Omit<IconProps, 'variant'>, 'inActive'> & {
 
 export const CreditIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, ...restProps } = props
 
 	// variants
 	const primary = (
@@ -22,9 +21,10 @@ export const CreditIcon = React.forwardRef<SVGSVGElement, Props>((props, forward
 			viewBox='0 0 18 19'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<rect x='0.6' y='1.1' width='16.8' height='16.8' rx='8.4' fill='#111111' />
 			<rect x='0.6' y='1.1' width='16.8' height='16.8' rx='8.4' stroke='url(#paint0_angular_9135_23941)' stroke-width='0.8' />

@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -10,11 +11,9 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const ImageIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -24,9 +23,10 @@ export const ImageIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 			viewBox='0 0 60 60'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<g id='photo' clipPath='url(#clip0_3554_73881)'>
 				<path id='Vector' d='M37.5 20H37.525' stroke={modifiedColor} stroke-width='2.5' strokeLinecap='round' strokeLinejoin='round' />

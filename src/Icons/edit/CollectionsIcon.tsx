@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -11,15 +12,21 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const CollectionsIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
 
-	const iconSize = typeof size === 'number' ? `${size}px` : size
-
 	// variants
 	const primary = (
-		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 16 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<path
 				d='M4.83285 5.50028L7.49951 5.5H9.49951H14.1662C14.5198 5.5 14.8589 5.64048 15.109 5.89052C15.359 6.14057 15.4995 6.47971 15.4995 6.83333V12.1667C15.4995 12.5203 15.359 12.8594 15.109 13.1095C14.8589 13.3595 14.5198 13.5 14.1662 13.5H4.83285C4.47922 13.5 4.14008 13.3595 3.89004 13.1095C3.63999 12.8594 3.49951 12.5203 3.49951 12.1667V6.83333C3.49951 6.47971 3.63954 6.14057 3.88959 5.89052C4.13964 5.64048 4.47922 5.50028 4.83285 5.50028Z'
 				fill={modifiedColor}

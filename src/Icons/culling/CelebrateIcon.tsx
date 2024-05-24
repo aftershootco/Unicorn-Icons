@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
-import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
@@ -10,9 +10,7 @@ type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 
 export const CelebrateIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = DEFAULT_ICON.SIZE, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, size, ...restProps } = props
 
 	// variants
 	const primary = (
@@ -21,9 +19,10 @@ export const CelebrateIcon = React.forwardRef<SVGSVGElement, Props>((props, forw
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			{...restProps}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 		>
 			<path d='M0 64.48H64V0.48H0V64.48Z' fill='url(#pattern0)' />
 			<defs>

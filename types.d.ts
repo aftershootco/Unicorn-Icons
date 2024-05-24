@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { ClassNameValue } from 'tailwind-merge'
 
 export type IconVariant = 'primary' | 'secondary' | 'tertiary'
 
@@ -14,6 +15,7 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
 	color?: string
 	size?: number | string
 	inActive?: boolean
+	className?: ClassNameValue
 }
 
 export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {

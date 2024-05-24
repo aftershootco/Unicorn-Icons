@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 
@@ -13,11 +14,9 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	let modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -25,8 +24,9 @@ export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 			viewBox='0 0 11 11'
 			fill={modifiedColor}
 			xmlns='http://www.w3.org/2000/svg'
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<path
@@ -37,7 +37,15 @@ export const CloseIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarde
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 16 16'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g id='close' clipPath='url(#clip0_6529_137298)'>
 				<path
 					id='Vector'

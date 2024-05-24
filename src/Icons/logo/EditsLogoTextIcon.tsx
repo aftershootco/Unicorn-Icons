@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary'
 type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
@@ -9,13 +10,19 @@ type Props = Omit<IconProps, 'variant' | 'color' | 'inActive'> & {
 
 export const EditsLogoTextIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', size = 50, ...restProps } = props
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
+	const { variant = 'primary', className, size = 50, ...restProps } = props
 
 	// variants
 	const primary = (
-		<svg viewBox='0 0 12 4' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 12 4'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<g clipPath='url(#clip0_1833_800)'>
 				<path
 					d='M0 3.51241V0.487793H2.31282V1.0257H0.63307V1.70028H2.11868V2.23378H0.63307V2.9701H2.33814V3.51241H0Z'

@@ -11,11 +11,9 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const TwitterIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	//props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -27,6 +25,7 @@ export const TwitterIcon = React.forwardRef<SVGSVGElement, Props>((props, forwar
 			xmlns='http://www.w3.org/2000/svg'
 			style={{ width: size, height: (15 / 18) * size }}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<path

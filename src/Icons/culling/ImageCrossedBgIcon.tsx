@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary'
 type Props = Omit<IconProps, 'variant'> & {
@@ -15,21 +16,30 @@ export const ImageCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	//props
 	const {
 		variant = 'primary',
-		color = DEFAULT_ICON.COLOR,
+		className,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 
 	const primary = (
-		<svg viewBox='0 0 97 96' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 97 96'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<rect x='0.5' width='96' height='96' rx='48' fill={bgColor} fillOpacity={bgOpacity} />
 			<g clipPath='url(#clip0_13360_25254)'>
 				<path d='M24.5 24L72.5 72' stroke={modifiedColor} stroke-width='3' strokeLinecap='round' strokeLinejoin='round' />
@@ -65,7 +75,15 @@ export const ImageCrossedBgIcon = React.forwardRef<SVGSVGElement, Props>((props,
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 55 55' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 55 55'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<path
 				d='M55 27.5C55 42.688 42.688 55 27.5 55S0 42.688 0 27.5 12.312 0 27.5 0 55 12.312 55 27.5Z'
 				fill={bgColor}

@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'ascend' | 'descend'
 type Props = Omit<IconProps, 'variant'> & {
@@ -15,20 +16,29 @@ export const SortOptionNumIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 	//props
 	const {
 		variant = 'ascend',
-		color = DEFAULT_ICON.COLOR,
+
 		bgColor = DEFAULT_ICON.BG_COLOR,
 		bgOpacity = DEFAULT_ICON.BG_OPACITY,
-		size = DEFAULT_ICON.SIZE,
+		color = DEFAULT_ICON.COLOR,
+		size,
 		inActive = false,
+		className,
 		...restProps
 	} = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const ascend = (
-		<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 24 24'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<rect width='24' height='24' rx='4' fill={bgColor} />
 			<g clipPath='url(#clip0_11845_14525)'>
 				<path d='M5.33398 14.5L7.83398 17L10.334 14.5' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />
@@ -61,7 +71,15 @@ export const SortOptionNumIcon = React.forwardRef<SVGSVGElement, Props>((props, 
 	)
 
 	const descend = (
-		<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} {...restProps} ref={forwardedRef}>
+		<svg
+			viewBox='0 0 24 24'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			{...restProps}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+		>
 			<rect width='24' height='24' rx='4' fill={bgColor} />
 			<g clipPath='url(#clip0_11845_14530)'>
 				<path d='M5.33398 14.5L7.83398 17L10.334 14.5' stroke={modifiedColor} strokeLinecap='round' strokeLinejoin='round' />

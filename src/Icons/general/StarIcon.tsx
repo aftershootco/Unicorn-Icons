@@ -2,6 +2,7 @@ import React from 'react'
 import { IconProps } from '../../../types'
 import BaseIcon from '../../components/BaseIcon'
 import DEFAULT_ICON from '../../constant'
+import { cn } from '../../utils/cn'
 
 type IconVariant = 'primary' | 'secondary' | 'tertiary'
 
@@ -12,11 +13,9 @@ type Props = Omit<IconProps, 'variant'> & {
 
 export const StarIcon = React.forwardRef<SVGSVGElement, Props>((props, forwardedRef) => {
 	// props
-	const { variant = 'primary', color = DEFAULT_ICON.COLOR, size = DEFAULT_ICON.SIZE, inActive = false, ...restProps } = props
+	const { variant = 'primary', className, color = DEFAULT_ICON.COLOR, size, inActive = false, ...restProps } = props
 
 	const modifiedColor = inActive ? DEFAULT_ICON.INACTIVE_COLOR : color
-
-	const iconSize = typeof size === 'number' ? `${size}px` : size
 
 	// variants
 	const primary = (
@@ -25,8 +24,9 @@ export const StarIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 			enable-background='new 0 0 24 24'
 			viewBox='0 0 24 24'
 			fill={modifiedColor}
-			style={{ width: iconSize }}
+			{...(size ? { style: { width: size } } : {})}
 			ref={forwardedRef}
+			className={cn('w-6', className && className)}
 			{...restProps}
 		>
 			<g>
@@ -37,7 +37,15 @@ export const StarIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 	)
 
 	const secondary = (
-		<svg viewBox='0 0 11 11' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 11 11'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='m5.5 1 1.39 2.962L10 4.44 7.75 6.744 8.281 10 5.5 8.462 2.719 10l.531-3.256L1 4.44l3.11-.478L5.5 1Z'
 				fill={modifiedColor}
@@ -48,7 +56,15 @@ export const StarIcon = React.forwardRef<SVGSVGElement, Props>((props, forwarded
 		</svg>
 	)
 	const tertiary = (
-		<svg viewBox='0 0 14 13' fill='none' xmlns='http://www.w3.org/2000/svg' style={{ width: iconSize }} ref={forwardedRef} {...restProps}>
+		<svg
+			viewBox='0 0 14 13'
+			fill='none'
+			xmlns='http://www.w3.org/2000/svg'
+			{...(size ? { style: { width: size } } : {})}
+			ref={forwardedRef}
+			className={cn('w-6', className && className)}
+			{...restProps}
+		>
 			<path
 				d='M6.99989 10.8333L2.88522 12.9966L3.67122 8.41462L0.337891 5.16996L4.93789 4.50329L6.99522 0.334625L9.05256 4.50329L13.6526 5.16996L10.3192 8.41462L11.1052 12.9966L6.99989 10.8333Z'
 				fill={modifiedColor}
