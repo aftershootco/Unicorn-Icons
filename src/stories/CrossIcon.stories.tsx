@@ -39,6 +39,6 @@ export const Large: Story = {
 
 export const onhover: Story = {
 	args: {
-		className: 'hover:scale w-[1000px]',
+		className: 'w-[10px]',
 	},
 }

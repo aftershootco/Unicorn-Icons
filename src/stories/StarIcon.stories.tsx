@@ -8,7 +8,7 @@ const meta: Meta<typeof StarIcon> = {
 	title: 'general/StarIcon',
 	decorators: [
 		(Story) => (
-			<div style={{ margin: '1rem', width: 100, height: 100, backgroundColor: 'gray' }}>
+			<div style={{ margin: '1rem' }}>
 				<Story />
 			</div>
 		),
