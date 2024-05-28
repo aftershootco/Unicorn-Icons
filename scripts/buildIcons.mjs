@@ -5,8 +5,6 @@ import path from 'path'
 import generateIconFiles from './generateIconFiles.mjs'
 import { getCurrentDirPath, readSvgDirectory } from './helpers.mjs'
 import renderIconsObject from './renderIconsObject.mjs'
-import renderSvgChildrenObj from './renderSvgChildrenObj.mjs'
-import writeSvgChildren from './writeSvgChildren.mjs'
 
 // import generateExportsFile from './generateExportsFile.mjs'
 // import generateStories from './generateStories.mjs'
@@ -19,15 +17,11 @@ const ICONS_DIR = path.resolve(currentDir, '../icons')
 
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || './src')
 
-const SVG_CHILDREN_PATH = path.resolve(currentDir, '../')
-
-const SVG_CHILDREN_DIR = path.resolve(SVG_CHILDREN_PATH, 'svg-children')
-
 if (!fs.existsSync(OUTPUT_DIR)) {
 	fs.mkdirSync(OUTPUT_DIR)
 }
 
-const { renderUniqueKey = false, templateSrc, silent = false, iconFileExtension = '.ts', exportFileName = 'index.js', pretty = true } = cliArguments
+const { renderUniqueKey = false, templateSrc, silent = false, iconFileExtension = '.tsx', exportFileName = 'index.js', pretty = true } = cliArguments
 
 async function buildIcons() {
 	if (templateSrc == null) {
@@ -39,13 +33,6 @@ async function buildIcons() {
 	const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, renderUniqueKey)
 
 	const { default: iconFileTemplate } = await import(path.resolve(process.cwd(), templateSrc))
-
-	// create svg children = to be inserted later while making Icon component
-	await writeSvgChildren({ svgObjs, outputDirectory: SVG_CHILDREN_PATH })
-
-	const svgChildren = readSvgDirectory(SVG_CHILDREN_DIR)
-
-	renderSvgChildrenObj(svgChildren, SVG_CHILDREN_DIR)
 
 	generateIconFiles({
 		svgObjs: svgObjs,

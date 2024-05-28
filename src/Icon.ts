@@ -1,11 +1,11 @@
 import { createElement, forwardRef } from 'react'
-import { stringify } from 'svgson'
+import defaultAttributes from './defaultAttributes'
 import { ASIProps, IconNode } from './types'
 import { mergeClasses } from './utils'
 
 interface IconComponentProps extends ASIProps {
 	originalAttributes: any
-	groupSvgChildrenObj: any
+	svgChildren: any
 }
 
 /**
@@ -35,28 +35,27 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 			className = '',
 			children,
 			originalAttributes,
-			groupSvgChildrenObj,
+			svgChildren,
 			...rest
 		},
 		ref
 	) => {
-		const groupSvgChildrenTemplate = stringify(groupSvgChildrenObj).replace(/"/g, '')
-		console.log('groupSvgChildrenTemplate', groupSvgChildrenTemplate.replace(/"/g, ''))
+		// const groupSvgChildrenTemplate = stringify(groupSvgChildrenObj).replace(/"/g, '')
+		// console.log('groupSvgChildrenTemplate', groupSvgChildrenTemplate.replace(/"/g, ''))
 
 		return createElement(
 			'svg',
 			{
 				ref,
+				...defaultAttributes,
 				...originalAttributes,
-				// width: size,
-				// height: size,
 				stroke: inActive ? '#777777' : color,
 				fill: fillColor,
 				strokeWidth: absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
 				className: mergeClasses('asi w-[24px] h-auto shrink-0', className),
 				...rest,
-			}
-			// groupSvgChildrenTemplate
+			},
+			svgChildren
 			// [...iconNode.map(([tag, attrs]) => createElement(tag, attrs)), ...(Array.isArray(children) ? children : [children])]
 		)
 	}

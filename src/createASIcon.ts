@@ -9,12 +9,12 @@ import { mergeClasses, toKebabCase } from './utils'
  * @param {array} iconNode
  * @returns {ForwardRefExoticComponent} LucideIcon
  */
-const createASIcon = (iconName: string, originalAttributes: any, groupSvgChildrenObj: any) => {
+const createASIcon = (iconName: string, originalAttributes: any, svgChildren: any) => {
 	const Component = forwardRef<SVGSVGElement, ASIProps>(({ className, ...props }, ref) =>
 		createElement(Icon, {
 			ref,
 			originalAttributes,
-			groupSvgChildrenObj,
+			svgChildren,
 			className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
 			...props,
 		})

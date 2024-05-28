@@ -15,6 +15,7 @@
 		"gen:svgs": "node ./scripts/generateIcons.mjs",
 		"gen:nodes": "node ./scripts/writeIconNodes.mjs",
 		"gen:objs": "node ./scripts/writeSvgObjs.mjs",
+		"gen:cobjs": "node ./scripts/writeSvgChildren.mjs",
 		"build:icons": "node ./scripts/buildIcons.mjs --templateSrc ./scripts/exportIconTemplate.mjs",
 		"storybook": "concurrently \"pnpm watch:tw\" \"pnpm watch:storybook\"",
 		"watch:tw": "pnpm tailwindcss -i ./src/tailwind.css -o ./src/styles/tailwind.css --watch",

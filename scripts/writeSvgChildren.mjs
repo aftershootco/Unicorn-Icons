@@ -2,7 +2,13 @@ import fs from 'fs'
 import path from 'path'
 import { stringify } from 'svgson'
 
-export default async ({ svgObjs, outputDirectory }) => {
+const ICONS_DIR = path.resolve(currentDir, '../icons')
+
+const svgFiles = readSvgDirectory(ICONS_DIR)
+
+const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, renderUniqueKey)
+
+export default async () => {
 	const svgs = Object.keys(svgObjs)
 
 	const svgChildrenDirectory = path.join(outputDirectory, `svg-children`)
@@ -12,7 +18,7 @@ export default async ({ svgObjs, outputDirectory }) => {
 	}
 
 	const writeSvgChildren = svgs.map(async (svgName) => {
-		const location = path.resolve(svgChildrenDirectory, `${svgName}.children.svg`)
+		const location = path.resolve(svgChildrenDirectory, `${svgName}.svg`)
 
 		let { children } = svgObjs[svgName]
 
@@ -30,7 +36,7 @@ export default async ({ svgObjs, outputDirectory }) => {
 
 		try {
 			await Promise.all(writeSvgChildren)
-			console.log('Successfully write', icons.length, 'svg objs.')
+			console.log('Successfully write', svgs.length, 'svg objs.')
 		} catch (error) {
 			throw new Error(`Something went wrong generating iconNode files,\n ${error}`)
 		}

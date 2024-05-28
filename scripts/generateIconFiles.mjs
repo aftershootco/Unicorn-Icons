@@ -1,8 +1,16 @@
 import fs from 'fs'
 import path from 'path'
-import { toPascalCase } from './helpers.mjs'
+import { getCurrentDirPath, readSvgDirectory, toPascalCase } from './helpers.mjs'
+import renderSvgChildrenObj from './renderSvgChildrenObj.mjs'
 
-export default ({ svgObjs, outputDirectory, template, iconFileExtension = '.js', iconsDir }) => {
+const currentDir = getCurrentDirPath(import.meta.url)
+
+const SVG_CHILDREN_DIR = path.resolve(currentDir, '../svg-children')
+
+const svgChildren = readSvgDirectory(SVG_CHILDREN_DIR)
+const svgChildrenObjs = await renderSvgChildrenObj(svgChildren, SVG_CHILDREN_DIR)
+
+export default async ({ svgObjs, outputDirectory, template, iconFileExtension = '.jsx', iconsDir }) => {
 	const svgs = Object.keys(svgObjs)
 
 	const iconsDistDirectory = path.join(outputDirectory, `icons-neo`)
@@ -17,21 +25,10 @@ export default ({ svgObjs, outputDirectory, template, iconFileExtension = '.js',
 
 		let { attributes: originalAttributes, children } = svgObjs[svgName]
 
-		const groupSvgChildrenObj = {
-			name: 'g',
-			type: 'element',
-			value: '',
-			parent: null,
-			children: children,
-		}
-		// children = children.map(({ name, attributes }) => [name, attributes])
-
-		// const getSvg = () => readSvg(`${svgName}.svg`, iconsDir)
-
 		const elementTemplate = template({
 			componentName,
 			originalAttributes,
-			groupSvgChildrenObj,
+			svgChildren: svgChildrenObjs[svgName],
 		})
 
 		await fs.promises.writeFile(location, elementTemplate, 'utf-8')
