@@ -1,0 +1,24 @@
+{
+  "name": "g",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "children": [
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "stroke": "currentColor",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "stroke-opacity": ".8",
+        "stroke-width": "1.5",
+        "d": "M16.94 1.412 9 9.354 1.059 1.412",
+        "key": "dgjc2x"
+      },
+      "children": []
+    }
+  ]
+}

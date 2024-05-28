@@ -1,0 +1,28 @@
+{
+  "objName": "arrow_right_ios",
+  "originalAttributes": {
+    "xmlns": "http://www.w3.org/2000/svg",
+    "width": "11",
+    "height": "18",
+    "fill": "none",
+    "viewBox": "0 0 11 18"
+  },
+  "originalSvgChildren": [
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "stroke": "currentColor",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "stroke-opacity": ".8",
+        "stroke-width": "1.5",
+        "d": "M1.53 1.059 9.47 9l-7.94 7.941",
+        "key": "akkrx1"
+      },
+      "children": []
+    }
+  ]
+}

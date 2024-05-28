@@ -11,6 +11,11 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts --clean",
+		"o:svgs": "node ./scripts/optimizeSvgs.mjs",
+		"gen:svgs": "node ./scripts/generateIcons.mjs",
+		"gen:nodes": "node ./scripts/writeIconNodes.mjs",
+		"gen:objs": "node ./scripts/writeSvgObjs.mjs",
+		"build:icons": "node ./scripts/buildIcons.mjs --templateSrc ./scripts/exportIconTemplate.mjs",
 		"storybook": "concurrently \"pnpm watch:tw\" \"pnpm watch:storybook\"",
 		"watch:tw": "pnpm tailwindcss -i ./src/tailwind.css -o ./src/styles/tailwind.css --watch",
 		"watch:storybook": "storybook dev -p 6006",
@@ -49,6 +54,7 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"storybook": "^7.6.7",
+		"svgo": "^3.3.2",
 		"tailwindcss": "^3.4.1",
 		"typescript": "^4.9.4",
 		"webpack": "^5.75.0"
@@ -69,7 +75,9 @@
 		"@changesets/cli": "^2.27.1",
 		"clsx": "^2.1.0",
 		"concurrently": "^8.2.2",
+		"minimist": "^1.2.8",
 		"rollup": "^4.9.6",
+		"svgson": "^5.3.1",
 		"tailwind-merge": "^2.2.1",
 		"tinycolor2": "^1.6.0",
 		"tsup": "^8.0.1"

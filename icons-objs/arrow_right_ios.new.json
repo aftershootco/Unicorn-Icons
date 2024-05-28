@@ -1,0 +1,24 @@
+{
+  "name": "g",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "children": [
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "stroke": "currentColor",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "stroke-opacity": ".8",
+        "stroke-width": "1.5",
+        "d": "M1.53 1.059 9.47 9l-7.94 7.941",
+        "key": "akkrx1"
+      },
+      "children": []
+    }
+  ]
+}

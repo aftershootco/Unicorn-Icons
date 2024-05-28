@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import { BorderSquareIcon } from '../icons'
+import AdjustProfile from '../icons-neo/adjust_profile'
 
-const meta: Meta<typeof BorderSquareIcon> = {
-	component: BorderSquareIcon,
-	title: 'culling/BorderSquareIcon',
+const meta: Meta<typeof AdjustProfile> = {
+	component: AdjustProfile,
+	title: 'neo/AdjustProfile',
 	decorators: [
 		(Story) => (
 			<div style={{ margin: '1rem' }}>
@@ -16,7 +16,7 @@ const meta: Meta<typeof BorderSquareIcon> = {
 }
 
 export default meta
-type Story = StoryObj<typeof BorderSquareIcon>
+type Story = StoryObj<typeof AdjustProfile>
 
 export const Default: Story = {}
 
@@ -35,11 +35,5 @@ export const inActive: Story = {
 export const Large: Story = {
 	args: {
 		size: 30,
-	},
-}
-
-export const className: Story = {
-	args: {
-		className: 'text-green-500 w-10',
 	},
 }
