@@ -21,30 +21,30 @@ async function optimizeSvg(svg, path) {
 					},
 				},
 			},
-			// {
-			// 	name: 'removeAttrs',
-			// 	params: {
-			// 		attrs: '(fill|stroke.*)',
-			// 	},
-			// },
-			// custom plugin
 			{
-				name: 'replaceStroke',
-				type: 'visitor',
-				fn: (ast) => {
-					const visit = (node) => {
-						if (node.attributes && node.attributes.stroke) {
-							node.attributes.stroke = 'currentColor'
-						}
-						if (node.children) {
-							for (const child of node.children) {
-								visit(child)
-							}
-						}
-					}
-					visit(ast)
+				name: 'removeAttrs',
+				params: {
+					attrs: '(stroke.*)',
 				},
 			},
+			// custom plugin
+			// {
+			// 	name: 'replaceStroke',
+			// 	type: 'visitor',
+			// 	fn: (ast) => {
+			// 		const visit = (node) => {
+			// 			if (node.attributes && node.attributes.stroke) {
+			// 				node.attributes.stroke = 'currentColor'
+			// 			}
+			// 			if (node.children) {
+			// 				for (const child of node.children) {
+			// 					visit(child)
+			// 				}
+			// 			}
+			// 		}
+			// 		visit(ast)
+			// 	},
+			// },
 		],
 	})
 
@@ -58,7 +58,6 @@ async function optimizeSvg(svg, path) {
  */
 function setAttrs(svg) {
 	const contents = parseSync(svg)
-	console.log('----------->', contents)
 	// contents.attributes = DEFAULT_ATTRS
 	// return stringify(contents)
 }

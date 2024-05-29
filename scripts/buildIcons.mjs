@@ -4,19 +4,17 @@ import path from 'path'
 
 import generateExportsFile from './generateExportsFile.mjs'
 import generateIconFiles from './generateIconFiles.mjs'
+import generateStories from './generateStories.mjs'
 import { getCurrentDirPath, readSvgDirectory } from './helpers.mjs'
 import renderIconsObject from './renderIconsObject.mjs'
-// import generateStories from './generateStories.mjs'
 
 const cliArguments = getArgumentOptions(process.argv.slice(2))
 
 const currentDir = getCurrentDirPath(import.meta.url)
-
 const ICONS_DIR = path.resolve(currentDir, '../icons')
-
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || './src')
-
-const OUTPUT_FOLDER = 'icons-neo'
+const OUTPUT_FOLDER_NAME = 'icons-neo'
+const STORIES_OUTPUT_FOLDER_NAME = 'stories-neo'
 
 if (!fs.existsSync(OUTPUT_DIR)) {
 	fs.mkdirSync(OUTPUT_DIR)
@@ -36,7 +34,7 @@ async function buildIcons() {
 	const { default: iconFileTemplate } = await import(path.resolve(process.cwd(), templateSrc))
 
 	generateIconFiles({
-		outputFolderName: OUTPUT_FOLDER,
+		outputFolderName: OUTPUT_FOLDER_NAME,
 		svgObjs: svgObjs,
 		outputDirectory: OUTPUT_DIR,
 		iconsDir: ICONS_DIR,
@@ -47,12 +45,17 @@ async function buildIcons() {
 
 	// Generates entry files for the compiler filled with icons exports
 	generateExportsFile({
-		inputEntry: path.join(OUTPUT_DIR, OUTPUT_FOLDER, exportFileName),
-		outputDirectory: path.join(OUTPUT_DIR, OUTPUT_FOLDER),
+		inputEntry: path.join(OUTPUT_DIR, OUTPUT_FOLDER_NAME, exportFileName),
+		outputDirectory: path.join(OUTPUT_DIR, OUTPUT_FOLDER_NAME),
 		iconNodes: svgObjs,
 	})
 
-	// generateStories({ iconNodes: icons })
+	generateStories({
+		outputDirectory: path.join(OUTPUT_DIR, STORIES_OUTPUT_FOLDER_NAME),
+		iconNodes: svgObjs,
+		iconOutputFolderName: OUTPUT_FOLDER_NAME,
+		storyGroupName: 'omega',
+	})
 }
 
 try {

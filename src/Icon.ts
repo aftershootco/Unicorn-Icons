@@ -28,7 +28,6 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 		{
 			color = 'currentColor',
 			size = 24,
-			strokeWidth = 2,
 			inActive = false,
 			fillColor = 'none',
 			absoluteStrokeWidth,
@@ -38,11 +37,8 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 			svgChildren,
 			...rest
 		},
-		ref
+		ref,
 	) => {
-		// const groupSvgChildrenTemplate = stringify(groupSvgChildrenObj).replace(/"/g, '')
-		// console.log('groupSvgChildrenTemplate', groupSvgChildrenTemplate.replace(/"/g, ''))
-
 		return createElement(
 			'svg',
 			{
@@ -51,14 +47,14 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				...originalAttributes,
 				stroke: inActive ? '#777777' : color,
 				fill: fillColor,
-				strokeWidth: absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
-				className: mergeClasses('asi w-[24px] h-auto shrink-0', className),
+				// strokeWidth: absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
+				className: mergeClasses('w-[24px] h-auto shrink-0', className),
 				...rest,
 			},
-			svgChildren
+			svgChildren,
 			// [...iconNode.map(([tag, attrs]) => createElement(tag, attrs)), ...(Array.isArray(children) ? children : [children])]
 		)
-	}
+	},
 )
 
 export default Icon
