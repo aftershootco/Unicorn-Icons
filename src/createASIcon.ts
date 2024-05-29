@@ -15,9 +15,9 @@ const createASIcon = (iconName: string, originalAttributes: any, svgChildren: an
 			ref,
 			originalAttributes,
 			svgChildren,
-			className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
+			className: mergeClasses(`unicon unicon-${toKebabCase(iconName)}`, className),
 			...props,
-		})
+		}),
 	)
 
 	Component.displayName = `${iconName}`

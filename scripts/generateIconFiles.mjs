@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import prettier from 'prettier'
 import { getCurrentDirPath, readSvgDirectory, toPascalCase } from './helpers.mjs'
 import renderSvgChildrenObj from './renderSvgChildrenObj.mjs'
 
@@ -10,10 +11,10 @@ const SVG_CHILDREN_DIR = path.resolve(currentDir, '../svg-children')
 const svgChildren = readSvgDirectory(SVG_CHILDREN_DIR)
 const svgChildrenObjs = await renderSvgChildrenObj(svgChildren, SVG_CHILDREN_DIR)
 
-export default async ({ svgObjs, outputDirectory, template, iconFileExtension = '.jsx', iconsDir }) => {
+export default async ({ outputFolderName, svgObjs, outputDirectory, template, iconFileExtension = '.jsx', iconsDir }) => {
 	const svgs = Object.keys(svgObjs)
 
-	const iconsDistDirectory = path.join(outputDirectory, `icons-neo`)
+	const iconsDistDirectory = path.join(outputDirectory, outputFolderName)
 
 	if (!fs.existsSync(iconsDistDirectory)) {
 		fs.mkdirSync(iconsDistDirectory)
@@ -31,7 +32,11 @@ export default async ({ svgObjs, outputDirectory, template, iconFileExtension = 
 			svgChildren: svgChildrenObjs[svgName],
 		})
 
-		await fs.promises.writeFile(location, elementTemplate, 'utf-8')
+		const outpust = await prettier.format(elementTemplate, {
+			parser: 'typescript',
+		})
+
+		await fs.promises.writeFile(location, outpust, 'utf-8')
 	})
 
 	Promise.all(writeIconFiles)
