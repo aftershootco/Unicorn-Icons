@@ -55,6 +55,18 @@ export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing' }) 
             className: 'text-red-500 w-[70px] h-[70px]',
         },
     }
+
+    export const Hover: Story = {
+        args: {
+            className: 'group-hover:text-green-500 hover:text-green-500 cursor-pointer',
+        },
+    }
+
+    export const FillColor: Story = {
+        args: {
+            fillColor: "red",
+        },
+    }
     
     `
 }

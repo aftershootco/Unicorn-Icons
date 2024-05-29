@@ -1,6 +1,7 @@
 import React from 'react'
 import DEFAULT_ICON from '../constant'
 import defaultBgStyles from '../defaultBgStyles'
+import { hexToRgba } from '../utils'
 
 type WithBgProps = {
 	children: React.ReactNode
@@ -25,8 +26,9 @@ const WithBg = (props: WithBgProps) => {
 				...defaultBgStyles,
 				padding: bgSize,
 				borderRadius: bgBorderRadius,
-				backgroundColor: bgColor,
+				backgroundColor: hexToRgba(bgColor, bgOpacity),
 			}}
+			className='group'
 		>
 			{children}
 		</div>

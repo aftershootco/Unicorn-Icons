@@ -1,4 +1,3 @@
-import fs from 'fs'
 import getArgumentOptions from 'minimist'
 
 const cliArguments = getArgumentOptions(process.argv.slice(2))
@@ -10,6 +9,4 @@ if (!targetDir) {
 	process.exit(1)
 }
 
-if (fs.existsSync(svgChildrenDirectory)) {
-	fs.mkdirSync(targetDir)
-}
+console.log(`DIRECTORY removed - ${targetDir}`)

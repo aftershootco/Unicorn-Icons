@@ -21,5 +21,5 @@ export default ({ outputDirectory, iconNodes, iconOutputFolderName, storyGroupNa
 		await fs.promises.writeFile(filePath, storyTemplate, 'utf-8')
 	})
 
-	console.log(`Successfully generated ${icons.length} stories`)
+	console.log(`STORIES created - ${icons.length} stories`)
 }

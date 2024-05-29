@@ -50,5 +50,17 @@ import type { Meta, StoryObj } from '@storybook/react'
             className: 'text-red-500 w-[70px] h-[70px]',
         },
     }
+
+    export const Hover: Story = {
+        args: {
+            className: 'hover:text-green-500 cursor-pointer',
+        },
+    }
+
+    export const FillColor: Story = {
+        args: {
+            fillColor: 'fill-red-500',
+        },
+    }
     
     

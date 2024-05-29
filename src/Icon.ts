@@ -1,7 +1,6 @@
 import { createElement, forwardRef } from 'react'
 import defaultAttributes from './defaultAttributes'
 import { ASIProps, IconNode } from './types'
-import { mergeClasses } from './utils'
 
 interface IconComponentProps extends ASIProps {
 	originalAttributes: any
@@ -31,7 +30,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 			inActive = false,
 			fillColor = 'none',
 			absoluteStrokeWidth,
-			className = '',
+			className,
 			children,
 			originalAttributes,
 			svgChildren,
@@ -47,8 +46,9 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				...originalAttributes,
 				stroke: inActive ? '#777777' : color,
 				fill: fillColor,
+				className,
 				// strokeWidth: absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
-				className: mergeClasses('w-[24px] h-auto shrink-0', className),
+				// className: mergeClasses('w-[24px] h-auto shrink-0', className),
 				...rest,
 			},
 			svgChildren,

@@ -1,7 +1,8 @@
 import { createElement, forwardRef } from 'react'
 import Icon from './Icon'
 import { ASIProps } from './types'
-import { mergeClasses, toKebabCase } from './utils'
+import { toKebabCase } from './utils'
+import { cn } from './utils/cn'
 
 /**
  * Create a Lucide icon component
@@ -15,7 +16,7 @@ const createASIcon = (iconName: string, originalAttributes: any, svgChildren: an
 			ref,
 			originalAttributes,
 			svgChildren,
-			className: mergeClasses(`unicon unicon-${toKebabCase(iconName)}`, className),
+			className: cn(`unicon unicon-${toKebabCase(iconName)} w-[24px] h-auto shrink-0`, className),
 			...props,
 		}),
 	)

@@ -41,7 +41,7 @@ export default async ({ outputFolderName, svgObjs, outputDirectory, template, ic
 
 	Promise.all(writeIconFiles)
 		.then(() => {
-			console.log('Successfully built', svgs.length, 'icons.')
+			console.log('UNICON ICONS built -', svgs.length, 'icons.')
 		})
 		.catch((error) => {
 			throw new Error(`Something went wrong generating icon files,\n ${error}`)

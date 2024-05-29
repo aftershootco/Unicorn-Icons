@@ -6,6 +6,6 @@ export default {
 	// fill: 'none',
 	// strokeWidth: 2,
 	stroke: 'currentColor',
-	strokeLinecap: 'round',
-	strokeLinejoin: 'round',
+	// strokeLinecap: 'round',
+	// strokeLinejoin: 'round',
 }

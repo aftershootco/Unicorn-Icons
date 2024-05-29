@@ -19,5 +19,5 @@ export default ({ inputEntry, outputDirectory, iconNodes, iconFileExtension = ''
 
 	appendFile('\n', fileName, outputDirectory)
 
-	console.log(`Index successfully generated ${fileName} file`)
+	console.log(`INDEX generated at - ${fileName} file`)
 }

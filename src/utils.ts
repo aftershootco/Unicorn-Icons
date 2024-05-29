@@ -33,11 +33,38 @@ export const mergeClasses = <ClassType = string | undefined | null>(...classes: 
 		})
 		.join(' ')
 
-export const removeOuterQuotes = (svgString: string) => {
-	// Check if the string starts and ends with double quotes
-	if (svgString.startsWith('"') && svgString.endsWith('"')) {
-		// Remove the outer double quotes
-		svgString = svgString.slice(1, -1)
+/**
+ * Converts a hex color and opacity to an RGBA color.
+ * @param {string} hex - The hex color code (e.g., "#ff5733" or "#f53").
+ * @param {number} opacity - The opacity value (0 to 1).
+ * @returns {string} The RGBA color code.
+ */
+export function hexToRgba(hex: string, opacity: number = 1): string {
+	// Ensure the hex color starts with '#'
+	if (hex.startsWith('#')) {
+		hex = hex.slice(1)
 	}
-	return svgString
+
+	// Expand shorthand hex color to full form (e.g., "f53" -> "ff5533")
+	if (hex.length === 3) {
+		hex = hex
+			.split('')
+			.map((char) => char + char)
+			.join('')
+	}
+
+	// Convert hex color to RGB
+	const bigint = parseInt(hex, 16)
+	const r = (bigint >> 16) & 255
+	const g = (bigint >> 8) & 255
+	const b = bigint & 255
+
+	// Return RGBA color
+	return `rgba(${r}, ${g}, ${b}, ${opacity})`
 }
+
+// Example usage
+const hexColor: string = '#ff5733'
+const opacity: number = 0.5
+const rgbaColor: string = hexToRgba(hexColor, opacity)
+console.log(rgbaColor) // Output: "rgba(255, 87, 51, 0.5)"
