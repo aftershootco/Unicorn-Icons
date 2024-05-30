@@ -11,7 +11,13 @@ const AdjustmentsHorizontal = createASIcon(
     viewBox: "0 0 24 24",
   },
   <g>
-    <g clip-path="url(#a)" key="1ycjfh">
+    <g
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      clip-path="url(#a)"
+      key="guxu01"
+    >
       <path d="M14 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
       <path d="M4 6h8" />
       <path d="M16 6h4" />

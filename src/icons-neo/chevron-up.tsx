@@ -12,7 +12,12 @@ const ChevronUp = createASIcon(
   },
   <g>
     <g clip-path="url(#a)" key="1ycjfh">
-      <path d="m6 15 6-6 6 6" />
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m6 15 6-6 6 6"
+      />
     </g>
     <defs key="9ahrjx">
       <clipPath id="a">

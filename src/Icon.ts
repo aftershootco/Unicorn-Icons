@@ -24,18 +24,7 @@ interface IconComponentProps extends ASIProps {
  */
 const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 	(
-		{
-			color = 'currentColor',
-			size = 24,
-			inActive = false,
-			fillColor = 'none',
-			absoluteStrokeWidth,
-			className,
-			children,
-			originalAttributes,
-			svgChildren,
-			...rest
-		},
+		{ color = 'currentColor', size = 24, inActive = false, fillColor = 'none', className, children, originalAttributes, svgChildren, ...rest },
 		ref,
 	) => {
 		return createElement(
@@ -47,12 +36,9 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				stroke: inActive ? '#777777' : color,
 				fill: fillColor,
 				className,
-				// strokeWidth: absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
-				// className: mergeClasses('w-[24px] h-auto shrink-0', className),
 				...rest,
 			},
 			svgChildren,
-			// [...iconNode.map(([tag, attrs]) => createElement(tag, attrs)), ...(Array.isArray(children) ? children : [children])]
 		)
 	},
 )

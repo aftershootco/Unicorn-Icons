@@ -16,7 +16,7 @@ const createASIcon = (iconName: string, originalAttributes: any, svgChildren: an
 			ref,
 			originalAttributes,
 			svgChildren,
-			className: cn(`unicon unicon-${toKebabCase(iconName)} w-[24px] h-auto shrink-0`, className),
+			className: cn(`unicon unicon-${toKebabCase(iconName)} w-[24px] h-[24px] shrink-0 stroke-2`, className),
 			...props,
 		}),
 	)

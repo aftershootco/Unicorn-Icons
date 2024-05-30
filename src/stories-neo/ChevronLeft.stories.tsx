@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
-    
-    import WithBg from '../components/WithBg'
+    import IconBorder from '../components/IconBorder'
+    import IconBackground from '../components/IconBackground'
     import ChevronLeft from '../icons-neo/chevron-left'
     
     const meta: Meta<typeof ChevronLeft> = {
@@ -9,14 +9,20 @@ import type { Meta, StoryObj } from '@storybook/react'
         title: 'omega/ChevronLeft',
         decorators: [
             (Story) => (
-                <div style={{ margin: '1rem', display: 'flex', alignContent: 'center', gap: 6 }}>
+                <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
                     <Story />
-                    <WithBg>
+                    <IconBorder>
                         <Story />
-                    </WithBg>
-                    <WithBg bgBorderRadius={2}>
+                    </IconBorder>
+                    <IconBackground>
                         <Story />
-                    </WithBg>
+                    </IconBackground>
+                    <IconBackground withBorder>
+                        <Story />
+                    </IconBackground>
+                    <IconBackground className='rounded-sm'>
+                        <Story />
+                    </IconBackground>
                 </div>
             ),
         ],
@@ -55,7 +61,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
     export const ClassName: Story = {
         args: {
-            className: 'text-red-500 w-[50px] h-[50px]',
+            className: 'text-red-500',
         },
     }
     
