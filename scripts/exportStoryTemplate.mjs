@@ -74,7 +74,7 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
 
     export const ClassName: Story = {
         args: {
-            className: 'text-red-500',
+            className: 'text-red-400 stroke-1 hover:text-blue-400',
         },
     }
     

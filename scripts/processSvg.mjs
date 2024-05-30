@@ -24,7 +24,7 @@ async function optimizeSvg(svg, path) {
 			{
 				name: 'removeAttrs',
 				params: {
-					attrs: '(stroke)',
+					attrs: '(stroke|stroke-width)',
 				},
 			},
 			// custom plugin

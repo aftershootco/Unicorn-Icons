@@ -14,9 +14,8 @@ const AdjustmentsHorizontal = createASIcon(
     <g
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
       clip-path="url(#a)"
-      key="guxu01"
+      key="1rply1"
     >
       <path d="M14 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
       <path d="M4 6h8" />

@@ -14,9 +14,8 @@ const ArrowUp = createASIcon(
     <g
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
       clip-path="url(#a)"
-      key="guxu01"
+      key="1rply1"
     >
       <path d="M12 5v14" />
       <path d="m18 11-6-6" />

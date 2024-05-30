@@ -14,9 +14,8 @@ const Bulb = createASIcon(
     <g
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
       clip-path="url(#a)"
-      key="guxu01"
+      key="1rply1"
     >
       <path d="m18.4 5.6-.7.7M3 12h1zm9-9v1zm8 9h1zM5.6 5.6l.7.7z" />
       <path d="M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3" />

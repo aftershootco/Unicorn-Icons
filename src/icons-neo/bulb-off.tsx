@@ -14,9 +14,8 @@ const BulbOff = createASIcon(
     <g
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
       clip-path="url(#a)"
-      key="guxu01"
+      key="1rply1"
     >
       <path d="M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3" />
       <path d="M9.7 17h4.6" />

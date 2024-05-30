@@ -14,9 +14,8 @@ const ArrowNarrowRight = createASIcon(
     <g
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
       clip-path="url(#a)"
-      key="guxu01"
+      key="1rply1"
     >
       <path d="M5 12h14" />
       <path d="m15 16 4-4" />
