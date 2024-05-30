@@ -5,18 +5,19 @@ import { toKebabCase } from './utils'
 import { cn } from './utils/cn'
 
 /**
- * Create a Lucide icon component
+ * Create a Aftershoot icon component, using Icon component as base for all
+ * Icons.
  * @param {string} iconName
- * @param {array} iconNode
+ * @param {unknown} originalAttributes
  * @returns {ForwardRefExoticComponent} LucideIcon
  */
-const createASIcon = (iconName: string, originalAttributes: any, svgChildren: any) => {
+const createASIcon = (iconName: string, originalAttributes: unknown, svgChildren: React.SVGProps<SVGGElement>) => {
 	const Component = forwardRef<SVGSVGElement, ASIProps>(({ className, ...props }, ref) =>
 		createElement(Icon, {
 			ref,
 			originalAttributes,
 			svgChildren,
-			className: cn(`unicon unicon-${toKebabCase(iconName)} w-[24px] h-[24px] shrink-0 stroke-2`, className),
+			className: cn(`unicon unicon-${toKebabCase(iconName)}`, className),
 			...props,
 		}),
 	)
