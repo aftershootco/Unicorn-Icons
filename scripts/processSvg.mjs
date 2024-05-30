@@ -27,6 +27,10 @@ async function optimizeSvg(svg, path) {
 					attrs: '(stroke|stroke-width)',
 				},
 			},
+			{
+				name: 'removeDimensions',
+			},
+
 			// custom plugin
 			// {
 			// 	name: 'replaceStroke',

@@ -1,10 +1,4 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="25"
-  fill="none"
-  viewBox="0 0 24 25"
->
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 25">
   <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#a)">
     <path d="m9 15.93 6-6" />
     <path fill="#D0D5DD" d="M9.5 10.93a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />

@@ -23,10 +23,7 @@ interface IconComponentProps extends ASIProps {
  * @returns {ForwardRefExoticComponent} LucideIcon
  */
 const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
-	(
-		{ color = 'currentColor', size = 24, inActive = false, fillColor = 'none', className, children, originalAttributes, svgChildren, ...rest },
-		ref,
-	) => {
+	({ color = 'currentColor', size, inActive = false, fillColor = 'none', className, children, originalAttributes, svgChildren, ...rest }, ref) => {
 		return createElement(
 			'svg',
 			{
@@ -34,6 +31,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				...defaultAttributes,
 				...originalAttributes,
 				stroke: inActive ? '#777777' : color,
+				...(size ? { style: { width: size, height: 'auto' } } : {}),
 				fill: fillColor,
 				className,
 				...rest,

@@ -47,7 +47,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     export const Large: Story = {
         args: {
-            size: 50,
+            size: 30,
         },
     }
     
