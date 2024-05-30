@@ -5,6 +5,7 @@ import { parseSync } from 'svgson'
 /**
  * Optimize SVG with `svgo`.
  * @param {string} svg - An SVG string.
+ * @param {object} options - An options object for deciding outline, fill, or mix.
  * @returns {Promise<string>} An optimized svg
  */
 async function optimizeSvg(svg, path) {
@@ -69,10 +70,10 @@ function setAttrs(svg) {
 /**
  * Process SVG string.
  * @param {string} svg An SVG string.
+ * @param {object} options - An options object for deciding outline, fill, or mix.
  * @returns {Promise<string>} An optimized svg
  */
-function processSvg(svg, path) {
-	setAttrs(svg)
+function processSvg(svg, path, iconType) {
 	return (
 		optimizeSvg(svg, path)
 			// .then(setAttrs)

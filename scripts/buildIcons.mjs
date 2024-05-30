@@ -2,6 +2,7 @@ import fs from 'fs'
 import getArgumentOptions from 'minimist'
 import path from 'path'
 
+import exportIconTemplate from './exportIconTemplate.mjs'
 import generateExportsFile from './generateExportsFile.mjs'
 import generateIconFiles from './generateIconFiles.mjs'
 import generateStories from './generateStories.mjs'
@@ -20,27 +21,20 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 	fs.mkdirSync(OUTPUT_DIR)
 }
 
-const { renderUniqueKey = false, templateSrc, silent = false, iconFileExtension = '.tsx', exportFileName = 'index.js', pretty = true } = cliArguments
+const { renderUniqueKey = false, iconFileExtension = '.tsx', exportFileName = 'index.js' } = cliArguments
 
 async function buildIcons() {
-	if (templateSrc == null) {
-		throw new Error('No `templateSrc` argument given.')
-	}
-
 	const svgFiles = readSvgDirectory(ICONS_DIR)
 
 	const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, renderUniqueKey)
-
-	const { default: iconFileTemplate } = await import(path.resolve(process.cwd(), templateSrc))
 
 	generateIconFiles({
 		outputFolderName: OUTPUT_FOLDER_NAME,
 		svgObjs: svgObjs,
 		outputDirectory: OUTPUT_DIR,
 		iconsDir: ICONS_DIR,
-		template: iconFileTemplate,
+		template: exportIconTemplate,
 		iconFileExtension,
-		// iconMetaData,
 	})
 
 	// Generates entry files for the compiler filled with icons exports
