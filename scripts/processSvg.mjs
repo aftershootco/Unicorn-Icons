@@ -80,3 +80,8 @@ function processSvg(svg, path) {
 }
 
 export default processSvg
+
+// to be replace
+// stroke-linecap -> strokeLinecap
+// stroke-linejoin -> strokeLinejoin
+// clip-path -> clipPath
