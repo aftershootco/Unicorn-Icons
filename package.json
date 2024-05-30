@@ -8,6 +8,10 @@
 	"license": "ISC",
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
+	"exports": {
+		"./fill": "./dist/fill/index.js",
+		"./stroke": "./dist/stroke/index.js"
+	},
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts --clean",

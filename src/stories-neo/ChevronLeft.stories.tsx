@@ -1,25 +1,12 @@
-import { toPascalCase } from './helpers.mjs'
-
-export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = 'testing' }) => {
-	const iconNamePascalCase = toPascalCase(iconName)
-
-	const forFill = isFillIcon
-		? ` export const FillColor: Story = {
-        args: {
-            fillColor: "red",
-        },
-    }`
-		: ''
-
-	return `import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     
     import WithBg from '../components/WithBg'
-    import ${iconNamePascalCase} from '../${iconOutputFolderName}/${iconName}'
+    import ChevronLeft from '../icons-neo/chevron-left'
     
-    const meta: Meta<typeof ${iconNamePascalCase}> = {
-        component: ${iconNamePascalCase},
-        title: '${storyGroupName}/${iconNamePascalCase}',
+    const meta: Meta<typeof ChevronLeft> = {
+        component: ChevronLeft,
+        title: 'omega/ChevronLeft',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignContent: 'center', gap: 6 }}>
@@ -36,7 +23,7 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
     }
     
     export default meta
-    type Story = StoryObj<typeof ${iconNamePascalCase}>
+    type Story = StoryObj<typeof ChevronLeft>
     
     export const Default: Story = {}
     
@@ -64,7 +51,7 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
         },
     }
  
-    ${forFill}
+    
 
     export const ClassName: Story = {
         args: {
@@ -72,5 +59,4 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
         },
     }
     
-    `
-}
+    

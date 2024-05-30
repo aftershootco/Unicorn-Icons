@@ -3,17 +3,30 @@ import path from 'path'
 import { readSvgDirectory, writeSvgFile } from './helpers.mjs'
 import processSvg from './processSvg.mjs'
 
-const ICONS_DIR = path.resolve(process.cwd(), 'icons')
+const ICONS_DIR = path.resolve(process.cwd(), 'icons-original/outline')
+const OPTIMIZED_ICONS_DIR = path.resolve(process.cwd(), 'icons-optimized')
 
-if (!fs.existsSync(ICONS_DIR)) {
-	fs.mkdirSync(ICONS_DIR, { recursive: true })
+// Ensure the optimized directory exists
+if (!fs.existsSync(OPTIMIZED_ICONS_DIR)) {
+	fs.mkdirSync(OPTIMIZED_ICONS_DIR, { recursive: true })
 }
 
 console.log(`Optimizing SVGs...`)
 
 const svgFiles = readSvgDirectory(ICONS_DIR)
 
-svgFiles.forEach((svgFile) => {
-	const content = fs.readFileSync(path.join(ICONS_DIR, svgFile))
-	processSvg(content, svgFile).then((svg) => writeSvgFile(svgFile, ICONS_DIR, svg))
-})
+const optimizeSvgFiles = async () => {
+	for (const svgFile of svgFiles) {
+		const content = fs.readFileSync(path.join(ICONS_DIR, svgFile), 'utf-8')
+		const optimizedSvg = await processSvg(content, svgFile)
+		await writeSvgFile(svgFile, OPTIMIZED_ICONS_DIR, optimizedSvg)
+	}
+}
+
+optimizeSvgFiles()
+	.then(() => {
+		console.log('SVG optimization complete.')
+	})
+	.catch((error) => {
+		console.error('Error optimizing SVGs:', error)
+	})

@@ -5,7 +5,7 @@ import { getCurrentDirPath, readSvgDirectory } from './helpers.mjs'
 import renderIconsObject from './renderIconsObject.mjs'
 
 const currentDir = getCurrentDirPath(import.meta.url)
-const ICONS_DIR = path.resolve(currentDir, '../icons')
+const ICONS_DIR = path.resolve(currentDir, '../icons-optimized')
 
 const svgFiles = readSvgDirectory(ICONS_DIR)
 const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, true)

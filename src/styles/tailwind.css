@@ -574,6 +574,10 @@ video {
   height: auto;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -594,6 +598,10 @@ video {
   width: 70px;
 }
 
+.w-\[50px\] {
+  width: 50px;
+}
+
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -604,10 +612,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.fill-red-500 {
-  fill: #ef4444;
 }
 
 .stroke-\[\#fff\] {
