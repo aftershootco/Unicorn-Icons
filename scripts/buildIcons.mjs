@@ -14,8 +14,10 @@ const cliArguments = getArgumentOptions(process.argv.slice(2))
 const currentDir = getCurrentDirPath(import.meta.url)
 const ICONS_DIR = path.resolve(currentDir, '../icons-optimized')
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || './src')
-const OUTPUT_FOLDER_NAME = 'icons-neo'
-const STORIES_OUTPUT_FOLDER_NAME = 'stories-neo'
+const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicon.config.json', 'utf8'))
+
+const OUTPUT_FOLDER_NAME = UNICON_CONFIG.icon_output_dir ?? 'icons-neo'
+const STORIES_OUTPUT_FOLDER_NAME = UNICON_CONFIG.stories_output_dir ?? 'stories-neo'
 
 if (!fs.existsSync(OUTPUT_DIR)) {
 	fs.mkdirSync(OUTPUT_DIR)
