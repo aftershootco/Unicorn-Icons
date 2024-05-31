@@ -4,6 +4,10 @@ import path from 'path'
 import { readSvgDirectory, writeSvgFile } from './helpers.mjs'
 import processSvg from './processSvg.mjs'
 
+const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicons.config.json', 'utf8'))
+
+const BASE_ICON_DIR = UNICON_CONFIG.icon_input_dir
+
 const ICONS_DIR = path.resolve(process.cwd(), 'icons-original/outline')
 const OPTIMIZED_ICONS_DIR = path.resolve(process.cwd(), 'icons-optimized')
 
