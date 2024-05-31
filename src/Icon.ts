@@ -10,7 +10,6 @@ interface IconComponentProps extends ASIProps {
 
 /**
  * Aftershoot icon component
- *
  * @component Icon
  * Common component for all icons
  */
@@ -26,7 +25,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				stroke: inActive ? '#777777' : color,
 				...(size ? { style: { width: size, height: 'auto' } } : {}),
 				fill: fillColor,
-				className: cn(`w-[24px] h-[24px] shrink-0 stroke-2`, className),
+				className: cn(`w-[24px] h-[24px] shrink-0 stroke-[1.5px]`, className),
 				...rest,
 			},
 			svgChildren,
