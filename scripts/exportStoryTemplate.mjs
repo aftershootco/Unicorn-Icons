@@ -1,6 +1,6 @@
 import { toPascalCase } from './helpers.mjs'
 
-export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = 'testing' }) => {
+export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = 'testing', iconType }) => {
 	const iconNamePascalCase = toPascalCase(iconName)
 
 	const forFill = isFillIcon
@@ -10,6 +10,22 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
         },
     }`
 		: ''
+
+	const forColorTemplate =
+		iconType === 'outline'
+			? ` 
+            export const Red: Story = {
+                args: {
+                    color: 'red',
+                       },
+            }`
+			: `
+            export const Red: Story = {
+                args: {
+                    className: 'text-red-500',
+                },
+            }
+            `
 
 	return `import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
@@ -46,11 +62,7 @@ export default ({ iconName, iconOutputFolderName, isFillIcon, storyGroupName = '
     
     export const Default: Story = {}
     
-    export const Red: Story = {
-        args: {
-            color: 'red',
-        },
-    }
+   ${forColorTemplate}
     
     export const inActive: Story = {
         args: {

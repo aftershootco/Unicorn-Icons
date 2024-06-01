@@ -1,5 +1,26 @@
 {
 	"icon_input_dir": "icons-original",
-	"icon_output_dir": "icons-omega",
-	"stories_output_dir": "stories-omega"
+	"icon_output_dir": "icons-test",
+	"stories_output_dir": "stories",
+	"svg_process_options": {
+		"outline": {
+			"stroke": "#555555",
+			"stroke-width": 1.5,
+			"fill": "none"
+		},
+		"fill": {
+			"fill": "#555555"
+		},
+		"mix": {
+			"stroke": "#555555",
+			"stroke-width": 1.5,
+			"fill": "#555555"
+		},
+		"no_change": {
+			"fill": "none"
+		},
+		"di": {
+			"fill": "#555555"
+		}
+	}
 }

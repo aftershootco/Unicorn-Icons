@@ -5,14 +5,14 @@ import { generateHashedKey, hasDuplicatedChildren, readSvg } from './helpers.mjs
 /**
  * Build an object in the format: `{ <name>: <contents> }`.
  * @param {string[]} svgFiles - A list of filenames.
- * @param {Function} getSvg - A function that returns the contents of an SVG file given a filename.
+ * @param {string} directory directory - A function that returns the contents of an SVG file given a filename.
  * @returns {Object}
  */
-export default (svgFiles, iconsDirectory, renderUniqueKey = false) =>
+export default (svgFiles, directory, renderUniqueKey = false) =>
 	svgFiles
 		.map((svgFile) => {
 			const name = basename(svgFile, '.svg')
-			const svg = readSvg(svgFile, iconsDirectory)
+			const svg = readSvg(svgFile, directory)
 			const contents = parseSync(svg)
 
 			if (!(contents.children && contents.children.length)) {

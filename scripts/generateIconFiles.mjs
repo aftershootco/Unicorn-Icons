@@ -11,7 +11,7 @@ const SVG_CHILDREN_DIR = path.resolve(currentDir, '../svg-children')
 const svgChildren = readSvgDirectory(SVG_CHILDREN_DIR)
 const svgChildrenObjs = await renderSvgChildrenObj(svgChildren, SVG_CHILDREN_DIR)
 
-export default async ({ outputFolderName, svgObjs, outputDirectory, template, iconFileExtension = '.jsx', iconsDir }) => {
+export default async ({ outputFolderName, svgObjs, outputDirectory, template, iconFileExtension = '.jsx', iconsDir, svgMetadata }) => {
 	const svgs = Object.keys(svgObjs)
 
 	const iconsDistDirectory = path.join(outputDirectory, outputFolderName)
@@ -30,6 +30,7 @@ export default async ({ outputFolderName, svgObjs, outputDirectory, template, ic
 			componentName,
 			originalAttributes,
 			svgChildren: svgChildrenObjs[svgName],
+			svgType: svgMetadata[svgName].icon_type,
 		})
 
 		const outpust = await prettier.format(elementTemplate, {

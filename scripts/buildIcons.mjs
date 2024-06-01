@@ -6,8 +6,9 @@ import exportIconTemplate from './exportIconTemplate.mjs'
 import generateExportsFile from './generateExportsFile.mjs'
 import generateIconFiles from './generateIconFiles.mjs'
 import generateStories from './generateStories.mjs'
-import { getCurrentDirPath, readSvgDirectory } from './helpers.mjs'
+import { getCurrentDirPath, readSvgDirectory, readSvgMetadata } from './helpers.mjs'
 import renderIconsObject from './renderIconsObject.mjs'
+import renderMetadataObj from './renderMetadataObj.mjs'
 
 const cliArguments = getArgumentOptions(process.argv.slice(2))
 
@@ -27,8 +28,10 @@ const { renderUniqueKey = false, iconFileExtension = '.tsx', exportFileName = 'i
 
 async function buildIcons() {
 	const svgFiles = readSvgDirectory(ICONS_DIR)
+	const svgMetada = readSvgMetadata(ICONS_DIR)
 
 	const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, renderUniqueKey)
+	const svgMetadata = renderMetadataObj(svgMetada, ICONS_DIR)
 
 	generateIconFiles({
 		outputFolderName: OUTPUT_FOLDER_NAME,
@@ -37,6 +40,7 @@ async function buildIcons() {
 		iconsDir: ICONS_DIR,
 		template: exportIconTemplate,
 		iconFileExtension,
+		svgMetadata,
 	})
 
 	// Generates entry files for the compiler filled with icons exports
@@ -51,6 +55,7 @@ async function buildIcons() {
 		iconNodes: svgObjs,
 		iconOutputFolderName: OUTPUT_FOLDER_NAME,
 		storyGroupName: 'omega',
+		metadata: svgMetadata,
 	})
 }
 

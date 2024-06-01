@@ -11,12 +11,13 @@ import { cn } from './utils/cn'
  * @param {unknown} originalAttributes
  * @returns {ForwardRefExoticComponent} LucideIcon
  */
-const createASIcon = (iconName: string, originalAttributes: unknown, svgChildren: React.SVGProps<SVGGElement>) => {
+const createASIcon = (iconName: string, originalAttributes: unknown, svgChildren: React.SVGProps<SVGGElement>, svgType: string) => {
 	const Component = forwardRef<SVGSVGElement, ASIProps>(({ className, ...props }, ref) =>
 		createElement(Icon, {
 			ref,
 			originalAttributes,
 			svgChildren,
+			svgType,
 			className: cn(`unicon unicon-${toKebabCase(iconName)}`, className),
 			...props,
 		}),

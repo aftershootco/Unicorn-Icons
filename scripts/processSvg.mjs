@@ -1,6 +1,6 @@
 import * as prettier from 'prettier'
 import { optimize } from 'svgo'
-import { parseSync } from 'svgson'
+import { parseSync, stringify } from 'svgson'
 
 /**
  * Optimize SVG with `svgo`.
@@ -8,49 +8,60 @@ import { parseSync } from 'svgson'
  * @param {object} options - An options object for deciding outline, fill, or mix.
  * @returns {Promise<string>} An optimized svg
  */
-async function optimizeSvg(svg, path) {
+async function optimizeSvg(svg, path, iconType) {
+	// const removeAttrsMapping = {
+	// 	outline: '(stroke|stroke-width)',
+	// 	fill: '(stroke-width)',
+	// 	mix: '(stroke-width)',
+	// }
+
+	const plugins = [
+		{
+			name: 'preset-default',
+			params: {
+				overrides: {
+					convertShapeToPath: false,
+					mergePaths: false,
+					removeViewBox: false,
+				},
+			},
+		},
+		{
+			name: 'removeAttrs',
+			params: {
+				attrs: '(stroke|stroke-width|style)',
+			},
+		},
+		{
+			name: 'removeDimensions',
+		},
+	]
+
+	const customPlugInUpdateFillValue = {
+		name: 'updateFillValue',
+		type: 'visitor',
+		fn: (ast) => {
+			const visit = (node) => {
+				if (node.attributes && node.attributes.fill) {
+					node.attributes.fill = 'currentColor'
+				}
+				if (node.children) {
+					for (const child of node.children) {
+						visit(child)
+					}
+				}
+			}
+			visit(ast)
+		},
+	}
+
+	if (iconType === 'fill') {
+		plugins.push(customPlugInUpdateFillValue)
+	}
+
 	const result = optimize(svg, {
 		path,
-		plugins: [
-			{
-				name: 'preset-default',
-				params: {
-					overrides: {
-						convertShapeToPath: false,
-						mergePaths: false,
-						removeViewBox: false,
-					},
-				},
-			},
-			{
-				name: 'removeAttrs',
-				params: {
-					attrs: '(stroke|stroke-width)',
-				},
-			},
-			{
-				name: 'removeDimensions',
-			},
-
-			// custom plugin
-			// {
-			// 	name: 'replaceStroke',
-			// 	type: 'visitor',
-			// 	fn: (ast) => {
-			// 		const visit = (node) => {
-			// 			if (node.attributes && node.attributes.stroke) {
-			// 				node.attributes.stroke = 'currentColor'
-			// 			}
-			// 			if (node.children) {
-			// 				for (const child of node.children) {
-			// 					visit(child)
-			// 				}
-			// 			}
-			// 		}
-			// 		visit(ast)
-			// 	},
-			// },
-		],
+		plugins,
 	})
 
 	return result.data
@@ -61,10 +72,13 @@ async function optimizeSvg(svg, path) {
  * @param {string} svg - An SVG string.
  * @returns {string} An SVG string, included with the default attributes.
  */
-function setAttrs(svg) {
+function setAttrs(svg, iconType, svgProcessOption) {
 	const contents = parseSync(svg)
-	// contents.attributes = DEFAULT_ATTRS
-	// return stringify(contents)
+	contents.attributes = {
+		...contents.attributes,
+		...svgProcessOption[iconType],
+	}
+	return stringify(contents)
 }
 
 /**
@@ -75,8 +89,8 @@ function setAttrs(svg) {
  */
 function processSvg(svg, path, iconType) {
 	return (
-		optimizeSvg(svg, path)
-			// .then(setAttrs)
+		optimizeSvg(svg, path, iconType)
+			// .then((optimizedSvg) => setAttrs(optimizedSvg, iconType, svgProcessOption))
 			.then((optimizedSvg) => prettier.format(optimizedSvg, { parser: 'babel' }))
 			// remove semicolon inserted by prettier
 			// because prettier thinks it's formatting JSX not HTML

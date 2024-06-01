@@ -111,6 +111,9 @@ export const readMetadata = (fileName, directory) => JSON.parse(fs.readFileSync(
 export const readSvgDirectory = (directory, fileExtension = '.svg') =>
 	fs.readdirSync(directory).filter((file) => path.extname(file) === fileExtension)
 
+export const readSvgMetadata = (directory, fileExtension = '.json') =>
+	fs.readdirSync(directory).filter((file) => path.extname(file) === fileExtension)
+
 /**
  * Read svg from directory
  *
@@ -212,4 +215,31 @@ export function minifySvg(string) {
 				.replace(/(<.*?>)|\s+/g, (m, $1) => $1 || ' ')
 				.trim()
 		: ''
+}
+
+export const isDirectory = async (source) => {
+	try {
+		const stat = await fs.promises.lstat(source)
+		return stat.isDirectory()
+	} catch (error) {
+		console.error('Error checking if source is a directory:', error)
+		return false
+	}
+}
+
+// Function to get directories in BASE_PATH
+export const getDirectories = async (basePath) => {
+	try {
+		const files = await fs.promises.readdir(basePath)
+		const directories = await Promise.all(
+			files.map(async (name) => {
+				const fullPath = path.join(basePath, name)
+				return (await isDirectory(fullPath)) ? fullPath : null
+			}),
+		)
+		return directories.filter((dir) => dir !== null)
+	} catch (error) {
+		console.error('Unable to scan directory:', error)
+		return []
+	}
 }
