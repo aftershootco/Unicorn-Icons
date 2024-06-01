@@ -43,7 +43,9 @@ async function optimizeSvg(svg, path, iconType) {
 		fn: (ast) => {
 			const visit = (node) => {
 				if (node.attributes && node.attributes.fill) {
-					node.attributes.fill = 'currentColor'
+					if (!node.attributes?.noChange) {
+						node.attributes.fill = 'currentColor'
+					}
 				}
 				if (node.children) {
 					for (const child of node.children) {
@@ -57,6 +59,10 @@ async function optimizeSvg(svg, path, iconType) {
 
 	if (iconType === 'fill') {
 		plugins.push(customPlugInUpdateFillValue)
+	}
+
+	if (iconType === 'no-change') {
+		return svg
 	}
 
 	const result = optimize(svg, {

@@ -43,7 +43,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				className: cn(
 					`w-[24px] h-[24px] shrink-0 `,
 					svgType === 'outline' && 'stroke-[1.5px]',
-					svgType === 'fill' && 'text-[#555555]',
+					svgType === 'fill' && 'text-white',
 					inActive && 'text-[#777777]',
 					className,
 				),

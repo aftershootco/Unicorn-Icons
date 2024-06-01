@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import KeyDuplicateFill from '../icons-test/key-duplicate-fill'
+    import Scissors from '../icons-test/scissors'
     
-    const meta: Meta<typeof KeyDuplicateFill> = {
-        component: KeyDuplicateFill,
-        title: 'omega/KeyDuplicateFill',
+    const meta: Meta<typeof Scissors> = {
+        component: Scissors,
+        title: 'omega/Scissors',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,7 +29,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof KeyDuplicateFill>
+    type Story = StoryObj<typeof Scissors>
     
     export const Default: Story = {}
     

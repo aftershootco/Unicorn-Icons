@@ -16,8 +16,9 @@ const GridView2 = createASIcon(
     />
     <path
       fill="currentColor"
+      fill-opacity=".7"
       d="M9.734 13H3.266C2.566 13 2 13.567 2 14.266v6.468c0 .7.567 1.266 1.266 1.266h6.468c.7 0 1.266-.567 1.266-1.266v-6.468c0-.7-.567-1.266-1.266-1.266"
-      key="1y633x"
+      key="1utv3r"
     />
     <path
       fill="currentColor"
@@ -26,8 +27,9 @@ const GridView2 = createASIcon(
     />
     <path
       fill="currentColor"
+      fill-opacity=".7"
       d="M20.734 13h-6.468c-.7 0-1.266.567-1.266 1.266v6.468c0 .7.567 1.266 1.266 1.266h6.468c.7 0 1.266-.567 1.266-1.266v-6.468c0-.7-.567-1.266-1.266-1.266"
-      key="30fc90"
+      key="1p6yhg"
     />
   </g>,
   "fill",

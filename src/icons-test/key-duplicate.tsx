@@ -1,8 +1,8 @@
 import createASIcon from "../createASIcon";
 import React from "react";
 
-const KeyDuplicateFill = createASIcon(
-  "KeyDuplicateFill",
+const KeyDuplicate = createASIcon(
+  "KeyDuplicate",
   {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "currentColor",
@@ -23,4 +23,4 @@ const KeyDuplicateFill = createASIcon(
   "fill",
 );
 
-export default KeyDuplicateFill;
+export default KeyDuplicate;
