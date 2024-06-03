@@ -6,7 +6,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     const meta: Meta<typeof NoDuplicate> = {
         component: NoDuplicate,
-        title: 'accent/NoDuplicate',
+        title: 'outline/NoDuplicate',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -33,13 +33,12 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     export const Default: Story = {}
     
-   
+    
             export const Color: Story = {
                 args: {
-                    className: 'text-red-500',
-                },
+                    color: 'red',
+                       },
             }
-            
    
    
    

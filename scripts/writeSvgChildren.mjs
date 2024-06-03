@@ -33,8 +33,6 @@ const writeSvgChildren = svgs.map(async (svgName) => {
 
 	const output = stringify(childrenSvgGroup)
 
-	console.log('child--->', output)
-
 	await fs.promises.writeFile(location, output, 'utf-8')
 
 	try {

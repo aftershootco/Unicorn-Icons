@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import CheckBoxEmpty from '../icons-test/check_box_empty'
+    import CheckBoxEmpty from '../icons-test/check-box-empty'
     
     const meta: Meta<typeof CheckBoxEmpty> = {
         component: CheckBoxEmpty,
-        title: 'accent/CheckBoxEmpty',
+        title: 'mix/CheckBoxEmpty',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -41,6 +41,12 @@ import type { Meta, StoryObj } from '@storybook/react'
             }
             
    
+         export const Stroke: Story = {
+                args: {
+                    className: 'stroke-[2px]',
+                },
+            }
+             
    
    
     

@@ -1,6 +1,11 @@
+import fs from 'fs'
 import * as prettier from 'prettier'
 import { optimize } from 'svgo'
 import { parseSync, stringify } from 'svgson'
+
+const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicons.config.json', 'utf8'))
+
+const excludeSvgProcessList = UNICON_CONFIG?.exclude_svg_process ?? []
 
 /**
  * Optimize SVG with `svgo`.
@@ -30,7 +35,7 @@ async function optimizeSvg(svg, path, iconType) {
 		{
 			name: 'removeAttrs',
 			params: {
-				attrs: removeAttrsMapping[iconType],
+				attrs: removeAttrsMapping[iconType] ?? '(stroke-width)',
 			},
 		},
 		{
@@ -87,7 +92,7 @@ async function optimizeSvg(svg, path, iconType) {
 		plugins.push(customPlugInUpdateStrokeValue)
 	}
 
-	if (iconType === 'no-change' || iconType === 'accent') {
+	if (excludeSvgProcessList.includes(iconType)) {
 		return svg
 	}
 

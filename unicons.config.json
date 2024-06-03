@@ -2,6 +2,7 @@
 	"icon_input_dir": "icons-original",
 	"icon_output_dir": "icons-test",
 	"stories_output_dir": "stories",
+	"exclude_svg_process": ["no_change", "logo", "accent"],
 	"svg_process_options": {
 		"outline": {
 			"stroke": "#555555",

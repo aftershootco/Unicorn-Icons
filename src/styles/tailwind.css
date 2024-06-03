@@ -641,12 +641,12 @@ video {
   stroke: #fff;
 }
 
-.stroke-\[1\.5px\] {
-  stroke-width: 1.5px;
-}
-
 .stroke-1 {
   stroke-width: 1;
+}
+
+.stroke-\[1\.5px\] {
+  stroke-width: 1.5px;
 }
 
 .stroke-\[2px\] {
@@ -667,9 +667,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-green-600 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .text-red-400 {
@@ -680,6 +680,11 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline {

@@ -16,6 +16,7 @@ const currentDir = getCurrentDirPath(import.meta.url)
 const ICONS_DIR = path.resolve(currentDir, '../icons-optimized')
 const ICONS_META_DIR = path.resolve(currentDir, '../icons-metadata')
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || './src')
+
 const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicons.config.json', 'utf8'))
 
 const OUTPUT_FOLDER_NAME = UNICON_CONFIG.icon_output_dir ?? 'icons-neo'
