@@ -21,7 +21,16 @@ export default async ({ outputFolderName, svgObjs, outputDirectory, template, ic
 	}
 
 	const writeIconFiles = svgs.map(async (svgName) => {
+		const outputDir = path.resolve(iconsDistDirectory, svgMetadata[svgName].icon_type)
+
+		// if (!fs.existsSync(outputDir)) {
+		// 	fs.mkdirSync(outputDir, { recursive: true })
+		// }
+
+		// console.log('out dir', outputDir)
+
 		const location = path.join(iconsDistDirectory, `${svgName}${iconFileExtension}`)
+
 		const componentName = toPascalCase(svgName)
 
 		let { attributes: originalAttributes, children } = svgObjs[svgName]

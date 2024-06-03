@@ -13,6 +13,7 @@ async function optimizeSvg(svg, path, iconType) {
 		outline: '(stroke|stroke-width)',
 		fill: '(stroke-width)',
 		mix: '(stroke-width)',
+		'mix-di': '(stroke-width)',
 	}
 
 	const plugins = [
@@ -86,7 +87,7 @@ async function optimizeSvg(svg, path, iconType) {
 		plugins.push(customPlugInUpdateStrokeValue)
 	}
 
-	if (iconType === 'no-change') {
+	if (iconType === 'no-change' || iconType === 'accent') {
 		return svg
 	}
 

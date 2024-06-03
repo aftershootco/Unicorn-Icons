@@ -41,6 +41,17 @@ export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing', ic
             `
 			: ''
 
+	const forMixDiTemplate =
+		iconType === 'mix-di' || iconType === 'no-change'
+			? `
+          export const AccentColor: Story = {
+            args: {
+                accentColor: 'red',
+            },
+          }
+          `
+			: ``
+
 	return `import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
@@ -78,6 +89,8 @@ export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing', ic
     
    ${forColorTemplate}
    ${forMixTemplate}
+   ${forFillTemplate}
+   ${forMixDiTemplate}
     
     export const inActive: Story = {
         args: {

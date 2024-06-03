@@ -16,11 +16,11 @@
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts --clean",
 		"o:svgs": "node ./scripts/optimizeSvgs.mjs",
-		"gen:metadata": "node ./scripts/writeSvgMetadata.mjs",
+		"gen:metadata": "node ./scripts/writeSvgMetadata.mjs --outpuDir ./icons-metadata",
 		"gen:childsvgs": "node ./scripts/writeSvgChildren.mjs",
 		"build:icons": "node ./scripts/buildIcons.mjs --exportFileName index.ts",
 		"remove:dir": "node ./scripts/removeDir.mjs --targetDir ./svg-children",
-		"gen:unicons": "npm-run-all -s o:svgs gen:metadata gen:childsvgs build:icons remove:dir",
+		"gen:unicons": "npm-run-all -s o:svgs gen:metadata gen:childsvgs build:icons",
 		"rem:reset": "node ./scripts/removeDir.mjs --targetDir ./src/stories && node ./scripts/removeDir.mjs --targetDir ./src/icons-test && node ./scripts/removeDir.mjs --targetDir ./icons-optimized",
 		"storybook": "concurrently \"pnpm watch:tw\" \"pnpm watch:storybook\"",
 		"watch:tw": "pnpm tailwindcss -i ./src/tailwind.css -o ./src/styles/tailwind.css --watch",

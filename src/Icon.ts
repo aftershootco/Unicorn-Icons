@@ -7,6 +7,7 @@ interface IconComponentProps extends ASIProps {
 	originalAttributes: any
 	svgChildren: any
 	svgType: string
+	accentColor?: string
 }
 
 /**
@@ -18,15 +19,16 @@ interface IconComponentProps extends ASIProps {
 const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 	(
 		{
+			originalAttributes,
 			color = 'currentColor',
 			size,
 			inActive = false,
 			fillColor = 'none',
 			className,
 			children,
-			originalAttributes,
 			svgChildren,
 			svgType,
+			accentColor,
 			...rest
 		},
 		ref,
@@ -40,6 +42,7 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				...(svgType === 'outline' && { stroke: inActive ? '#777777' : color }),
 				...(size ? { style: { width: size, height: 'auto' } } : {}),
 				fill: fillColor,
+				accentColor,
 				className: cn(
 					`w-[24px] h-[24px] shrink-0 `,
 					svgType === 'outline' && 'stroke-[1.5px]',

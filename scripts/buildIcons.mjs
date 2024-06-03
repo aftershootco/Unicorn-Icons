@@ -14,6 +14,7 @@ const cliArguments = getArgumentOptions(process.argv.slice(2))
 
 const currentDir = getCurrentDirPath(import.meta.url)
 const ICONS_DIR = path.resolve(currentDir, '../icons-optimized')
+const ICONS_META_DIR = path.resolve(currentDir, '../icons-metadata')
 const OUTPUT_DIR = path.resolve(process.cwd(), cliArguments.output || './src')
 const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicons.config.json', 'utf8'))
 
@@ -28,10 +29,10 @@ const { renderUniqueKey = false, iconFileExtension = '.tsx', exportFileName = 'i
 
 async function buildIcons() {
 	const svgFiles = readSvgDirectory(ICONS_DIR)
-	const svgMetada = readSvgMetadata(ICONS_DIR)
+	const svgMetada = readSvgMetadata(ICONS_META_DIR)
 
 	const svgObjs = renderIconsObject(svgFiles, ICONS_DIR, renderUniqueKey)
-	const svgMetadata = renderMetadataObj(svgMetada, ICONS_DIR)
+	const svgMetadata = renderMetadataObj(svgMetada, ICONS_META_DIR)
 
 	generateIconFiles({
 		outputFolderName: OUTPUT_FOLDER_NAME,

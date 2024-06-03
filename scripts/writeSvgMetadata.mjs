@@ -1,5 +1,7 @@
 import fs from 'fs'
+import getArgumentOptions from 'minimist'
 import path, { basename } from 'path'
+
 import { getDirectories, readSvgDirectory } from './helpers.mjs'
 
 const UNICON_CONFIG = JSON.parse(fs.readFileSync('./unicons.config.json', 'utf8'))
@@ -8,13 +10,18 @@ const INPUT_ICON_DIR = UNICON_CONFIG.icon_input_dir
 const svgProcessOptions = UNICON_CONFIG.svg_process_options
 
 const ICONS_INPUT_BASE_PATH = path.resolve(process.cwd(), INPUT_ICON_DIR)
-const OUTPUT_OPTIMIZED_ICONS_DIR = path.resolve(process.cwd(), 'icons-optimized')
 
 const ICON_DIRS = await getDirectories(ICONS_INPUT_BASE_PATH)
 
+const cliArguments = getArgumentOptions(process.argv.slice(2))
+
+const { outpuDir = '/icons-metadata' } = cliArguments
+
+const OUTPUT_DIR = path.resolve(process.cwd(), outpuDir)
+
 // Ensure the optimized directory exists
-if (!fs.existsSync(OUTPUT_OPTIMIZED_ICONS_DIR)) {
-	fs.mkdirSync(OUTPUT_OPTIMIZED_ICONS_DIR, { recursive: true })
+if (!fs.existsSync(OUTPUT_DIR)) {
+	fs.mkdirSync(OUTPUT_DIR, { recursive: true })
 }
 
 console.log(`Writing Metadata...`)
@@ -42,7 +49,7 @@ const writeFiles = async () => {
 			const content = JSON.stringify(svgJSON, null, 2)
 			const jsonName = baseName + '.json'
 
-			fs.writeFileSync(path.join(OUTPUT_OPTIMIZED_ICONS_DIR, jsonName), content, 'utf-8')
+			fs.writeFileSync(path.join(OUTPUT_DIR, jsonName), content, 'utf-8')
 		}
 	}
 }
