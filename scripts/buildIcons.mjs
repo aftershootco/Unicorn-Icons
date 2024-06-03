@@ -54,7 +54,6 @@ async function buildIcons() {
 		outputDirectory: path.join(OUTPUT_DIR, STORIES_OUTPUT_FOLDER_NAME),
 		iconNodes: svgObjs,
 		iconOutputFolderName: OUTPUT_FOLDER_NAME,
-		storyGroupName: 'omega',
 		metadata: svgMetadata,
 	})
 }

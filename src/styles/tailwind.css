@@ -637,20 +637,20 @@ video {
   background-color: transparent;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .stroke-\[\#fff\] {
   stroke: #fff;
+}
+
+.stroke-\[1\.5px\] {
+  stroke-width: 1.5px;
 }
 
 .stroke-1 {
   stroke-width: 1;
 }
 
-.stroke-\[1\.5px\] {
-  stroke-width: 1.5px;
+.stroke-\[2px\] {
+  stroke-width: 2px;
 }
 
 .p-2 {
@@ -667,24 +667,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-\[\#555555\] {
-  --tw-text-opacity: 1;
-  color: rgb(85 85 85 / var(--tw-text-opacity));
 }
 
 .outline {

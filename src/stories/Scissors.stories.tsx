@@ -6,7 +6,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     const meta: Meta<typeof Scissors> = {
         component: Scissors,
-        title: 'omega/Scissors',
+        title: 'no-change/Scissors',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -40,6 +40,7 @@ import type { Meta, StoryObj } from '@storybook/react'
                 },
             }
             
+   
     
     export const inActive: Story = {
         args: {
@@ -59,8 +60,6 @@ import type { Meta, StoryObj } from '@storybook/react'
         },
     }
  
-    
-
     export const ClassName: Story = {
         args: {
             className: 'text-red-400 stroke-1 hover:text-blue-400',

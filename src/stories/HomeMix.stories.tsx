@@ -1,55 +1,12 @@
-import { toPascalCase } from './helpers.mjs'
-
-export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing', iconType }) => {
-	const iconNamePascalCase = toPascalCase(iconName)
-
-	const forColorTemplate =
-		iconType === 'outline'
-			? ` 
-            export const Color: Story = {
-                args: {
-                    color: 'red',
-                       },
-            }`
-			: `
-            export const Color: Story = {
-                args: {
-                    className: 'text-red-500',
-                },
-            }
-            `
-
-	const forMixTemplate =
-		iconType === 'mix'
-			? `
-         export const Stroke: Story = {
-                args: {
-                    className: 'stroke-[2px]',
-                },
-            }
-             `
-			: ''
-
-	const forFillTemplate =
-		iconType === 'fill'
-			? `
-        export const Fill: Story = {
-                args: {
-                    className: 'text-green-600',
-                },
-            }
-            `
-			: ''
-
-	return `import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import ${iconNamePascalCase} from '../${iconOutputFolderName}/${iconName}'
+    import HomeMix from '../icons-test/home-mix'
     
-    const meta: Meta<typeof ${iconNamePascalCase}> = {
-        component: ${iconNamePascalCase},
-        title: '${iconType}/${iconNamePascalCase}',
+    const meta: Meta<typeof HomeMix> = {
+        component: HomeMix,
+        title: 'no-change/HomeMix',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -72,12 +29,18 @@ export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing', ic
     }
     
     export default meta
-    type Story = StoryObj<typeof ${iconNamePascalCase}>
+    type Story = StoryObj<typeof HomeMix>
     
     export const Default: Story = {}
     
-   ${forColorTemplate}
-   ${forMixTemplate}
+   
+            export const Red: Story = {
+                args: {
+                    className: 'text-red-500',
+                },
+            }
+            
+   
     
     export const inActive: Story = {
         args: {
@@ -103,5 +66,4 @@ export default ({ iconName, iconOutputFolderName, storyGroupName = 'testing', ic
         },
     }
     
-    `
-}
+    

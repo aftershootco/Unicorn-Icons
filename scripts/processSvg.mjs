@@ -9,11 +9,11 @@ import { parseSync, stringify } from 'svgson'
  * @returns {Promise<string>} An optimized svg
  */
 async function optimizeSvg(svg, path, iconType) {
-	// const removeAttrsMapping = {
-	// 	outline: '(stroke|stroke-width)',
-	// 	fill: '(stroke-width)',
-	// 	mix: '(stroke-width)',
-	// }
+	const removeAttrsMapping = {
+		outline: '(stroke|stroke-width)',
+		fill: '(stroke-width)',
+		mix: '(stroke-width)',
+	}
 
 	const plugins = [
 		{
@@ -29,7 +29,7 @@ async function optimizeSvg(svg, path, iconType) {
 		{
 			name: 'removeAttrs',
 			params: {
-				attrs: '(stroke|stroke-width|style)',
+				attrs: removeAttrsMapping[iconType],
 			},
 		},
 		{
@@ -57,8 +57,33 @@ async function optimizeSvg(svg, path, iconType) {
 		},
 	}
 
+	const customPlugInUpdateStrokeValue = {
+		name: 'updateStrokeValue',
+		type: 'visitor',
+		fn: (ast) => {
+			const visit = (node) => {
+				if (node.attributes && node.attributes.stroke) {
+					if (!node.attributes?.noChange) {
+						node.attributes.stroke = 'currentColor'
+					}
+				}
+				if (node.children) {
+					for (const child of node.children) {
+						visit(child)
+					}
+				}
+			}
+			visit(ast)
+		},
+	}
+
 	if (iconType === 'fill') {
 		plugins.push(customPlugInUpdateFillValue)
+	}
+
+	if (iconType === 'mix') {
+		plugins.push(customPlugInUpdateFillValue)
+		plugins.push(customPlugInUpdateStrokeValue)
 	}
 
 	if (iconType === 'no-change') {
