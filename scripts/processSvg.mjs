@@ -50,7 +50,9 @@ async function optimizeSvg(svg, path, iconType) {
 			const visit = (node) => {
 				if (node.attributes && node.attributes.fill) {
 					if (!node.attributes?.noChange) {
-						node.attributes.fill = 'currentColor'
+						if (node.attributes.fill !== 'none') {
+							node.attributes.fill = 'currentColor'
+						}
 					}
 				}
 				if (node.children) {

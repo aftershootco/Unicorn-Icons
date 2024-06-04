@@ -7,11 +7,12 @@ export type IconNode = [elementName: keyof ReactSVG, attrs: Record<string, strin
 export type SVGAttributes = Partial<SVGProps<SVGSVGElement>>
 type ElementAttributes = RefAttributes<SVGSVGElement> & SVGAttributes
 
-export interface ASIProps extends ElementAttributes {
+export interface TUniconProps extends ElementAttributes {
 	size?: string | number
-	inActive: boolean
-	fillColor?: string
-	absoluteStrokeWidth?: boolean
+	inActive?: boolean
+	color?: string
+	accentColor?: string
+	className?: string
 }
 
-export type LucideIcon = ForwardRefExoticComponent<Omit<ASIProps, 'ref'> & RefAttributes<SVGSVGElement>>
+export type LucideIcon = ForwardRefExoticComponent<Omit<TUniconProps, 'ref'> & RefAttributes<SVGSVGElement>>

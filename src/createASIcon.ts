@@ -1,6 +1,6 @@
 import { createElement, forwardRef } from 'react'
 import Icon from './Icon'
-import { ASIProps } from './types'
+import { TUniconProps } from './types'
 import { toKebabCase } from './utils'
 import { cn } from './utils/cn'
 
@@ -12,7 +12,7 @@ import { cn } from './utils/cn'
  * @returns {ForwardRefExoticComponent} LucideIcon
  */
 const createASIcon = (iconName: string, originalAttributes: unknown, svgChildren: React.SVGProps<SVGGElement>, svgType: string) => {
-	const Component = forwardRef<SVGSVGElement, ASIProps>(({ className, ...props }, ref) =>
+	const Component = forwardRef<SVGSVGElement, TUniconProps>(({ className, ...props }, ref) =>
 		createElement(Icon, {
 			ref,
 			originalAttributes,

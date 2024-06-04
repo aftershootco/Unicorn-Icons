@@ -5,7 +5,7 @@ const StarFillIcon = createASIcon(
   "StarFillIcon",
   {
     xmlns: "http://www.w3.org/2000/svg",
-    fill: "currentColor",
+    fill: "none",
     viewBox: "0 0 38 38",
   },
   <g>

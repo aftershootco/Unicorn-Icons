@@ -5,7 +5,7 @@ const PlayIcon = createASIcon(
   "PlayIcon",
   {
     xmlns: "http://www.w3.org/2000/svg",
-    fill: "currentColor",
+    fill: "none",
     viewBox: "0 0 24 24",
   },
   <g>

@@ -1,6 +1,6 @@
 {
-	"name": "@aftershootco/unicons-v2",
-	"version": "1.0.0",
+	"name": "@aftershootco/unicons",
+	"version": "2.0.0",
 	"description": "",
 	"author": {
 		"name": "AfterShoot"
@@ -8,10 +8,6 @@
 	"license": "ISC",
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
-	"exports": {
-		"./fill": "./dist/fill/index.js",
-		"./stroke": "./dist/stroke/index.js"
-	},
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts --clean",

@@ -5,14 +5,15 @@ const LoupeFillIcon = createASIcon(
   "LoupeFillIcon",
   {
     xmlns: "http://www.w3.org/2000/svg",
-    fill: "currentColor",
+    fill: "none",
     viewBox: "0 0 24 24",
   },
   <g>
     <path
       fill="currentColor"
+      fill-opacity=".7"
       d="M19.5 2h-15A2.5 2.5 0 0 0 2 4.5v15A2.5 2.5 0 0 0 4.5 22h15a2.5 2.5 0 0 0 2.5-2.5v-15A2.5 2.5 0 0 0 19.5 2"
-      key="1yb8sm"
+      key="nr0k41"
     />
     <path
       fill="currentColor"
