@@ -629,20 +629,20 @@ video {
   background-color: transparent;
 }
 
+.stroke-green-500 {
+  stroke: #22c55e;
+}
+
 .stroke-1 {
   stroke-width: 1;
 }
 
-.stroke-\[1\.5px\] {
-  stroke-width: 1.5px;
+.stroke-2 {
+  stroke-width: 2;
 }
 
 .stroke-\[2px\] {
   stroke-width: 2px;
-}
-
-.stroke-2 {
-  stroke-width: 2;
 }
 
 .p-2 {
@@ -672,6 +672,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
 .outline {

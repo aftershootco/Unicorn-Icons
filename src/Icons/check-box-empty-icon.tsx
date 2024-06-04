@@ -6,25 +6,19 @@ const CheckBoxEmptyIcon = createASIcon(
   {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
-    viewBox: "0 0 16 16",
+    viewBox: "0 0 24 24",
   },
   <g>
-    <rect
-      width="16"
-      height="16"
+    <path
       fill="currentColor"
       fill-opacity=".7"
-      rx="3"
-      key="19amoj"
+      d="M17.625 3H6.375A3.375 3.375 0 0 0 3 6.375v11.25A3.375 3.375 0 0 0 6.375 21h11.25A3.375 3.375 0 0 0 21 17.625V6.375A3.375 3.375 0 0 0 17.625 3"
+      key="1g66p4"
     />
-    <rect
-      width="15"
-      height="15"
-      x=".5"
-      y=".5"
+    <path
       stroke="currentColor"
-      rx="2.5"
-      key="1g637q"
+      d="M18 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Z"
+      key="1jjaoe"
     />
   </g>,
   "mix",

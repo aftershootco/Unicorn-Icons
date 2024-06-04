@@ -29,9 +29,9 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
 				...(svgType === 'outline' && { stroke: inActive ? '#777777' : color }),
 				...(size ? { style: { width: size, height: 'auto' } } : {}),
 				className: cn(
-					`w-7 shrink-0 `,
+					`w-7 shrink-0 text-white`,
 					svgType === 'outline' && 'stroke-2',
-					svgType === 'fill' && 'text-white',
+					svgType === 'mix' && 'stroke-2',
 					inActive && 'text-[#777777]',
 					className,
 				),

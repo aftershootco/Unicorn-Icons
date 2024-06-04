@@ -1,4 +1,9 @@
 {
-  "icon_type": "no-change",
-  "name": "loupe-view-icon"
+  "icon_type": "mix",
+  "name": "loupe-view-icon",
+  "svg_process_option": {
+    "stroke": "#555555",
+    "stroke-width": 1.5,
+    "fill": "#555555"
+  }
 }

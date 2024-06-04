@@ -6,7 +6,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     const meta: Meta<typeof LoupeViewIcon> = {
         component: LoupeViewIcon,
-        title: 'no-change/LoupeViewIcon',
+        title: 'mix/LoupeViewIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -41,14 +41,14 @@ import type { Meta, StoryObj } from '@storybook/react'
             }
             
    
+         export const Stroke: Story = {
+                args: {
+                    className: 'stroke-[2px]',
+                },
+            }
+             
    
    
-          export const AccentColor: Story = {
-            args: {
-                accentColor: 'red',
-            },
-          }
-          
     
     export const inActive: Story = {
         args: {
