@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import EditIcon from '../icons-test/edit-icon'
+    import EditIcon from '../icons/edit-icon'
     
     const meta: Meta<typeof EditIcon> = {
         component: EditIcon,
-        title: 'logo/EditIcon',
+        title: 'outline/EditIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -33,13 +33,12 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     export const Default: Story = {}
     
-   
+    
             export const Color: Story = {
                 args: {
-                    className: 'text-red-500',
-                },
+                    color: 'red',
+                       },
             }
-            
    
    
    

@@ -1,5 +1,5 @@
 import fs from 'fs'
-import path from 'path'
+import path, { basename } from 'path'
 import { getDirectories, readSvgDirectory, writeSvgFile } from './helpers.mjs'
 import processSvg from './processSvg.mjs'
 
@@ -33,7 +33,8 @@ const optimizeSvgFiles = async () => {
 		for (const svgFile of svgFiles) {
 			const content = fs.readFileSync(path.resolve(FOLDER_PATH, svgFile), 'utf-8')
 			const optimizedSvg = await processSvg(content, svgFile, iconType)
-			writeSvgFile(svgFile, OUTPUT_OPTIMIZED_ICONS_DIR, optimizedSvg)
+			const svgName = basename(svgFile, '.svg') + '-icon.svg'
+			writeSvgFile(svgName, OUTPUT_OPTIMIZED_ICONS_DIR, optimizedSvg)
 		}
 	}
 }

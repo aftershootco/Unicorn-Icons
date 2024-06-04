@@ -578,10 +578,6 @@ video {
   width: 2.5rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-\[24px\] {
   width: 24px;
 }
@@ -637,10 +633,6 @@ video {
   background-color: transparent;
 }
 
-.stroke-\[\#fff\] {
-  stroke: #fff;
-}
-
 .stroke-1 {
   stroke-width: 1;
 }
@@ -660,11 +652,6 @@ video {
 .text-\[\#777777\] {
   --tw-text-opacity: 1;
   color: rgb(119 119 119 / var(--tw-text-opacity));
-}
-
-.text-\[\#fff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-green-600 {

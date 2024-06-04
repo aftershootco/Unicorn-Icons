@@ -38,7 +38,7 @@ const writeFiles = async () => {
 		}
 
 		for (const svgFile of svgFiles) {
-			const baseName = basename(svgFile, '.svg')
+			const baseName = basename(svgFile, '.svg') + '-icon'
 
 			const svgJSON = {
 				icon_type: iconType,
