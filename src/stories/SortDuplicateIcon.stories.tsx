@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import TrashOffIcon from '../icons/trash-off-icon'
+    import SortDuplicateIcon from '../icons/sort-duplicate-icon'
     
-    const meta: Meta<typeof TrashOffIcon> = {
-        component: TrashOffIcon,
-        title: 'outline/TrashOffIcon',
+    const meta: Meta<typeof SortDuplicateIcon> = {
+        component: SortDuplicateIcon,
+        title: 'mix/SortDuplicateIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,17 +29,24 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof TrashOffIcon>
+    type Story = StoryObj<typeof SortDuplicateIcon>
     
     export const Default: Story = {}
     
-    
+   
             export const Color: Story = {
                 args: {
-                    color: 'red',
-                       },
+                    className: 'text-red-500',
+                },
             }
+            
    
+         export const Stroke: Story = {
+                args: {
+                    className: 'stroke-[2px]',
+                },
+            }
+             
    
    
     

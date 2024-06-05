@@ -9,23 +9,30 @@ const TrashIcon = createASIcon(
     viewBox: "0 0 24 24",
   },
   <g>
-    <g
+    <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      clip-path="url(#a)"
-      key="1rply1"
-    >
-      <path d="M4 7h16" />
-      <path d="M10 11v6" />
-      <path d="M14 11v6" />
-      <path d="m5 7 1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l1-12" />
-      <path d="M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
-    </g>
-    <defs key="9ahrjx">
-      <clipPath id="a">
-        <rect width="24" height="24" fill="#fff" />
-      </clipPath>
-    </defs>
+      d="M3 6h18"
+      key="1aaur8"
+    />
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6z"
+      key="1ld42i"
+    />
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M10 11v5"
+      key="ylpy11"
+    />
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M14 11v5"
+      key="1h7ohk"
+    />
   </g>,
   "outline",
 );

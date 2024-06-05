@@ -6,34 +6,32 @@ const LoopIcon = createASIcon(
   {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
-    viewBox: "0 0 35 35",
+    viewBox: "0 0 24 24",
   },
   <g>
     <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      d="M24.002 3 29 8.002 24 13"
-      key="l0f5ph"
+      d="m16.458 2.057 3.428 3.43-3.429 3.427"
+      key="18300g"
     />
     <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      d="M6 15v-2.334c0-1.238.54-2.424 1.498-3.3C8.457 8.493 9.758 8 11.113 8H29"
-      key="1b7vr8"
+      d="M4.114 10.286v-1.6c0-.85.37-1.663 1.028-2.263.657-.6 1.549-.937 2.478-.937h12.266"
+      key="1hzimu"
     />
     <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-opacity=".7"
-      d="m11 31-5-5 5-5"
-      key="1f6imo"
+      d="M7.543 21.257 4.114 17.83 7.543 14.4"
+      key="10wyku"
     />
     <path
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-opacity=".7"
-      d="M29 18v2.667c0 1.414-.539 2.77-1.497 3.77A5 5 0 0 1 23.89 26H6"
-      key="oovqez"
+      d="M19.886 12.343v1.829c0 .97-.37 1.9-1.027 2.585a3.43 3.43 0 0 1-2.477 1.072H4.114"
+      key="1qo2zh"
     />
   </g>,
   "outline",
