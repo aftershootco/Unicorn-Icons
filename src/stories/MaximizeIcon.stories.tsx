@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import MouseLeftIcon from '../icons/mouse-left-icon'
+    import MaximizeIcon from '../icons/maximize-icon'
     
-    const meta: Meta<typeof MouseLeftIcon> = {
-        component: MouseLeftIcon,
-        title: 'mix/MouseLeftIcon',
+    const meta: Meta<typeof MaximizeIcon> = {
+        component: MaximizeIcon,
+        title: 'outline/MaximizeIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,24 +29,17 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof MouseLeftIcon>
+    type Story = StoryObj<typeof MaximizeIcon>
     
     export const Default: Story = {}
     
-   
+    
             export const Color: Story = {
                 args: {
-                    className: 'text-red-500',
-                },
+                    color: 'red',
+                       },
             }
-            
    
-         export const Stroke: Story = {
-                args: {
-                    className: 'stroke-[2px]',
-                },
-            }
-             
    
    
     

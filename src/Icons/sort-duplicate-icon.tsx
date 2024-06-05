@@ -6,7 +6,7 @@ const SortDuplicateIcon = createASIcon(
   {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
-    viewBox: "0 0 24 24",
+    viewBox: "0 0 48 48",
   },
   <g>
     <path
@@ -14,22 +14,22 @@ const SortDuplicateIcon = createASIcon(
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
-      d="M19.875 3H4.125C3.504 3 3 3.522 3 4.167v4.666C3 9.478 3.504 10 4.125 10h15.75C20.496 10 21 9.478 21 8.833V4.167C21 3.522 20.496 3 19.875 3"
-      key="1db2m1"
+      d="M38.875 6H9.125C7.951 6 7 7.045 7 8.333v9.334C7 18.955 7.951 20 9.125 20h29.75C40.049 20 41 18.955 41 17.667V8.333C41 7.045 40.049 6 38.875 6"
+      key="1a2awt"
     />
     <path
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="bevel"
-      d="M8.833 14H4.167C3.522 14 3 14.522 3 15.167v4.666C3 20.478 3.522 21 4.167 21h4.666C9.478 21 10 20.478 10 19.833v-4.666C10 14.522 9.478 14 8.833 14Z"
-      key="14p8h1"
+      d="M18.667 26H9.333A2.333 2.333 0 0 0 7 28.333v9.334A2.333 2.333 0 0 0 9.333 40h9.334A2.333 2.333 0 0 0 21 37.667v-9.334A2.333 2.333 0 0 0 18.667 26Z"
+      key="1r7c6m"
     />
     <path
       stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="bevel"
-      d="M19.833 14h-4.666c-.645 0-1.167.522-1.167 1.167v4.666c0 .645.522 1.167 1.167 1.167h4.666c.645 0 1.167-.522 1.167-1.167v-4.666c0-.645-.522-1.167-1.167-1.167Z"
-      key="1k7lbd"
+      d="M38.667 26h-9.333A2.333 2.333 0 0 0 27 28.333v9.334A2.333 2.333 0 0 0 29.334 40h9.333A2.333 2.333 0 0 0 41 37.667v-9.334A2.333 2.333 0 0 0 38.667 26Z"
+      key="i38wr2"
     />
   </g>,
   "mix",

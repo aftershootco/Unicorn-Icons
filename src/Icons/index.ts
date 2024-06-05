@@ -148,6 +148,7 @@ export { default as MailIcon } from './mail-icon';
 export { default as Map2Icon } from './map-2-icon';
 export { default as MapPinIcon } from './map-pin-icon';
 export { default as MapPinOffIcon } from './map-pin-off-icon';
+export { default as MaximizeIcon } from './maximize-icon';
 export { default as Menu2Icon } from './menu-2-icon';
 export { default as MenuIcon } from './menu-icon';
 export { default as MinusIcon } from './minus-icon';

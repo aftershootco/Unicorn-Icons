@@ -6,7 +6,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     const meta: Meta<typeof MouseRightIcon> = {
         component: MouseRightIcon,
-        title: 'outline/MouseRightIcon',
+        title: 'mix/MouseRightIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -33,13 +33,20 @@ import type { Meta, StoryObj } from '@storybook/react'
     
     export const Default: Story = {}
     
-    
+   
             export const Color: Story = {
                 args: {
-                    color: 'red',
-                       },
+                    className: 'text-red-500',
+                },
             }
+            
    
+         export const Stroke: Story = {
+                args: {
+                    className: 'stroke-[2px]',
+                },
+            }
+             
    
    
     

@@ -10,18 +10,19 @@ const MouseLeftIcon = createASIcon(
   },
   <g>
     <path
+      stroke="currentColor"
       stroke-linecap="round"
       stroke-linejoin="round"
       d="M14 3h-4a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7a4 4 0 0 0-4-4"
-      key="11iqw1"
+      key="ikwq8s"
     />
     <path
-      fill="#777"
+      fill="currentColor"
       d="M12 10V3H8.15a2 2 0 0 0-1.999 1.95L6 11h5a1 1 0 0 0 1-1"
-      key="1io3ab"
+      key="klssph"
     />
   </g>,
-  "outline",
+  "mix",
 );
 
 export default MouseLeftIcon;
