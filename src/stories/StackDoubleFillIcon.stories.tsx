@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import EditIconIcon from '../icons/edit-icon-icon'
+    import StackDoubleFillIcon from '../icons/stack-double-fill-icon'
     
-    const meta: Meta<typeof EditIconIcon> = {
-        component: EditIconIcon,
-        title: 'logo/EditIconIcon',
+    const meta: Meta<typeof StackDoubleFillIcon> = {
+        component: StackDoubleFillIcon,
+        title: 'mix/StackDoubleFillIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,7 +29,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof EditIconIcon>
+    type Story = StoryObj<typeof StackDoubleFillIcon>
     
     export const Default: Story = {}
     
@@ -41,6 +41,12 @@ import type { Meta, StoryObj } from '@storybook/react'
             }
             
    
+         export const Stroke: Story = {
+                args: {
+                    className: 'stroke-[2px]',
+                },
+            }
+             
    
    
     

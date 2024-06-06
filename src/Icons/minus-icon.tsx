@@ -9,9 +9,9 @@ const MinusIcon = createASIcon(
     viewBox: "0 0 24 24",
   },
   <g>
-    <path fill="#555" d="M4 13v-3h16v3z" key="1t7vu2" />
+    <path fill="currentColor" d="M4 13v-3h16v3z" key="1n65fk" />
   </g>,
-  "outline",
+  "fill",
 );
 
 export default MinusIcon;

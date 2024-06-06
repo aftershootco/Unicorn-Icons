@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import MinusIcon from '../icons/minus-icon'
+    import EditColorIcon from '../icons/edit-color-icon'
     
-    const meta: Meta<typeof MinusIcon> = {
-        component: MinusIcon,
-        title: 'fill/MinusIcon',
+    const meta: Meta<typeof EditColorIcon> = {
+        component: EditColorIcon,
+        title: 'logo/EditColorIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,7 +29,7 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof MinusIcon>
+    type Story = StoryObj<typeof EditColorIcon>
     
     export const Default: Story = {}
     
@@ -42,12 +42,6 @@ import type { Meta, StoryObj } from '@storybook/react'
             
    
    
-        export const Fill: Story = {
-                args: {
-                    className: 'text-green-600',
-                },
-            }
-            
    
     
     export const inActive: Story = {

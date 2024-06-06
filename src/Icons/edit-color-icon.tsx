@@ -1,8 +1,8 @@
 import createASIcon from "../createASIcon";
 import React from "react";
 
-const EditIconIcon = createASIcon(
-  "EditIconIcon",
+const EditColorIcon = createASIcon(
+  "EditColorIcon",
   {
     width: "46",
     height: "12",
@@ -97,4 +97,4 @@ const EditIconIcon = createASIcon(
   "logo",
 );
 
-export default EditIconIcon;
+export default EditColorIcon;
