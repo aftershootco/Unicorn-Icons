@@ -1,8 +1,8 @@
 import createASIcon from "../createASIcon";
 import React from "react";
 
-const Crown2FillIcon = createASIcon(
-  "Crown2FillIcon",
+const CrownFillIcon = createASIcon(
+  "CrownFillIcon",
   {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
@@ -25,4 +25,4 @@ const Crown2FillIcon = createASIcon(
   "fill",
 );
 
-export default Crown2FillIcon;
+export default CrownFillIcon;

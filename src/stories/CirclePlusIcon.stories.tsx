@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react'
     import React from 'react'
     import IconBorder from '../components/IconBorder'
     import IconBackground from '../components/IconBackground'
-    import LayoutSidebarRightMixIcon from '../icons/layout-sidebar-right-mix-icon'
+    import CirclePlusIcon from '../icons/circle-plus-icon'
     
-    const meta: Meta<typeof LayoutSidebarRightMixIcon> = {
-        component: LayoutSidebarRightMixIcon,
-        title: 'no-change/LayoutSidebarRightMixIcon',
+    const meta: Meta<typeof CirclePlusIcon> = {
+        component: CirclePlusIcon,
+        title: 'outline/CirclePlusIcon',
         decorators: [
             (Story) => (
                 <div style={{ margin: '1rem', display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -29,26 +29,19 @@ import type { Meta, StoryObj } from '@storybook/react'
     }
     
     export default meta
-    type Story = StoryObj<typeof LayoutSidebarRightMixIcon>
+    type Story = StoryObj<typeof CirclePlusIcon>
     
     export const Default: Story = {}
     
-   
+    
             export const Color: Story = {
                 args: {
-                    className: 'text-red-500',
-                },
+                    color: 'red',
+                       },
             }
-            
    
    
    
-          export const AccentColor: Story = {
-            args: {
-                accentColor: 'red',
-            },
-          }
-          
     
     export const inActive: Story = {
         args: {
