@@ -18,11 +18,11 @@ const AlertTriangleAccentIcon = createASIcon(
     />
     <path
       d="M26.552 15.507V25.67m0 10.165h.025"
-      stroke="#fff"
+      stroke="#474747"
       stroke-width="5"
       stroke-linecap="round"
       stroke-linejoin="round"
-      key="1v3g1c"
+      key="13g2pl"
     />
   </g>,
   "accent",
