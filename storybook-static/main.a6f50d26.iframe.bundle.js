@@ -36,8 +36,8 @@
 		'./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.(js%7Cjsx%7Cmjs%7Cts%7Ctsx))$':
 			(o, t, s) => {
 				var r = {
-					'./stories/AddFolderIcon.stories': ['./src/stories/AddFolderIcon.stories.tsx', 9105, 9113],
-					'./stories/AddFolderIcon.stories.tsx': ['./src/stories/AddFolderIcon.stories.tsx', 9105, 9113],
+					'./stories/DownloadIcon.stories': ['./src/stories/DownloadIcon.stories.tsx', 9105, 9113],
+					'./stories/DownloadIcon.stories.tsx': ['./src/stories/DownloadIcon.stories.tsx', 9105, 9113],
 					'./stories/AdjustmentIcon.stories': ['./src/stories/AdjustmentIcon.stories.tsx', 9105, 7548],
 					'./stories/AdjustmentIcon.stories.tsx': ['./src/stories/AdjustmentIcon.stories.tsx', 9105, 7548],
 					'./stories/AfterShootLogoIcon.stories': ['./src/stories/AfterShootLogoIcon.stories.tsx', 9105, 8253],
@@ -72,8 +72,8 @@
 					'./stories/ArrowRightcon.stories.tsx': ['./src/stories/ArrowRightcon.stories.tsx', 9105, 5694],
 					'./stories/ArrowUpIcon.stories': ['./src/stories/ArrowUpIcon.stories.tsx', 9105, 5119],
 					'./stories/ArrowUpIcon.stories.tsx': ['./src/stories/ArrowUpIcon.stories.tsx', 9105, 5119],
-					'./stories/AtomBgIcon.stories': ['./src/stories/AtomBgIcon.stories.tsx', 9105, 1034],
-					'./stories/AtomBgIcon.stories.tsx': ['./src/stories/AtomBgIcon.stories.tsx', 9105, 1034],
+					'./stories/TrainBgIcon.stories': ['./src/stories/TrainBgIcon.stories.tsx', 9105, 1034],
+					'./stories/TrainBgIcon.stories.tsx': ['./src/stories/TrainBgIcon.stories.tsx', 9105, 1034],
 					'./stories/BorderColorIcon.stories': ['./src/stories/BorderColorIcon.stories.tsx', 9105, 8318],
 					'./stories/BorderColorIcon.stories.tsx': ['./src/stories/BorderColorIcon.stories.tsx', 9105, 8318],
 					'./stories/CaptureOneIcon.stories': ['./src/stories/CaptureOneIcon.stories.tsx', 9105, 7959],
@@ -350,8 +350,8 @@
 					'./stories/ScissorsIcon.stories.tsx': ['./src/stories/ScissorsIcon.stories.tsx', 9105, 6197],
 					'./stories/SearchIcon.stories': ['./src/stories/SearchIcon.stories.tsx', 9105, 8997],
 					'./stories/SearchIcon.stories.tsx': ['./src/stories/SearchIcon.stories.tsx', 9105, 8997],
-					'./stories/SelectedCircleBgIcon.stories': ['./src/stories/SelectedCircleBgIcon.stories.tsx', 9105, 8946],
-					'./stories/SelectedCircleBgIcon.stories.tsx': ['./src/stories/SelectedCircleBgIcon.stories.tsx', 9105, 8946],
+					'./stories/SelectedFillCircleIcon.stories': ['./src/stories/SelectedFillCircleIcon.stories.tsx', 9105, 8946],
+					'./stories/SelectedFillCircleIcon.stories.tsx': ['./src/stories/SelectedFillCircleIcon.stories.tsx', 9105, 8946],
 					'./stories/ShareIcon.stories': ['./src/stories/ShareIcon.stories.tsx', 9105, 9773],
 					'./stories/ShareIcon.stories.tsx': ['./src/stories/ShareIcon.stories.tsx', 9105, 9773],
 					'./stories/ShowDuplicateIcon.stories': ['./src/stories/ShowDuplicateIcon.stories.tsx', 9105, 55],

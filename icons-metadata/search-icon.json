@@ -1,0 +1,9 @@
+{
+  "icon_type": "outline",
+  "name": "search-icon",
+  "svg_process_option": {
+    "stroke": "#555555",
+    "stroke-width": 1.5,
+    "fill": "none"
+  }
+}

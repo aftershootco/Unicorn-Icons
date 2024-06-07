@@ -1,0 +1,28 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" rx="48" fill="#6392D5" fill-opacity="0.2"/>
+<g clip-path="url(#clip0_2317_1442)">
+<path d="M72 53V61C72 61.7072 71.7191 62.3855 71.219 62.8856C70.7189 63.3857 70.0406 63.6667 69.3333 63.6667H26.6667C25.9594 63.6667 25.2811 63.3857 24.781 62.8856C24.281 62.3855 24 61.7072 24 61V34.3333C24 33.6261 24.281 32.9478 24.781 32.4477C25.2811 31.9476 25.9594 31.6667 26.6667 31.6667H50.6667" stroke="#2279CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M61.3334 31.6667H72V42.3333" stroke="#2279CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58.6666 45L72 31.6667" stroke="#2279CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51 41C51.5523 41 52 40.5523 52 40C52 39.4477 51.5523 39 51 39V41ZM25 41H51V39H25V41Z" fill="#2279CE"/>
+<path d="M28 36H28.5" stroke="#2279CE" stroke-width="2" stroke-linecap="round"/>
+<path d="M32 36H32.5" stroke="#2279CE" stroke-width="2" stroke-linecap="round"/>
+<path d="M36 36H36.5" stroke="#2279CE" stroke-width="2" stroke-linecap="round"/>
+</g>
+<rect x="68" y="68" width="28" height="28" rx="14" fill="#111111"/>
+<path d="M84.7662 89C84.0974 88.9911 83.4326 88.896 82.7883 88.7172C81.5796 88.3886 80.3842 87.7974 79.6711 87.1745C78.4718 86.1276 77.9645 84.6353 78.4094 83.4614C78.6783 82.7508 79.5223 81.5599 82.1501 81.5599H86.0201C85.8976 81.0938 85.7515 80.6343 85.5821 80.183C84.6415 77.6918 83.2809 76.4288 81.5376 76.4288C80.466 76.4288 79.5706 76.9844 78.7999 78.1273C78.1281 79.1245 77.5803 80.5371 77.1727 82.3254C76.4612 85.4496 76.437 88.6319 76.437 88.6637L75 88.6575C75 88.5219 75.0234 85.3047 75.7668 82.0302C76.2126 80.0652 76.8298 78.4876 77.6005 77.34C78.644 75.7903 79.9688 75 81.5376 75C83.9082 75 85.7715 76.6187 86.9272 79.6809C87.156 80.2953 87.3475 80.9227 87.5008 81.5599H90V82.9887H87.7946C87.9649 83.9635 88.0582 84.9501 88.0736 85.9393C88.0736 87.2357 87.4984 88.2081 86.4542 88.6784C85.925 88.9155 85.3343 89 84.7662 89ZM82.1524 82.9887C80.8627 82.9887 79.9883 83.3444 79.7537 83.965C79.5192 84.5857 79.8776 85.4535 80.618 86.1005C81.1705 86.5817 82.1704 87.0683 83.1671 87.3403C84.269 87.6394 85.2509 87.6502 85.8611 87.3782C86.1939 87.2287 86.6365 86.9133 86.6365 85.9409C86.6168 84.9502 86.5149 83.9628 86.3318 82.9887H82.1524Z" fill="url(#paint0_angular_2317_1442)"/>
+<defs>
+<radialGradient id="paint0_angular_2317_1442" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(83.3858 84.5294) rotate(-165.925) scale(8.94978 7.96391)">
+<stop stop-color="#7E68B0"/>
+<stop offset="0.184461" stop-color="#008AD2"/>
+<stop offset="0.353157" stop-color="#21B24B"/>
+<stop offset="0.519702" stop-color="#FFC40E"/>
+<stop offset="0.687523" stop-color="#F6821F"/>
+<stop offset="0.853193" stop-color="#EF4023"/>
+<stop offset="1" stop-color="#7E68B0"/>
+</radialGradient>
+<clipPath id="clip0_2317_1442">
+<rect width="64" height="64" fill="white" transform="translate(16 16)"/>
+</clipPath>
+</defs>
+</svg>

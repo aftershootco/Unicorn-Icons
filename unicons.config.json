@@ -1,0 +1,27 @@
+{
+	"icon_input_dir": "icons-original",
+	"icon_output_dir": "icons",
+	"stories_output_dir": "stories",
+	"exclude_svg_process": ["no_change", "logo", "accent"],
+	"svg_process_options": {
+		"outline": {
+			"stroke": "#555555",
+			"stroke-width": 1.5,
+			"fill": "none"
+		},
+		"fill": {
+			"fill": "#555555"
+		},
+		"mix": {
+			"stroke": "#555555",
+			"stroke-width": 1.5,
+			"fill": "#555555"
+		},
+		"no_change": {
+			"fill": "none"
+		},
+		"di": {
+			"fill": "#555555"
+		}
+	}
+}

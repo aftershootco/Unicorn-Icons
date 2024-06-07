@@ -1,0 +1,28 @@
+import createASIcon from "../createASIcon";
+import React from "react";
+
+const MouseRightIcon = createASIcon(
+  "MouseRightIcon",
+  {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+  },
+  <g>
+    <path
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M14 3h-4a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7a4 4 0 0 0-4-4"
+      key="ikwq8s"
+    />
+    <path
+      fill="currentColor"
+      d="M12 10V3h3.85a2 2 0 0 1 1.999 1.95L18 11h-5a1 1 0 0 1-1-1"
+      key="1fguct"
+    />
+  </g>,
+  "mix",
+);
+
+export default MouseRightIcon;
