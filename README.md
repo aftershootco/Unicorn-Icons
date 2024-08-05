@@ -35,5 +35,6 @@ yarn build
 
 ## Contributors
 
--   Akash Singh — [Github](https://github.com/frannkenstein)
--   Yash Johri — [Github](https://github.com/yash1200)
+- Shaney Waris
+- Akash Singh — [Github](https://github.com/frannkenstein)
+- Yash Johri — [Github](https://github.com/yash1200)
