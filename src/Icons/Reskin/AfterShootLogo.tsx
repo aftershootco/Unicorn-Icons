@@ -16,13 +16,13 @@ const AfterShootLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 					gradientUnits='userSpaceOnUse'
 					gradientTransform='translate(22.6122 25.8341) rotate(-165.747) scale(23.8848 21.5005)'
 				>
-					<stop stop-color='#7E68B0' />
-					<stop offset='0.184461' stop-color='#008AD2' />
-					<stop offset='0.353157' stop-color='#21B24B' />
-					<stop offset='0.519702' stop-color='#FFC40E' />
-					<stop offset='0.687523' stop-color='#F6821F' />
-					<stop offset='0.853193' stop-color='#EF4023' />
-					<stop offset='1' stop-color='#7E68B0' />
+					<stop stopColor='#7E68B0' />
+					<stop offset='0.184461' stopColor='#008AD2' />
+					<stop offset='0.353157' stopColor='#21B24B' />
+					<stop offset='0.519702' stopColor='#FFC40E' />
+					<stop offset='0.687523' stopColor='#F6821F' />
+					<stop offset='0.853193' stopColor='#EF4023' />
+					<stop offset='1' stopColor='#7E68B0' />
 				</radialGradient>
 			</defs>
 		</svg>
