@@ -2,22 +2,23 @@ import React from 'react'
 
 const DescAlphaSelectedIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
-		<svg {...props} width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-			<rect width='24' height='24' rx='4' fill='#2279CE' />
-			<g clipPath='url(#clip0_11845_14540)'>
+		<svg {...props} width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<rect width='32' height='32' rx='4' fill='#2279CE' />
+			<g clip-path='url(#clip0_5146_684)'>
 				<path
-					d='M14.5 19.4998V15.3332C14.5 14.1832 15.0167 13.6665 16.1667 13.6665C17.3167 13.6665 17.8333 14.1832 17.8333 15.3332V19.4998M17.8333 16.9998H14.5'
-					stroke='#ABABAB'
-					strokeLinecap='round'
-					strokeLinejoin='round'
+					d='M19 25V20C19 18.62 19.62 18 21 18C22.38 18 23 18.62 23 20V25M23 22H19'
+					stroke='#E2E2E2'
+					stroke-width='2'
+					stroke-linecap='round'
+					stroke-linejoin='round'
 				/>
-				<path d='M17.8333 10.3333H14.5L17.8333 4.5H14.5' stroke='#ABABAB' strokeLinecap='round' strokeLinejoin='round' />
-				<path d='M5.33398 14.5L7.83398 17L10.334 14.5' stroke='#ABABAB' strokeLinecap='round' strokeLinejoin='round' />
-				<path d='M7.83398 7V17' stroke='#ABABAB' strokeLinecap='round' strokeLinejoin='round' />
+				<path d='M23 14H19L23 7H19' stroke='#E2E2E2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M8 19L11 22L14 19' stroke='#E2E2E2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M11 10V22' stroke='#E2E2E2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
 			</g>
 			<defs>
-				<clipPath id='clip0_11845_14540'>
-					<rect width='20' height='20' fill='white' transform='translate(2 2)' />
+				<clipPath id='clip0_5146_684'>
+					<rect width='24' height='24' fill='white' transform='translate(4 4)' />
 				</clipPath>
 			</defs>
 		</svg>

@@ -1,6 +1,6 @@
 {
 	"name": "@aftershootco/unicorn-icons",
-	"version": "1.1.39",
+	"version": "1.1.40",
 	"description": "",
 	"author": "AfterShoot",
 	"license": "ISC",
@@ -8,7 +8,8 @@
 	"module": "dist/index.esm.js",
 	"scripts": {
 		"build": "rollup -c",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"local-test": "rm -rf dist && yarn && yarn build && cp -r ./dist/* ../AfterShoot-Desktop-App/node_modules/@aftershootco/unicorn-icons/dist"
 	},
 	"repository": {
 		"url": "https://github.com/aftershootco/Unicorn-Icons.git",
