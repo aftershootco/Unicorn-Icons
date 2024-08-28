@@ -2,33 +2,36 @@ import React from 'react'
 
 const IncNumNotSelectedIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
 	return (
-		<svg {...props} width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-			<rect width='24' height='24' rx='4' fill='#303030' />
-			<g clipPath='url(#clip0_11845_14525)'>
-				<path d='M5.33398 14.5L7.83398 17L10.334 14.5' stroke='#E2E2E2' strokeLinecap='round' strokeLinejoin='round' />
-				<path d='M7.83398 7V17' stroke='#E2E2E2' strokeLinecap='round' strokeLinejoin='round' />
+		<svg {...props} width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<rect width='32' height='32' rx='4' fill='#303030' />
+			<g clip-path='url(#clip0_5146_709)'>
+				<path d='M8 19L11 22L14 19' stroke='#777777' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+				<path d='M11 10V22' stroke='#777777' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
 				<path
-					d='M16.1667 4.5C16.6087 4.5 17.0326 4.67559 17.3452 4.98816C17.6577 5.30072 17.8333 5.72464 17.8333 6.16667V8.66667C17.8333 9.10869 17.6577 9.53262 17.3452 9.84518C17.0326 10.1577 16.6087 10.3333 16.1667 10.3333C15.7246 10.3333 15.3007 10.1577 14.9882 9.84518C14.6756 9.53262 14.5 9.10869 14.5 8.66667V6.16667C14.5 5.72464 14.6756 5.30072 14.9882 4.98816C15.3007 4.67559 15.7246 4.5 16.1667 4.5V4.5Z'
-					stroke='#E2E2E2'
-					strokeLinecap='round'
-					strokeLinejoin='round'
+					d='M21 7C21.5304 7 22.0391 7.21071 22.4142 7.58579C22.7893 7.96086 23 8.46957 23 9V12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14C20.4696 14 19.9609 13.7893 19.5858 13.4142C19.2107 13.0391 19 12.5304 19 12V9C19 8.46957 19.2107 7.96086 19.5858 7.58579C19.9609 7.21071 20.4696 7 21 7V7Z'
+					stroke='#777777'
+					stroke-width='2'
+					stroke-linecap='round'
+					stroke-linejoin='round'
 				/>
 				<path
-					d='M16.1667 16.9998C17.0871 16.9998 17.8333 16.2536 17.8333 15.3332C17.8333 14.4127 17.0871 13.6665 16.1667 13.6665C15.2462 13.6665 14.5 14.4127 14.5 15.3332C14.5 16.2536 15.2462 16.9998 16.1667 16.9998Z'
-					stroke='#E2E2E2'
-					strokeLinecap='round'
-					strokeLinejoin='round'
+					d='M21 22C22.1046 22 23 21.1046 23 20C23 18.8954 22.1046 18 21 18C19.8954 18 19 18.8954 19 20C19 21.1046 19.8954 22 21 22Z'
+					stroke='#777777'
+					stroke-width='2'
+					stroke-linecap='round'
+					stroke-linejoin='round'
 				/>
 				<path
-					d='M17.8327 15.3335V17.8335C17.8327 18.2755 17.6571 18.6994 17.3445 19.012C17.032 19.3246 16.608 19.5002 16.166 19.5002H14.916'
-					stroke='#E2E2E2'
-					strokeLinecap='round'
-					strokeLinejoin='round'
+					d='M23 20V23C23 23.5304 22.7893 24.0391 22.4142 24.4142C22.0391 24.7893 21.5304 25 21 25H19.5'
+					stroke='#777777'
+					stroke-width='2'
+					stroke-linecap='round'
+					stroke-linejoin='round'
 				/>
 			</g>
 			<defs>
-				<clipPath id='clip0_11845_14525'>
-					<rect width='20' height='20' fill='white' transform='translate(2 2)' />
+				<clipPath id='clip0_5146_709'>
+					<rect width='24' height='24' fill='white' transform='translate(4 4)' />
 				</clipPath>
 			</defs>
 		</svg>
